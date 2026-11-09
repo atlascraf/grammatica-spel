@@ -385,7 +385,6 @@
       onComplete: opts.onComplete
     };
     nextQuestion();
-    renderSessionView();
   }
 
   function nextQuestion() {
@@ -396,6 +395,7 @@
     if (SESSION.current.ex.type === 'order') {
       SESSION.orderState = { order: shuffle(SESSION.current.ex.tokens.map(function (_t, i) { return i; })), built: [] };
     }
+    renderSessionView();
   }
 
   function finishSession() {
@@ -724,7 +724,7 @@
         if (!SESSION.answered) { SESSION.orderState.built.splice(parseInt(arg, 10), 1); renderSessionView(); }
         break;
       case 'ordCheck': checkOrderAnswer(); break;
-      case 'sessNext': nextQuestion(); renderSessionView(); break;
+      case 'sessNext': nextQuestion(); break;
       case 'sessDone':
         if (SESSION && SESSION.__afterDone) { var fn = SESSION.__afterDone; SESSION = null; fn(); }
         else navigate('home');
@@ -747,7 +747,8 @@
     getCurrentExercise: function () { return SESSION && SESSION.current ? SESSION.current.ex : null; },
     isAnswered: function () { return !!(SESSION && SESSION.answered); },
     getGame: function () { return GAME; },
-    getState: function () { return STATE; }
+    getState: function () { return STATE; },
+    getSession: function () { return SESSION ? { total: SESSION.total, solved: SESSION.solved, queueLen: SESSION.queue.length, combo: SESSION.combo, currentQ: SESSION.current && SESSION.current.ex.q } : null; }
   };
 
   /* ---------------- boot ---------------- */
