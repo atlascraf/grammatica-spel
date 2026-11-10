@@ -3571,17 +3571,189 @@ window.GRAMMATICA_DATA.NOUNS = [
   { nl: 'liefde', gender: 'de', fa: 'عشق' }
 ];
 
+window.GRAMMATICA_I18N = window.GRAMMATICA_I18N || {};
+window.GRAMMATICA_I18N.en = { topics: {} };
+
+window.GRAMMATICA_I18N = window.GRAMMATICA_I18N || {};
+window.GRAMMATICA_I18N.ar = { topics: {} };
+
+window.GRAMMATICA_I18N = window.GRAMMATICA_I18N || {};
+window.GRAMMATICA_I18N.tr = { topics: {} };
+
 (function () {
   'use strict';
 
   var LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'];
-  var LEVEL_LABEL = {
-    A1: 'مقدماتی ۱', A2: 'مقدماتی ۲', B1: 'میانی ۱', B2: 'میانی ۲', C1: 'پیشرفته'
+  var UI_LANGS = ['fa', 'en', 'ar', 'tr'];
+  var LANG_NAMES = { fa: 'فارسی', en: 'English', ar: 'العربية', tr: 'Türkçe' };
+  var RTL_LANGS = { fa: 1, ar: 1 };
+
+  var I18N_UI = {
+    fa: {
+      brand: 'گرامر اسپل',
+      footer: 'گرامر اسپل — یادگیری گرامر هلندی برای فارسی‌زبانان',
+      themeToggle: 'تغییر پوسته', langToggle: 'تغییر زبان',
+      heroTitle: 'سلام! وقت تمرین گرامر هلندیه 🇳🇱',
+      heroSubtitle: 'سطح خود را انتخاب کنید و مرحله به مرحله گرامر را یاد بگیرید.',
+      statProgress: 'پیشرفت کلی', statXp: 'امتیاز XP', statStreak: 'روز متوالی',
+      sectionLevels: '📚 انتخاب سطح', sectionGames: '🎮 بازی‌ها',
+      gameDehetTitle: 'اسپرینت de/het', gameDehetDesc: 'در ۴۵ ثانیه حرف تعریف درست را انتخاب کن',
+      gameSurviveTitle: 'زنده بمان!', gameSurviveDesc: 'با ۳ جان، تا کجا می‌توانی جواب درست بدهی؟',
+      bestScore: 'بهترین امتیاز: {n}', backHome: '« بازگشت به خانه', levelHeading: 'سطح {level}',
+      levelLabelA1: 'مقدماتی ۱', levelLabelA2: 'مقدماتی ۲', levelLabelB1: 'میانی ۱', levelLabelB2: 'میانی ۲', levelLabelC1: 'پیشرفته',
+      topicsCompleted: '{done} از {total} موضوع تکمیل شده ({pct}%)', noTopics: 'موضوعی موجود نیست',
+      levelTestBtn: '📝 آزمون سطح {level}', topicNotFound: 'موضوع پیدا نشد', backToLevel: '« بازگشت به سطح {level}',
+      startExercises: '🚀 شروع تمرین‌ها ({n} تمرین)', fillPlaceholder: 'پاسخ را به هلندی بنویس...',
+      checkAnswer: 'بررسی پاسخ', pickWordsHint: 'کلمات را از پایین انتخاب کن', checkSentence: 'بررسی جمله',
+      correctFeedback: '✅ درست بود!', wrongFeedback: '❌ نه دقیقاً', continueBtn: 'ادامه ←', comboLabel: '🔥 کمبو: {n}',
+      placeAllWords: 'همهٔ کلمات را به ترتیب قرار بده', testPassed: 'قبول شدی!', testFailed: 'هنوز قبول نشدی',
+      exerciseResult: 'نتیجه تمرین', accuracyLine: 'دقت: {pct}%  ({correct} از {total})',
+      passThreshold: 'برای قبولی حداقل ۸۰٪ لازم است', okBtn: 'باشه', noExercises: 'تمرینی موجود نیست',
+      notEnoughTestQuestions: 'سوال کافی برای آزمون نیست', noGameData: 'داده‌ای برای بازی موجود نیست',
+      scoreLabel: 'امتیاز: {n}', endGameBtn: 'پایان بازی', dehetCorrect: '✅ درست — {g}', dehetWrong: '❌ جواب درست: {g}',
+      timeUp: 'زمان تمام شد!', playAgain: 'بازی دوباره', backHomeBtn: 'بازگشت به خانه',
+      noSurviveQuestions: 'سوالی برای بازی موجود نیست', surviveCorrect: '✅ درست!', surviveWrong: '❌ اشتباه',
+      surviveEndBtn: 'پایان بازی و مشاهده نتیجه', gameOver: 'بازی تمام شد',
+      ttsUnavailable: 'صدای هلندی روی این دستگاه نصب نیست؛ در تنظیمات سیستم یک صدای nl-NL اضافه کنید.'
+    },
+    en: {
+      brand: 'Grammatica Spel',
+      footer: 'Grammatica Spel — learn Dutch grammar through games',
+      themeToggle: 'Toggle theme', langToggle: 'Change language',
+      heroTitle: 'Hi! Time to practice Dutch grammar 🇳🇱',
+      heroSubtitle: 'Pick your level and learn grammar step by step.',
+      statProgress: 'Overall progress', statXp: 'XP points', statStreak: 'Day streak',
+      sectionLevels: '📚 Choose a level', sectionGames: '🎮 Games',
+      gameDehetTitle: 'de/het Sprint', gameDehetDesc: 'Pick the right article in 45 seconds',
+      gameSurviveTitle: 'Survive!', gameSurviveDesc: 'With 3 lives, how far can you get?',
+      bestScore: 'Best score: {n}', backHome: '‹ Back to home', levelHeading: 'Level {level}',
+      levelLabelA1: 'Beginner 1', levelLabelA2: 'Beginner 2', levelLabelB1: 'Intermediate 1', levelLabelB2: 'Intermediate 2', levelLabelC1: 'Advanced',
+      topicsCompleted: '{done} of {total} topics completed ({pct}%)', noTopics: 'No topics available',
+      levelTestBtn: '📝 Level {level} test', topicNotFound: 'Topic not found', backToLevel: '‹ Back to level {level}',
+      startExercises: '🚀 Start exercises ({n})', fillPlaceholder: 'Type the answer in Dutch...',
+      checkAnswer: 'Check answer', pickWordsHint: 'Pick words from below', checkSentence: 'Check sentence',
+      correctFeedback: '✅ Correct!', wrongFeedback: '❌ Not quite', continueBtn: 'Continue →', comboLabel: '🔥 Combo: {n}',
+      placeAllWords: 'Place all the words in order', testPassed: 'You passed!', testFailed: 'Not quite there yet',
+      exerciseResult: 'Exercise result', accuracyLine: 'Accuracy: {pct}%  ({correct} of {total})',
+      passThreshold: 'At least 80% is required to pass', okBtn: 'OK', noExercises: 'No exercises available',
+      notEnoughTestQuestions: 'Not enough questions for a test', noGameData: 'No data available for this game',
+      scoreLabel: 'Score: {n}', endGameBtn: 'End game', dehetCorrect: '✅ Correct — {g}', dehetWrong: '❌ Correct answer: {g}',
+      timeUp: "Time's up!", playAgain: 'Play again', backHomeBtn: 'Back to home',
+      noSurviveQuestions: 'No questions available for this game', surviveCorrect: '✅ Correct!', surviveWrong: '❌ Wrong',
+      surviveEndBtn: 'End game and see result', gameOver: 'Game over',
+      ttsUnavailable: 'No Dutch voice is installed on this device; add an nl-NL voice in system settings.'
+    },
+    ar: {
+      brand: 'Grammatica Spel',
+      footer: 'Grammatica Spel — تعلّم قواعد اللغة الهولندية عبر الألعاب',
+      themeToggle: 'تبديل المظهر', langToggle: 'تغيير اللغة',
+      heroTitle: 'مرحبًا! حان وقت تمرين قواعد اللغة الهولندية 🇳🇱',
+      heroSubtitle: 'اختر مستواك وتعلّم القواعد خطوة بخطوة.',
+      statProgress: 'التقدّم الكلي', statXp: 'نقاط الخبرة', statStreak: 'أيام متتالية',
+      sectionLevels: '📚 اختيار المستوى', sectionGames: '🎮 الألعاب',
+      gameDehetTitle: 'سباق de/het', gameDehetDesc: 'اختر أداة التعريف الصحيحة خلال ٤٥ ثانية',
+      gameSurviveTitle: 'ابقَ على قيد الحياة!', gameSurviveDesc: 'بثلاث محاولات، إلى أين يمكنك الوصول؟',
+      bestScore: 'أفضل نتيجة: {n}', backHome: '‹ العودة للرئيسية', levelHeading: 'المستوى {level}',
+      levelLabelA1: 'مبتدئ ١', levelLabelA2: 'مبتدئ ٢', levelLabelB1: 'متوسط ١', levelLabelB2: 'متوسط ٢', levelLabelC1: 'متقدّم',
+      topicsCompleted: 'اكتمل {done} من {total} موضوعًا ({pct}٪)', noTopics: 'لا توجد مواضيع متاحة',
+      levelTestBtn: '📝 اختبار المستوى {level}', topicNotFound: 'الموضوع غير موجود', backToLevel: '‹ العودة إلى المستوى {level}',
+      startExercises: '🚀 ابدأ التمارين ({n})', fillPlaceholder: 'اكتب الإجابة بالهولندية...',
+      checkAnswer: 'تحقق من الإجابة', pickWordsHint: 'اختر الكلمات من الأسفل', checkSentence: 'تحقق من الجملة',
+      correctFeedback: '✅ إجابة صحيحة!', wrongFeedback: '❌ ليست دقيقة', continueBtn: '← متابعة', comboLabel: '🔥 تتابع: {n}',
+      placeAllWords: 'رتّب كل الكلمات بالترتيب', testPassed: 'لقد نجحت!', testFailed: 'لم تنجح بعد',
+      exerciseResult: 'نتيجة التمرين', accuracyLine: 'الدقة: {pct}٪  ({correct} من {total})',
+      passThreshold: 'يلزم ٨٠٪ على الأقل للنجاح', okBtn: 'حسنًا', noExercises: 'لا توجد تمارين متاحة',
+      notEnoughTestQuestions: 'لا توجد أسئلة كافية للاختبار', noGameData: 'لا توجد بيانات لهذه اللعبة',
+      scoreLabel: 'النتيجة: {n}', endGameBtn: 'إنهاء اللعبة', dehetCorrect: '✅ صحيح — {g}', dehetWrong: '❌ الإجابة الصحيحة: {g}',
+      timeUp: 'انتهى الوقت!', playAgain: 'العب مرة أخرى', backHomeBtn: 'العودة للرئيسية',
+      noSurviveQuestions: 'لا توجد أسئلة لهذه اللعبة', surviveCorrect: '✅ صحيح!', surviveWrong: '❌ خطأ',
+      surviveEndBtn: 'إنهاء اللعبة ومشاهدة النتيجة', gameOver: 'انتهت اللعبة',
+      ttsUnavailable: 'لا يوجد صوت هولندي مثبّت على هذا الجهاز؛ أضف صوت nl-NL من إعدادات النظام.'
+    },
+    tr: {
+      brand: 'Grammatica Spel',
+      footer: 'Grammatica Spel — oyunlarla Hollandaca dil bilgisi öğren',
+      themeToggle: 'Temayı değiştir', langToggle: 'Dili değiştir',
+      heroTitle: 'Merhaba! Hollandaca dil bilgisi pratiği zamanı 🇳🇱',
+      heroSubtitle: 'Seviyeni seç ve dil bilgisini adım adım öğren.',
+      statProgress: 'Genel ilerleme', statXp: 'XP puanı', statStreak: 'Günlük seri',
+      sectionLevels: '📚 Seviye seç', sectionGames: '🎮 Oyunlar',
+      gameDehetTitle: 'de/het Sprinti', gameDehetDesc: '45 saniyede doğru tanım edatını seç',
+      gameSurviveTitle: 'Hayatta Kal!', gameSurviveDesc: '3 canla ne kadar ileri gidebilirsin?',
+      bestScore: 'En iyi skor: {n}', backHome: '‹ Ana sayfaya dön', levelHeading: '{level} Seviyesi',
+      levelLabelA1: 'Başlangıç 1', levelLabelA2: 'Başlangıç 2', levelLabelB1: 'Orta 1', levelLabelB2: 'Orta 2', levelLabelC1: 'İleri',
+      topicsCompleted: '{total} konudan {done} tanesi tamamlandı (%{pct})', noTopics: 'Konu bulunamadı',
+      levelTestBtn: '📝 {level} Seviye Testi', topicNotFound: 'Konu bulunamadı', backToLevel: '‹ {level} seviyesine dön',
+      startExercises: '🚀 Alıştırmalara başla ({n})', fillPlaceholder: 'Cevabı Hollandaca yaz...',
+      checkAnswer: 'Cevabı kontrol et', pickWordsHint: 'Kelimeleri aşağıdan seç', checkSentence: 'Cümleyi kontrol et',
+      correctFeedback: '✅ Doğru!', wrongFeedback: '❌ Tam değil', continueBtn: 'Devam →', comboLabel: '🔥 Kombo: {n}',
+      placeAllWords: 'Tüm kelimeleri sırayla yerleştir', testPassed: 'Geçtin!', testFailed: 'Henüz geçemedin',
+      exerciseResult: 'Alıştırma sonucu', accuracyLine: 'Doğruluk: %{pct}  ({correct}/{total})',
+      passThreshold: 'Geçmek için en az %80 gerekir', okBtn: 'Tamam', noExercises: 'Alıştırma bulunamadı',
+      notEnoughTestQuestions: 'Test için yeterli soru yok', noGameData: 'Bu oyun için veri yok',
+      scoreLabel: 'Skor: {n}', endGameBtn: 'Oyunu bitir', dehetCorrect: '✅ Doğru — {g}', dehetWrong: '❌ Doğru cevap: {g}',
+      timeUp: 'Süre doldu!', playAgain: 'Tekrar oyna', backHomeBtn: 'Ana sayfaya dön',
+      noSurviveQuestions: 'Bu oyun için soru yok', surviveCorrect: '✅ Doğru!', surviveWrong: '❌ Yanlış',
+      surviveEndBtn: 'Oyunu bitir ve sonucu gör', gameOver: 'Oyun bitti',
+      ttsUnavailable: 'Bu cihazda Hollandaca ses yüklü değil; sistem ayarlarından bir nl-NL sesi ekleyin.'
+    }
   };
+
+  function curLang() { return (STATE && STATE.lang) || 'fa'; }
+  function isRtl(lang) { return !!RTL_LANGS[lang || curLang()]; }
+  function tt(key, vars) {
+    var dict = I18N_UI[curLang()] || I18N_UI.fa;
+    var tpl = dict[key] != null ? dict[key] : (I18N_UI.fa[key] != null ? I18N_UI.fa[key] : key);
+    if (!vars) return tpl;
+    return tpl.replace(/\{(\w+)\}/g, function (_m, k) { return vars[k] != null ? vars[k] : ''; });
+  }
+  var LEVEL_LABEL = { A1: 1, A2: 1, B1: 1, B2: 1, C1: 1 };
+  function levelLabel(lv) { return tt('levelLabel' + lv); }
+
+  /* ---------------- content translation overlay ---------------- */
+  function trTopic(topic) {
+    var L = curLang();
+    if (L === 'fa' || !topic) return topic;
+    var pack = window.GRAMMATICA_I18N && window.GRAMMATICA_I18N[L] && window.GRAMMATICA_I18N[L].topics;
+    var ov = pack && pack[topic.id];
+    if (!ov) return topic;
+    var merged = Object.assign({}, topic);
+    if (ov.title) merged.title = ov.title;
+    if (ov.sum) merged.sum = ov.sum;
+    if (ov.blocks && topic.blocks) {
+      merged.blocks = topic.blocks.map(function (b, i) {
+        var ob = ov.blocks[i];
+        if (!ob) return b;
+        var nb = Object.assign({}, b);
+        if (ob.h != null) nb.h = ob.h;
+        if (ob.p != null) nb.p = ob.p;
+        if (ob.list) nb.list = ob.list;
+        if (ob.tip != null) nb.tip = ob.tip;
+        if (b.ex && ob.ex) {
+          nb.ex = b.ex.map(function (e, ei) {
+            return ob.ex[ei] != null ? Object.assign({}, e, { fa: ob.ex[ei] }) : e;
+          });
+        }
+        return nb;
+      });
+    }
+    if (ov.ex && topic.ex) {
+      merged.ex = topic.ex.map(function (e, i) {
+        var oe = ov.ex[i];
+        if (!oe) return e;
+        var ne = Object.assign({}, e);
+        if (oe.q != null) ne.q = oe.q;
+        if (oe.options) ne.options = oe.options;
+        if (oe.exp != null) ne.exp = oe.exp;
+        return ne;
+      });
+    }
+    return merged;
+  }
 
   function dataFor(level) {
     var d = window.GRAMMATICA_DATA || {};
-    return d[level] || [];
+    return (d[level] || []).map(trTopic);
   }
   function allTopics() {
     var out = [];
@@ -3657,7 +3829,8 @@ window.GRAMMATICA_DATA.NOUNS = [
       topics: {},
       tests: {},
       games: { dehet: { best: 0 }, survive: { best: 0 } },
-      theme: null
+      theme: null,
+      lang: 'fa'
     };
   }
   function loadState() {
@@ -3712,6 +3885,21 @@ window.GRAMMATICA_DATA.NOUNS = [
     return STATE.theme === 'light' ? '☀️' : STATE.theme === 'dark' ? '🌙' : '🖥️';
   }
 
+  /* ---------------- language ---------------- */
+  function applyLang() {
+    var html = document.documentElement;
+    var lang = curLang();
+    html.setAttribute('lang', lang);
+    html.setAttribute('dir', isRtl(lang) ? 'rtl' : 'ltr');
+  }
+  function cycleLang() {
+    var idx = UI_LANGS.indexOf(curLang());
+    STATE.lang = UI_LANGS[(idx + 1) % UI_LANGS.length];
+    saveState();
+    applyLang();
+    render();
+  }
+
   /* ---------------- tts ---------------- */
   function pickDutchVoice(voices) {
     var best = null, bestScore = -1;
@@ -3732,7 +3920,7 @@ window.GRAMMATICA_DATA.NOUNS = [
     u.lang = 'nl-NL';
     var nlVoice = pickDutchVoice(window.speechSynthesis.getVoices() || []);
     if (nlVoice) u.voice = nlVoice;
-    else toast('صدای هلندی روی این دستگاه نصب نیست؛ در تنظیمات سیستم یک صدای nl-NL اضافه کنید.');
+    else toast(tt('ttsUnavailable'));
     u.rate = 0.92;
     u.pitch = 1;
     window.speechSynthesis.speak(u);
@@ -3829,15 +4017,16 @@ window.GRAMMATICA_DATA.NOUNS = [
   function topbarHtml() {
     return (
       '<div class="topbar"><div class="topbar-inner">' +
-      '<button class="brand" data-act="go" data-arg="home"><span class="brand-tile"></span>گرامر اسپل</button>' +
+      '<button class="brand" data-act="go" data-arg="home"><span class="brand-tile"></span>' + escapeHtml(tt('brand')) + '</button>' +
       '<div class="spacer"></div>' +
-      '<div class="streak-chip">🔥 ' + (STATE.streak.count || 0) + '</div>' +
-      '<button class="icon-btn" data-act="theme" title="تغییر پوسته">' + themeIcon() + '</button>' +
+      '<div class="streak-chip">🔥 ' + ltrNum(STATE.streak.count || 0) + '</div>' +
+      '<button class="icon-btn" data-act="lang" title="' + escAttr(tt('langToggle')) + '">' + ltrNum(curLang().toUpperCase()) + '</button>' +
+      '<button class="icon-btn" data-act="theme" title="' + escAttr(tt('themeToggle')) + '">' + themeIcon() + '</button>' +
       '</div></div>'
     );
   }
   function footerHtml() {
-    return '<footer class="app-footer">گرامر اسپل — یادگیری گرامر هلندی برای فارسی‌زبانان</footer>';
+    return '<footer class="app-footer">' + escapeHtml(tt('footer')) + '</footer>';
   }
   function setApp(html) {
     app.innerHTML = topbarHtml() + html + footerHtml() + '<div class="toast" id="toast"></div>';
@@ -3853,31 +4042,31 @@ window.GRAMMATICA_DATA.NOUNS = [
         '<div class="level-card" data-act="go" data-arg="l-' + lv.toLowerCase() + '">' +
         '<b>' + lv + '</b>' +
         '<div class="mini-bar"><i style="width:' + c.pct + '%"></i></div>' +
-        '<small style="color:var(--text-muted);font-size:.72rem">' + c.done + '/' + c.total + '</small>' +
+        '<small style="color:var(--text-muted);font-size:.72rem">' + ltrNum(c.done + '/' + c.total) + '</small>' +
         '</div>'
       );
     }).join('');
 
     var html =
-      '<div class="hero"><h1>سلام! وقت تمرین گرامر هلندیه 🇳🇱</h1>' +
-      '<p>سطح خود را انتخاب کنید و مرحله به مرحله گرامر را یاد بگیرید.</p>' +
+      '<div class="hero"><h1>' + escapeHtml(tt('heroTitle')) + '</h1>' +
+      '<p>' + escapeHtml(tt('heroSubtitle')) + '</p>' +
       '<div class="hero-progress"><i style="width:' + prog.pct + '%"></i></div>' +
       '<div class="hero-stats">' +
-      '<div><b>' + prog.pct + '%</b>پیشرفت کلی</div>' +
-      '<div><b>' + (STATE.xp || 0) + '</b>امتیاز XP</div>' +
-      '<div><b>' + (STATE.streak.count || 0) + '</b>روز متوالی</div>' +
+      '<div><b>' + ltrNum(prog.pct + '%') + '</b>' + escapeHtml(tt('statProgress')) + '</div>' +
+      '<div><b>' + ltrNum(STATE.xp || 0) + '</b>' + escapeHtml(tt('statXp')) + '</div>' +
+      '<div><b>' + ltrNum(STATE.streak.count || 0) + '</b>' + escapeHtml(tt('statStreak')) + '</div>' +
       '</div></div>' +
       '<div class="section">' +
-      '<div class="section-title">📚 انتخاب سطح</div>' +
+      '<div class="section-title">' + escapeHtml(tt('sectionLevels')) + '</div>' +
       '<div class="level-row">' + levelCards + '</div>' +
-      '<div class="section-title">🎮 بازی‌ها</div>' +
+      '<div class="section-title">' + escapeHtml(tt('sectionGames')) + '</div>' +
       '<div class="game-grid">' +
       '<div class="game-card" data-act="go" data-arg="game-dehet">' +
-      '<div><div class="g-title">اسپرینت de/het</div><div class="g-desc">در ۴۵ ثانیه حرف تعریف درست را انتخاب کن</div></div>' +
-      '<div class="g-best">بهترین امتیاز: ' + (STATE.games.dehet.best || 0) + '</div></div>' +
+      '<div><div class="g-title">' + escapeHtml(tt('gameDehetTitle')) + '</div><div class="g-desc">' + escapeHtml(tt('gameDehetDesc')) + '</div></div>' +
+      '<div class="g-best">' + escapeHtml(tt('bestScore', { n: STATE.games.dehet.best || 0 })) + '</div></div>' +
       '<div class="game-card" data-act="go" data-arg="game-survive">' +
-      '<div><div class="g-title">زنده بمان!</div><div class="g-desc">با ۳ جان، تا کجا می‌توانی جواب درست بدهی؟</div></div>' +
-      '<div class="g-best">بهترین امتیاز: ' + (STATE.games.survive.best || 0) + '</div></div>' +
+      '<div><div class="g-title">' + escapeHtml(tt('gameSurviveTitle')) + '</div><div class="g-desc">' + escapeHtml(tt('gameSurviveDesc')) + '</div></div>' +
+      '<div class="g-best">' + escapeHtml(tt('bestScore', { n: STATE.games.survive.best || 0 })) + '</div></div>' +
       '</div>' +
       '</div>';
     setApp(html);
@@ -3895,7 +4084,7 @@ window.GRAMMATICA_DATA.NOUNS = [
         '<div class="path-node-wrap">' +
         (idx > 0 ? '<div class="path-connector"></div>' : '') +
         '<div class="path-node ' + cls + '" data-act="go" data-arg="t-' + t.id + '">' +
-        '<div class="node-dot">' + (idx + 1) + '</div>' +
+        '<div class="node-dot">' + ltrNum(idx + 1) + '</div>' +
         '<div class="node-info"><div class="t">' + fmt(t.title) + '</div><div class="s">' + fmtNl(t.nl) + '</div></div>' +
         '<div class="node-stars">' + starsHtml(st) + '</div>' +
         '</div></div>'
@@ -3904,14 +4093,14 @@ window.GRAMMATICA_DATA.NOUNS = [
 
     var html =
       '<div class="topic-header">' +
-      '<div class="crumb" data-act="go" data-arg="home">« بازگشت به خانه</div>' +
-      '<h1>سطح ' + level + ' <small style="color:var(--text-muted);font-size:.8rem">(' + LEVEL_LABEL[level] + ')</small></h1>' +
-      '<div class="nlname">' + c.done + ' از ' + c.total + ' موضوع تکمیل شده (' + c.pct + '%)</div>' +
+      '<div class="crumb" data-act="go" data-arg="home">' + escapeHtml(tt('backHome')) + '</div>' +
+      '<h1>' + escapeHtml(tt('levelHeading', { level: level })) + ' <small style="color:var(--text-muted);font-size:.8rem">(' + escapeHtml(levelLabel(level)) + ')</small></h1>' +
+      '<div class="nlname">' + escapeHtml(tt('topicsCompleted', { done: c.done, total: c.total, pct: c.pct })) + '</div>' +
       '</div>' +
       '<div class="section">' +
-      '<div class="path">' + (nodes || '<div class="empty-state">موضوعی موجود نیست</div>') + '</div>' +
+      '<div class="path">' + (nodes || '<div class="empty-state">' + escapeHtml(tt('noTopics')) + '</div>') + '</div>' +
       '<button class="btn gold block" data-act="go" data-arg="test-' + level.toLowerCase() + '">' +
-      '📝 آزمون سطح ' + level + (test && test.passed ? ' ✓' : '') + '</button>' +
+      escapeHtml(tt('levelTestBtn', { level: level })) + (test && test.passed ? ' ✓' : '') + '</button>' +
       '</div>';
     setApp(html);
   }
@@ -3945,10 +4134,10 @@ window.GRAMMATICA_DATA.NOUNS = [
 
   function renderTopic(id) {
     var t = findTopic(id);
-    if (!t) { setApp('<div class="empty-state">موضوع پیدا نشد</div>'); return; }
+    if (!t) { setApp('<div class="empty-state">' + escapeHtml(t2('topicNotFound')) + '</div>'); return; }
     var html =
       '<div class="topic-header">' +
-      '<div class="crumb" data-act="go" data-arg="l-' + t.level.toLowerCase() + '">« بازگشت به سطح ' + t.level + '</div>' +
+      '<div class="crumb" data-act="go" data-arg="l-' + t.level.toLowerCase() + '">' + escapeHtml(tt('backToLevel', { level: t.level })) + '</div>' +
       '<h1>' + fmt(t.title) + '</h1>' +
       '<div class="nlname">' + fmtNl(t.nl) + '</div>' +
       '</div>' +
@@ -3956,7 +4145,7 @@ window.GRAMMATICA_DATA.NOUNS = [
       '<div class="block-card" style="background:var(--primary-light);border-color:transparent">' + fmt(t.sum) + '</div>' +
       (t.blocks || []).map(renderBlock).join('') +
       '</div>' +
-      '<div class="sticky-cta"><button class="btn block" data-act="go" data-arg="p-' + t.id + '">🚀 شروع تمرین‌ها (' + ((t.ex || []).length) + ' تمرین)</button></div>';
+      '<div class="sticky-cta"><button class="btn block" data-act="go" data-arg="p-' + t.id + '">' + escapeHtml(tt('startExercises', { n: (t.ex || []).length })) + '</button></div>';
     setApp(html);
   }
 
@@ -4054,8 +4243,8 @@ window.GRAMMATICA_DATA.NOUNS = [
         }).join('') + '</div>';
     } else if (ex.type === 'fill') {
       body = '<div class="q-text">' + fmt(ex.q) + '</div>' +
-        '<input class="fill-input" id="fillInput" ' + (SESSION.answered ? 'disabled' : '') + ' placeholder="پاسخ را به هلندی بنویس..." autocomplete="off" autocapitalize="off" spellcheck="false" />' +
-        (SESSION.answered ? '' : '<div style="margin-top:12px"><button class="btn secondary" data-act="fillCheck">بررسی پاسخ</button></div>');
+        '<input class="fill-input" id="fillInput" ' + (SESSION.answered ? 'disabled' : '') + ' placeholder="' + escAttr(tt('fillPlaceholder')) + '" autocomplete="off" autocapitalize="off" spellcheck="false" />' +
+        (SESSION.answered ? '' : '<div style="margin-top:12px"><button class="btn secondary" data-act="fillCheck">' + escapeHtml(tt('checkAnswer')) + '</button></div>');
     } else if (ex.type === 'order') {
       var osBuilt = SESSION.orderState.built.map(function (idx, pos) {
         return '<button class="token-btn" data-act="ordUnpick" data-arg="' + pos + '">' + escapeHtml(ex.tokens[idx]) + '</button>';
@@ -4063,23 +4252,23 @@ window.GRAMMATICA_DATA.NOUNS = [
       var osPool = SESSION.orderState.order.filter(function (idx) { return SESSION.orderState.built.indexOf(idx) === -1; })
         .map(function (idx) { return '<button class="token-btn" data-act="ordPick" data-arg="' + idx + '">' + escapeHtml(ex.tokens[idx]) + '</button>'; }).join('');
       body = '<div class="q-text">' + fmt(ex.q) + '</div>' +
-        '<div class="order-tokens">' + (osBuilt || '<span style="color:var(--text-muted);font-size:.85rem">کلمات را از پایین انتخاب کن</span>') + '</div>' +
+        '<div class="order-tokens">' + (osBuilt || '<span style="color:var(--text-muted);font-size:.85rem">' + escapeHtml(tt('pickWordsHint')) + '</span>') + '</div>' +
         '<div class="order-pool">' + osPool + '</div>' +
-        (SESSION.answered ? '' : '<div style="margin-top:12px"><button class="btn secondary" data-act="ordCheck">بررسی جمله</button></div>');
+        (SESSION.answered ? '' : '<div style="margin-top:12px"><button class="btn secondary" data-act="ordCheck">' + escapeHtml(tt('checkSentence')) + '</button></div>');
     }
 
     var feedback = '';
     if (SESSION.answered) {
       feedback = '<div class="feedback-panel show ' + (lastCorrect ? 'ok' : 'bad') + '">' +
-        '<div class="fb-title">' + (lastCorrect ? '✅ درست بود!' : '❌ نه دقیقاً') + '</div>' +
+        '<div class="fb-title">' + (lastCorrect ? escapeHtml(tt('correctFeedback')) : escapeHtml(tt('wrongFeedback'))) + '</div>' +
         '<div>' + fmt(ex.exp || '') + '</div></div>' +
-        '<div class="session-actions"><button class="btn block" data-act="sessNext">ادامه ←</button></div>';
+        '<div class="session-actions"><button class="btn block" data-act="sessNext">' + escapeHtml(tt('continueBtn')) + '</button></div>';
     }
 
     var html =
       '<div class="session-head"><div class="wrap">' +
       '<div class="progress-bar"><i style="width:' + pct + '%"></i></div>' +
-      '<div class="session-meta"><span>' + ltrNum(SESSION.solved + ' / ' + SESSION.total) + '</span><span>🔥 کمبو: ' + SESSION.combo + '</span></div>' +
+      '<div class="session-meta"><span>' + ltrNum(SESSION.solved + ' / ' + SESSION.total) + '</span><span>' + escapeHtml(tt('comboLabel', { n: SESSION.combo })) + '</span></div>' +
       '</div></div>' +
       '<div class="q-card" id="qCard">' + body + '</div>' +
       feedback;
@@ -4102,7 +4291,7 @@ window.GRAMMATICA_DATA.NOUNS = [
     if (SESSION.answered) return;
     var ex = SESSION.current.ex;
     var built = SESSION.orderState.built;
-    if (built.length !== ex.tokens.length) { toast('همهٔ کلمات را به ترتیب قرار بده'); return; }
+    if (built.length !== ex.tokens.length) { toast(tt('placeAllWords')); return; }
     var builtWords = built.map(function (idx) { return ex.tokens[idx]; });
     var ok = ex.answers.some(function (ans) {
       if (ans.length !== builtWords.length) return false;
@@ -4118,13 +4307,13 @@ window.GRAMMATICA_DATA.NOUNS = [
     var html =
       '<div class="summary-card">' +
       '<div style="font-size:2.4rem">' + (isTest ? (result.passed ? '🎉' : '💪') : (result.stars >= 2 ? '🎉' : '💪')) + '</div>' +
-      '<h2 style="margin:10px 0 0">' + (isTest ? (result.passed ? 'قبول شدی!' : 'هنوز قبول نشدی') : 'نتیجه تمرین') + '</h2>' +
+      '<h2 style="margin:10px 0 0">' + escapeHtml(isTest ? (result.passed ? tt('testPassed') : tt('testFailed')) : tt('exerciseResult')) + '</h2>' +
       (!isTest ? '<div class="summary-stars">' + starsHtml(result.stars) + '</div>' : '') +
-      '<div>دقت: ' + Math.round(result.accuracy * 100) + '%  (' + result.correct + ' از ' + result.total + ')</div>' +
-      (isTest ? '<div style="color:var(--text-muted);font-size:.85rem;margin-top:4px">برای قبولی حداقل ۸۰٪ لازم است</div>' : '') +
-      '<div class="summary-xp">+' + result.xp + ' XP</div>' +
+      '<div>' + escapeHtml(tt('accuracyLine', { pct: Math.round(result.accuracy * 100), correct: result.correct, total: result.total })) + '</div>' +
+      (isTest ? '<div style="color:var(--text-muted);font-size:.85rem;margin-top:4px">' + escapeHtml(tt('passThreshold')) + '</div>' : '') +
+      '<div class="summary-xp">+' + ltrNum(result.xp) + ' XP</div>' +
       '<div style="margin-top:22px;display:flex;flex-direction:column;gap:10px">' +
-      '<button class="btn block" data-act="sessDone">باشه</button>' +
+      '<button class="btn block" data-act="sessDone">' + escapeHtml(tt('okBtn')) + '</button>' +
       '</div></div>';
     app.innerHTML = topbarHtml() + html + footerHtml() + '<div class="toast" id="toast"></div>';
   }
@@ -4132,7 +4321,7 @@ window.GRAMMATICA_DATA.NOUNS = [
   /* ---------------- PRACTICE / LEVEL TEST entry points ---------------- */
   function renderPractice(id) {
     var t = findTopic(id);
-    if (!t || !t.ex || !t.ex.length) { setApp('<div class="empty-state">تمرینی موجود نیست</div>'); return; }
+    if (!t || !t.ex || !t.ex.length) { setApp('<div class="empty-state">' + escapeHtml(tt('noExercises')) + '</div>'); return; }
     startSession({
       exercises: t.ex,
       retry: true,
@@ -4155,7 +4344,7 @@ window.GRAMMATICA_DATA.NOUNS = [
     var topics = dataFor(level);
     var pool = [];
     topics.forEach(function (t) { (t.ex || []).forEach(function (e) { pool.push(e); }); });
-    if (pool.length < 4) { setApp('<div class="empty-state">سوال کافی برای آزمون نیست</div>'); return; }
+    if (pool.length < 4) { setApp('<div class="empty-state">' + escapeHtml(tt('notEnoughTestQuestions')) + '</div>'); return; }
     var picked = shuffle(pool).slice(0, Math.min(12, pool.length));
     startSession({
       exercises: picked,
@@ -4180,7 +4369,7 @@ window.GRAMMATICA_DATA.NOUNS = [
   var GAME = null;
   function renderGameDeHet() {
     var nouns = allNouns();
-    if (!nouns.length) { setApp('<div class="empty-state">داده‌ای برای بازی موجود نیست</div>'); return; }
+    if (!nouns.length) { setApp('<div class="empty-state">' + escapeHtml(tt('noGameData')) + '</div>'); return; }
     GAME = { type: 'dehet', time: 45, score: 0, wrong: 0, pool: shuffle(nouns), idx: 0, current: null };
     nextDeHetWord();
     renderGameDeHetView();
@@ -4198,14 +4387,14 @@ window.GRAMMATICA_DATA.NOUNS = [
   function renderGameDeHetView() {
     var html =
       '<div class="game-stage">' +
-      '<div class="game-timer" id="gTimer">' + GAME.time + 's</div>' +
-      '<div style="margin-top:6px;color:var(--text-muted)">امتیاز: <b id="gScore">' + GAME.score + '</b></div>' +
+      '<div class="game-timer" id="gTimer">' + ltrNum(GAME.time + 's') + '</div>' +
+      '<div style="margin-top:6px;color:var(--text-muted)">' + escapeHtml(tt('scoreLabel', { n: GAME.score })) + '</div>' +
       '<div class="game-word" id="gWord">' + escapeHtml(GAME.current.nl) + '</div>' +
       '<div class="game-btns">' +
       '<button class="btn secondary" style="min-width:110px" data-act="dehetPick" data-arg="de">de</button>' +
       '<button class="btn secondary" style="min-width:110px" data-act="dehetPick" data-arg="het">het</button>' +
       '</div>' +
-      '<div style="margin-top:30px"><button class="btn ghost" data-act="go" data-arg="home">پایان بازی</button></div>' +
+      '<div style="margin-top:30px"><button class="btn ghost" data-act="go" data-arg="home">' + escapeHtml(tt('endGameBtn')) + '</button></div>' +
       '</div>';
     app.innerHTML = topbarHtml() + html + footerHtml() + '<div class="toast" id="toast"></div>';
   }
@@ -4213,11 +4402,10 @@ window.GRAMMATICA_DATA.NOUNS = [
     if (!GAME) return;
     var ok = choice === GAME.current.gender;
     if (ok) GAME.score++; else GAME.wrong++;
-    toast(ok ? '✅ درست — ' + fmtPlain(GAME.current.gender) : '❌ جواب درست: ' + GAME.current.gender);
+    toast(ok ? tt('dehetCorrect', { g: GAME.current.gender }) : tt('dehetWrong', { g: GAME.current.gender }));
     nextDeHetWord();
     renderGameDeHetView();
   }
-  function fmtPlain(s) { return s; }
   function finishDeHet() {
     clearActiveTimer();
     var best = Math.max(STATE.games.dehet.best || 0, GAME.score);
@@ -4226,12 +4414,12 @@ window.GRAMMATICA_DATA.NOUNS = [
     saveState();
     var html =
       '<div class="summary-card"><div style="font-size:2.4rem">⏱️</div>' +
-      '<h2>زمان تمام شد!</h2>' +
-      '<div style="font-size:1.4rem;font-weight:800;color:var(--primary);margin:8px 0">امتیاز: ' + GAME.score + '</div>' +
-      '<div style="color:var(--text-muted)">بهترین امتیاز: ' + best + '</div>' +
+      '<h2>' + escapeHtml(tt('timeUp')) + '</h2>' +
+      '<div style="font-size:1.4rem;font-weight:800;color:var(--primary);margin:8px 0">' + escapeHtml(tt('scoreLabel', { n: GAME.score })) + '</div>' +
+      '<div style="color:var(--text-muted)">' + escapeHtml(tt('bestScore', { n: best })) + '</div>' +
       '<div style="margin-top:22px;display:flex;flex-direction:column;gap:10px">' +
-      '<button class="btn block" data-act="go" data-arg="game-dehet">بازی دوباره</button>' +
-      '<button class="btn secondary block" data-act="go" data-arg="home">بازگشت به خانه</button>' +
+      '<button class="btn block" data-act="go" data-arg="game-dehet">' + escapeHtml(tt('playAgain')) + '</button>' +
+      '<button class="btn secondary block" data-act="go" data-arg="home">' + escapeHtml(tt('backHomeBtn')) + '</button>' +
       '</div></div>';
     app.innerHTML = topbarHtml() + html + footerHtml() + '<div class="toast" id="toast"></div>';
   }
@@ -4239,7 +4427,7 @@ window.GRAMMATICA_DATA.NOUNS = [
   /* ---------------- GAME: Survive ---------------- */
   function renderGameSurvive() {
     var pool = allMcExercises();
-    if (pool.length < 4) { setApp('<div class="empty-state">سوالی برای بازی موجود نیست</div>'); return; }
+    if (pool.length < 4) { setApp('<div class="empty-state">' + escapeHtml(tt('noSurviveQuestions')) + '</div>'); return; }
     GAME = { type: 'survive', lives: 3, score: 0, pool: shuffle(pool), idx: 0, current: null, answered: false };
     nextSurviveQ();
     renderGameSurviveView();
@@ -4259,12 +4447,12 @@ window.GRAMMATICA_DATA.NOUNS = [
     var livesHtml = '';
     for (var i = 0; i < 3; i++) livesHtml += i < GAME.lives ? '❤️' : '🖤';
     var overNow = GAME.lives <= 0;
-    var fb = GAME.answered ? ('<div class="feedback-panel show ' + (GAME.lastOk ? 'ok' : 'bad') + '"><div class="fb-title">' + (GAME.lastOk ? '✅ درست!' : '❌ اشتباه') + '</div><div>' + fmt(ex.exp || '') + '</div></div>' +
-      '<div class="session-actions"><button class="btn block" data-act="surviveNext">' + (overNow ? 'پایان بازی و مشاهده نتیجه' : 'ادامه ←') + '</button></div>') : '';
+    var fb = GAME.answered ? ('<div class="feedback-panel show ' + (GAME.lastOk ? 'ok' : 'bad') + '"><div class="fb-title">' + (GAME.lastOk ? escapeHtml(tt('surviveCorrect')) : escapeHtml(tt('surviveWrong'))) + '</div><div>' + fmt(ex.exp || '') + '</div></div>' +
+      '<div class="session-actions"><button class="btn block" data-act="surviveNext">' + escapeHtml(overNow ? tt('surviveEndBtn') : tt('continueBtn')) + '</button></div>') : '';
     var html =
       '<div class="game-stage" style="padding-bottom:0">' +
       '<div class="lives">' + ltrNum(livesHtml) + '</div>' +
-      '<div style="color:var(--text-muted)">امتیاز: <b>' + GAME.score + '</b></div>' +
+      '<div style="color:var(--text-muted)">' + escapeHtml(tt('scoreLabel', { n: GAME.score })) + '</div>' +
       '</div>' +
       '<div class="q-card"><div class="q-text">' + fmt(ex.q) + '</div><div class="options">' + opts + '</div></div>' +
       fb;
@@ -4293,12 +4481,12 @@ window.GRAMMATICA_DATA.NOUNS = [
     saveState();
     var html =
       '<div class="summary-card"><div style="font-size:2.4rem">💀</div>' +
-      '<h2>بازی تمام شد</h2>' +
-      '<div style="font-size:1.4rem;font-weight:800;color:var(--primary);margin:8px 0">امتیاز: ' + GAME.score + '</div>' +
-      '<div style="color:var(--text-muted)">بهترین امتیاز: ' + best + '</div>' +
+      '<h2>' + escapeHtml(tt('gameOver')) + '</h2>' +
+      '<div style="font-size:1.4rem;font-weight:800;color:var(--primary);margin:8px 0">' + escapeHtml(tt('scoreLabel', { n: GAME.score })) + '</div>' +
+      '<div style="color:var(--text-muted)">' + escapeHtml(tt('bestScore', { n: best })) + '</div>' +
       '<div style="margin-top:22px;display:flex;flex-direction:column;gap:10px">' +
-      '<button class="btn block" data-act="go" data-arg="game-survive">بازی دوباره</button>' +
-      '<button class="btn secondary block" data-act="go" data-arg="home">بازگشت به خانه</button>' +
+      '<button class="btn block" data-act="go" data-arg="game-survive">' + escapeHtml(tt('playAgain')) + '</button>' +
+      '<button class="btn secondary block" data-act="go" data-arg="home">' + escapeHtml(tt('backHomeBtn')) + '</button>' +
       '</div></div>';
     app.innerHTML = topbarHtml() + html + footerHtml() + '<div class="toast" id="toast"></div>';
   }
@@ -4312,6 +4500,7 @@ window.GRAMMATICA_DATA.NOUNS = [
     switch (act) {
       case 'go': navigate(arg); break;
       case 'theme': cycleTheme(); break;
+      case 'lang': cycleLang(); break;
       case 'speak': speak(arg); break;
       case 'mcPick':
         if (!SESSION.answered) registerAnswer(parseInt(arg, 10) === SESSION.current.ex.answer);
@@ -4353,6 +4542,7 @@ window.GRAMMATICA_DATA.NOUNS = [
 
   /* ---------------- boot ---------------- */
   applyTheme();
+  applyLang();
   if ('speechSynthesis' in window) {
     window.speechSynthesis.getVoices();
   }

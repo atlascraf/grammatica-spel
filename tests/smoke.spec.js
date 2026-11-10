@@ -196,6 +196,36 @@ test('order-exercise tokens render left-to-right (not reversed by the RTL page)'
   throw new Error('no order exercise encountered');
 });
 
+test('language switcher cycles fa/en/ar/tr with correct dir/lang and chrome translation', async ({ page }) => {
+  const errors = [];
+  attachErrorCollector(page, errors);
+  await page.goto('/');
+  await page.evaluate(() => { try { localStorage.removeItem('grammatica.v1'); } catch (e) {} });
+  await page.reload();
+
+  const expected = [
+    { lang: 'fa', dir: 'rtl' },
+    { lang: 'en', dir: 'ltr' },
+    { lang: 'ar', dir: 'rtl' },
+    { lang: 'tr', dir: 'ltr' },
+  ];
+  for (let i = 0; i < expected.length; i++) {
+    const html = await page.evaluate(() => ({ lang: document.documentElement.lang, dir: document.documentElement.dir }));
+    expect(html).toEqual(expected[i]);
+    if (i === 0) await expect(page.locator('.hero h1')).toContainText('سلام');
+    if (i === 1) await expect(page.locator('.hero h1')).toContainText('Hi!');
+    if (i === 2) await expect(page.locator('.hero h1')).toContainText('مرحبًا');
+    if (i === 3) await expect(page.locator('.hero h1')).toContainText('Merhaba');
+    if (i < expected.length - 1) await page.click('[data-act="lang"]');
+  }
+
+  // content falls back to Persian gracefully when a translation isn't available yet
+  await page.goto('/#t-a1-lidwoorden');
+  await expect(page.locator('.topic-header h1')).toContainText('حروف تعریف');
+  await expect(page.locator('.sticky-cta .btn')).toContainText('Alıştırmalara başla');
+  expect(errors, errors.join('\n')).toHaveLength(0);
+});
+
 test('de/het sprint game is playable', async ({ page }) => {
   const errors = [];
   attachErrorCollector(page, errors);

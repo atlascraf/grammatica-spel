@@ -8,7 +8,10 @@ const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 
 const css = read('src/styles.css');
 const appJs = read('src/app.js');
-const dataFiles = ['data/a1.js', 'data/a2.js', 'data/b1.js', 'data/c1.js', 'data/b2.js', 'data/nouns.js'];
+const dataFiles = [
+  'data/a1.js', 'data/a2.js', 'data/b1.js', 'data/c1.js', 'data/b2.js', 'data/nouns.js',
+  'data/i18n/en.js', 'data/i18n/ar.js', 'data/i18n/tr.js'
+];
 const dataJs = dataFiles.map(read).join('\n');
 
 const html = `<!doctype html>
