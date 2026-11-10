@@ -102,6 +102,100 @@ test('level test runs and completes for every level', async ({ page }) => {
   expect(errors, errors.join('\n')).toHaveLength(0);
 });
 
+test('completing a topic persists stars/accuracy to state, and progress UI updates', async ({ page }) => {
+  await page.goto('/');
+  await page.evaluate(() => { try { localStorage.removeItem('grammatica.v1'); } catch (e) {} });
+  const topicId = await page.evaluate(() => window.GRAMMATICA_DATA.A1[0].id);
+
+  await page.goto('/#p-' + topicId);
+  await runSessionToCompletion(page, topicId);
+  await expect(page.locator('.summary-card')).toBeVisible();
+
+  const saved = await page.evaluate((id) => window.__APP_DEBUG__.getState().topics[id], topicId);
+  expect(saved, 'topic completion must be persisted to STATE.topics').toBeTruthy();
+  expect(saved.stars).toBeGreaterThanOrEqual(1);
+  expect(saved.attempts).toBe(1);
+
+  await page.click('[data-act="sessDone"]');
+  await expect(page.locator('.path-node.done').first()).toBeVisible();
+  await expect(page.locator('.nlname')).toContainText('1 از');
+});
+
+test('level test records pass/fail to state and shows a clear result', async ({ page }) => {
+  await page.goto('/');
+  await page.evaluate(() => { try { localStorage.removeItem('grammatica.v1'); } catch (e) {} });
+
+  await page.goto('/#test-a1');
+  await runSessionToCompletion(page, 'test-a1');
+  await expect(page.locator('.summary-card')).toContainText(/قبول شدی|هنوز قبول نشدی/);
+
+  const saved = await page.evaluate(() => window.__APP_DEBUG__.getState().tests.A1);
+  expect(saved, 'level test result must be persisted to STATE.tests').toBeTruthy();
+  expect(typeof saved.passed).toBe('boolean');
+  expect(saved.attempts).toBe(1);
+});
+
+test('numeric ratio/symbol displays are bidi-isolated against RTL reordering', async ({ page }) => {
+  // regression test: "0 / 9", stars, and lives previously rendered visually
+  // reversed because bare numeric/symbol sequences with no strong-direction
+  // anchor get reordered inside an RTL document. Each must be wrapped in an
+  // explicit dir="ltr" isolate.
+  const topicId = await page.goto('/').then(() => page.evaluate(() => window.GRAMMATICA_DATA.A1[0].id));
+  await page.goto('/#p-' + topicId);
+  await expect(page.locator('.session-meta [dir="ltr"]')).toHaveText(/\d+ \/ \d+/);
+
+  await runSessionToCompletion(page, topicId);
+  await expect(page.locator('.summary-stars [dir="ltr"]')).toBeVisible();
+
+  await page.goto('/#game-survive');
+  await expect(page.locator('.lives [dir="ltr"]')).toBeVisible();
+});
+
+test('order-exercise tokens render left-to-right (not reversed by the RTL page)', async ({ page }) => {
+  // regression test: .order-tokens/.order-pool are flex rows with no explicit
+  // direction, so they inherited the page's RTL flow and visually reversed
+  // the built Dutch sentence. Must be forced to direction: ltr.
+  await page.goto('/');
+  for (const cls of ['.order-tokens', '.order-pool']) {
+    const dir = await page.evaluate((selector) => {
+      const probe = document.createElement('div');
+      probe.className = selector.slice(1);
+      document.body.appendChild(probe);
+      const d = getComputedStyle(probe).direction;
+      probe.remove();
+      return d;
+    }, cls);
+    expect(dir, cls + ' must render left-to-right').toBe('ltr');
+  }
+
+  const topicId = await page.evaluate(() => window.GRAMMATICA_DATA.A1.find((t) => t.ex.some((e) => e.type === 'order')).id);
+  await page.goto('/#p-' + topicId);
+  for (let i = 0; i < 20; i++) {
+    const ex = await page.evaluate(() => window.__APP_DEBUG__.getCurrentExercise());
+    if (ex.type === 'order') {
+      for (const word of ex.answers[0]) {
+        const btns = await page.locator('.order-pool .token-btn').all();
+        for (const b of btns) { if ((await b.textContent()) === word) { await b.click(); break; } }
+      }
+      // tokens can wrap onto a new line, so valid reading order means each
+      // token is either further right on the same row, or on a lower row
+      // (not: appearing to the left on the very same row, which is the bug).
+      const rects = await page.locator('.order-tokens .token-btn').evaluateAll((els) => els.map((e) => { const r = e.getBoundingClientRect(); return { x: r.x, y: Math.round(r.y) }; }));
+      for (let j = 1; j < rects.length; j++) {
+        const sameRow = rects[j].y === rects[j - 1].y;
+        if (sameRow) expect(rects[j].x, 'token ' + j + ' must be right of token ' + (j - 1) + ' on the same row').toBeGreaterThan(rects[j - 1].x);
+        else expect(rects[j].y, 'token ' + j + ' must be on a lower row, not the same/higher row').toBeGreaterThan(rects[j - 1].y);
+      }
+      return;
+    }
+    if (ex.type === 'mc') await page.locator('.q-card .opt-btn').nth(ex.answer).click();
+    else if (ex.type === 'fill') { await page.fill('#fillInput', ex.answers[0]); await page.click('[data-act="fillCheck"]'); }
+    await page.waitForSelector('.feedback-panel.show');
+    await page.click('[data-act="sessNext"]');
+  }
+  throw new Error('no order exercise encountered');
+});
+
 test('de/het sprint game is playable', async ({ page }) => {
   const errors = [];
   attachErrorCollector(page, errors);

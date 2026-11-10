@@ -70,6 +70,9 @@
   function fmtNl(raw) {
     return '<span class="nl">' + escapeHtml(raw) + '</span>';
   }
+  function ltrNum(raw) {
+    return '<span dir="ltr" style="unicode-bidi:isolate;display:inline-block">' + raw + '</span>';
+  }
 
   /* ---------------- state ---------------- */
   var STORAGE_KEY = 'grammatica.v1';
@@ -137,17 +140,40 @@
   }
 
   /* ---------------- tts ---------------- */
+  function pickDutchVoice(voices) {
+    var best = null, bestScore = -1;
+    for (var i = 0; i < voices.length; i++) {
+      var v = voices[i];
+      var lang = (v.lang || '').toLowerCase();
+      if (lang.indexOf('nl') !== 0) continue;
+      var score = 1;
+      if (lang === 'nl-nl') score += 10;
+      if (!v.localService) score += 8;
+      if (/google|neural|wavenet|premium|enhanced|natural/i.test(v.name || '')) score += 5;
+      if (score > bestScore) { bestScore = score; best = v; }
+    }
+    return best;
+  }
+  function speakNow(text) {
+    var u = new SpeechSynthesisUtterance(text);
+    u.lang = 'nl-NL';
+    var nlVoice = pickDutchVoice(window.speechSynthesis.getVoices() || []);
+    if (nlVoice) u.voice = nlVoice;
+    else toast('صدای هلندی روی این دستگاه نصب نیست؛ در تنظیمات سیستم یک صدای nl-NL اضافه کنید.');
+    u.rate = 0.92;
+    u.pitch = 1;
+    window.speechSynthesis.speak(u);
+  }
   function speak(text) {
     try {
       if (!('speechSynthesis' in window)) return;
       window.speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'nl-NL';
-      var voices = window.speechSynthesis.getVoices() || [];
-      var nlVoice = voices.find(function (v) { return v.lang && v.lang.toLowerCase().indexOf('nl') === 0; });
-      if (nlVoice) u.voice = nlVoice;
-      u.rate = 0.95;
-      window.speechSynthesis.speak(u);
+      var existing = window.speechSynthesis.getVoices() || [];
+      if (existing.length === 0) {
+        window.speechSynthesis.onvoiceschanged = function () { speakNow(text); };
+      } else {
+        speakNow(text);
+      }
     } catch (e) { /* ignore */ }
   }
 
@@ -223,7 +249,7 @@
     max = max || 3;
     var out = '';
     for (var i = 0; i < max; i++) out += '<span class="' + (i < n ? 'on' : '') + '">★</span>';
-    return out;
+    return ltrNum(out);
   }
 
   /* ---------------- shell helpers ---------------- */
@@ -403,10 +429,10 @@
     var stars = acc >= 0.9 ? 3 : acc >= 0.7 ? 2 : acc >= 0.5 ? 1 : 0;
     bumpStreak();
     STATE.xp = (STATE.xp || 0) + SESSION.xp;
-    saveState();
     var result = { accuracy: acc, stars: stars, xp: SESSION.xp, total: SESSION.total, correct: SESSION.correctFirstTry };
-    var cb = SESSION.onComplete;
-    renderSummary(result, cb);
+    if (SESSION.onComplete) SESSION.onComplete(result);
+    saveState();
+    renderSummary(result);
   }
 
   function registerAnswer(isCorrect) {
@@ -480,7 +506,7 @@
     var html =
       '<div class="session-head"><div class="wrap">' +
       '<div class="progress-bar"><i style="width:' + pct + '%"></i></div>' +
-      '<div class="session-meta"><span>' + SESSION.solved + ' / ' + SESSION.total + '</span><span>🔥 کمبو: ' + SESSION.combo + '</span></div>' +
+      '<div class="session-meta"><span>' + ltrNum(SESSION.solved + ' / ' + SESSION.total) + '</span><span>🔥 کمبو: ' + SESSION.combo + '</span></div>' +
       '</div></div>' +
       '<div class="q-card" id="qCard">' + body + '</div>' +
       feedback;
@@ -514,19 +540,20 @@
   }
 
   /* ---------------- SUMMARY ---------------- */
-  function renderSummary(result, onDone) {
+  function renderSummary(result) {
+    var isTest = typeof result.passed === 'boolean';
     var html =
       '<div class="summary-card">' +
-      '<div style="font-size:2.4rem">' + (result.stars >= 2 ? '🎉' : result.passed ? '🎉' : '💪') + '</div>' +
-      '<h2 style="margin:10px 0 0">نتیجه تمرین</h2>' +
-      (typeof result.stars === 'number' ? '<div class="summary-stars">' + starsHtml(result.stars) + '</div>' : '') +
+      '<div style="font-size:2.4rem">' + (isTest ? (result.passed ? '🎉' : '💪') : (result.stars >= 2 ? '🎉' : '💪')) + '</div>' +
+      '<h2 style="margin:10px 0 0">' + (isTest ? (result.passed ? 'قبول شدی!' : 'هنوز قبول نشدی') : 'نتیجه تمرین') + '</h2>' +
+      (!isTest ? '<div class="summary-stars">' + starsHtml(result.stars) + '</div>' : '') +
       '<div>دقت: ' + Math.round(result.accuracy * 100) + '%  (' + result.correct + ' از ' + result.total + ')</div>' +
+      (isTest ? '<div style="color:var(--text-muted);font-size:.85rem;margin-top:4px">برای قبولی حداقل ۸۰٪ لازم است</div>' : '') +
       '<div class="summary-xp">+' + result.xp + ' XP</div>' +
       '<div style="margin-top:22px;display:flex;flex-direction:column;gap:10px">' +
       '<button class="btn block" data-act="sessDone">باشه</button>' +
       '</div></div>';
     app.innerHTML = topbarHtml() + html + footerHtml() + '<div class="toast" id="toast"></div>';
-    window.__sessDone = function () { onDone && onDone(); };
   }
 
   /* ---------------- PRACTICE / LEVEL TEST entry points ---------------- */
@@ -663,7 +690,7 @@
       '<div class="session-actions"><button class="btn block" data-act="surviveNext">' + (overNow ? 'پایان بازی و مشاهده نتیجه' : 'ادامه ←') + '</button></div>') : '';
     var html =
       '<div class="game-stage" style="padding-bottom:0">' +
-      '<div class="lives">' + livesHtml + '</div>' +
+      '<div class="lives">' + ltrNum(livesHtml) + '</div>' +
       '<div style="color:var(--text-muted)">امتیاز: <b>' + GAME.score + '</b></div>' +
       '</div>' +
       '<div class="q-card"><div class="q-text">' + fmt(ex.q) + '</div><div class="options">' + opts + '</div></div>' +
@@ -754,7 +781,7 @@
   /* ---------------- boot ---------------- */
   applyTheme();
   if ('speechSynthesis' in window) {
-    window.speechSynthesis.onvoiceschanged = function () { };
+    window.speechSynthesis.getVoices();
   }
   render();
 })();

@@ -388,6 +388,7 @@ table.gtable th { background: var(--bg-sunken); font-weight: 700; }
 .order-tokens, .order-pool {
   display: flex; flex-wrap: wrap; gap: 8px; min-height: 48px;
   padding: 10px; border-radius: var(--radius-s); border: 1.5px dashed var(--border);
+  direction: ltr; justify-content: flex-start;
 }
 .order-pool { margin-top: 10px; }
 .token-btn {
