@@ -3729,6 +3729,7 @@ window.GRAMMATICA_I18N.tr = { topics: {} };
         if (ob.p != null) nb.p = ob.p;
         if (ob.list) nb.list = ob.list;
         if (ob.tip != null) nb.tip = ob.tip;
+        if (b.table && ob.table) nb.table = ob.table;
         if (b.ex && ob.ex) {
           nb.ex = b.ex.map(function (e, ei) {
             return ob.ex[ei] != null ? Object.assign({}, e, { fa: ob.ex[ei] }) : e;
