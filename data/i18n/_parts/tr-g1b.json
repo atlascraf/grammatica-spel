@@ -1,0 +1,908 @@
+{
+  "a2-scheidbare-werkwoorden": {
+    "title": "Ayrılabilir fiiller",
+    "sum": "[[opstaan]] ve [[aankomen]] gibi ayrılabilir fiiller ana cümlede birbirinden ayrılır, mastar halinde ve tamamlanmış zamanda özel bir şekilde birleşir, yan cümlede de tekrar birleşir.",
+    "blocks": [
+      {
+        "h": "Ayrılabilir fiil nedir?",
+        "p": "Hollandacada bazı fiiller iki bölümden oluşur: bir önek (örneğin [[op]], [[aan]], [[mee]]) ve asıl fiil. Bunlara **ayrılabilir fiiller** (scheidbare werkwoorden) denir, örneğin [[opstaan]] (kalkmak), [[aankomen]] (varmak) ve [[meenemen]] (yanına almak) gibi. Mastar halinde bu iki bölüm her zaman birbirine bitişiktir ve asıl vurgu önek üzerine gelir.",
+        "list": [
+          "[[opstaan]] = kalkmak / uyanmak",
+          "[[aankomen]] = varmak",
+          "[[meenemen]] = yanına almak",
+          "[[afspreken]] = randevulaşmak / sözleşmek",
+          "[[uitnodigen]] = davet etmek",
+          "[[instappen]] = binmek",
+          "[[weggaan]] = gitmek / terk etmek",
+          "[[terugkomen]] = geri dönmek"
+        ],
+        "tip": "Ayrılabilir fiillerin önekinde her zaman vurgu bulunur; bu, onları [[bezoeken]] gibi ayrılamayan fiillerden ayırt etmenin yollarından biridir."
+      },
+      {
+        "h": "Ana cümlede önekin yeri",
+        "p": "Şimdiki zaman veya di'li geçmiş zamanla kurulan ana cümlede, çekimli fiil öznenin sonrasında gelir, ancak ayrılabilen bölüm (önek) **cümlenin sonuna** gider.",
+        "ex": [
+          "Ben her sabah saat yedide kalkarım.",
+          "O yarın saat onda varacak.",
+          "Şemsiyeni yanına alıyor musun?"
+        ]
+      },
+      {
+        "h": "Kip fiilleriyle ve mastar halinde",
+        "p": "Ayrılabilir fiil, bir kip fiiliyle (örneğin [[kunnen]], [[moeten]], [[willen]]) ya da [[gaan]]'dan sonra mastar olarak geldiğinde, iki bölümü tekrar birleşir ve cümlenin sonunda tek bir kelime olarak yer alır.",
+        "ex": [
+          "Yarın erken kalkmam gerekiyor.",
+          "Kitabı yanına almak ister misin?"
+        ]
+      },
+      {
+        "h": "Tamamlanmış zaman (voltooide tijd)",
+        "p": "Ayrılabilir fiillerin geçmiş zaman ortacında (deelwoord), [[ge]] öneki kelimenin başına değil, **önek ile asıl fiil arasına** gelir.",
+        "table": {
+          "head": ["Mastar", "Geçmiş zaman ortacı"],
+          "rows": [
+            ["opstaan", "opgestaan"],
+            ["aankomen", "aangekomen"],
+            ["meenemen", "meegenomen"],
+            ["afspreken", "afgesproken"]
+          ]
+        },
+        "ex": [
+          "O bu sabah geç kalktı.",
+          "İyi bir plan üzerinde anlaştık."
+        ]
+      },
+      {
+        "h": "Yan cümlede (bijzin)",
+        "p": "Cümle [[dat]], [[omdat]] veya [[als]] gibi bağımlı bir bağlaçla başladığında, fiil cümlenin sonuna gider ve bu durumda ayrılabilir fiilin iki bölümü tekrar **tek bir kelime** olur.",
+        "ex": [
+          "Onun yarın varacağını düşünüyorum.",
+          "Erken eve geldiği için mutlu."
+        ],
+        "tip": "Bu nokta öğrencilerin en yaygın hatalarından biridir: yan cümlede fiilin iki bölümünün tekrar yan yana gelip tek bir kelime oluşturması gerektiğini unutmayın."
+      }
+    ],
+    "ex": [
+      {
+        "q": "Doğru cümleyi seçin (fiil: [[opstaan]]).",
+        "options": ["Ik sta elke dag om zeven uur op.", "Ik opsta elke dag om zeven uur.", "Ik sta op elke dag om zeven uur."],
+        "exp": "Ana cümlede çekimli fiil öznenin sonrasında gelir ve ayrılabilen bölüm ([[op]]) cümlenin sonuna gider: [[Ik sta ... op]]."
+      },
+      {
+        "q": "Yan cümlede ayrılabilir fiil nasıl yazılır? Örnek: ...dat hij morgen ___ (aankomen)",
+        "options": ["aan komt", "komt aan", "aankomt"],
+        "exp": "Yan cümlede ayrılabilir fiilin iki bölümü tekrar birleşir ve cümlenin sonunda tek bir kelime olarak gelir: [[dat hij morgen aankomt]]."
+      },
+      {
+        "q": "Fiil [[meenemen]] tamamlanmış zamanda (voltooide tijd) hangi şekli alır?",
+        "options": ["heeft meegenomen", "heeft genomenmee", "heeft meegeenomen"],
+        "exp": "Ayrılabilir fiillerin geçmiş zaman ortacında [[ge]], önek ile asıl fiil arasına gelir: [[mee + ge + nomen]] = [[meegenomen]]."
+      },
+      {
+        "exp": "Ayrılabilir fiil [[meenemen]] ana cümlede ayrılır; önek [[mee]] cümlenin sonuna gider."
+      },
+      {
+        "exp": "Fiil [[afspreken]] ana cümlede ayrılır; [[af]] bölümü cümlenin sonuna gider."
+      },
+      {
+        "exp": "Ayrılabilir fiil [[thuiskomen]]'in geçmiş zaman ortacı, [[ge]]'nin önek ile asıl fiil arasına eklenmesiyle oluşur: [[thuisgekomen]]."
+      },
+      {
+        "q": "Kelimeleri doğru sırayla dizin: «O yarın varacak.»",
+        "exp": "Ana cümlede fiil [[komt]] öznenin sonrasında gelir ve önek [[aan]] cümlenin sonuna gider."
+      },
+      {
+        "q": "«Erken kalkmam gerekiyor.» cümlesi için doğru kelime sırası",
+        "exp": "Kip fiili [[moet]] ile, ayrılabilir fiil [[opstaan]]'ın mastar hali cümlenin sonunda tek bir kelime olarak gelir."
+      },
+      {
+        "q": "Hangi yan cümle doğrudur?",
+        "options": ["Ik weet dat hij morgen aankomt.", "Ik weet dat hij morgen komt aan.", "Ik weet dat hij aankomt morgen."],
+        "exp": "Yan cümlede [[dat]]'tan sonra, ayrılabilir fiil tek bir kelime ([[aankomt]]) olarak cümlenin sonunda gelir."
+      }
+    ]
+  },
+  "a2-onvoltooid-verleden-tijd": {
+    "title": "Di'li geçmiş zaman (basit geçmiş)",
+    "sum": "Kurallı fiillerin di'li geçmiş zamanını oluşturmak için fiil köküne [[-te]] veya [[-de]] eklenir; kuralsız fiiller ünlü değişimiyle çekimlenir ve ezberlenmesi gerekir.",
+    "blocks": [
+      {
+        "h": "Di'li geçmiş zamanın kullanımı",
+        "p": "[[onvoltooid verleden tijd]] (di'li geçmiş zaman), geçmişteki olayları ve alışkanlıkları anlatmak için kullanılır; özellikle anlatım ve hikaye anlatımında, ya da geçmişteki kesin bir zaman belirtildiğinde.",
+        "ex": [
+          "Eskiden Amsterdam'da yaşıyordum.",
+          "Dün o geç saatlere kadar çalıştı."
+        ]
+      },
+      {
+        "h": "Kurallı fiiller (zwakke werkwoorden)",
+        "p": "Kurallı fiillerde, fiil köküne [[-te]] veya [[-de]] eklenir. Hangisinin kullanılacağını belirlemek için ünlü **'t kofschip** kuralını uygularız: fiil kökü [[t, k, f, s, ch, p]] harflerinden biriyle bitiyorsa [[-te]] eklenir; aksi halde [[-de]] eklenir.",
+        "table": {
+          "head": ["Mastar", "Kök", "Di'li geçmiş (tekil)", "Di'li geçmiş (çoğul)"],
+          "rows": [
+            ["werken", "werk", "werkte", "werkten"],
+            ["maken", "maak", "maakte", "maakten"],
+            ["leven", "leef", "leefde", "leefden"],
+            ["wonen", "woon", "woonde", "woonden"]
+          ]
+        },
+        "tip": "'t kofschip kuralının harflerini akılda tutmak için 't kofschip ifadesini veya aynı t,k,f,s,ch,p harflerini içeren İngilizce kısaltma x-factor shoes'u hatırlayabilirsiniz."
+      },
+      {
+        "h": "Kuralsız fiiller (sterke werkwoorden)",
+        "p": "Kuralsız fiillerde kökün ünlüsü değişir ve hiçbir [[-te]] veya [[-de]] eklenmez. Çoğul halde fiilin sonuna [[-en]] eklenir.",
+        "table": {
+          "head": ["Mastar", "Tekil", "Çoğul"],
+          "rows": [
+            ["lopen", "liep", "liepen"],
+            ["eten", "at", "aten"],
+            ["zien", "zag", "zagen"],
+            ["komen", "kwam", "kwamen"],
+            ["geven", "gaf", "gaven"],
+            ["lezen", "las", "lazen"]
+          ]
+        }
+      },
+      {
+        "h": "Önemli yardımcı ve kip fiilleri",
+        "p": "Sık kullanılan [[zijn]], [[hebben]] fiilleri ve kip fiilleri de di'li geçmiş zamanda kuralsız şekillere sahiptir ve ayrıca ezberlenmesi gerekir.",
+        "table": {
+          "head": ["Mastar", "Tekil", "Çoğul"],
+          "rows": [
+            ["zijn", "was", "waren"],
+            ["hebben", "had", "hadden"],
+            ["kunnen", "kon", "konden"],
+            ["moeten", "moest", "moesten"],
+            ["willen", "wilde / wou", "wilden"],
+            ["mogen", "mocht", "mochten"]
+          ]
+        },
+        "tip": "[[wou]], [[wilde]]'nin günlük konuşma dilindeki şeklidir ve gündelik konuşmada çok yaygındır."
+      },
+      {
+        "h": "Di'li geçmiş zamana karşı tamamlanmış zaman",
+        "p": "Yazı dilinde ve anlatımda di'li geçmiş zaman yaygın olarak kullanılır, ancak Hollandalılar günlük konuşmada geçmişten bahsederken çoğunlukla **tamamlanmış zamanı** ([[voltooide tijd]]) kullanırlar. Bu iki zaman genellikle aynı metinde birlikte kullanılır.",
+        "ex": [
+          "Dün çalıştım ve sonra eve gittim."
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "Fiil [[werken]]'in [[hij]] için di'li geçmiş hali hangisidir?",
+        "options": ["werkde", "werkte", "werkten"],
+        "exp": "Kök [[werk]], [[k]] ile bitiyor ('t kofschip harflerinden biri), bu yüzden [[-te]] alır: [[werkte]]."
+      },
+      {
+        "q": "Fiil [[wonen]]'in [[wij]] için di'li geçmiş hali hangisidir?",
+        "options": ["woonden", "woonten", "woonde"],
+        "exp": "Kök [[woon]], 't kofschip harfleriyle bitmiyor, bu yüzden [[-de]]/[[-den]] alır; çoğulda: [[woonden]]."
+      },
+      {
+        "q": "Fiil [[gaan]]'ın tekil hali için hangi di'li geçmiş şekli doğrudur?",
+        "options": ["gaande", "ging", "gingde"],
+        "exp": "[[gaan]] kuralsız bir fiildir: tekil [[ging]], çoğul [[gingen]]."
+      },
+      {
+        "exp": "Kök [[woon]], 't kofschip harfleriyle bitmiyor, bu yüzden [[-de]] alır: [[woonde]]."
+      },
+      {
+        "exp": "[[lopen]] kuralsız bir fiildir ve tekilde [[liep]] olur."
+      },
+      {
+        "exp": "[[kunnen]]'in çoğul di'li geçmiş hali [[konden]]'dir."
+      },
+      {
+        "q": "«O dün geç çalıştı» için doğru kelime sırası",
+        "exp": "Çekimli fiil [[werkte]] öznenin sonrasında gelir ve zarflar onun ardından yer alır."
+      },
+      {
+        "q": "«Biz eskiden Amsterdam'da yaşıyorduk» için doğru kelime sırası",
+        "exp": "Fiil [[woonden]] (çoğul di'li geçmiş) öznenin sonrasında gelir."
+      }
+    ]
+  },
+  "a2-voltooide-tijd": {
+    "title": "Tamamlanmış zaman (perfectum)",
+    "sum": "Hollandacadaki tamamlanmış zaman, [[hebben]] veya [[zijn]] yardımcı fiili ile cümlenin sonundaki geçmiş zaman ortacı (deelwoord) kullanılarak oluşturulur.",
+    "blocks": [
+      {
+        "h": "Genel yapı",
+        "p": "Tamamlanmış zaman, çekimli yardımcı fiil ([[hebben]] veya [[zijn]]) ile **geçmiş zaman ortacının** (voltooid deelwoord) birlikte kullanılmasıyla oluşturulur. Yardımcı fiil öznenin sonrasında gelir ve geçmiş zaman ortacı cümlenin sonuna gider.",
+        "ex": [
+          "Bir kitap okudum.",
+          "O okula gitti."
+        ]
+      },
+      {
+        "h": "hebben mi, zijn mi?",
+        "p": "Fiillerin çoğu [[hebben]] ile çekimlenir. Ancak **başka bir yere hareket** veya **durum değişikliği** gösteren fiiller (örneğin [[gaan]], [[komen]], [[worden]], [[blijven]], [[sterven]]) [[zijn]] ile çekimlenir.",
+        "list": [
+          "[[hebben]]: fiillerin çoğu, örneğin [[werken]], [[eten]], [[lezen]], [[zien]]",
+          "[[zijn]]: yer veya durum değişikliği gösteren hareket fiilleri, örneğin [[gaan]], [[komen]], [[worden]], [[blijven]], [[vertrekken]]"
+        ],
+        "tip": "[[fietsen]] gibi bazı fiiller hem [[hebben]] hem de [[zijn]] ile kullanılabilir: vurgu eylemin kendisindeyse [[hebben]], hedefe ulaşmadaysa [[zijn]] kullanılır: [[Ik heb gefietst]] (bisiklete bindim) karşısında [[Ik ben naar school gefietst]] (bisikletle okula gittim)."
+      },
+      {
+        "h": "Kurallı fiillerin geçmiş zaman ortacının oluşumu",
+        "p": "Kurallı fiillerin geçmiş zaman ortacı, kökün başına [[ge-]] ve sonuna [[-t]] veya [[-d]] eklenerek oluşturulur; di'li geçmiş zamanda gördüğümüz 't kofschip kuralı burada da geçerlidir.",
+        "table": {
+          "head": ["Mastar", "Kök", "Geçmiş zaman ortacı"],
+          "rows": [
+            ["werken", "werk", "gewerkt"],
+            ["maken", "maak", "gemaakt"],
+            ["leven", "leef", "geleefd"],
+            ["wonen", "woon", "gewoond"]
+          ]
+        }
+      },
+      {
+        "h": "Kuralsız fiillerin geçmiş zaman ortacı",
+        "p": "Sık kullanılan birçok fiilin kuralsız bir geçmiş zaman ortacı vardır ve bunların ayrıca ezberlenmesi gerekir.",
+        "table": {
+          "head": ["Mastar", "Geçmiş zaman ortacı"],
+          "rows": [
+            ["doen", "gedaan"],
+            ["geven", "gegeven"],
+            ["zien", "gezien"],
+            ["nemen", "genomen"],
+            ["komen", "gekomen"],
+            ["gaan", "gegaan"],
+            ["zijn", "geweest"],
+            ["hebben", "gehad"],
+            ["kopen", "gekocht"],
+            ["schrijven", "geschreven"]
+          ]
+        },
+        "tip": "[[zijn]] fiilinin kendisinin geçmiş zaman ortacı [[geweest]]'tir: [[Ik ben in Parijs geweest]] (Paris'te bulundum)."
+      },
+      {
+        "h": "Cümlede kelime sırası",
+        "p": "Yardımcı fiil doğrudan öznenin sonrasında gelir, cümlenin diğer unsurları (zaman zarfı, nesne vb.) ortada yer alır ve geçmiş zaman ortacı her zaman ana cümlenin son kelimesidir.",
+        "ex": [
+          "Dün evin tamamını temizledik.",
+          "O filmi daha önce izledin mi?"
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "[[gaan]] ile hangi yardımcı fiil kullanılır?",
+        "options": ["hebben", "zijn", "worden"],
+        "exp": "[[gaan]] yer değişikliği gösteren bir hareket fiilidir, bu yüzden [[zijn]] ile çekimlenir: [[Hij is gegaan]]."
+      },
+      {
+        "q": "[[kopen]] fiilinin doğru geçmiş zaman ortacı hangisidir?",
+        "options": ["gekoopt", "gekocht", "gekopen"],
+        "exp": "[[kopen]] kuralsız bir fiildir ve geçmiş zaman ortacı [[gekocht]]'tur."
+      },
+      {
+        "q": "Doğru cümleyi seçin.",
+        "options": ["Ik heb een appel gegeten.", "Ik ben een appel gegeten.", "Ik heb een appel eten."],
+        "exp": "[[eten]], [[hebben]] ile çekimlenir ve geçmiş zaman ortacı [[gegeten]]'dir."
+      },
+      {
+        "exp": "Fiil [[gaan]], [[zijn]] ile çekimlenir; [[zijn]]'in üçüncü tekil şahıs hali [[is]]'tir."
+      },
+      {
+        "exp": "[[werken]]'in geçmiş zaman ortacı, 't kofschip kuralıyla [[gewerkt]] şeklinde oluşur."
+      },
+      {
+        "exp": "[[lezen]]'in kuralsız geçmiş zaman ortacı [[gelezen]]'dir."
+      },
+      {
+        "q": "Doğru sıralama: «Dün bir mektup yazdım»",
+        "exp": "Yardımcı fiil [[heb]] öznenin sonrasında gelir ve geçmiş zaman ortacı [[geschreven]] cümlenin sonuna gider."
+      },
+      {
+        "q": "Doğru sıralama: «O eve gitti»",
+        "exp": "[[gaan]] bir hareket fiili olduğu için yardımcı fiil [[is]] kullanılır ve geçmiş zaman ortacı [[gegaan]] sonda gelir."
+      }
+    ]
+  },
+  "a2-toekomende-tijd": {
+    "title": "Gelecek zaman",
+    "sum": "Hollandacada gelecek zaman genellikle [[gaan]] + mastar (plan ve niyet için) veya [[zullen]] + mastar (tahmin, söz ve öneri için) ile oluşturulur.",
+    "blocks": [
+      {
+        "h": "Gelecek zaman oluşturmanın iki yolu",
+        "p": "Hollandaca gelecek zamanı ifade etmek için iki ana yapıya sahiptir: [[gaan]] + mastar ve [[zullen]] + mastar. Bu ikisi arasındaki seçim sadece zamana değil, **cümlenin niyet ve tonuna** bağlıdır.",
+        "list": [
+          "[[gaan]] + mastar: plan, niyet veya yakın gelecek",
+          "[[zullen]] + mastar: tahmin, söz, anlık karar veya öneri"
+        ]
+      },
+      {
+        "h": "gaan + mastar",
+        "p": "[[gaan]], önceden bir plan ya da bir şey yapma niyeti olduğunda kullanılır. Asıl fiilin mastar hali cümlenin sonuna gelir.",
+        "ex": [
+          "Yarın yeni bir araba alacağım (almayı planlıyorum).",
+          "Bu hafta sonu sahile gidiyoruz."
+        ]
+      },
+      {
+        "h": "zullen + mastar",
+        "p": "[[zullen]], tahminde bulunmak, söz vermek veya anlık alınan bir karar için kullanılır. Ayrıca [[Zullen we...?]] ile önerilerde de kullanılır.",
+        "table": {
+          "head": ["Zamir", "zullen"],
+          "rows": [
+            ["ik", "zal"],
+            ["jij / je", "zal / zult"],
+            ["hij / zij / het", "zal"],
+            ["wij / we", "zullen"],
+            ["jullie", "zullen"],
+            ["zij / ze", "zullen"]
+          ]
+        },
+        "ex": [
+          "Yarın muhtemelen yağmur yağacak.",
+          "Yarın seni ararım, söz veriyorum.",
+          "Birlikte kahve içelim mi?"
+        ]
+      },
+      {
+        "h": "gaan ve zullen arasındaki ince fark",
+        "p": "[[gaan]], önceden belirlenmiş bir plan veya niyeti gösterir, [[zullen]] ise daha çok anlık verilen bir tahmin, öngörü veya söz için kullanılır. Günlük durumların çoğunda [[gaan]] daha doğal ve daha yaygındır.",
+        "tip": "Samimi bir öneri genellikle [[Zullen we...?]] ile başlar, [[Gaan we...?]] ile değil."
+      },
+      {
+        "h": "Gelecek için şimdiki zaman",
+        "p": "Cümlede gelecekle ilgili belirli bir zaman zarfı olduğunda (örneğin [[morgen]], [[volgende week]]), geleceği ifade etmek için şimdiki zaman da kullanılabilir.",
+        "ex": [
+          "Yarın tenis oynuyorum."
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "Hangi cümle önceden planlanmış bir niyeti gösterir?",
+        "options": ["Ik zal morgen naar de tandarts gaan.", "Ik ga morgen naar de tandarts.", "Ik ging morgen naar de tandarts."],
+        "exp": "[[gaan]] + mastar, önceden belirlenmiş bir plan veya niyet için kullanılır."
+      },
+      {
+        "q": "Öneride bulunmak için genellikle hangi yapı kullanılır?",
+        "options": ["Gaan we samen eten?", "Zullen we samen eten?", "Zijn we samen eten?"],
+        "exp": "Samimi öneriler genellikle [[Zullen we...?]] ile kurulur."
+      },
+      {
+        "q": "[[wij]] için [[zullen]]'in doğru hali hangisidir?",
+        "options": ["zal", "zult", "zullen"],
+        "exp": "[[wij]]/[[we]] için fiil [[zullen]]'in doğru hali [[zullen]]'dir."
+      },
+      {
+        "exp": "Söz vermek için [[zullen]] kullanılır; birinci tekil şahıs hali [[zal]]'dır."
+      },
+      {
+        "exp": "Önceden belirlenmiş bir planı ifade etmek için [[gaan]] + mastar kullanılır."
+      },
+      {
+        "exp": "Hava durumu tahmini için [[zullen]] yaygın olarak kullanılır; üçüncü tekil şahıs hali [[zal]]'dır."
+      },
+      {
+        "q": "Doğru sıralama: «Yarın yeni bir kitap alacağım (almayı planlıyorum)»",
+        "exp": "[[gaan]] + mastar yapısı: [[ga]] öznenin sonrasında, mastar [[kopen]] cümlenin sonunda."
+      },
+      {
+        "q": "Doğru sıralama: «Birlikte kahve içelim mi?»",
+        "exp": "Öneri [[Zullen we]] ile başlar ve asıl fiilin mastar hali ([[drinken]]) sonda gelir."
+      }
+    ]
+  },
+  "a2-bijvoeglijk-naamwoord": {
+    "title": "Sıfat ve -e eki",
+    "sum": "Bir isimden önce gelen sıfat genellikle [[-e]] eki alır; ancak [[een]] ile veya tanımlık olmadan kullanılan tekil bir het-woord'dan önce almaz.",
+    "blocks": [
+      {
+        "h": "Genel kural",
+        "p": "Hollandacada sıfat **isimden önce** geldiğinde, çoğu durumda ona [[-e]] eklenmesi gerekir. Bu ek, ismin cinsine (de-woord veya het-woord), tekil ya da çoğul olmasına ve tanımlığın türüne bağlıdır.",
+        "table": {
+          "head": ["Durum", "Örnek"],
+          "rows": [
+            ["de-woord (tekil, her tanımlıkla)", "de mooie auto / een mooie auto"],
+            ["het-woord tekil, het/dit/dat ile", "het mooie huis"],
+            ["het-woord tekil, een/geen ile veya tanımlıksız", "een mooi huis"],
+            ["Çoğul (her iki cins)", "mooie auto's / mooie huizen"]
+          ]
+        }
+      },
+      {
+        "h": "de-woorden her zaman -e alır",
+        "p": "İsim [[de-woord]] türündeyse, ondan önceki sıfat tanımlığı olsun olmasın her zaman [[-e]] eki alır.",
+        "ex": [
+          "Büyük bahçe çok güzel.",
+          "Onun sevimli bir köpeği var."
+        ]
+      },
+      {
+        "h": "het-woorden: tanımlığa bağlıdır",
+        "p": "Tekil [[het-woorden]] için, tanımlık **belirli/işaret** ([[het]], [[dit]], [[dat]]) ise sıfat [[-e]] eki alır; ancak tanımlık **belirsiz** ([[een]]) ise veya hiç tanımlık yoksa, sıfat [[-e]] eki almadan kalır.",
+        "ex": [
+          "Güzel ev suyun kenarında.",
+          "Güzel bir evde yaşıyorum.",
+          "Bu küçük çocuk çok güler."
+        ],
+        "tip": "Hiç tanımlık yoksa ve isim tekil bir het-woord ise, sıfat da [[-e]] eki almaz: [[mooi weer]] (güzel hava)."
+      },
+      {
+        "h": "Çoğulda her zaman -e eki alınır",
+        "p": "Çoğul halde, ismin de-woord ya da het-woord olması önemli değildir; sıfat her zaman [[-e]] eki alır.",
+        "ex": [
+          "Çocuklar güzel resimler çizdiler."
+        ]
+      },
+      {
+        "h": "İstisnalar ve yüklem konumu",
+        "p": "[[-en]] ile biten sıfatlar (genellikle [[houten]], [[gouden]], [[open]], [[eigen]] gibi malzeme ve köken sıfatları) hiçbir zaman [[-e]] eki almaz. Ayrıca sıfat bir fiilden sonra (örneğin [[zijn]] veya [[worden]]) gelip isimden önce değilse (yüklem konumu), hiçbir [[-e]] almaz.",
+        "list": [
+          "[[een houten tafel]] (tahta bir masa) - -e eki yok",
+          "[[de open deur]] (açık kapı) - -e eki yok"
+        ],
+        "ex": [
+          "O ev güzel.",
+          "O araba hızlı."
+        ],
+        "tip": "Farkı hatırlayın: [[een mooi huis]] (isimden önce, belirsiz het-woord, -e eki yok) karşısında [[Het huis is mooi]] (yüklem konumu, her zaman -e eki yok)."
+      }
+    ],
+    "ex": [
+      {
+        "q": "Hangi seçenek doğrudur? (de-woord: de auto)",
+        "options": ["een groot auto", "een grote auto", "een groote auto"],
+        "exp": "[[auto]] bir de-woord olduğu için sıfat her zaman [[-e]] eki alır: [[grote]]."
+      },
+      {
+        "q": "Hangi seçenek doğrudur? (het-woord: het huis, belirsiz tanımlıkla)",
+        "options": ["een groot huis", "een grote huis"],
+        "exp": "[[huis]] bir het-woord olduğu ve [[een]] (belirsiz tanımlık) ile geldiği için sıfat [[-e]] eki almaz: [[groot]]."
+      },
+      {
+        "q": "Hangi seçenek doğrudur?",
+        "options": ["het grote huis", "het groot huis", "het grootehuis"],
+        "exp": "[[huis]], belirli tanımlık [[het]] ile geldiği için sıfat [[-e]] eki alır: [[grote]]."
+      },
+      {
+        "exp": "[[fiets]] bir de-woord olduğu için sıfat her zaman [[-e]] eki alır."
+      },
+      {
+        "exp": "[[probleem]] bir het-woord olduğu ve [[een]] ile geldiği için sıfat [[-e]] eki almaz."
+      },
+      {
+        "exp": "Çoğul halde sıfat her zaman [[-e]] eki alır, het-woord için de geçerlidir."
+      },
+      {
+        "q": "Doğru sıralama: «Güzel ev denizin kenarında» (het huis)",
+        "exp": "[[huis]], belirli tanımlık [[het]] ile geldiği için sıfat [[-e]] eki alır: [[mooie]]."
+      },
+      {
+        "q": "Doğru sıralama: «Onun hızlı bir arabası var» (de auto)",
+        "exp": "[[auto]] bir de-woord olduğu için sıfat her zaman [[-e]] eki alır: [[snelle]]."
+      }
+    ]
+  },
+  "a2-vergelijking": {
+    "title": "Sıfat dereceleri (karşılaştırma)",
+    "sum": "Karşılaştırma için sıfata [[-er]], üstünlük derecesi için [[-st]] eklenir; [[dan]] \"-den/-dan\" anlamında ve [[net zo ... als]] eşitlik ifadesi için kullanılır.",
+    "blocks": [
+      {
+        "h": "Sıfatın üç derecesi",
+        "p": "Hollandacada sıfatın üç derecesi vardır: normal hal (positief), karşılaştırma derecesi (comparatief) ve üstünlük derecesi (superlatief).",
+        "table": {
+          "head": ["Derece", "Örnek"],
+          "rows": [
+            ["Normal", "mooi"],
+            ["Karşılaştırma (-er)", "mooier"],
+            ["Üstünlük (-st)", "mooist"]
+          ]
+        }
+      },
+      {
+        "h": "Karşılaştırma derecesinin oluşumu",
+        "p": "Karşılaştırma derecesini oluşturmak için sıfatın sonuna [[-er]] eklenir. Başka bir şeyle karşılaştırmak için ardından (\"-den/-dan\" anlamında) [[dan]] kullanılır. Sıfat kendisi [[-r]] ile bitiyorsa [[-der]] eklenir.",
+        "ex": [
+          "Amsterdam, Utrecht'ten daha büyük.",
+          "Bu araba o arabadan daha pahalı.",
+          "Abim benden daha büyük (yaşlı)."
+        ]
+      },
+      {
+        "h": "Üstünlük derecesinin oluşumu",
+        "p": "Üstünlük derecesi için sıfatın sonuna [[-st]] eklenir ve her zaman [[de]] veya [[het]] tanımlığıyla birlikte kullanılır. Uzun sıfatlar veya [[-s]] ile bitenler genellikle [[meest]] ile oluşturulur.",
+        "ex": [
+          "Bu, Hollanda'nın en güzel şehri.",
+          "O, tanıdığım en ilginç kişi."
+        ],
+        "tip": "Üstünlük derecesinden sonra [[dan]] yerine [[van]] kullanılır: [[de mooiste van de klas]] (sınıfın en güzeli)."
+      },
+      {
+        "h": "Kuralsız sıfatlar",
+        "p": "Sık kullanılan birkaç sıfat, karşılaştırmada kuralsız bir şekle sahiptir ve bunların ayrıca ezberlenmesi gerekir.",
+        "table": {
+          "head": ["Normal", "Karşılaştırma", "Üstünlük"],
+          "rows": [
+            ["goed", "beter", "beste"],
+            ["veel", "meer", "meest"],
+            ["weinig", "minder", "minst"],
+            ["graag", "liever", "liefst"]
+          ]
+        }
+      },
+      {
+        "h": "Eşitlik: net zo ... als",
+        "p": "İki şey arasındaki eşitliği ifade etmek için [[net zo + sıfat + als]] veya [[even + sıfat + als]] yapısı kullanılır, \"...kadar aynı derecede\" anlamına gelir.",
+        "ex": [
+          "O, kardeşi kadar uzun.",
+          "Bu alıştırma, öncekiyle aynı derecede zor."
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "[[groot]] sıfatının karşılaştırma hali hangisidir?",
+        "options": ["grootter", "groter", "grootser"],
+        "exp": "Karşılaştırma hali [[-er]] eklenerek oluşur: [[groter]]."
+      },
+      {
+        "q": "Hangi cümle doğrudur?",
+        "options": ["Zij is mooier dan haar zus.", "Zij is mooier als haar zus.", "Zij is mooier van haar zus."],
+        "exp": "Karşılaştırma halinden sonra karşılaştırma için [[als]] değil [[dan]] kullanılır."
+      },
+      {
+        "q": "[[goed]] sıfatının üstünlük hali hangisidir?",
+        "options": ["goedste", "beste", "meeste"],
+        "exp": "[[goed]] kuralsız bir sıfattır: karşılaştırma [[beter]], üstünlük [[beste]]."
+      },
+      {
+        "exp": "[[duur]]'un karşılaştırma hali, kendisi -r ile bittiği için [[-der]] eklenerek oluşur: [[duurder]]."
+      },
+      {
+        "exp": "Üstünlük hali [[-st]] eklenerek oluşur: [[mooiste]]."
+      },
+      {
+        "exp": "[[net zo ... als]] eşitlik yapısında sıfattan sonra [[als]] kelimesi gelir."
+      },
+      {
+        "q": "Doğru sıralama: «Amsterdam, Utrecht'ten daha büyük»",
+        "exp": "Karşılaştırma yapısı: fiil [[is]], karşılaştırma sıfatı [[groter]] ve ardından [[dan]] + karşılaştırılan şey."
+      },
+      {
+        "q": "Doğru sıralama: «Bu, caddenin en güzel evi»",
+        "exp": "Üstünlük hali her zaman bir tanımlıkla gelir ve ardından grubu belirtmek için [[van]] kullanılır."
+      }
+    ]
+  },
+  "a2-voegwoorden": {
+    "title": "Bağlaçlar: eşgüdümlü ve bağımlı",
+    "sum": "[[en]], [[maar]], [[want]] gibi eşgüdümlü bağlaçlar cümlenin sırasını değiştirmez, ancak [[omdat]] ve [[als]] gibi bağımlı bağlaçlar fiili cümlenin sonuna taşır.",
+    "blocks": [
+      {
+        "h": "İki tür bağlaç",
+        "p": "Hollandacada iki ana bağlaç türü vardır: kelime sırasını değiştirmeden iki bağımsız cümleyi birbirine bağlayan **eşgüdümlü** (nevenschikkend) bağlaçlar, ve bir cümleyi ana cümleye bağımlı kılıp fiili o cümlenin sonuna taşıyan **bağımlı** (onderschikkend) bağlaçlar."
+      },
+      {
+        "h": "Eşgüdümlü bağlaçlar",
+        "p": "En önemli eşgüdümlü bağlaçlar [[en]] (ve), [[maar]] (ama), [[of]] (veya), [[want]] (çünkü) ve [[dus]] (bu yüzden)'dur. Bu bağlaçlardan sonra normal cümle sırası (özne + fiil) korunur.",
+        "ex": [
+          "Evde kalıyorum, çünkü nezle oldum.",
+          "O çok çalışıyor, bu yüzden yorgun."
+        ],
+        "tip": "[[want]] ve [[omdat]] her ikisi de \"çünkü\" anlamına gelse de, [[want]] cümlenin sırasını değiştirmez, ancak [[omdat]] fiili cümlenin sonuna taşır. Bu, öğrencilerin en yaygın hatalarından biridir."
+      },
+      {
+        "h": "Bağımlı bağlaçlar",
+        "p": "[[omdat]] (çünkü), [[als]] (eğer/-dığında), [[terwijl]] (iken), [[hoewel]] (gerçi/her ne kadar), [[voordat]] (-den önce) ve [[nadat]] (-den sonra) gibi bağımlı bağlaçlar, kendilerinden sonra gelen cümleyi, içinde çekimli fiilin cümlenin sonuna gittiği bir **yan cümleye** dönüştürür.",
+        "ex": [
+          "Nezle olduğum için evde kalıyorum.",
+          "Yağmur yağmasına rağmen bisiklete gidiyoruz."
+        ]
+      },
+      {
+        "h": "Yan cümle önce geldiğinde",
+        "p": "Yan cümle, tüm cümlenin başında gelirse, ondan sonraki ana cümle **devrik sıralama** (özneden önce fiil) ile başlar.",
+        "ex": [
+          "Nezle olduğum için evde kalıyorum.",
+          "Yağmur yağarsa içeride kalırız."
+        ],
+        "tip": "Bu durumda ana cümlenin fiilinin ([[blijf]]/[[blijven]]) virgülden hemen sonra ve özneden önce geldiğine dikkat edin."
+      },
+      {
+        "h": "Sık kullanılan bağlaçların listesi",
+        "p": "Aşağıda A2 seviyesinde çok yaygın olan en sık kullanılan eşgüdümlü ve bağımlı bağlaçların bir listesini görüyorsunuz.",
+        "list": [
+          "Eşgüdümlü: [[en]] (ve), [[maar]] (ama), [[of]] (veya), [[want]] (çünkü), [[dus]] (bu yüzden)",
+          "Bağımlı: [[omdat]] (çünkü), [[als]] (eğer/-dığında), [[terwijl]] (iken), [[hoewel]] (gerçi)",
+          "Bağımlı: [[voordat]] (-den önce), [[nadat]] (-den sonra), [[totdat]] (-e kadar), [[zodat]] (öyle ki)"
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "Hangi bağlaç fiili cümlenin sonuna taşır?",
+        "options": ["want", "en", "omdat"],
+        "exp": "[[omdat]] bağımlı bir bağlaçtır ve fiili yan cümlenin sonuna taşır."
+      },
+      {
+        "q": "Doğru cümleyi seçin.",
+        "options": ["Ik blijf thuis want het regent.", "Ik blijf thuis omdat het regent, en ik niet uitga.", "Ik blijf thuis, omdat regent het."],
+        "exp": "[[want]] (eşgüdümlü bağlaç)'tan sonra normal cümle sırası korunur: özne [[het]], fiil [[regent]]'ten önce gelir."
+      },
+      {
+        "q": "Hangi cümle doğru sıralamaya sahiptir?",
+        "options": ["Omdat ik ziek ben, ik blijf thuis.", "Omdat ik ziek ben, blijf ik thuis.", "Ik blijf omdat ziek ben ik thuis."],
+        "exp": "Yan cümle önce geldiğinde, ana cümle devrik sıralama (özneden önce fiil) ile başlar: [[blijf ik]]."
+      },
+      {
+        "exp": "Cümle sırasını değiştirmeden bir sebep belirtmek için eşgüdümlü bağlaç [[want]] kullanılır."
+      },
+      {
+        "exp": "[[als]] \"eğer/-dığında\" anlamına gelir ve bir yan cümle oluşturur; ardından gelen ana cümlenin fiili devrik sırayla gelir."
+      },
+      {
+        "exp": "[[dus]] (bu yüzden) sonucu ifade eder ve normal cümle sırasını korur."
+      },
+      {
+        "q": "Doğru sıralama: «Nezle olduğum için evde kalıyorum»",
+        "exp": "[[omdat]]'tan sonra fiil [[ben]] yan cümlenin sonuna gider."
+      },
+      {
+        "q": "Doğru sıralama: «Yağmur yağmasına rağmen bisiklete gidiyoruz»",
+        "exp": "Yan cümle [[hoewel]] ile başlar ve fiili ([[regent]]) sonuna gider; ardından ana cümle devrik sıralamayla ([[gaan we]]) gelir."
+      }
+    ]
+  },
+  "a2-er": {
+    "title": "er kullanımları",
+    "sum": "Hollandacadaki [[er]] kelimesinin birkaç kullanımı vardır: bir şeyin varlığı ([[er is/zijn]]), edat yerine kullanım ([[erover]], [[ermee]]), yere işaret etme ve sayı/miktarlarla birlikte kullanım.",
+    "blocks": [
+      {
+        "h": "er'e genel bakış",
+        "p": "[[er]], öğrenciler için Hollandacanın en zor ve en sık kullanılan kelimelerinden biridir, çünkü birbirinden tamamen farklı birkaç işlevi vardır. Bu derste onun dört ana kullanımını göreceğiz.",
+        "list": [
+          "Bir şeyin varlığı: [[Er is een probleem.]]",
+          "Edat + nesne yerine kullanım: [[erover]], [[ermee]]",
+          "Yere işaret etme (vurgusuz): [[Ik kom er net vandaan.]]",
+          "Sayı veya miktarla birlikte: [[Ik heb er twee.]]"
+        ]
+      },
+      {
+        "h": "Varlık için er (existentieel er)",
+        "p": "Bir şeyin **var olduğunu** söylemek istediğimizde ve cümlenin öznesi belirsizse ([[een]] ile veya tanımlıksız), cümlenin başında [[er is]] (tekil için) veya [[er zijn]] (çoğul için) kullanırız.",
+        "ex": [
+          "Arabayla ilgili bir sorun var.",
+          "Sokakta çok fazla insan var."
+        ],
+        "tip": "Özne belirliyse ([[de]] veya [[het]] ile), genellikle [[er]] kullanılmaz: [[De auto staat voor de deur.]]"
+      },
+      {
+        "h": "er + edat",
+        "p": "Bir şeye (bir kişiye değil) edatla atıfta bulunduğumuzda, [[over het]], [[met het]] ve benzerleri yerine, [[er]] edatla birleşir: [[erover]], [[ermee]], [[erin]], [[erop]], [[eraan]].",
+        "ex": [
+          "Onun hakkında düşünüyorum.",
+          "Ona başladın mı?"
+        ],
+        "tip": "Kişilere atıfta bulunurken [[er]] kullanılmaz; onun yerine zamir + edat kullanılır: bir kişi kastedildiğinde [[ermee]] değil [[met hem]] deriz."
+      },
+      {
+        "h": "Yere işaret olarak er",
+        "p": "[[er]], daha önce bahsedilmiş bir yere işaret etmek için [[daar]] (vurgusuz) yerine kullanılabilir.",
+        "ex": [
+          "Hâlâ Utrecht'te mi yaşıyorsun? Evet, orada on yıldır yaşıyorum.",
+          "Oradan az önce geldim."
+        ]
+      },
+      {
+        "h": "Sayı veya miktarla birlikte er",
+        "p": "Bir şeyin sayısına veya miktarına ismi tekrarlamadan atıfta bulunduğumuzda, [[er]]'i sayı veya miktar kelimeleriyle (örneğin [[veel]], [[weinig]]) birlikte kullanırız.",
+        "ex": [
+          "Erkek veya kız kardeşin var mı? Evet, iki tane var.",
+          "Yeterince var."
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "Bir şeyin varlığını ifade etmek için hangi cümle doğrudur?",
+        "options": ["Er is een probleem.", "Het is een probleem.", "Er een probleem is."],
+        "exp": "Belirsiz bir özneyle bir şeyin varlığını ifade etmek için cümle [[Er is]] / [[Er zijn]] ile başlar."
+      },
+      {
+        "q": "[[over het boek]]'ün yerine hangi şekil doğrudur?",
+        "options": ["erboek", "overhet", "erover"],
+        "exp": "Bir şeye (kişiye değil) edatla atıfta bulunduğumuzda, [[er]] ve edat birleşir: [[erover]]."
+      },
+      {
+        "q": "«Heb je kinderen?» sorusuna sayıyla verilen doğru cevap hangisidir?",
+        "options": ["Ja, ik heb twee er.", "Ja, ik heb er twee.", "Ja, ik er heb twee."],
+        "exp": "er'in sayıyla kullanımında, [[er]] fiilden sonra ve sayıdan önce gelir: [[ik heb er twee]]."
+      },
+      {
+        "exp": "Belirsiz çoğul bir özneyle bir şeyin varlığını ifade etmek için cümle [[Er zijn]] ile başlar."
+      },
+      {
+        "exp": "[[er]]'in [[over]] edatıyla birleşimi [[erover]]'dır."
+      },
+      {
+        "exp": "Bir şeyin miktarına ismi tekrarlamadan atıfta bulunmak için [[er]] kullanılır: [[ik heb er niet genoeg]]."
+      },
+      {
+        "q": "Doğru sıralama: «Büyük bir sorun var»",
+        "exp": "Cümle, bir şeyin varlığını ifade etmek için [[Er is]] ile başlar ve ardından belirsiz özne gelir."
+      },
+      {
+        "q": "«Kaç kitabın var?» sorusuna cevabın doğru sıralaması: «Üç tane var»",
+        "exp": "Sayı hakkındaki soruya cevapta, [[er]] fiilden sonra ve sayıdan önce gelir."
+      }
+    ]
+  },
+  "a2-gebiedende-wijs": {
+    "title": "Emir cümlesi",
+    "sum": "Emir cümlesi kurmak için genellikle fiilin kökü (ik-vorm) öznesiz kullanılır; nazik hitap için fiil [[u]] ile birlikte gelir.",
+    "blocks": [
+      {
+        "h": "Basit emir cümlesinin kuruluşu",
+        "p": "Birine (jij/je) emir vermek için sadece **fiilin kökü** (yani [[ik]] için kullanılan şekil) kullanılır ve özne genellikle söylenmez.",
+        "ex": [
+          "Buraya gel!",
+          "İyi dinle!",
+          "Kitabı bana ver."
+        ],
+        "tip": "Ayrılabilir fiillerde, önek emir cümlesinin sonuna gider: [[Sta op!]] (Kalk!)."
+      },
+      {
+        "h": "Olumsuz emir cümlesi",
+        "p": "Olumsuz emir için [[niet]], fiilden önce veya cümlede uygun bir yerde gelir; isimler için [[geen]] kullanılır.",
+        "ex": [
+          "Bu kadar hızlı yürüme!",
+          "Merak etme.",
+          "Geç gelme!"
+        ]
+      },
+      {
+        "h": "u ile nazik hitap",
+        "p": "[[u]] ile hitap edilen birine nazik bir emir veya rica için, fiil üçüncü tekil şahıs şeklini ([[-t]] ile) alır ve [[u]] onun ardından gelir.",
+        "ex": [
+          "Buyurun içeri.",
+          "Buyurun oturun.",
+          "Buyurun oturun / yerinizi alın."
+        ]
+      },
+      {
+        "h": "wilt u / kunt u ile nazik rica",
+        "p": "Günlük dilde, doğrudan emir cümlesi yerine, nazik bir rica için genellikle cümlenin sonunda mastarla birlikte [[Wilt u...]] veya [[Kunt u...]] kullanılır.",
+        "ex": [
+          "Burada biraz bekleyebilir misiniz?",
+          "Kapıyı kapatabilir misiniz?"
+        ],
+        "tip": "Bu rica şekli, günlük konuşmada [[u]] ile doğrudan emir cümlesinden çok daha nazik ve yaygındır."
+      },
+      {
+        "h": "Sık kullanılan emir ifadeleri",
+        "p": "Günlük hayatta ve tabelalarda sık görülen, sabit ve çok yaygın birkaç emir ifadesi vardır.",
+        "list": [
+          "[[Pas op!]] = Dikkat et!",
+          "[[Let op!]] = Dikkat!",
+          "[[Niet roken]] = Sigara içilmez (tabelada)",
+          "[[Wacht even.]] = Bir an bekle."
+        ]
+      }
+    ],
+    "ex": [
+      {
+        "q": "jij için [[komen]] fiilinin doğru emir hali hangisidir?",
+        "options": ["Jij komt!", "Kom!", "Komen!"],
+        "exp": "Basit emir cümlesi, fiilin kökünden (ik şekli) oluşturulur ve özne söylenmez: [[Kom!]]"
+      },
+      {
+        "q": "Doğru nazik emir cümlesi hangisidir?",
+        "options": ["U komt binnen.", "Komt u binnen.", "Komen u binnen."],
+        "exp": "Nazik emir cümlesinde, [[-t]] ile biten fiil [[u]]'dan önce gelir: [[Komt u binnen]]."
+      },
+      {
+        "q": "Doğru olumsuz emir cümlesi hangisidir?",
+        "options": ["Niet loop zo snel!", "Loop niet zo snel!", "Loop zo snel niet!"],
+        "exp": "Olumsuz emir cümlesinde [[niet]], fiil ve zarftan sonra gelir: [[Loop niet zo snel!]]"
+      },
+      {
+        "exp": "Basit emir cümlesi fiilin köküyle oluşturulur: [[Kom]]."
+      },
+      {
+        "exp": "[[Maak je geen zorgen]] sabit ifadesi \"merak etme\" anlamına gelir."
+      },
+      {
+        "exp": "[[Wilt u...]] ile nazik ricada, asıl fiilin mastar hali cümlenin sonuna gelir."
+      },
+      {
+        "q": "Doğru sıralama: «Kalk!» (jij'e)",
+        "exp": "Ayrılabilir fiil [[opstaan]], emir cümlesinde de ayrılır: [[Sta op!]]"
+      },
+      {
+        "q": "Doğru sıralama: «Buyurun oturun» (nazik)",
+        "exp": "Nazik emir cümlesi: [[-t]] ile fiil ([[Gaat]]), ardından [[u]], ardından cümlenin kalanı."
+      }
+    ]
+  },
+  "a2-aanwijzende-voornaamwoorden": {
+    "title": "İşaret zamirleri",
+    "sum": "Yakındaki bir şeye işaret etmek için [[deze]] (de-woord/çoğul) ve [[dit]] (het-woord), uzaktaki bir şeye işaret etmek için [[die]] (de-woord/çoğul) ve [[dat]] (het-woord) kullanılır.",
+    "blocks": [
+      {
+        "h": "İşaret zamirlerinin genel tablosu",
+        "p": "Hollandacadaki işaret zamirleri iki şeye bağlıdır: **uzaklık** (yakın veya uzak) ve **ismin cinsi** (de-woord veya het-woord), ayrıca tekil veya çoğul olması.",
+        "table": {
+          "head": ["Uzaklık", "de-woord tekil", "het-woord tekil", "Çoğul (her iki cins)"],
+          "rows": [
+            ["Yakın", "deze", "dit", "deze"],
+            ["Uzak", "die", "dat", "die"]
+          ]
+        }
+      },
+      {
+        "h": "deze ve dit (yakın)",
+        "p": "[[deze]], yakındaki tekil bir **de-woord**'a işaret etmek için, [[dit]] ise yakındaki tekil bir **het-woord**'a işaret etmek için kullanılır.",
+        "ex": [
+          "Bu araba yeni.",
+          "Bu ev çok eski."
+        ]
+      },
+      {
+        "h": "die ve dat (uzak)",
+        "p": "[[die]], uzaktaki tekil bir **de-woord**'a (veya herhangi bir çoğul isme) işaret etmek için, [[dat]] ise uzaktaki tekil bir **het-woord**'a işaret etmek için kullanılır.",
+        "ex": [
+          "Oradaki araba komşuma ait.",
+          "Caddenin sonundaki o ev satılık."
+        ]
+      },
+      {
+        "h": "Çoğul hali",
+        "p": "Çoğul halde, asıl ismin de-woord veya het-woord olması önemli değildir: yakın için her zaman [[deze]], uzak için her zaman [[die]] kullanılır.",
+        "ex": [
+          "Bu kitaplar benim.",
+          "O evler çok pahalı."
+        ]
+      },
+      {
+        "h": "Bağımsız zamir olarak kullanım",
+        "p": "İşaret zamirleri isimsiz, tek başlarına ve çoğunlukla [[zijn]] fiiliyle birlikte kullanılabilir; bu kullanımda [[dit]] ve [[dat]] çok yaygındır ve sonraki isim çoğul olsa bile [[dat]] kullanılabilir.",
+        "ex": [
+          "Bu benim kardeşim.",
+          "Bu (o) güzel!",
+          "Onlar benim annem ve babam."
+        ],
+        "tip": "[[Dat zijn mijn ouders]] cümlesinde, [[ouders]] çoğul olmasına rağmen, [[die]] değil [[dat]] kullanılır, çünkü bu kullanımda genel bir tanıtım işlevi görür, isme tam bir işaret sıfatı olarak değil."
+      }
+    ],
+    "ex": [
+      {
+        "q": "Yakındaki bir de-woord'a işaret etmek için hangi zamir doğrudur?",
+        "options": ["dit", "deze", "dat"],
+        "exp": "Yakındaki tekil de-woord için doğru zamir [[deze]]'dir."
+      },
+      {
+        "q": "Uzaktaki bir het-woord'a işaret etmek için hangi zamir doğrudur?",
+        "options": ["die", "dat", "deze"],
+        "exp": "Uzaktaki tekil het-woord için doğru zamir [[dat]]'tır."
+      },
+      {
+        "q": "Hangi cümle doğrudur? (het boek)",
+        "options": ["Deze boek is interessant.", "Dit boek is interessant.", "Die boek is interessant."],
+        "exp": "[[boek]] tekil bir het-woord olduğu ve yakındaki bir şeye işaret ettiğimiz için doğru zamir [[dit]]'tir."
+      },
+      {
+        "exp": "Yakındaki tekil het-woord için doğru zamir [[dit]]'tir."
+      },
+      {
+        "exp": "Çoğul halde uzaktaki bir şey için her zaman [[die]] kullanılır, de-woord veya het-woord olması önemli değildir."
+      },
+      {
+        "exp": "Bağımsız tanıtımda hem [[Dit]] (yakındaki bir şey/kişi için) hem de [[Dat]] (biraz daha uzaktaki bir şey/kişi için) doğrudur."
+      },
+      {
+        "q": "Doğru sıralama: «Bu araba yeni» (de auto, yakın)",
+        "exp": "[[auto]] bir de-woord olduğu ve yakın olduğu için doğru zamir [[deze]]'dir."
+      },
+      {
+        "q": "Doğru sıralama: «O ev satılık» (het huis, uzak)",
+        "exp": "[[huis]] bir het-woord olduğu ve uzak olduğu için doğru zamir [[dat]]'tır."
+      }
+    ]
+  }
+}

@@ -2,10 +2,11 @@
   "name": "grammatica-spel",
   "version": "1.0.0",
   "private": true,
-  "description": "Grammatica Spel - Dutch grammar learning game for Persian speakers",
+  "description": "Grammatica Spel - Dutch grammar learning game (Persian/English/Arabic/Turkish)",
   "scripts": {
     "build": "node scripts/build.js",
     "validate": "node scripts/validate.js",
+    "merge-i18n": "node scripts/merge-i18n.js",
     "test": "node scripts/validate.js && playwright test",
     "serve": "node scripts/serve.js"
   },

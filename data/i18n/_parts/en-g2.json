@@ -1,0 +1,369 @@
+{
+  "b1-voltooid-verleden-tijd": {
+    "title": "The Pluperfect (Voltooid Verleden Tijd)",
+    "sum": "The [[Voltooid Verleden Tijd]] is formed with **had** or **was** + the past participle (deelwoord), and is used to show that something happened before another moment further in the past.",
+    "blocks": [
+      {
+        "h": "Verb structure",
+        "p": "The Dutch pluperfect is made of two parts: the auxiliary verb **had/hadden** or **was/waren** + the [[voltooid deelwoord]] (past participle). The choice between [[had]] and [[was]] works exactly like the choice between [[heb]] and [[ben]] in the present perfect (voltooid tegenwoordige tijd): verbs of motion and change of state are conjugated with [[zijn]], and the rest with [[hebben]].",
+        "table": { "head": ["Subject", "hebben-verbs", "zijn-verbs"], "rows": [["ik", "had gewerkt", "was gegaan"], ["jij/u", "had gewerkt", "was gegaan"], ["hij/zij", "had gewerkt", "was gegaan"], ["wij/jullie/zij", "hadden gewerkt", "waren gegaan"]] },
+        "ex": ["I had already done it.", "They had already left."],
+        "tip": "Verbs like [[blijven]], [[worden]], [[gebeuren]] are also conjugated with [[zijn]], not [[hebben]]."
+      },
+      {
+        "h": "Usage: the past before the past",
+        "p": "We use the [[voltooid verleden tijd]] when we want to say that something happened before another moment in the past. This corresponds to the English pluperfect: we have one reference point in the past (expressed with the simple [[verleden tijd]]) and an event that occurred earlier still (expressed with the [[voltooid verleden tijd]]).",
+        "ex": ["When I arrived at the station, the train had already left.", "He said that he had never been to Paris before.", "After we had eaten, we went for a walk."]
+      },
+      {
+        "h": "Common signal words",
+        "p": "Words like [[al]] (already), [[nog niet]] (not yet), [[net]] (just), [[voordat]] (before) and [[nadat]] (after) often accompany the pluperfect and mark the time relationship between two past events.",
+        "list": ["[[al]] = already, by then", "[[nog niet]] = not yet", "[[net]] = just, just now (in the past)", "[[voordat]]/[[nadat]] = before / after"]
+      },
+      {
+        "h": "Word order in subordinate clauses",
+        "p": "When the [[voltooid verleden tijd]] occurs in a subordinate clause (after [[toen]], [[nadat]], [[voordat]], [[omdat]]), the auxiliary verb ([[had]]/[[was]]) moves to the end of the subordinate clause and comes after the past participle: **...omdat hij het geld niet had meegenomen.**",
+        "ex": ["I was happy because I had finally gotten my diploma.", "Because it had rained hard, the road was wet."],
+        "tip": "In a subordinate clause, the auxiliary verb always comes after the past participle, at the very end of the clause: [[...dat hij het niet gezien had]] (not had gezien)."
+      }
+    ],
+    "ex": [
+      { "q": "Which sentence correctly expresses the pluperfect? (He had already gone)", "options": ["Hij was al gegaan.", "Hij had al gegaan.", "Hij is al gegaan.", "Hij ging al."], "exp": "[[gaan]] is a verb of motion and is conjugated with [[zijn]], so the correct form is [[was gegaan]]." },
+      { "exp": "The verb [[beginnen]] is conjugated with [[zijn]], and since the subject is singular (de film), the auxiliary is [[was]]." },
+      { "q": "Fill in the blank with the correct option: Ik ___ het boek al gelezen voordat de film uitkwam.", "options": ["had", "was", "heb", "ben"], "exp": "[[lezen]] is conjugated with [[hebben]], so its pluperfect is [[had gelezen]]." },
+      { "exp": "[[worden]] is conjugated with [[zijn]]; the singular feminine subject (zij) → [[was]]." },
+      { "q": "Find the correct word order to form the sentence \"He had already left by the time I arrived.\"", "exp": "Structure: subject + was + al + past participle + toen + subordinate clause. The auxiliary is [[was]] because [[vertrekken]] is conjugated with zijn." },
+      { "q": "Which sentence correctly expresses that someone \"had never been to Paris up to that point\"?", "options": ["Hij was nog nooit in Parijs geweest.", "Hij is nog nooit in Parijs geweest.", "Hij was nog nooit in Parijs.", "Hij heeft nog nooit in Parijs geweest."], "exp": "For an event that holds true before another moment in the past, we use [[was ... geweest]] (the pluperfect of zijn)." },
+      { "exp": "A plural subject (ze/zij) takes the auxiliary [[hadden]]; [[eten]] is conjugated with [[hebben]]." },
+      { "q": "What is the difference between \"Ik had het gedaan\" and \"Ik heb het gedaan\"?", "options": ["The first shows that something happened before another moment in the past; the second simply states that something happened in the past (up to now).", "There is no difference.", "The first is for the future.", "The second is the pluperfect."], "exp": "[[had gedaan]] is the pluperfect (the past before the past), while [[heb gedaan]] is the present perfect, which relates to the present moment." },
+      { "exp": "[[geboren worden]] is conjugated with [[zijn]]; singular subject (ik) → [[was]]." }
+    ]
+  },
+  "b1-betrekkelijke-bijzinnen": {
+    "title": "Relative clauses (die/dat/waar/wie)",
+    "sum": "Relative clauses with [[die]], [[dat]], [[waar + preposition]] and [[preposition + wie]] (for people) describe a preceding noun.",
+    "blocks": [
+      {
+        "h": "die or dat?",
+        "p": "To form a relative clause, we use [[die]] or [[dat]] depending on the gender of the noun being referred to: if the noun is a [[de-woord]] (or is plural), we use [[die]]; if the noun is a singular [[het-woord]], we use [[dat]].",
+        "table": { "head": ["Noun type", "Relative pronoun", "Example"], "rows": [["de-woord (singular)", "die", "de man die..."], ["het-woord (singular)", "dat", "het boek dat..."], ["plural (de or het)", "die", "de boeken die..."]] },
+        "ex": ["The man standing there is my neighbor.", "The house we bought is very old."],
+        "tip": "The verb in a relative clause always moves to the end of it: [[het boek dat ik gisteren gekocht heb]]."
+      },
+      {
+        "h": "waar + preposition for things",
+        "p": "When a relative clause refers to a thing or concept (not a person) that takes a preposition, we use [[waar + preposition]] instead of [[die/dat]], such as [[waarmee]] (with which), [[waarover]] (about which), [[waarin]] (in which).",
+        "ex": ["This is the pen I write with.", "The book we were talking about is very famous."],
+        "list": ["[[waarmee]] = with which", "[[waarover]] = about which", "[[waarin]] = in which", "[[waarop]] = on which / that (one) is waiting for"]
+      },
+      {
+        "h": "wie for people after a preposition",
+        "p": "For people, when there is a preposition, we use [[preposition + wie]] instead of [[waar]], and not [[die]]: **de vrouw met wie ik praatte** (the woman I was talking with). The preposition comes before [[wie]], not after it as with waar.",
+        "ex": ["The colleague I work with is very kind.", "The friend I told it to lives in Utrecht."],
+        "tip": "In colloquial speech other constructions are sometimes heard, but in formal writing [[preposition + wie]] is the most correct form."
+      },
+      {
+        "h": "Relative clauses with no specific antecedent (wat)",
+        "p": "When a relative clause refers to a whole clause or a general idea (not a specific noun), or follows indefinite pronouns like [[alles]], [[iets]], [[niets]], we use [[wat]] instead of [[dat]].",
+        "ex": ["That's all I know.", "He said nothing that I didn't already know."]
+      }
+    ],
+    "ex": [
+      { "q": "Which relative pronoun is correct? \"De fiets ___ ik gekocht heb, is kapot.\"", "options": ["die", "dat", "wat", "wie"], "exp": "[[fiets]] is a de-woord, so the relative pronoun is [[die]]." },
+      { "q": "\"Het kind ___ daar speelt, is mijn zoon.\" Which option is correct?", "options": ["dat", "die", "wat", "waar"], "exp": "[[kind]] is a het-woord, so by the grammatical rule the relative pronoun is [[dat]] (even though it refers to a person)." },
+      { "exp": "The verb [[werken met]] takes the preposition [[met]], so the correct combination is [[waarmee]] (not just waar)." },
+      { "q": "Which sentence is correct? (the friend I went to the cinema with)", "options": ["De vriend met wie ik naar de bioscoop ging.", "De vriend waarmee ik naar de bioscoop ging.", "De vriend die ik mee naar de bioscoop ging.", "De vriend wie ik naar de bioscoop ging."], "exp": "For people after a preposition we use [[preposition + wie]], not [[waar]] (which is only for things/concepts)." },
+      { "exp": "After indefinite pronouns like [[alles]] we use [[wat]], not [[dat]]." },
+      { "q": "Find the correct word order for the sentence \"The book I am reading is very interesting.\"", "exp": "The verb of the relative clause ([[lees]]) moves to the end of that part; since [[boek]] is a het-woord, the relative pronoun is [[dat]]." },
+      { "q": "\"Dit is het probleem ___ ik over praat.\" Which option?", "options": ["waarover", "waarin", "die", "wat"], "exp": "The verb [[praten over]] takes the preposition [[over]], so the combination [[waarover]] is correct." },
+      { "exp": "[[mensen]] is plural, so the relative pronoun is always [[die]] (even if its singular form would be a het-woord)." },
+      { "q": "Why is wie used instead of die in \"De vrouw aan wie ik het boek gaf\"?", "options": ["Because a preposition (aan) comes before the relative pronoun and it refers to a person.", "Because vrouw is plural.", "Because wie is always used instead of die.", "There is no reason, both are equally correct."], "exp": "When a relative clause refers to a person and a preposition is needed before the relative pronoun, [[preposition + wie]] must be used, not die." }
+    ]
+  },
+  "b1-te-infinitief": {
+    "title": "The te + infinitive construction (te + infinitief)",
+    "sum": "Some Dutch verbs and expressions require the second verb to take the form [[te + infinitief]], such as [[proberen te]], [[beginnen te]], and the [[om ... te]] construction.",
+    "blocks": [
+      {
+        "h": "The om...te form for expressing purpose",
+        "p": "The [[om ... te + infinitief]] construction is used to express the purpose or goal of an action, equivalent to \"in order to...\". [[om]] comes at the start of this part, and the infinitive with [[te]] comes at the end.",
+        "ex": ["I'm learning Dutch so that I can work in the Netherlands.", "He's saving money to buy a house."],
+        "tip": "If there are two verbs in this construction (like kunnen werken), [[te]] only comes before the second verb/infinitive: om te kunnen werken."
+      },
+      {
+        "h": "Verbs followed by te + infinitive",
+        "p": "Certain verbs are always followed by [[te]] before the second verb, including [[proberen te]] (to try to), [[beginnen te]] (to begin to), [[hoeven te]] (to not need to), [[vergeten te]] (to forget to) and [[besluiten te]] (to decide to).",
+        "list": ["[[proberen te]] = to try to", "[[beginnen te]] = to begin to", "[[hoeven te]] = to not have to (in negative sentences)", "[[vergeten te]] = to forget to", "[[besluiten te]] = to decide to"],
+        "ex": ["I try to exercise every day.", "He forgot to call his mother."]
+      },
+      {
+        "h": "Difference with modal verbs (bare infinitive without te)",
+        "p": "After modal verbs ([[modale werkwoorden]]) such as [[kunnen]], [[mogen]], [[moeten]], [[willen]], [[zullen]], and also after [[gaan]], [[blijven]], [[komen]] and [[laten]], the second verb takes the bare infinitive, without [[te]].",
+        "table": { "head": ["Category", "Example"], "rows": [["with te", "Hij probeert te slapen."], ["without te (modal verb)", "Hij kan slapen."], ["without te (gaan/komen/blijven)", "Hij gaat slapen."]] },
+        "ex": ["I want to go to bed early tonight.", "We're staying here to wait."],
+        "tip": "Common mistake: never say \"Hij kan te slapen\" — modal verbs never take te."
+      },
+      {
+        "h": "hoeven te in negative sentences",
+        "p": "The verb [[hoeven te]] is almost always used in negative sentences or with [[niet]]/[[geen]], and means \"to not need to\", unlike [[moeten]], which is used for \"must/have to\".",
+        "ex": ["You don't need to do that.", "They don't need to work tomorrow."]
+      }
+    ],
+    "ex": [
+      { "q": "Which option is correct? \"Hij leert elke dag Nederlands ___ beter te spreken.\"", "options": ["om", "te", "voor", "dat"], "exp": "The [[om ... te]] construction is used to express purpose." },
+      { "exp": "The verb [[proberen]] is used with [[te + infinitief]]." },
+      { "q": "Which sentence is grammatically correct?", "options": ["Hij kan goed zwemmen.", "Hij kan goed te zwemmen.", "Hij kan te goed zwemmen.", "Hij te kan goed zwemmen."], "exp": "After the modal verb [[kunnen]], the second verb takes the bare infinitive, without [[te]]." },
+      { "exp": "[[hoeven te]] in a negative sentence means \"to not need to\"; singular subject je → hoeft." },
+      { "q": "Find the correct word order for the sentence \"I got up early so as not to miss the train.\"", "exp": "The [[om ... te]] construction expresses purpose: the infinitive [[missen]] with [[te]] comes at the end." },
+      { "q": "Which verb does not need te after it?", "options": ["gaan", "proberen", "beginnen", "vergeten"], "exp": "[[gaan]], like the modal verbs, is used without [[te]]: \"Hij gaat slapen.\"" },
+      { "exp": "[[vergeten te]] = to forget (to), used with te + infinitive." },
+      { "q": "What is the difference between hoeven te and moeten?", "options": ["hoeven te expresses absence of necessity (usually in a negative sentence), moeten expresses necessity/obligation.", "There is no difference.", "hoeven te is only used in affirmative sentences.", "moeten always comes with te."], "exp": "[[hoeven te]] is usually used with negation for \"not needing to\", and [[moeten]] for \"must\"." },
+      { "exp": "[[besluiten te]] = to decide to, goes together with te + infinitive." }
+    ]
+  },
+  "b1-voorwaardelijke-wijs": {
+    "title": "The conditional mood (zou/zouden + infinitive)",
+    "sum": "The Dutch conditional mood is formed with [[zou]]/[[zouden]] + the infinitive, and is used to express real and unreal conditions with [[als]]-clauses.",
+    "blocks": [
+      {
+        "h": "The structure zou/zouden",
+        "p": "[[zou]] (singular) and [[zouden]] (plural) are the auxiliary verbs of the conditional mood, and come together with the main verb in infinitive form at the end of the sentence: **Ik zou dat niet doen.**",
+        "table": { "head": ["Subject", "zou/zouden"], "rows": [["ik, jij/u, hij/zij", "zou"], ["wij, jullie, zij", "zouden"]] },
+        "ex": ["I would love to travel to Paris.", "We would solve that problem differently."]
+      },
+      {
+        "h": "Real conditions (reële conditie)",
+        "p": "When a condition is realistic and achievable, the [[als]]-clause uses the present tense, and the main clause can also be in the present/future or imperative; there's no need for [[zou]].",
+        "ex": ["If it rains, I'll take an umbrella.", "If you have time, you can help me."],
+        "tip": "In a real condition, the auxiliary [[zou]] is not needed; only the simple present tense is used."
+      },
+      {
+        "h": "Unreal conditions (irreële conditie) and zou",
+        "p": "For unreal or hypothetical conditions (something that isn't true now or wasn't true in the past), the [[als]]-clause uses the [[verleden tijd]] (simple past), and the main clause is formed with [[zou/zouden]] + infinitive.",
+        "ex": ["If I were rich, I would buy a house (but I'm not).", "If they had more time, they would travel more often."],
+        "tip": "For unreal conditions relating to the past, [[als]] + pluperfect and [[zou/zouden hebben/zijn]] + past participle are used: Als ik het geweten had, zou ik anders gehandeld hebben."
+      },
+      {
+        "h": "Verb position: als at the start or middle of the sentence",
+        "p": "If the [[als]]-clause comes at the start of the sentence, the main clause after it begins with a verb (subject-verb inversion), because the [[als]]-clause itself occupies the first position.",
+        "ex": ["If the weather was nice, we would go to the park.", "We would go to the park if the weather was nice."],
+        "tip": "Both orders (als first or second) are correct; it's just that when als comes first, the verb must come immediately after the comma."
+      }
+    ],
+    "ex": [
+      { "q": "Which option is correct for the unreal condition? \"Als ik meer geld ___, zou ik een auto kopen.\"", "options": ["had", "heb", "had gehad", "zou hebben"], "exp": "In an unreal condition, the als-clause uses the [[verleden tijd]] (had), and the main clause uses [[zou]] + infinitive." },
+      { "exp": "This is a real condition (it might rain tomorrow), so the simple present tense is used, not zou." },
+      { "q": "Which sentence correctly shows an unreal condition?", "options": ["Als ik jou was, zou ik dat niet zeggen.", "Als ik jou ben, zal ik dat niet zeggen.", "Als ik jou was, zeg ik dat niet.", "Als ik jou zou zijn, zeg ik dat niet."], "exp": "The correct structure: als + verleden tijd (was) ... zou + infinitief (zou zeggen)." },
+      { "exp": "A plural subject (wij) requires the plural auxiliary [[zouden]]." },
+      { "q": "Find the correct word order for the sentence \"If I had time, I would help you.\"", "exp": "Because the sentence starts with als, the main clause starts with the verb (zou): subject-verb inversion." },
+      { "q": "\"Als ik het eerder geweten had, ___ ik anders gehandeld hebben.\" Which option?", "options": ["zou", "had", "ben", "zal"], "exp": "For an unreal condition relating to the past, the main clause is formed with [[zou/zouden]] + hebben/zijn + past participle." },
+      { "exp": "A real condition is expressed with the simple present tense (bent), because there's a genuine possibility." },
+      { "q": "Why is zou used in the sentence \"Zou je me kunnen helpen?\"", "options": ["To make a polite, indirect request", "To express the future tense", "To state a general truth", "Because the verb kunnen always comes with zou"], "exp": "[[zou]] + kunnen is often used to form polite requests, not only for conditions." },
+      { "exp": "The fixed expression \"als ik jou was\" (if I were you) uses [[was]], even for the subject ik." }
+    ]
+  },
+  "b1-lijdende-vorm": {
+    "title": "The passive voice (Lijdende Vorm)",
+    "sum": "The passive voice is formed with [[worden]] (for a process) or [[zijn]] (for a result/state) + the past participle; the agent performing the action is introduced with [[door]].",
+    "blocks": [
+      {
+        "h": "worden-passive: process and action",
+        "p": "To express that an action is happening or is being carried out (focus on the process), we use [[worden]] as the auxiliary + the past participle. This is the most common type of passive in Dutch.",
+        "table": { "head": ["Tense", "Structure", "Example"], "rows": [["present", "word(t)/worden + past participle", "Het huis wordt gebouwd."], ["past", "werd(en) + past participle", "Het huis werd gebouwd."]] },
+        "ex": ["This book is read by many people.", "The letter was sent yesterday."],
+        "tip": "The auxiliary [[worden]] must agree with the tense of the sentence: present = word/wordt/worden, past = werd/werden."
+      },
+      {
+        "h": "zijn-passive: result and state",
+        "p": "When the focus is on the end result of an action (not the process itself), we use [[zijn]] + the past participle. This type of passive usually describes a state that has already been completed.",
+        "ex": ["This house has already been built (it's now in that state).", "The door is closed (current state)."],
+        "tip": "Compare: [[De deur wordt gesloten]] (someone is closing the door right now; process) versus [[De deur is gesloten]] (the door is already closed; result)."
+      },
+      {
+        "h": "Introducing the agent with door",
+        "p": "In a passive sentence, if we want to say who or what performed the action, we use [[door]] before the agent.",
+        "ex": ["This painting was made by a famous artist.", "The decision is made by the director."]
+      },
+      {
+        "h": "Converting an active sentence into the passive",
+        "p": "To convert an active sentence into the passive, the object of the active sentence becomes the subject of the passive sentence, the verb changes to [[worden]] + past participle, and the original subject (if mentioned) follows [[door]].",
+        "ex": ["The cook prepares the food. The food is prepared by the cook."],
+        "tip": "Verbs that have no object, or are intransitive ([[onovergankelijk]]), like [[slapen]] or [[komen]], usually cannot be made passive."
+      }
+    ],
+    "ex": [
+      { "q": "Which worden-passive sentence is correct? (This house is being built)", "options": ["Het huis wordt gebouwd.", "Het huis is gebouwd.", "Het huis bouwt.", "Het huis heeft gebouwd."], "exp": "For a process happening in the present, [[wordt]] + past participle is used." },
+      { "exp": "For the past tense in the worden-passive, the singular auxiliary [[werd]] is used." },
+      { "q": "What is the difference between \"De deur wordt gesloten\" and \"De deur is gesloten\"?", "options": ["The first shows the ongoing process of closing; the second shows the resulting state of being closed.", "There is no difference.", "The first is past tense, the second is present.", "The second is not passive."], "exp": "[[wordt]] = worden-passive for a process; [[is]] = zijn-passive for the final result/state." },
+      { "exp": "Singular subject (dit gebouw) + present tense → [[wordt]]." },
+      { "q": "Find the correct word order for the sentence \"This book is read by millions of people.\"", "exp": "Passive structure: new subject + wordt + (door + original subject) + past participle." },
+      { "q": "Convert the active sentence \"De regering neemt de beslissing.\" into the passive.", "options": ["De beslissing wordt door de regering genomen.", "De regering wordt de beslissing genomen.", "De beslissing is de regering genomen.", "De beslissing neemt door de regering."], "exp": "The object of the active sentence (de beslissing) becomes the subject of the passive sentence, and the original subject follows [[door]]." },
+      { "exp": "The past participle of [[oplossen]] is [[opgelost]]; the zijn-passive expresses the final result/state." },
+      { "q": "Which verb usually cannot be made passive?", "options": ["slapen", "bouwen", "lezen", "schrijven"], "exp": "An intransitive verb ([[onovergankelijk]]) like [[slapen]] has no object, so it cannot be turned into the passive." },
+      { "exp": "A plural subject (veel huizen) takes the plural auxiliary [[worden]]." }
+    ]
+  },
+  "b1-vaste-voorzetsels": {
+    "title": "Verbs with a fixed preposition",
+    "sum": "Many Dutch verbs come with a fixed preposition, such as [[wachten op]], [[houden van]], [[denken aan]]; to refer to or ask about this combination, [[er/waar + preposition]] is used.",
+    "blocks": [
+      {
+        "h": "Common verbs with a fixed preposition",
+        "p": "Many Dutch verbs are always paired with a specific preposition that completes the verb's meaning, and this combination must be kept together.",
+        "list": ["[[wachten op]] = to wait for", "[[houden van]] = to love/like", "[[denken aan]] = to think of/about", "[[zich ergeren aan]] = to be annoyed/irritated by", "[[geloven in]] = to believe in", "[[zorgen voor]] = to take care of"],
+        "ex": ["I'm waiting for the bus.", "She loves chocolate."],
+        "tip": "These combinations must be memorized together, because the corresponding preposition in English is often different or can be dropped, while in Dutch it is obligatory."
+      },
+      {
+        "h": "er + preposition to refer to something already mentioned",
+        "p": "When we want to refer to a concept already mentioned, with its fixed preposition, without repeating the noun, we put [[er]] before the preposition, such as [[erop]] (to/for it), [[eraan]] (of/to it), [[ervan]] (of it).",
+        "ex": ["Are you thinking about the appointment? Yes, I'm thinking about it.", "Are you waiting for the answer? Yes, I'm waiting for it."],
+        "tip": "If the referent is a person, instead of [[er + preposition]] we use [[preposition + personal pronoun]]: denk aan hem/haar, not eraan."
+      },
+      {
+        "h": "Forming questions with waar + preposition",
+        "p": "To ask a question about something that takes a fixed preposition, we combine [[waar]] with that preposition, such as [[waarop]] (for what), [[waaraan]] (of/to what), [[waarvan]] (of what).",
+        "ex": ["What are you waiting for?", "What are you thinking about?"],
+        "tip": "For people, instead of [[waar + preposition]] we use [[preposition + wie]]: Aan wie denk je? (not waaraan)."
+      },
+      {
+        "h": "More common verbs",
+        "p": "There are more verbs with a fixed preposition that are common at B1 level, which you should learn together with their preposition, not in isolation.",
+        "list": ["[[praten over]] = to talk about", "[[dromen van]] = to dream about", "[[genieten van]] = to enjoy", "[[twijfelen aan]] = to doubt", "[[rekenen op]] = to count on"],
+        "ex": ["We often talk about politics.", "I doubt his plan."]
+      }
+    ],
+    "ex": [
+      { "q": "Which preposition goes with the verb wachten?", "options": ["op", "aan", "van", "in"], "exp": "[[wachten op]] = to wait for, is a fixed combination." },
+      { "exp": "[[houden van]] = to love/like; the fixed preposition is [[van]]." },
+      { "q": "\"Denk je aan je moeder? Ja, ik denk ___.\" Which option?", "options": ["eraan", "erop", "ervan", "aan het"], "exp": "To refer to something already mentioned with [[aan]], [[eraan]] is used." },
+      { "exp": "The verb [[wachten op]] becomes [[waarop]] in a question with waar." },
+      { "q": "Find the correct word order for the sentence \"I often think about the holidays.\"", "exp": "[[denken aan]] = to think about; the adverb [[vaak]] comes after the verb and before the preposition." },
+      { "q": "Which sentence is correct for referring to a person (not a thing)?", "options": ["Ik denk vaak aan haar.", "Ik denk er vaak aan haar.", "Ik denk vaak eraan haar.", "Ik denk haar vaak aan."], "exp": "For people, [[er + preposition]] is not used; instead [[preposition + personal pronoun]] is used: aan haar." },
+      { "exp": "[[twijfelen aan]] = to doubt; conjugation for subject ik: twijfel." },
+      { "q": "\"Waar praten jullie over?\" This question is about which fixed verb?", "options": ["praten over", "praten aan", "praten van", "praten op"], "exp": "[[praten over]] = to talk about; its question form is [[waarover]]." },
+      { "exp": "[[genieten van]] = to enjoy; the fixed preposition is [[van]]." }
+    ]
+  },
+  "b1-tmp-volgorde": {
+    "title": "Time-Manner-Place (TMP) word order in a sentence",
+    "sum": "In a Dutch sentence, adverbs of time, manner, and place usually come in the order [[Tijd - Manier - Plaats]] (time - manner - place).",
+    "blocks": [
+      {
+        "h": "The basic TMP rule",
+        "p": "When a sentence contains several different adverbs, their natural order is usually **time (Tijd) → manner (Manier) → place (Plaats)**. This can be remembered with the abbreviation [[TMP]].",
+        "ex": ["I'm going to Amsterdam by train tomorrow.", "She works hard at the office every day."],
+        "tip": "If one of these three elements is missing, the rest keep the same order; only the missing part is left out."
+      },
+      {
+        "h": "More examples of TMP order",
+        "p": "In these examples, we can clearly see how each category of adverb (time, manner, place) takes its proper place.",
+        "table": { "head": ["Time", "Manner", "Place"], "rows": [["morgen", "met de trein", "naar Amsterdam"], ["elke dag", "hard", "op kantoor"], ["vanavond", "samen", "in het restaurant"]] },
+        "ex": ["Tonight we're eating together at the restaurant."]
+      },
+      {
+        "h": "Exceptions: emphasis and the first position of the sentence",
+        "p": "To put extra emphasis on the time or place, it can be moved to the first position of the sentence, before the verb. In this case the verb still keeps the second position (the V2 rule), but the rest of the adverbs stay in the same TMP order.",
+        "ex": ["Tomorrow I'm going to Amsterdam by train.", "To Amsterdam, I'm going tomorrow by train."],
+        "tip": "When one of the adverbs is moved to the start of the sentence, the subject comes after the verb (inversion), because the verb must keep the second position of the sentence."
+      },
+      {
+        "h": "Place relative to the direct object",
+        "p": "The place adverb usually comes after the direct object (if it's short and definite). At B1 level, it's best to follow the basic TMP rule and keep place adverbs near the end of the sentence.",
+        "ex": ["He calmly puts the book on the table tomorrow."]
+      }
+    ],
+    "ex": [
+      { "q": "Which word order follows the TMP rule correctly?", "options": ["Ik ga morgen met de bus naar school.", "Ik ga met de bus morgen naar school.", "Ik ga naar school morgen met de bus.", "Ik ga met de bus naar school morgen."], "exp": "The correct order: time (morgen) → manner (met de bus) → place (naar school)." },
+      { "exp": "The preposition of place for \"office\" in Dutch is [[op kantoor]]." },
+      { "q": "Find the correct word order for the sentence \"Tonight we're going to the cinema together.\"", "exp": "TMP order: time (vanavond) → manner (samen) → place (naar de bioscoop)." },
+      { "q": "In the sentence \"Morgen ga ik naar het park.\", why does the subject (ik) come after the verb?", "options": ["Because the time adverb (morgen) has taken the first position of the sentence, and the verb must stay in second position.", "Because the subject always comes after the verb.", "Because morgen is a verb.", "There is no particular reason."], "exp": "By the V2 rule in Dutch, the verb always holds the second position in the sentence; when an adverb moves to the first position, the subject moves to right after the verb." },
+      { "exp": "The preposition of place [[door het park]] means \"through the park\" and belongs in the place part of the sentence." },
+      { "q": "Which sentence does not have the correct order?", "options": ["Ik ga naar Amsterdam morgen met de trein.", "Ik ga morgen met de trein naar Amsterdam.", "Morgen ga ik met de trein naar Amsterdam.", "Met de trein ga ik morgen naar Amsterdam."], "exp": "In the first option, the TMP order is not followed (place comes before time and manner)." },
+      { "exp": "The time adverb [[vanavond]] must come before manner/place." },
+      { "q": "Find the correct word order for the sentence \"He works hard at the factory every day.\"", "exp": "TMP order: time (elke dag) → manner (hard) → place (in de fabriek)." },
+      { "q": "What does the abbreviation TMP mean in Dutch grammar?", "options": ["Tijd, Manier, Plaats (time, manner, place)", "Tijd, Modus, Persoon", "Tekst, Manier, Positie", "Tijd, Mening, Plaats"], "exp": "TMP stands for the usual order of adverbs in a Dutch sentence: time, manner, place." }
+    ]
+  },
+  "b1-indirecte-rede": {
+    "title": "Reported speech (Indirecte Rede)",
+    "sum": "In Dutch reported speech, the clause is introduced with [[dat]] or a question word, and the verb tense is often shifted back one step (tense shift).",
+    "blocks": [
+      {
+        "h": "Reporting statements with dat",
+        "p": "To report statements (non-questions) indirectly, we use [[dat]], and the verb moves to the end of the subordinate clause.",
+        "ex": ["He says: 'I am tired.' He says that he is tired.", "She said that she would come tomorrow."],
+        "tip": "The tense of the main verb ([[zegt/zei]]) does not change; only the verb inside the [[dat]]-clause may change depending on the tense of the main verb."
+      },
+      {
+        "h": "Tense shift",
+        "p": "When the main reporting verb is in the past tense ([[zei]], [[vertelde]]), the verb inside the [[dat]]-clause usually also shifts back one step: the present tense becomes the simple past, and the simple past becomes the pluperfect.",
+        "table": { "head": ["Direct speech", "Indirect speech (after a past-tense verb)"], "rows": [["'Ik werk hard.'", "dat hij hard werkte."], ["'Ik heb het gedaan.'", "dat hij het gedaan had."], ["'Ik zal komen.'", "dat hij zou komen."]] },
+        "ex": ["He said: 'I work hard.' He said that he worked hard."],
+        "tip": "If the main verb is in the present tense ([[zegt]]), usually no tense shift is needed."
+      },
+      {
+        "h": "Reporting questions with a question word or of",
+        "p": "To report questions that start with a question word (wie, wat, waar, wanneer, hoe, waarom), the same word is kept. For yes/no questions (without a question word), we use [[of]] (whether).",
+        "ex": ["He asked: 'Where do you live?' He asked where I lived.", "She asked: 'Are you coming tomorrow?' She asked whether I was coming tomorrow."],
+        "tip": "In both cases, the verb moves to the end of the subordinate clause, just as with [[dat]]-clauses."
+      },
+      {
+        "h": "Reporting commands and requests with om...te",
+        "p": "To report a command or request (imperative) indirectly, the [[om ... te + infinitief]] construction is usually used, instead of [[dat]].",
+        "ex": ["He said: 'Close the door.' He asked me to close the door.", "The teacher told us to be quiet."]
+      }
+    ],
+    "ex": [
+      { "q": "What is the indirect speech form of \"Ik ben ziek.\" after \"Hij zei dat...\"?", "options": ["hij ziek was.", "hij ziek is.", "hij ziek was geweest.", "hij was ziek."], "exp": "Because the main verb ([[zei]]) is past tense, the present tense inside the quote ([[ben]]) shifts to the simple past ([[was]]); the verb comes at the end of the dat-clause." },
+      { "exp": "To report statements, the conjunction [[dat]] is used." },
+      { "q": "What is the indirect form of the question \"Waar woon je?\"", "options": ["Hij vroeg waar ik woonde.", "Hij vroeg dat waar ik woonde.", "Hij vroeg of waar ik woonde.", "Hij vroeg waar woon ik."], "exp": "For questions with a question word, the same word (waar) is kept and the verb moves to the end of the clause; dat or of is not used." },
+      { "exp": "For yes/no questions (without a question word), [[of]] is used." },
+      { "q": "Find the correct word order for the sentence \"He said that he would come tomorrow\" (indirect speech).", "exp": "Structure: subject + zei + dat + subject of the subordinate clause + ... + auxiliary (zou) + main verb (komen) at the end." },
+      { "q": "Which is the correct indirect form of the command \"Doe de deur dicht.\"?", "options": ["Hij vroeg mij om de deur dicht te doen.", "Hij vroeg mij dat de deur dicht doen.", "Hij zei dat doe de deur dicht.", "Hij vroeg of ik de deur dichtdoe."], "exp": "To report a command/request, the [[om ... te + infinitief]] construction is used." },
+      { "exp": "Because the original quote was in the present perfect (heb gelezen) and the reporting verb is in the past, it shifts back one step to the pluperfect (had gelezen)." },
+      { "q": "Which statement about tense shift is correct?", "options": ["When the main reporting verb is in the past, the verb inside the reported clause usually also shifts back one step.", "The verb tense never changes in reported speech.", "Only modal verbs undergo tense shift.", "Tense shift only happens in written language."], "exp": "General rule: main verb in the past → the verb inside the quote also shifts back one step (present→past, past→pluperfect)." },
+      { "exp": "The structure for reporting a request: [[om ... te + infinitief]]; te comes before the infinitive zijn." }
+    ]
+  },
+  "b1-toen-als-wanneer": {
+    "title": "The difference between toen, als and wanneer",
+    "sum": "[[toen]] is used for one specific event in the past, [[als]] for repeated events and conditions, and [[wanneer]] for questions or repeated events in the present/future.",
+    "blocks": [
+      {
+        "h": "toen: a specific moment in the past",
+        "p": "[[toen]] is used only for a **single, specific** event in the past; it is never used for the present or future, or for repeated events.",
+        "ex": ["When I was ten, we moved to Rotterdam.", "When the phone rang, I had just gotten in the shower."],
+        "tip": "If the sentence is in the past tense and talks about a specific (not repeated) event, [[toen]] is always correct, not [[als]]."
+      },
+      {
+        "h": "als: repetition in the past and conditions",
+        "p": "[[als]] in the past tense is used for **repeated or habitual** events (equivalent to \"whenever\"), and is also used to express conditions in any tense (present, future, or even repeated past).",
+        "ex": ["When(ever) I was little, I often played outside.", "If it rains, I'll stay inside."],
+        "tip": "Signs of repetition in the past are usually words like [[vaak]], [[altijd]], [[elke keer]], which often accompany [[als]]."
+      },
+      {
+        "h": "wanneer: questions and repetition in the present/future",
+        "p": "[[wanneer]] is usually used to **ask a question** about time (when?), and can also be used like [[als]] for repeated events in the present or future (in more formal writing).",
+        "ex": ["When are you coming home?", "Whenever it rains, I grab an umbrella."],
+        "tip": "In everyday speech, [[als]] is often preferred over [[wanneer]] for repetition in the present/future; [[wanneer]] sounds more formal."
+      },
+      {
+        "h": "Quick comparison table",
+        "p": "To help remember this better, this table summarizes the use of each of the three words.",
+        "table": { "head": ["Word", "Usage", "Example"], "rows": [["toen", "once, past", "Toen ik aankwam, regende het."], ["als", "repetition (past/present/future) or condition", "Als ik moe ben, ga ik slapen."], ["wanneer", "question; or repetition (formal)", "Wanneer ga je op vakantie?"]] }
+      }
+    ],
+    "ex": [
+      { "q": "Which option is correct? \"___ ik klein was, woonden we in Utrecht.\"", "options": ["Toen", "Als", "Wanneer", "Of"], "exp": "Because this is a specific, one-time period in the past (not repeated), [[toen]] must be used." },
+      { "exp": "For a repeated event in the past (indicated by the word altijd), [[als]] is used, not toen." },
+      { "q": "Which sentence is correct for asking \"When are you going to the cinema?\"", "options": ["Wanneer ga je naar de bioscoop?", "Toen ga je naar de bioscoop?", "Als ga je naar de bioscoop?", "Of ga je naar de bioscoop?"], "exp": "[[wanneer]] is used to form a question about time." },
+      { "exp": "This is a specific, one-time event, so [[toen]] is correct." },
+      { "q": "Why is the sentence \"Als ik klein was, ging ik altijd met mijn opa wandelen.\" correct with als, not toen?", "options": ["Because this is a repeated/habitual action in the past (indicated by altijd).", "Because als is always more correct than toen.", "Because the sentence is about the future.", "There is no reason; both are exactly the same."], "exp": "[[als]] is used in the past for repetition/habit; [[toen]] is only for a specific, one-time event." },
+      { "exp": "In an indirect question about time, [[wanneer]] is used." },
+      { "q": "Find the correct word order for the sentence \"When I arrived at the station, the train had left.\"", "exp": "Because this is a specific moment in the past, [[toen]] is used; the verb of the subordinate clause (aankwam) comes at the end of that part." },
+      { "q": "Which sentence is incorrect?", "options": ["Toen het regent, blijf ik binnen.", "Als het regent, blijf ik binnen.", "Toen het regende, bleef ik binnen.", "Als het regende, bleef ik altijd binnen."], "exp": "[[toen]] is never used for the present tense; the first sentence should use [[als]]." },
+      { "q": "When can wanneer be used instead of als in the past?", "options": ["Never; for a repeated event in the past, als must be used, not wanneer.", "wanneer can always replace als.", "wanneer is only used in the past.", "toen and wanneer are always interchangeable."], "exp": "[[wanneer]] is for questions or repetition in the present/future; for repetition in the past, [[als]] must be used, not wanneer." }
+    ]
+  }
+}

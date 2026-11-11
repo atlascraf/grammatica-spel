@@ -219,10 +219,16 @@ test('language switcher cycles fa/en/ar/tr with correct dir/lang and chrome tran
     if (i < expected.length - 1) await page.click('[data-act="lang"]');
   }
 
-  // content falls back to Persian gracefully when a translation isn't available yet
+  // translated lesson content renders in the selected language
+  await page.goto('/#t-a1-lidwoorden');
+  await expect(page.locator('.topic-header h1')).toContainText('Belirteçler');
+  await expect(page.locator('.sticky-cta .btn')).toContainText('Alıştırmalara başla');
+
+  // and content gracefully falls back to Persian when a translation is missing
+  await page.evaluate(() => { delete window.GRAMMATICA_I18N.tr.topics['a1-lidwoorden']; });
+  await page.goto('/#t-a1-meervoud-verkleinwoord');
   await page.goto('/#t-a1-lidwoorden');
   await expect(page.locator('.topic-header h1')).toContainText('حروف تعریف');
-  await expect(page.locator('.sticky-cta .btn')).toContainText('Alıştırmalara başla');
   expect(errors, errors.join('\n')).toHaveLength(0);
 });
 

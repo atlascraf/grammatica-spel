@@ -1,0 +1,369 @@
+{
+  "b1-voltooid-verleden-tijd": {
+    "title": "Geçmişten önceki geçmiş zaman (Voltooid Verleden Tijd)",
+    "sum": "[[Voltooid Verleden Tijd]], **had** veya **was** + üçüncü hal (deelwoord) ile oluşturulur ve geçmişteki başka bir andan önce gerçekleşmiş bir olayı anlatmak için kullanılır.",
+    "blocks": [
+      {
+        "h": "Fiil yapısı",
+        "p": "Hollandaca'da bu zaman iki bölümden oluşur: yardımcı fiil **had/hadden** veya **was/waren** + [[voltooid deelwoord]] (üçüncü hal/fiilin üçüncü biçimi). [[had]] ve [[was]] arasındaki seçim, tam olarak yakın geçmiş zamanda (voltooid tegenwoordige tijd) [[heb]] ve [[ben]] arasındaki seçimle aynıdır: hareket ve durum değişikliği bildiren fiiller [[zijn]] ile, diğerleri [[hebben]] ile çekimlenir.",
+        "table": { "head": ["Özne", "hebben fiilleri", "zijn fiilleri"], "rows": [["ik", "had gewerkt", "was gegaan"], ["jij/u", "had gewerkt", "was gegaan"], ["hij/zij", "had gewerkt", "was gegaan"], ["wij/jullie/zij", "hadden gewerkt", "waren gegaan"]] },
+        "ex": ["Onu daha önce yapmıştım.", "Onlar daha önce gitmişlerdi."],
+        "tip": "[[blijven]], [[worden]], [[gebeuren]] gibi fiiller de [[hebben]] ile değil, [[zijn]] ile çekimlenir."
+      },
+      {
+        "h": "Kullanım: geçmişten önceki geçmiş",
+        "p": "[[voltooid verleden tijd]], geçmişte başka bir andan önce yapılmış bir şeyi anlatmak istediğimizde kullanılır. Bu zaman Türkçedeki -mişti'li geçmiş zamana karşılık gelir: geçmişte bir nokta vardır (basit [[verleden tijd]] ile) ve ondan daha önce gerçekleşmiş bir olay vardır ([[voltooid verleden tijd]] ile).",
+        "ex": ["İstasyona geldiğimde, tren daha önce hareket etmişti.", "Daha önce hiç Paris'te bulunmadığını söyledi.", "Yemeğimizi yemiş olduktan sonra yürüyüşe çıktık."]
+      },
+      {
+        "h": "Yaygın işaret kelimeleri",
+        "p": "[[al]] (daha önce/çoktan), [[nog niet]] (henüz değil), [[net]] (az önce), [[voordat]] (-den önce) ve [[nadat]] (-den sonra) gibi kelimeler genellikle bu zamanla birlikte kullanılır ve iki geçmiş olay arasındaki zamansal ilişkiyi belirtir.",
+        "list": ["[[al]] = daha önce, o zamana kadar", "[[nog niet]] = henüz ... değil", "[[net]] = az önce, demin (geçmişte)", "[[voordat]]/[[nadat]] = -den önce / -den sonra"]
+      },
+      {
+        "h": "Yan cümlelerde kelime sırası",
+        "p": "[[voltooid verleden tijd]] bir yan cümlede ([[toen]], [[nadat]], [[voordat]], [[omdat]]'den sonra) kullanıldığında, yardımcı fiil ([[had]]/[[was]]) yan cümlenin sonuna taşınır ve üçüncü halden sonra yer alır: **...omdat hij het geld niet had meegenomen.**",
+        "ex": ["Mutluydum çünkü sonunda diplomamı almıştım.", "Şiddetli yağmur yağmış olduğu için yol ıslaktı."],
+        "tip": "Yan cümlede yardımcı fiil her zaman üçüncü halden sonra ve cümlenin en sonunda gelir: [[...dat hij het niet gezien had]] (had gezien değil)."
+      }
+    ],
+    "ex": [
+      { "q": "Hangi cümle doğru pluperfect (voltooid verleden tijd) yapısını gösterir? (O daha önce gitmişti)", "options": ["Hij was al gegaan.", "Hij had al gegaan.", "Hij is al gegaan.", "Hij ging al."], "exp": "[[gaan]] bir hareket fiilidir ve [[zijn]] ile çekimlenir, bu nedenle doğru biçim [[was gegaan]]'dır." },
+      { "exp": "[[beginnen]] fiili [[zijn]] ile çekimlenir ve özne tekil (de film) olduğu için yardımcı fiil [[was]]'tır." },
+      { "q": "Boşluğu doğru seçenekle doldurun: Ik ___ het boek al gelezen voordat de film uitkwam.", "options": ["had", "was", "heb", "ben"], "exp": "[[lezen]] fiili [[hebben]] ile çekimlenir, bu nedenle bu zamandaki (voltooid verleden tijd) biçimi [[had gelezen]]'dır." },
+      { "exp": "[[worden]] fiili [[zijn]] ile çekimlenir; tekil dişi özne (zij) → [[was]]." },
+      { "q": "«Ben geldiğimde o daha önce gitmişti» cümlesini kurmak için kelimelerin doğru sırasını bulun.", "exp": "Yapı: özne + was + al + üçüncü hal + toen + yan cümle. Yardımcı fiil [[was]]'tır çünkü [[vertrekken]] zijn ile çekimlenir." },
+      { "q": "Hangi cümle «o ana kadar hiç Paris'te bulunmamıştı» ifadesini doğru şekilde anlatır?", "options": ["Hij was nog nooit in Parijs geweest.", "Hij is nog nooit in Parijs geweest.", "Hij was nog nooit in Parijs.", "Hij heeft nog nooit in Parijs geweest."], "exp": "Geçmişte başka bir andan önce geçerli olan bir olay için [[was ... geweest]] (zijn fiilinin bu zamandaki hali) kullanılır." },
+      { "exp": "Çoğul özne (ze/zij) yardımcı fiil [[hadden]] ile kullanılır; [[eten]] fiili [[hebben]] ile çekimlenir." },
+      { "q": "«Ik had het gedaan» ile «Ik heb het gedaan» arasındaki fark nedir?", "options": ["Birincisi, bir işin geçmişte başka bir andan önce yapıldığını gösterir; ikincisi ise sadece bir işin geçmişte (şimdiye kadar) yapıldığını söyler.", "Aralarında hiçbir fark yoktur.", "Birincisi gelecek zaman içindir.", "İkincisi bu zamandaki (voltooid verleden tijd) yapıdır."], "exp": "[[had gedaan]], geçmişten önceki geçmiş zamandır (voltooid verleden tijd); [[heb gedaan]] ise şimdiki zamanla ilişkili olan yakın geçmiş zamandır (voltooid tegenwoordige tijd)." },
+      { "exp": "[[geboren worden]] fiili [[zijn]] ile çekimlenir; tekil özne (ik) → [[was]]." }
+    ]
+  },
+  "b1-betrekkelijke-bijzinnen": {
+    "title": "İlgi cümleleri (die/dat/waar/wie)",
+    "sum": "İlgi cümleleri, [[die]], [[dat]], [[waar + edat]] ve (kişiler için) [[edat + wie]] kullanılarak önceki ismi açıklar.",
+    "blocks": [
+      {
+        "h": "die mi, dat mı?",
+        "p": "İlgi cümlesi kurmak için, atıfta bulunduğumuz ismin cinsine göre [[die]] veya [[dat]] kullanırız: isim bir [[de-woord]] ise (veya çoğulsa) [[die]] kullanılır; isim tekil bir [[het-woord]] ise [[dat]] kullanılır.",
+        "table": { "head": ["İsim türü", "İlgi zamiri", "Örnek"], "rows": [["de-woord (tekil)", "die", "de man die..."], ["het-woord (tekil)", "dat", "het boek dat..."], ["Çoğul (de veya het)", "die", "de boeken die..."]] },
+        "ex": ["Orada duran adam, benim komşumdur.", "Satın aldığımız ev çok eski."],
+        "tip": "İlgi cümlesinde fiil her zaman cümlenin sonuna gider: [[het boek dat ik gisteren gekocht heb]]."
+      },
+      {
+        "h": "Nesneler için waar + edat",
+        "p": "İlgi cümlesi bir edatla birlikte bir nesneye veya kavrama (kişiye değil) atıfta bulunduğunda, [[die/dat]] yerine [[waar + edat]] birleşimi kullanılır: [[waarmee]] (ki onunla), [[waarover]] (ki onun hakkında), [[waarin]] (ki onun içinde) gibi.",
+        "ex": ["Bu, yazdığım kalemdir.", "Hakkında konuştuğumuz kitap çok ünlü."],
+        "list": ["[[waarmee]] = ki onunla", "[[waarover]] = ki onun hakkında", "[[waarin]] = ki onun içinde", "[[waarop]] = ki onun üzerinde / ki onu bekleyen"]
+      },
+      {
+        "h": "Edattan sonra kişiler için wie",
+        "p": "Kişiler için bir edat söz konusu olduğunda, [[waar]] yerine [[edat + wie]] kullanılır, [[die]] değil: **de vrouw met wie ik praatte** (konuştuğum kadın). Edat, waar'daki gibi sonrasında değil, [[wie]]'den önce gelir.",
+        "ex": ["Birlikte çalıştığım meslektaş çok naziktir.", "Kendisine söylediğim arkadaşım Utrecht'te yaşıyor."],
+        "tip": "Günlük dilde bazen başka yapılar da duyulur, ancak resmî yazıda en doğru biçim [[edat + wie]]'dir."
+      },
+      {
+        "h": "Belirli bir öncül olmadan ilgi cümlesi (wat)",
+        "p": "İlgi cümlesi belirli bir isme değil, bütün bir cümleye veya genel bir kavrama atıfta bulunduğunda, ya da [[alles]], [[iets]], [[niets]] gibi belirsiz zamirlerden sonra geldiğinde, [[dat]] yerine [[wat]] kullanılır.",
+        "ex": ["Bu, bildiğim her şey.", "Bilmediğim hiçbir şey söylemedi."]
+      }
+    ],
+    "ex": [
+      { "q": "Hangi ilgi zamiri doğrudur? «De fiets ___ ik gekocht heb, is kapot.»", "options": ["die", "dat", "wat", "wie"], "exp": "[[fiets]] bir de-woord'dur, bu nedenle ilgi zamiri [[die]]'dır." },
+      { "q": "«Het kind ___ daar speelt, is mijn zoon.» Hangi seçenek doğrudur?", "options": ["dat", "die", "wat", "waar"], "exp": "[[kind]] bir het-woord'dur, bu nedenle dilbilgisi kuralına göre ilgi zamiri [[dat]]'tır (bir kişiye atıfta bulunsa da)." },
+      { "exp": "[[werken met]] fiili [[met]] edatını alır, bu nedenle doğru birleşim [[waarmee]]'dir (sadece waar değil)." },
+      { "q": "Hangi cümle doğrudur? (Kendisiyle sinemaya gittiğim arkadaş)", "options": ["De vriend met wie ik naar de bioscoop ging.", "De vriend waarmee ik naar de bioscoop ging.", "De vriend die ik mee naar de bioscoop ging.", "De vriend wie ik naar de bioscoop ging."], "exp": "Edattan sonra kişiler için [[edat + wie]] kullanılır, [[waar]] değil (çünkü waar sadece nesneler/kavramlar içindir)." },
+      { "exp": "[[alles]] gibi belirsiz zamirlerden sonra [[dat]] değil, [[wat]] kullanılır." },
+      { "q": "«Okuduğum kitap çok ilginç» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "İlgi cümlesinin fiili ([[lees]]) o bölümün sonuna gider; [[boek]] bir het-woord olduğu için ilgi zamiri [[dat]]'tır." },
+      { "q": "«Dit is het probleem ___ ik over praat.» Hangi seçenek?", "options": ["waarover", "waarin", "die", "wat"], "exp": "[[praten over]] fiili [[over]] edatını alır, bu nedenle [[waarover]] birleşimi doğrudur." },
+      { "exp": "[[mensen]] çoğuldur, bu nedenle ilgi zamiri her zaman [[die]]'dır (tekili het-woord olsa da)." },
+      { "q": "«De vrouw aan wie ik het boek gaf» cümlesinde neden die değil wie kullanılmış?", "options": ["Çünkü ilgi zamirinden önce bir edat (aan) geliyor ve bir kişiye atıfta bulunuluyor.", "Çünkü vrouw çoğuldur.", "Çünkü wie her zaman die yerine kullanılır.", "Hiçbir nedeni yok, ikisi de doğrudur."], "exp": "İlgi cümlesi bir kişiye atıfta bulunuyorsa ve ilgi zamirinden önce bir edat gerekiyorsa, die değil [[edat + wie]] kullanılmalıdır." }
+    ]
+  },
+  "b1-te-infinitief": {
+    "title": "te + mastar yapısı (te + infinitief)",
+    "sum": "Bazı Hollandaca fiiller ve ifadeler, ikinci fiilin [[te + infinitief]] biçiminde gelmesini gerektirir; [[proberen te]], [[beginnen te]] ve [[om ... te]] yapısı gibi.",
+    "blocks": [
+      {
+        "h": "Amaç belirtmek için om...te yapısı",
+        "p": "[[om ... te + infinitief]] yapısı, bir işin amacını veya niyetini belirtmek için kullanılır ve Türkçedeki «...için/...mek amacıyla» ifadesine karşılık gelir. [[om]] bu bölümün başında gelir, mastar fiil ise [[te]] ile birlikte sonda yer alır.",
+        "ex": ["Hollanda'da çalışabilmek için Hollandaca öğreniyorum.", "Bir ev almak için para biriktiriyor."],
+        "tip": "Bu yapıda iki fiil olduğunda (kunnen werken gibi), te yalnızca ana fiilden/ikinci mastardan önce gelir: om te kunnen werken."
+      },
+      {
+        "h": "Sonrasında te + infinitief gelen fiiller",
+        "p": "Bazı fiiller her zaman ikinci fiilden önce [[te]] ile birlikte kullanılır: [[proberen te]] (denemek/çalışmak), [[beginnen te]] (başlamak), [[hoeven te]] (gerekmemek), [[vergeten te]] (unutmak) ve [[besluiten te]] (karar vermek) gibi.",
+        "list": ["[[proberen te]] = denemek, çalışmak", "[[beginnen te]] = başlamak", "[[hoeven te]] = gerekmemek (olumsuz cümlelerde)", "[[vergeten te]] = unutmak", "[[besluiten te]] = karar vermek"],
+        "ex": ["Her gün spor yapmaya çalışıyorum.", "Annesini aramayı unuttu."]
+      },
+      {
+        "h": "Kip fiilleriyle farkı (te'siz yalın mastar)",
+        "p": "[[kunnen]], [[mogen]], [[moeten]], [[willen]], [[zullen]] gibi kip fiillerinden ([[modale werkwoorden]]) sonra, ayrıca [[gaan]], [[blijven]], [[komen]] ve [[laten]]'den sonra, ikinci fiil [[te]] olmadan yalın mastar biçiminde gelir.",
+        "table": { "head": ["Kategori", "Örnek"], "rows": [["te ile", "Hij probeert te slapen."], ["te'siz (kip fiili)", "Hij kan slapen."], ["te'siz (gaan/komen/blijven)", "Hij gaat slapen."]] },
+        "ex": ["Bu akşam erkenden yatmak istiyorum.", "Burada beklemeye devam ediyoruz."],
+        "tip": "Yaygın hata: «Hij kan te slapen» denmemeli — kip fiilleri asla te almaz."
+      },
+      {
+        "h": "Olumsuz cümlelerde hoeven te",
+        "p": "[[hoeven te]] fiili neredeyse her zaman olumsuz cümlelerde veya [[niet]]/[[geen]] ile birlikte kullanılır ve «gerekmemek» anlamına gelir; bu, «gerekmek/zorunda olmak» anlamına gelen [[moeten]]'in tersidir.",
+        "ex": ["Bunu yapman gerekmiyor.", "Onların yarın çalışmasına gerek yok."]
+      }
+    ],
+    "ex": [
+      { "q": "Hangi seçenek doğrudur? «Hij leert elke dag Nederlands ___ beter te spreken.»", "options": ["om", "te", "voor", "dat"], "exp": "Amaç belirtmek için [[om ... te]] yapısı kullanılır." },
+      { "exp": "[[proberen]] fiili [[te + infinitief]] ile birlikte kullanılır." },
+      { "q": "Hangi cümle dilbilgisi açısından doğrudur?", "options": ["Hij kan goed zwemmen.", "Hij kan goed te zwemmen.", "Hij kan te goed zwemmen.", "Hij te kan goed zwemmen."], "exp": "Kip fiili [[kunnen]]'den sonra, ikinci fiil [[te]] olmadan yalın mastar biçiminde gelir." },
+      { "exp": "[[hoeven te]] olumsuz cümlede «gerekmemek» anlamına gelir; tekil özne je → hoeft." },
+      { "q": "«Treni kaçırmamak için erken kalktım» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "Amaç belirten [[om ... te]] yapısı: mastar fiil [[missen]], [[te]] ile birlikte sonda gelir." },
+      { "q": "Hangi fiilden sonra te gerekmez?", "options": ["gaan", "proberen", "beginnen", "vergeten"], "exp": "[[gaan]], kip fiilleri gibi te olmadan kullanılır: «Hij gaat slapen.»" },
+      { "exp": "[[vergeten te]] = unutmak, te + infinitief ile birlikte kullanılır." },
+      { "q": "hoeven te ile moeten arasındaki fark nedir?", "options": ["hoeven te, gerekmemek anlamına gelir (genellikle olumsuz cümlede); moeten ise gereklilik/zorunluluk anlamına gelir.", "Aralarında hiçbir fark yoktur.", "hoeven te sadece olumlu cümlede kullanılır.", "moeten her zaman te ile gelir."], "exp": "[[hoeven te]] genellikle olumsuzlukla «gerekmemek» için, [[moeten]] ise «gerekmek» için kullanılır." },
+      { "exp": "[[besluiten te]] = karar vermek, te + infinitief ile birlikte kullanılır." }
+    ]
+  },
+  "b1-voorwaardelijke-wijs": {
+    "title": "Şart kipi (zou/zouden + mastar)",
+    "sum": "Hollandaca şart kipi [[zou]]/[[zouden]] + mastar fiil ile oluşturulur ve [[als]] cümleleriyle birlikte gerçek ve gerçek olmayan şartları ifade etmek için kullanılır.",
+    "blocks": [
+      {
+        "h": "zou/zouden yapısı",
+        "p": "[[zou]] (tekil) ve [[zouden]] (çoğul), şart kipinin yardımcı fiilleridir ve ana fiil mastar biçiminde cümlenin sonunda bunlarla birlikte gelir: **Ik zou dat niet doen.**",
+        "table": { "head": ["Özne", "zou/zouden"], "rows": [["ik, jij/u, hij/zij", "zou"], ["wij, jullie, zij", "zouden"]] },
+        "ex": ["Paris'e seyahat etmeyi çok isterdim.", "O sorunu başka bir şekilde çözerdik."]
+      },
+      {
+        "h": "Gerçek şart (reële conditie)",
+        "p": "Şart gerçekleşebilir ve gerçek olduğunda, [[als]] cümlesi şimdiki zamanla gelir ve ana cümle de şimdiki/gelecek zaman veya emir kipinde olabilir; [[zou]]'ya gerek yoktur.",
+        "ex": ["Yağmur yağarsa şemsiye alırım.", "Vaktin varsa bana yardım edebilirsin."],
+        "tip": "Gerçek şartta yardımcı fiil [[zou]]'ya gerek yoktur; sadece basit şimdiki zaman kullanılır."
+      },
+      {
+        "h": "Gerçek olmayan şart (irreële conditie) ve zou",
+        "p": "Gerçek olmayan veya varsayımsal şartlar için (şu anda veya geçmişte gerçekleşmemiş bir şey), [[als]] cümlesi [[verleden tijd]] (basit geçmiş zaman) ile gelir ve ana cümle [[zou/zouden]] + mastar ile oluşturulur.",
+        "ex": ["Zengin olsaydım bir ev alırdım (ama değilim).", "Daha çok vakitleri olsaydı daha sık seyahat ederlerdi."],
+        "tip": "Geçmişle ilgili gerçek olmayan şartlar için [[als]] + geçmişten önceki geçmiş zaman (voltooid verleden tijd) ve [[zou/zouden hebben/zijn]] + üçüncü hal kullanılır: Als ik het geweten had, zou ik anders gehandeld hebben."
+      },
+      {
+        "h": "Fiilin yeri: cümlenin başında veya ortasında als",
+        "p": "[[als]] cümlesi cümlenin başında geldiğinde, ondan sonraki ana cümle bir fiille başlar (özne-fiil devrik sırası), çünkü [[als]] cümlesi kendisi birinci sırayı işgal etmiştir.",
+        "ex": ["Hava güzel olsaydı parka giderdik.", "Parka giderdik, hava güzel olsaydı."],
+        "tip": "Her iki sıralama da (als başta veya ortada) doğrudur; sadece als başta geldiğinde fiil virgülden hemen sonra gelmelidir."
+      }
+    ],
+    "ex": [
+      { "q": "Gerçek olmayan şart için hangi seçenek doğrudur? «Als ik meer geld ___, zou ik een auto kopen.»", "options": ["had", "heb", "had gehad", "zou hebben"], "exp": "Gerçek olmayan şartta als cümlesi [[verleden tijd]] (had) ile gelir ve ana cümle [[zou]] + mastar ile oluşturulur." },
+      { "exp": "Bu gerçek bir şarttır (yarın yağmur yağması mümkündür), bu nedenle zou değil basit şimdiki zaman kullanılır." },
+      { "q": "Hangi cümle doğru gerçek olmayan şartı gösterir?", "options": ["Als ik jou was, zou ik dat niet zeggen.", "Als ik jou ben, zal ik dat niet zeggen.", "Als ik jou was, zeg ik dat niet.", "Als ik jou zou zijn, zeg ik dat niet."], "exp": "Doğru yapı: als + verleden tijd (was) ... zou + infinitief (zou zeggen)." },
+      { "exp": "Çoğul özne (wij), çoğul yardımcı fiil [[zouden]]'e ihtiyaç duyar." },
+      { "q": "«Vaktim olsaydı sana yardım ederdim» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "Cümle als ile başladığı için, ana cümle fiille (zou) başlar: özne-fiil devrik sırası." },
+      { "q": "«Als ik het eerder geweten had, ___ ik anders gehandeld hebben.» Hangi seçenek?", "options": ["zou", "had", "ben", "zal"], "exp": "Geçmişle ilgili gerçek olmayan şart için ana cümle [[zou/zouden]] + hebben/zijn + üçüncü hal ile oluşturulur." },
+      { "exp": "Gerçek şart basit şimdiki zamanla (bent) ifade edilir, çünkü gerçek bir olasılık vardır." },
+      { "q": "«Zou je me kunnen helpen?» cümlesinde neden zou kullanılmış?", "options": ["Kibar ve dolaylı bir rica yapmak için", "Gelecek zamanı ifade etmek için", "Genel bir gerçeği ifade etmek için", "kunnen fiili her zaman zou ile geldiği için"], "exp": "[[zou]] + kunnen genellikle sadece şart için değil, kibar ricalar oluşturmak için de kullanılır." },
+      { "exp": "Sabit ifade «als ik jou was» (senin yerinde olsaydım), ik öznesi için de [[was]] ile kullanılır." }
+    ]
+  },
+  "b1-lijdende-vorm": {
+    "title": "Edilgen çatı (Lijdende Vorm)",
+    "sum": "Edilgen çatı, [[worden]] (süreç için) veya [[zijn]] (sonuç/durum için) + üçüncü hal ile oluşturulur; eylemi yapan özne [[door]] ile tanıtılır.",
+    "blocks": [
+      {
+        "h": "worden-passief: süreç ve eylem",
+        "p": "Bir eylemin yapılmakta olduğunu veya yapıldığını belirtmek için (süreğe odaklanarak), yardımcı fiil olarak [[worden]] + üçüncü hal kullanılır. Bu, Hollandacadaki en yaygın edilgen çatı türüdür.",
+        "table": { "head": ["Zaman", "Yapı", "Örnek"], "rows": [["Şimdiki zaman", "word(t)/worden + üçüncü hal", "Het huis wordt gebouwd."], ["Geçmiş zaman", "werd(en) + üçüncü hal", "Het huis werd gebouwd."]] },
+        "ex": ["Bu kitap çok sayıda insan tarafından okunuyor.", "Mektup dün gönderildi."],
+        "tip": "Yardımcı fiil [[worden]], cümlenin zamanıyla uyumlu olmalıdır: şimdiki zaman = word/wordt/worden, geçmiş zaman = werd/werden."
+      },
+      {
+        "h": "zijn-passief: sonuç ve durum",
+        "p": "Bir eylemin nihai sonucuna odaklanıldığında (sürecin kendisine değil), [[zijn]] + üçüncü hal kullanılır. Bu edilgen çatı türü genellikle önceden tamamlanmış bir durumu tanımlar.",
+        "ex": ["Bu ev daha önce yapılmış (şu anda bu durumda).", "Kapı kapalı (şu anki durum)."],
+        "tip": "Karşılaştırın: [[De deur wordt gesloten]] (şu anda biri kapıyı kapatıyor; süreç) ile [[De deur is gesloten]] (kapı önceden kapatılmış; sonuç)."
+      },
+      {
+        "h": "door ile eylemi yapanın tanıtılması",
+        "p": "Edilgen cümlede, eylemi kimin veya neyin yaptığını belirtmek istediğimizde, eylemi yapandan önce [[door]] kullanırız.",
+        "ex": ["Bu tablo ünlü bir sanatçı tarafından yapıldı.", "Bu karar müdür tarafından alınıyor."]
+      },
+      {
+        "h": "Etken cümlenin edilgene çevrilmesi",
+        "p": "Etken (active) bir cümleyi edilgene çevirmek için, etken cümlenin nesnesi edilgen cümlenin öznesine dönüşür, fiil [[worden]] + üçüncü hal biçimine değişir ve asıl özne (belirtilirse) [[door]]'dan sonra gelir.",
+        "ex": ["Aşçı yemeği hazırlıyor. Yemek aşçı tarafından hazırlanıyor."],
+        "tip": "Nesnesi olmayan veya geçişsiz (onovergankelijk) fiiller, örneğin [[slapen]] veya [[komen]], genellikle edilgen yapılamaz."
+      }
+    ],
+    "ex": [
+      { "q": "Hangi cümle doğru edilgen (worden-passief) yapıdadır? (Bu ev yapılıyor)", "options": ["Het huis wordt gebouwd.", "Het huis is gebouwd.", "Het huis bouwt.", "Het huis heeft gebouwd."], "exp": "Şimdiki zamanda süren bir süreç için [[wordt]] + üçüncü hal kullanılır." },
+      { "exp": "worden-passief'te geçmiş zaman için, (tekil) yardımcı fiil [[werd]] kullanılır." },
+      { "q": "«De deur wordt gesloten» ile «De deur is gesloten» arasındaki fark nedir?", "options": ["Birincisi kapanma sürecinin devam ettiğini gösterir, ikincisi kapalı olma sonucunu/durumunu gösterir.", "Aralarında hiçbir fark yoktur.", "Birincisi geçmiş zamandır, ikincisi şimdiki zaman.", "İkincisi edilgen değildir."], "exp": "[[wordt]] = süreç için worden-passief; [[is]] = nihai sonuç/durum için zijn-passief." },
+      { "exp": "Tekil özne (dit gebouw) + şimdiki zaman → [[wordt]]." },
+      { "q": "«Bu kitap milyonlarca kişi tarafından okunuyor» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "Edilgen yapı: yeni özne + wordt + (door + asıl özne) + üçüncü hal." },
+      { "q": "«De regering neemt de beslissing.» etken cümlesini edilgene çevirin.", "options": ["De beslissing wordt door de regering genomen.", "De regering wordt de beslissing genomen.", "De beslissing is de regering genomen.", "De beslissing neemt door de regering."], "exp": "Etken cümlenin nesnesi (de beslissing) edilgen cümlenin öznesi olur ve asıl özne [[door]]'dan sonra gelir." },
+      { "exp": "[[oplossen]] fiilinin üçüncü hali [[opgelost]]'tur; zijn-passief ile nihai sonuç/durum ifade edilir." },
+      { "q": "Hangi fiil genellikle edilgen yapılamaz?", "options": ["slapen", "bouwen", "lezen", "schrijven"], "exp": "[[slapen]] gibi geçişsiz (onovergankelijk) bir fiilin nesnesi yoktur, bu nedenle edilgene çevrilemez." },
+      { "exp": "Çoğul özne (veel huizen), çoğul yardımcı fiil [[worden]] ile gelir." }
+    ]
+  },
+  "b1-vaste-voorzetsels": {
+    "title": "Sabit edatlarla kullanılan fiiller",
+    "sum": "Çoğu Hollandaca fiil sabit bir edatla birlikte gelir: [[wachten op]], [[houden van]], [[denken aan]] gibi; bu birleşime atıfta bulunmak veya onun hakkında soru sormak için [[er/waar + edat]] kullanılır.",
+    "blocks": [
+      {
+        "h": "Sabit edatlı yaygın fiiller",
+        "p": "Birçok Hollandaca fiil, fiilin anlamını tamamlayan belirli bir edatla her zaman birlikte gelir ve bu edat fiille birlikte korunmalıdır.",
+        "list": ["[[wachten op]] = beklemek", "[[houden van]] = sevmek", "[[denken aan]] = düşünmek (bir şeyi)", "[[zich ergeren aan]] = bir şeye kızmak/sinirlenmek", "[[geloven in]] = bir şeye inanmak", "[[zorgen voor]] = bir şeye bakmak/ilgilenmek"],
+        "ex": ["Otobüsü bekliyorum.", "O çikolatayı seviyor."],
+        "tip": "Bu birleşimler ezbere öğrenilmelidir, çünkü edat Türkçede genellikle farklıdır veya kullanılmayabilir, ama Hollandacada zorunludur."
+      },
+      {
+        "h": "Daha önce bahsedilen bir şeye atıfta bulunmak için er + edat",
+        "p": "İsmi tekrar etmeden, sabit bir edatla daha önce bahsedilmiş bir kavrama atıfta bulunmak istediğimizde, edattan önce [[er]] getiririz: [[erop]] (ona/onun için), [[eraan]] (onu), [[ervan]] (ondan) gibi.",
+        "ex": ["Randevuyu düşünüyor musun? Evet, onu düşünüyorum.", "Cevabı bekliyor musun? Evet, onu bekliyorum."],
+        "tip": "Atıfta bulunulan bir kişi ise, [[er + edat]] yerine [[edat + şahıs zamiri]] kullanılır: denk aan hem/haar, eraan değil."
+      },
+      {
+        "h": "waar + edat ile soru kurma",
+        "p": "Sabit bir edatla gelen bir şey hakkında soru sormak için, [[waar]]'ı o edatla birleştiririz: [[waarop]] (ne için), [[waaraan]] (neye), [[waarvan]] (neden) gibi.",
+        "ex": ["Neyi bekliyorsun?", "Neyi düşünüyorsun?"],
+        "tip": "Kişiler için [[waar + edat]] yerine [[edat + wie]] kullanılır: Aan wie denk je? (waaraan değil)."
+      },
+      {
+        "h": "Daha fazla sık kullanılan fiil listesi",
+        "p": "B1 seviyesinde sabit edatlı daha birçok yaygın fiil vardır; bunları edatlarıyla birlikte, tek başına değil, öğrenmelisiniz.",
+        "list": ["[[praten over]] = bir şey hakkında konuşmak", "[[dromen van]] = bir şeyi hayal etmek", "[[genieten van]] = bir şeyden zevk almak", "[[twijfelen aan]] = bir şeyden şüphe etmek", "[[rekenen op]] = bir şeye güvenmek/hesap etmek"],
+        "ex": ["Sık sık siyaset hakkında konuşuyoruz.", "Onun planından şüphe ediyorum."]
+      }
+    ],
+    "ex": [
+      { "q": "Hangi edat wachten fiili ile birlikte kullanılır?", "options": ["op", "aan", "van", "in"], "exp": "[[wachten op]] = beklemek, sabit bir birleşimdir." },
+      { "exp": "[[houden van]] = sevmek, sabit edatı [[van]]'dır." },
+      { "q": "«Denk je aan je moeder? Ja, ik denk ___.» Hangi seçenek?", "options": ["eraan", "erop", "ervan", "aan het"], "exp": "Daha önce [[aan]] ile bahsedilmiş bir şeye atıfta bulunmak için [[eraan]] kullanılır." },
+      { "exp": "[[wachten op]] fiili, waar ile soruda [[waarop]]'a dönüşür." },
+      { "q": "«Sık sık tatili düşünüyorum» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "[[denken aan]] = düşünmek; [[vaak]] zarfı fiilden sonra ve edattan önce gelir." },
+      { "q": "Bir kişiye (nesneye değil) atıfta bulunmak için hangi cümle doğrudur?", "options": ["Ik denk vaak aan haar.", "Ik denk er vaak aan haar.", "Ik denk vaak eraan haar.", "Ik denk haar vaak aan."], "exp": "Kişiler için [[er + edat]] kullanılmaz; bunun yerine [[edat + şahıs zamiri]] kullanılır: aan haar." },
+      { "exp": "[[twijfelen aan]] = şüphe etmek; ik öznesi için fiil çekimi: twijfel." },
+      { "q": "«Waar praten jullie over?» bu soru hangi sabit fiille ilgilidir?", "options": ["praten over", "praten aan", "praten van", "praten op"], "exp": "[[praten over]] = bir şey hakkında konuşmak; sorusu [[waarover]]'dır." },
+      { "exp": "[[genieten van]] = bir şeyden zevk almak, sabit edatı [[van]]'dır." }
+    ]
+  },
+  "b1-tmp-volgorde": {
+    "title": "Cümlede zaman-tarz-yer (TMP) sırası",
+    "sum": "Hollandaca cümlede zaman, tarz (nasıl) ve yer zarfları genellikle [[Tijd - Manier - Plaats]] (zaman - tarz - yer) sırasıyla gelir.",
+    "blocks": [
+      {
+        "h": "TMP'nin temel kuralı",
+        "p": "Bir cümlede birkaç farklı zarf olduğunda, bunların doğal sırası genellikle **zaman (Tijd) → tarz/nasıl (Manier) → yer (Plaats)** şeklindedir. Bu, [[TMP]] kısaltmasıyla akılda tutulabilir.",
+        "ex": ["Yarın trenle Amsterdam'a gidiyorum.", "O her gün ofiste sıkı çalışıyor."],
+        "tip": "Bu üç öğeden biri yoksa, kalanlar aynı sırada kalır; sadece eksik olan kısım atlanır."
+      },
+      {
+        "h": "TMP sırasından daha fazla örnek",
+        "p": "Bu örneklerde, her zarf kategorisinin (zaman, tarz, yer) nasıl kendi yerinde durduğunu açıkça görüyoruz.",
+        "table": { "head": ["Zaman", "Tarz", "Yer"], "rows": [["morgen", "met de trein", "naar Amsterdam"], ["elke dag", "hard", "op kantoor"], ["vanavond", "samen", "in het restaurant"]] },
+        "ex": ["Bu akşam birlikte restoranda yemek yiyoruz."]
+      },
+      {
+        "h": "İstisnalar: vurgu ve cümlenin başındaki yer",
+        "p": "Zaman veya yere daha fazla vurgu yapmak için, bunlar cümlenin başına (fiilden önceki birinci konuma) taşınabilir. Bu durumda fiil yine ikinci konumu korur (V2 kuralı), ancak diğer zarflar aynı TMP sırasında kalır.",
+        "ex": ["Yarın trenle Amsterdam'a gidiyorum.", "Amsterdam'a, yarın trenle gidiyorum."],
+        "tip": "Zarflardan biri cümlenin başına taşındığında, özne fiilden sonra gelir (devrik sıra), çünkü fiil cümlenin ikinci konumunu korumak zorundadır."
+      },
+      {
+        "h": "Doğrudan nesneye göre yer zarfının konumu",
+        "p": "Yer zarfı genellikle doğrudan nesneden sonra gelir (nesne kısa ve belirli ise). B1 seviyesinde, temel TMP kuralını izlemek ve yer zarflarını cümlenin sonuna yakın tutmak daha iyidir.",
+        "ex": ["Yarın kitabı sessizce masaya koyuyor."]
+      }
+    ],
+    "ex": [
+      { "q": "Hangi kelime sırası TMP kuralına uygun olarak doğrudur?", "options": ["Ik ga morgen met de bus naar school.", "Ik ga met de bus morgen naar school.", "Ik ga naar school morgen met de bus.", "Ik ga met de bus naar school morgen."], "exp": "Doğru sıra: zaman (morgen) → tarz (met de bus) → yer (naar school)." },
+      { "exp": "Hollandacada «ofis» için yer edatı [[op kantoor]]'dur." },
+      { "q": "«Bu akşam birlikte sinemaya gidiyoruz» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "TMP sırası: zaman (vanavond) → tarz (samen) → yer (naar de bioscoop)." },
+      { "q": "«Morgen ga ik naar het park.» cümlesinde özne (ik) neden fiilden sonra gelmiş?", "options": ["Çünkü zaman zarfı (morgen) cümlenin birinci konumunu almış ve fiil ikinci konumda kalmalıdır.", "Çünkü özne her zaman fiilden sonra gelir.", "Çünkü morgen bir fiildir.", "Özel bir nedeni yoktur."], "exp": "Hollandacadaki V2 kuralına göre fiil her zaman cümlenin ikinci konumunu alır; bir zarf başa geldiğinde özne fiilden sonraya taşınır." },
+      { "exp": "[[door het park]] yer edatı «parkın içinden» anlamına gelir ve cümlenin yer bölümünde yer alır." },
+      { "q": "Hangi cümlenin sırası doğru değildir?", "options": ["Ik ga naar Amsterdam morgen met de trein.", "Ik ga morgen met de trein naar Amsterdam.", "Morgen ga ik met de trein naar Amsterdam.", "Met de trein ga ik morgen naar Amsterdam."], "exp": "Birinci seçenekte TMP sırasına uyulmamış (yer, zaman ve tarzdan önce gelmiş)." },
+      { "exp": "Zaman zarfı [[vanavond]], tarz/yerden önce gelmelidir." },
+      { "q": "«O her gün fabrikada sıkı çalışıyor» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "TMP sırası: zaman (elke dag) → tarz (hard) → yer (in de fabriek)." },
+      { "q": "Hollanda dilbilgisinde TMP kısaltmasının anlamı nedir?", "options": ["Tijd, Manier, Plaats (zaman, tarz, yer)", "Tijd, Modus, Persoon", "Tekst, Manier, Positie", "Tijd, Mening, Plaats"], "exp": "TMP, Hollandaca cümledeki zarfların olağan sırasının kısaltmasıdır: zaman, tarz (nasıl), yer." }
+    ]
+  },
+  "b1-indirecte-rede": {
+    "title": "Dolaylı anlatım (Indirecte Rede)",
+    "sum": "Hollandaca dolaylı anlatımda cümle [[dat]] veya soru kelimeleriyle başlar ve fiilin zamanı genellikle bir basamak geriye kayar (zaman kayması).",
+    "blocks": [
+      {
+        "h": "dat ile haber cümlelerinin aktarılması",
+        "p": "Haber cümlelerinin (soru olmayan) dolaylı anlatımı için [[dat]] kullanırız ve fiil yan cümlenin sonuna taşınır.",
+        "ex": ["Diyor ki: «Yorgunum.» Yorgun olduğunu söylüyor.", "Yarın geleceğini söyledi."],
+        "tip": "Ana fiilde ([[zegt/zei]]) zaman değişmez; sadece [[dat]] cümlesi içindeki fiil, ana fiilin zamanına bağlı olarak değişebilir."
+      },
+      {
+        "h": "Fiil zamanının kayması (tense shift)",
+        "p": "Alıntının ana fiili geçmiş zamanda olduğunda ([[zei]], [[vertelde]]), [[dat]] cümlesi içindeki fiil de genellikle bir basamak geriye kayar: şimdiki zaman basit geçmiş zamana, basit geçmiş zaman da geçmişten önceki geçmiş zamana (voltooid verleden tijd) dönüşür.",
+        "table": { "head": ["Doğrudan anlatım", "Dolaylı anlatım (geçmiş zamanlı fiilden sonra)"], "rows": [["'Ik werk hard.'", "dat hij hard werkte."], ["'Ik heb het gedaan.'", "dat hij het gedaan had."], ["'Ik zal komen.'", "dat hij zou komen."]] },
+        "ex": ["Dedi ki: «Sıkı çalışıyorum.» Sıkı çalıştığını söyledi."],
+        "tip": "Ana fiil şimdiki zamandaysa ([[zegt]]), genellikle zaman değişikliğine gerek yoktur."
+      },
+      {
+        "h": "Soru kelimesi veya of ile soruların aktarılması",
+        "p": "Bir soru kelimesiyle (wie, wat, waar, wanneer, hoe, waarom) başlayan soruları aktarmak için aynı kelime korunur. Evet/hayır sorularında (soru kelimesi olmadan) [[of]] (acaba/mi) kullanılır.",
+        "ex": ["Sordu: «Nerede yaşıyorsun?» Nerede yaşadığımı sordu.", "Sordu: «Yarın geliyor musun?» Yarın gelip gelmeyeceğimi sordu."],
+        "tip": "Her iki durumda da fiil, [[dat]]'lı cümlelerde olduğu gibi yan cümlenin sonuna taşınır."
+      },
+      {
+        "h": "om...te ile emir ve ricaların aktarılması",
+        "p": "Bir emir veya ricanın dolaylı anlatımı için genellikle [[dat]] değil, [[om ... te + infinitief]] yapısı kullanılır.",
+        "ex": ["Dedi ki: «Kapıyı kapat.» Kapıyı kapatmamı istedi.", "Öğretmen bize sessiz olmamızı söyledi."]
+      }
+    ],
+    "ex": [
+      { "q": "«Hij zei dat...»'den sonra «Ik ben ziek.» cümlesinin dolaylı anlatımı hangisidir?", "options": ["hij ziek was.", "hij ziek is.", "hij ziek was geweest.", "hij was ziek."], "exp": "Ana fiil ([[zei]]) geçmiş zamanda olduğu için, alıntı içindeki şimdiki zaman ([[ben]]) basit geçmiş zamana ([[was]]) dönüşür; fiil dat cümlesinin sonuna gelir." },
+      { "exp": "Haber cümlelerini aktarmak için [[dat]] bağlacı kullanılır." },
+      { "q": "«Waar woon je?» sorusunun dolaylı biçimi hangisidir?", "options": ["Hij vroeg waar ik woonde.", "Hij vroeg dat waar ik woonde.", "Hij vroeg of waar ik woonde.", "Hij vroeg waar woon ik."], "exp": "Soru kelimesi olan sorularda aynı kelime (waar) korunur ve fiil cümlenin sonuna gider; dat veya of kullanılmaz." },
+      { "exp": "Evet/hayır sorularının (soru kelimesi olmadan) aktarılması için [[of]] kullanılır." },
+      { "q": "«Yarın geleceğini söyledi» (dolaylı anlatım) cümlesi için kelimelerin doğru sırasını bulun.", "exp": "Yapı: özne + zei + dat + yan cümlenin öznesi + ... + yardımcı fiil (zou) + ana fiil (komen) sonda." },
+      { "q": "«Doe de deur dicht.» emrinin aktarımı hangi biçimde doğrudur?", "options": ["Hij vroeg mij om de deur dicht te doen.", "Hij vroeg mij dat de deur dicht doen.", "Hij zei dat doe de deur dicht.", "Hij vroeg of ik de deur dichtdoe."], "exp": "Bir emir/ricanın aktarılması için [[om ... te + infinitief]] yapısı kullanılır." },
+      { "exp": "Asıl alıntı yakın geçmiş zamanda (heb gelezen) olduğu ve aktarımın ana fiili geçmiş zamanda olduğu için, bir basamak geriye kayarak geçmişten önceki geçmiş zamana (had gelezen) dönüşür." },
+      { "q": "tense shift (zaman kayması) hakkında hangi ifade doğrudur?", "options": ["Alıntının ana fiili geçmiş zamanda olduğunda, alıntı içindeki fiilin zamanı da genellikle bir basamak geriye kayar.", "Dolaylı anlatımda fiilin zamanı hiçbir zaman değişmez.", "Sadece kip fiillerinde zaman kayması olur.", "Zaman kayması sadece yazı dilinde gerçekleşir."], "exp": "Genel kural: ana fiil geçmiş zaman → alıntı içindeki fiil de bir basamak geriye kayar (şimdiki zaman → geçmiş zaman, geçmiş zaman → geçmişten önceki geçmiş zaman)." },
+      { "exp": "Rica aktarımının yapısı: [[om ... te + infinitief]]; te, mastar fiil zijn'den önce gelir." }
+    ]
+  },
+  "b1-toen-als-wanneer": {
+    "title": "toen, als ve wanneer arasındaki fark",
+    "sum": "[[toen]] geçmişte belirli bir olay için, [[als]] tekrarlanan olaylar ve şart için, [[wanneer]] ise soru veya şimdiki/gelecek zamanda tekrarlanan olaylar için kullanılır.",
+    "blocks": [
+      {
+        "h": "toen: geçmişte belirli bir an",
+        "p": "[[toen]] sadece geçmişte tek seferlik ve belirli bir olay için kullanılır; şimdiki zaman, gelecek zaman veya tekrarlanan olaylar için asla kullanılmaz.",
+        "ex": ["On yaşındayken Rotterdam'a taşındık.", "Telefon çaldığında, henüz duştaydım."],
+        "tip": "Cümle geçmiş zamandaysa ve belirli (tekrarlanmayan) bir olaydan bahsediyorsa, her zaman [[als]] değil [[toen]] doğrudur."
+      },
+      {
+        "h": "als: geçmişte tekrar ve şart",
+        "p": "[[als]], geçmiş zamanda tekrarlanan veya alışkanlık hâline gelmiş olaylar için kullanılır (Türkçedeki «her ne zaman ki» ifadesine karşılık gelir) ve ayrıca her zamanda (şimdiki, gelecek, ya da tekrarlanan geçmiş zaman) şart belirtmek için kullanılır.",
+        "ex": ["Küçükken (her zaman) sık sık dışarıda oynardım.", "Yağmur yağarsa içeride kalırım."],
+        "tip": "Geçmişte tekrarın işareti genellikle [[als]] ile birlikte gelen [[vaak]], [[altijd]], [[elke keer]] gibi kelimelerdir."
+      },
+      {
+        "h": "wanneer: soru ve şimdiki/gelecek zamanda tekrar",
+        "p": "[[wanneer]] genellikle zaman hakkında soru sormak için kullanılır (ne zaman?) ve ayrıca (daha resmî yazıda) [[als]] gibi şimdiki veya gelecek zamanda tekrarlanan olaylar için de kullanılabilir.",
+        "ex": ["Eve ne zaman geliyorsun?", "Her ne zaman yağmur yağsa şemsiye alırım."],
+        "tip": "Günlük konuşmada, şimdiki/gelecek zamanda tekrar için [[wanneer]] yerine genellikle [[als]] tercih edilir; [[wanneer]] daha resmî görünür."
+      },
+      {
+        "h": "Hızlı karşılaştırma tablosu",
+        "p": "Daha iyi hatırlamak için, bu tablo üç kelimenin kullanımını özetler.",
+        "table": { "head": ["Kelime", "Kullanım", "Örnek"], "rows": [["toen", "Tek seferlik, geçmiş", "Toen ik aankwam, regende het."], ["als", "Tekrar (geçmiş/şimdiki/gelecek) veya şart", "Als ik moe ben, ga ik slapen."], ["wanneer", "Soru; veya tekrar (resmî)", "Wanneer ga je op vakantie?"]] }
+      }
+    ],
+    "ex": [
+      { "q": "Hangi seçenek doğrudur? «___ ik klein was, woonden we in Utrecht.»", "options": ["Toen", "Als", "Wanneer", "Of"], "exp": "Bu geçmişte belirli ve tek seferlik bir dönem olduğu için (tekrarlanan değil), [[toen]] kullanılmalıdır." },
+      { "exp": "Geçmişte tekrarlanan bir olay için (işareti altijd kelimesidir), toen değil [[als]] kullanılır." },
+      { "q": "«Sinemaya ne zaman gidiyorsun?» diye sormak için hangi cümle doğrudur?", "options": ["Wanneer ga je naar de bioscoop?", "Toen ga je naar de bioscoop?", "Als ga je naar de bioscoop?", "Of ga je naar de bioscoop?"], "exp": "Zaman hakkında soru oluşturmak için [[wanneer]] kullanılır." },
+      { "exp": "Bu belirli ve tek seferlik bir olaydır, bu nedenle [[toen]] doğrudur." },
+      { "q": "«Als ik klein was, ging ik altijd met mijn opa wandelen.» cümlesi neden toen değil als ile doğrudur?", "options": ["Çünkü bu, geçmişte tekrarlanan/alışkanlık hâline gelmiş bir eylemdir (işareti altijd'dir).", "Çünkü als her zaman toen'den daha doğrudur.", "Çünkü cümle gelecek zamanla ilgilidir.", "Hiçbir nedeni yoktur; ikisi tamamen aynıdır."], "exp": "[[als]] geçmişte tekrar/alışkanlık için kullanılır; [[toen]] ise sadece belirli ve tek seferlik bir olay içindir." },
+      { "exp": "Zaman hakkındaki dolaylı soruda [[wanneer]] kullanılır." },
+      { "q": "«İstasyona geldiğimde tren gitmişti» cümlesi için kelimelerin doğru sırasını bulun.", "exp": "Geçmişte belirli bir an olduğu için [[toen]] kullanılır; yan cümlenin fiili (aankwam) o bölümün sonuna gelir." },
+      { "q": "Hangi cümle yanlıştır?", "options": ["Toen het regent, blijf ik binnen.", "Als het regent, blijf ik binnen.", "Toen het regende, bleef ik binnen.", "Als het regende, bleef ik altijd binnen."], "exp": "[[toen]] asla şimdiki zaman için kullanılmaz; birinci cümle [[als]] ile olmalıdır." },
+      { "q": "Geçmişte als yerine wanneer'i ne zaman kullanabiliriz?", "options": ["Hiçbir zaman; geçmişte tekrarlanan bir olay için wanneer değil als kullanılmalıdır.", "wanneer, als'ın yerine her zaman kullanılabilir.", "wanneer sadece geçmiş zamanda kullanılır.", "toen ve wanneer her zaman birbirinin yerine kullanılabilir."], "exp": "[[wanneer]] soru veya şimdiki/gelecek zamanda tekrar içindir; geçmişte tekrar için wanneer değil [[als]] kullanılmalıdır." }
+    ]
+  }
+}

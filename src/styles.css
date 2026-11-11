@@ -127,6 +127,14 @@ button { font-family: inherit; }
   align-items: center;
   gap: 10px;
   min-height: 48px;
+  /* Fixed layout regardless of UI language: the brand stays on the
+     leading edge and the controls (streak/lang/theme) stay on the
+     trailing edge, so switching languages never mirrors the topbar
+     or moves the language button to the opposite side. */
+  direction: ltr;
+}
+.topbar-inner > * {
+  unicode-bidi: isolate;
 }
 .brand {
   display: flex;

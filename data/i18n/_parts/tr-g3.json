@@ -1,0 +1,674 @@
+{
+  "b2-lijdende-vorm-varianten": {
+    "title": "Edilgen çatı: İleri düzey biçimler",
+    "sum": "[[worden]]-passief ve [[zijn]]-passief'in yanı sıra edilgen çatı, kip fiilleriyle ([[moeten worden gedaan]]), [[te + infinitief]] ile ([[te lezen zijn]]) ve kişisiz biçimde ([[er wordt gedanst]]) de kurulabilir.",
+    "blocks": [
+      {
+        "h": "Hatırlatma: [[worden]]-passief ile [[zijn]]-passief karşılaştırması",
+        "p": "Hollandacada iki tür edilgen çatı vardır. **[[worden]]-passief**, [[De deur wordt geopend]] örneğindeki gibi (şu anda biri kapıyı açıyor) **devam eden bir eylemi** gösterir (eylemsel edilgen). **[[zijn]]-passief** ise [[De deur is geopend]] örneğindeki gibi (kapı şu anda açık; işin sonucu) **tamamlanmış bir sonucu/durumu** gösterir (durumsal edilgen).",
+        "table": {
+          "head": ["Edilgen türü", "Yapı", "Kullanım"],
+          "rows": [
+            ["worden-passief", "[[worden/werd + voltooid deelwoord]]", "Devam eden eylem veya olay"],
+            ["zijn-passief", "[[zijn/was + voltooid deelwoord]]", "Eylemden sonraki sonuç veya durum"]
+          ]
+        },
+        "ex": [
+          "Araba her hafta yıkanır (tekrarlanan eylem).",
+          "Araba yıkanmış durumda (şu an temiz; sonuç).",
+          "Rapor dün yazıldı (geçmişte gerçekleşen eylem).",
+          "Rapor ben gelmeden önce yazılmıştı (geçmişte durum/sonuç)."
+        ]
+      },
+      {
+        "h": "Kip fiilli edilgen: [[moeten/kunnen/mogen + worden + voltooid deelwoord]]",
+        "p": "Bir kip fiili (örneğin [[moeten]], [[kunnen]], [[mogen]]) edilgen bir cümleyle birleştiğinde yapı şu şekilde olur: cümlenin ikinci konumunda çekimli kip fiili + cümlenin sonunda geçmiş ortaç ve [[worden]]'den oluşan fiil kümesi. Örneğin [[Het werk moet gedaan worden]] (bu iş yapılmalı). Fiil kümesinde hem [[gedaan worden]] hem [[worden gedaan]] sıralaması yaygındır.",
+        "ex": [
+          "Bu iş yarın tamamlanmalı.",
+          "O hata kolayca önlenebilirdi.",
+          "Böyle kararlar nedensiz yere alınmamalı."
+        ]
+      },
+      {
+        "h": "[[zijn + te + infinitief]] ile edilgen",
+        "p": "[[zijn + te + infinitief]] yapısı bir işin **yapılabilirliğini veya kolaylığını** anlatır, Türkçedeki \"-labilir/-lenebilir\" ekine benzer bir anlam taşır. Örneğin [[Dit boek is goed te lezen]], \"bu kitap kolayca okunabilir\" demektir. Ayrılabilir fiillerde [[te]], önek ile fiilin arasına girer; örneğin [[op te lossen]].",
+        "ex": [
+          "Bu kitap kolayca okunabilir.",
+          "Metin anlaşılamıyordu.",
+          "Bu sorun kolayca çözülemez."
+        ],
+        "tip": "[[oplossen]] gibi ayrılabilir fiillerde [[te]], her zaman önek ile fiilin ana bölümü arasına girer: [[op-te-lossen]], [[te oplossen]] değil."
+      },
+      {
+        "h": "Kişisiz edilgen: [[er wordt gedanst]]",
+        "p": "Fiil **geçişsiz** olduğunda (doğrudan nesnesi olmadığında) ve özneyi belirtmeden eylemin kendisine vurgu yapmak istediğimizde kişisiz edilgen kullanılır: [[er]] + [[worden]] + geçmiş ortaç. Örneğin [[Er wordt hier niet gerookt]] (burada sigara içilmez). Cümlenin başına başka bir öge gelirse, [[er]] fiilden sonraya kayar: [[Hier wordt niet gerookt]] veya [[Gisteravond werd er laat gewerkt]].",
+        "ex": [
+          "Burada sigara içilmez.",
+          "Bütün gece dans edildi ve şarkı söylendi.",
+          "Dün gece geç saatlere kadar çalışıldı."
+        ],
+        "tip": "Kişisiz edilgende mantıksal bir özne bulunmadığından (fiil geçişsiz olduğundan), bu tür bir cümle kişisel edilgene çevrilemez."
+      }
+    ],
+    "ex": [
+      { "q": "Het boek ___ op dit moment vertaald (de vertaler is er nu mee bezig).", "options": ["is", "wordt", "werd", "zijn"], "exp": "Eylem şu anda gerçekleştiği için (sonuç değil), [[worden]]-passief kullanılmalıdır: [[wordt vertaald]]." },
+      { "q": "Nadat het werk af was, ___ het al ingeleverd (geçmişte tamamlanmış sonuç).", "options": ["werd", "wordt", "was", "zijn"], "exp": "Burada geçmişte tamamlanmış bir sonuca (duruma) işaret edilir, bu nedenle geçmiş zamanda [[zijn]]-passief, yani [[was]] kullanılır." },
+      { "exp": "Kip fiilli edilgende, kip fiili (moet) ardından [[afgemaakt worden]] veya [[worden afgemaakt]] fiil kümesi gelir; her iki sıralama da kabul edilebilir." },
+      { "q": "«The rules must be followed.» cümlesinin doğru Hollandaca karşılığı hangisidir?", "options": ["De regels moeten gevolgd worden.", "De regels moeten volgen worden.", "De regels moeten worden gevolgen.", "De regels zijn gevolgd moeten worden."], "exp": "Doğru yapı: kip fiili ([[moeten]]) + geçmiş zaman ortacı ([[gevolgd]]) + [[worden]]." },
+      { "exp": "[[zijn + te + infinitief]] yapısı bir işin yapılabilirliğini veya kolaylığını ifade eder: [[te begrijpen]] \"anlaşılabilir\" anlamına gelir." },
+      { "q": "Hangi cümle kişisiz edilgenin bir örneğidir?", "options": ["Er wordt hard gewerkt.", "Het werk wordt gedaan.", "Hij wordt geholpen.", "De brief werd gestuurd."], "exp": "Kişisiz edilgende mantıksal bir özne yoktur ve fiil geçişsizdir ([[werken]]); cümle [[er]] ile başlar." },
+      { "q": "Cümleyi doğru sırayla diz: 'Dün gece geç saatlere kadar çalışıldı.' (kişisiz edilgen)", "exp": "[[Gisteravond]] gibi başka bir öge cümlenin ilk konumunda olduğunda, biçimsel özne [[er]] fiilden sonra gelir, cümlenin başında değil." },
+      { "q": "Doğru sırayı diz: 'Bu sorun kolayca çözülebilir.'", "exp": "Kip fiilli edilgende, fiil kümesi iki farklı sırayla gelebilir: [[opgelost worden]] veya [[worden opgelost]]." },
+      { "exp": "Kişisiz edilgen yapı bir cümleyle başladığında, biçimsel özne [[er]] ve [[worden]] fiili ile başlar." }
+    ]
+  },
+  "b2-deelwoorden": {
+    "title": "Ortaçlar (Deelwoorden)",
+    "sum": "Şimdiki zaman ([[-end]]) ve geçmiş zaman ortaçları **sıfat**, **zarf** veya kısaltılmış bir **ortaç cümleciği** olarak kullanılabilir; örneğin [[een lachend kind]] ve [[de gesloten deur]].",
+    "blocks": [
+      {
+        "h": "Şimdiki zaman ortacının sıfat olarak kullanımı ([[-end]])",
+        "p": "Şimdiki zaman ortacı, mastara [[-end]] eklenerek oluşturulur ([[lachen]] → [[lachend]]) ve sıfat gibi isimden önce gelir. Sıfatlardaki olağan -e eki kuralı burada da geçerlidir: çoğul isimlerden önce veya belirli bir isim tamlayıcıyla her zaman [[-e]] eklenir; belirtisiz tekil het-woord'dan önce ise [[-e]] eklenmez.",
+        "ex": [
+          "Bahçede gülen bir çocuk oynuyordu.",
+          "Düşüş eğilimindeki rakamlar analistleri kaygılandırdı.",
+          "Yakıcı güneş havayı çok ısıtmıştı."
+        ]
+      },
+      {
+        "h": "Şimdiki zaman ortacının zarf olarak kullanımı",
+        "p": "Şimdiki zaman ortacı herhangi bir değişiklik yapılmadan (ek [[-e]] olmadan) zarf gibi, ana fiilin **gerçekleştirilme biçimini** veya eşzamanlı eylemi betimleyebilir. Örneğin [[Lopend naar huis dacht hij aan het gesprek]] (eve yürürken, konuşmayı düşünüyordu).",
+        "ex": [
+          "Şarkı söyleyerek merdivenleri çıktı.",
+          "El sallayarak stadyumdan ayrıldı."
+        ]
+      },
+      {
+        "h": "Geçmiş zaman ortacının sıfat olarak kullanımı",
+        "p": "Geçmiş zaman ortacı ([[gesloten]], [[gebroken]], [[gemaakt]] gibi) da sıfat gibi isimden önce gelebilir ve **sonuçlanmış/edilgen** bir durumu gösterir. Önemli nokta: [[-en]] ile biten geçmiş zaman ortaçları (örneğin [[gesloten]], [[gebroken]], [[geschreven]]) **asla** [[-e]] eki almaz; ancak [[-d]] veya [[-t]] ile bitenler (örneğin [[gemaakt]]) sıfatların olağan kuralını izler.",
+        "table": {
+          "head": ["Ortaç türü", "Örnek", "-e eki alabilir mi?"],
+          "rows": [
+            ["-en ile biten (gesloten gibi)", "de gesloten deur / een gesloten doos", "Hayır, her zaman değişmez"],
+            ["-d/-t ile biten (gemaakt gibi)", "een gemaakt plan / het gemaakte plan", "Evet, sıfatların olağan kuralına göre"]
+          ]
+        },
+        "ex": [
+          "Kapalı kapı herkesi şaşırttı.",
+          "Hazırlanan plan onaylandı."
+        ]
+      },
+      {
+        "h": "Kısaltılmış ortaç cümleciği (participiale bijzin)",
+        "p": "Cümlenin başındaki bir geçmiş zaman ortacı, özellikle resmi ve edebi üslupta, tam bir neden veya zaman yan cümlesinin yerini tutabilir. Örneğin [[Vermoeid door de lange reis, viel hij meteen in slaap]], [[Omdat hij vermoeid was door de lange reis, viel hij meteen in slaap]] yerine kullanılabilir.",
+        "ex": [
+          "Yüksek sesten ürken kedi kaçtı.",
+          "Pencerenin kenarında oturarak yağmuru izliyordu."
+        ],
+        "tip": "Bu yapı daha çok resmi ve edebi yazıda görülür ve [[omdat]] veya [[terwijl]] ile kurulmuş tam bir zarf cümleciğinin karşılığıdır."
+      }
+    ],
+    "ex": [
+      { "q": "Een ___ kind speelde in de tuin. (lachen, şimdiki zaman ortacı)", "options": ["lachend", "lachende", "lacht", "gelachen"], "exp": "[[kind]] bir het-isim olduğu ve belirtisiz [[een]] ile kullanıldığı için, şimdiki zaman ortacı ek almadan kullanılır: [[lachend]]." },
+      { "q": "De ___ cijfers verontrustten de analisten. (dalen, çoğul)", "options": ["dalend", "dalende", "daalt", "gedaald"], "exp": "Çoğul isimlerden önce her zaman [[-e]] eklenir: [[dalende]] cijfers." },
+      { "exp": "Şimdiki zaman ortacı [[-e]] eki almadan, zarf olarak ana fiille eşzamanlı bir durumu ifade eder." },
+      { "q": "Hangisi doğrudur: 'de ___ deur' (sluiten, geçmiş zaman, sıfat)", "options": ["gesloten", "geslotene", "sluitend", "gesloten e"], "exp": "[[-en]] ile biten geçmiş zaman ortaçları (örneğin [[gesloten]]), de-woord ya da het-woord olsun, asla [[-e]] eki almaz." },
+      { "q": "Hangisi doğrudur: 'een ___ plan' (maken, geçmiş zaman, het-woord, belirtisiz)", "options": ["gemaakt", "gemaakte", "makend", "gemaken"], "exp": "[[plan]] bir het-isim olduğu ve belirtisiz [[een]] ile kullanıldığı için, -t ile biten geçmiş zaman ortacı [[-e]] eki almadan gelir: [[gemaakt]]." },
+      { "exp": "Belirli tanımlık [[het]] ile her zaman [[-e]] eklenir, het-woord için bile: [[het gemaakte plan]]." },
+      { "q": "Cümleyi doğru sırayla diz: 'Yüksek sesten ürken kedi kaçtı.'", "exp": "Ortaç cümleciği, geçmiş zaman ortacıyla cümlenin başında gelir ve virgülle ana cümleden ayrılır; 'o ürktüğü için' anlamına karşılık gelir." },
+      { "q": "Hangi cümle şimdiki zaman ortacının zarf olarak kullanımının bir örneğidir?", "options": ["Zingend liep ze de trap op.", "De zingende vogels waren mooi.", "Zij heeft gezongen.", "Het gezang was prachtig."], "exp": "Birinci seçenekte [[Zingend]], isimle uyumlanmadan, zarf olarak ana fiilin ([[liep]]) gerçekleştirilme biçimini betimler." }
+    ]
+  },
+  "b2-nominalisatie": {
+    "title": "Fiilden isim yapma (Nominalisatie)",
+    "sum": "Hollandacanın **resmi yazı** üslubunda, fiil yerine genellikle isimleştirme ([[nominalisatie]]) kullanılır; örneğin tam bir fiil cümleciği yerine [[het onderzoeken]] veya [[het onderzoek]] gibi.",
+    "blocks": [
+      {
+        "h": "[[het + infinitief]] ile isimleştirme",
+        "p": "Fiilin mastar hâli, [[het]] tanımlığıyla nötr (soyut) bir isme dönüştürülür. Bu yapı, o fiilden türeyen yaygın bir isim bulunmadığında veya eylemin kendisini genel olarak adlandırmak istediğimizde kullanılır. Örneğin [[het roken]] (sigara içme) veya [[het ontbreken]] (bulunmama/eksiklik).",
+        "ex": [
+          "Burada sigara içmek yasaktır.",
+          "Kanıt bulunmaması nedeniyle dava kapatıldı."
+        ]
+      },
+      {
+        "h": "İsim yapan eklerle isimleştirme ([[-ing]], [[-tie]] vb.)",
+        "p": "Birçok fiilin, resmi üslupta fiil cümleciği yerine kullanılan kendine özgü bir türemiş ismi vardır: [[ontwikkelen]] → [[ontwikkeling]], [[informeren]] → [[informatie]], [[vergaderen]] → [[vergadering]], [[afronden]] → [[afronding]]. Bu isimler genellikle [[van]] ile cümlenin devamına bağlanır.",
+        "ex": [
+          "Şehrin gelişimi hızla ilerledi.",
+          "Araştırmanın tamamlanmasından sonra rapor yayımlandı."
+        ]
+      },
+      {
+        "h": "Fiil üslubundan ad cümlesi üslubuna cümle dönüştürme",
+        "p": "Dönüştürmede, yan cümlenin öznesi genellikle [[door + isim]] ifadesine dönüşür ve ana fiil türemiş bir isme dönüşür. Örneğin: [[Nadat de minister het voorstel had goedgekeurd, ging de wet in]] → [[Na de goedkeuring van het voorstel door de minister ging de wet in]].",
+        "ex": [
+          "Önerinin bakan tarafından onaylanmasından sonra kanun yürürlüğe girdi.",
+          "Fiyatların artması nedeniyle enflasyon yükseldi."
+        ]
+      },
+      {
+        "h": "Notlar ve sınırlamalar",
+        "p": "Aşırı isimleştirme, metni ağır, soyut ve okunması zor hâle getirebilir (buna \"resmi dairecilik Hollandacası\" denir). Günlük konuşmada genellikle fiil üslubu daha doğaldır; isimleştirme daha çok resmi raporlarda, bilimsel makalelerde ve hukuki metinlerde kullanılır.",
+        "list": ["Resmi ve idari raporlar", "Bilimsel ve akademik makaleler", "Hukuki ve kanuni metinler", "Haber başlıkları"],
+        "tip": "Hollandacanın resmi yazı dilinde aşırı isimleştirme metni ağır ve doğal olmayan bir hâle getirebilir; konuşmada genellikle fiil kullanılır."
+      }
+    ],
+    "ex": [
+      { "q": "'Doordat de prijzen stijgen, ...' ifadesinin isimleştirilmiş (resmi) karşılığı hangisidir?", "options": ["Door de stijging van de prijzen, ...", "Door het stijgen prijzen, ...", "Door prijzen stijgend, ...", "Door de prijzen te stijgen, ..."], "exp": "[[stijgen]] fiilinin resmi isimleştirilmiş hâli, cümlenin devamına [[van]] ile bağlanan [[de stijging]] ismidir." },
+      { "exp": "[[afronden]] fiili resmi üslupta genellikle [[het + mastar]] yerine türemiş isim [[afronding]] ile değiştirilir." },
+      { "q": "Hangi cümle isim olarak kullanılan [[het + mastar]] yapısının bir örneğidir?", "options": ["Het roken is hier verboden.", "Het rook is hier verboden.", "Roken verboden hier is.", "Hij rookt hier niet."], "exp": "[[het roken]] ifadesinde, [[roken]] mastarı [[het]] tanımlığıyla nötr bir isme dönüşmüştür." },
+      { "exp": "Yaygın bir türemiş isim bulunmadığında, fiili isimleştirmek için [[het + mastar]] yapısı kullanılır: [[het ontbreken]]." },
+      { "q": "Cümleyi doğru sırayla diz: 'Önerinin bakan tarafından onaylanmasından sonra kanun yürürlüğe girdi.'", "exp": "Ana fiil cümlesinin öznesi ([[minister]]), isim yapısında [[door + isim]] ifadesine dönüşür ve ana fiil [[goedkeuring]] ismine dönüşür." },
+      { "q": "'ontwikkelen' fiilinin resmi türemiş ismi hangisidir?", "options": ["ontwikkeling", "ontwikkelen", "ontwikkelaar", "ontwikkelend"], "exp": "[[-ing]] eki, [[ontwikkelen]] fiilini resmi isim [[ontwikkeling]]'e dönüştürür." },
+      { "q": "Hangisi aşırı ve doğal olmayan bir isim üslubu örneğidir?", "options": ["Door de uitvoering van de betaling door de klant werd de levering van het product door het bedrijf gestart.", "Toen de klant betaalde, stuurde het bedrijf het product.", "De klant betaalde en het bedrijf leverde.", "Zodra de klant betaald had, leverde het bedrijf."], "exp": "Art arda gelen [[van]]/[[door]] ile bağlanmış bir isim öbekleri zinciri metni ağır ve doğal olmayan hâle getirir; iyi yazıda denge korunmalıdır." },
+      { "exp": "[[ontwikkelen]] fiilinden türeyen resmi isim [[ontwikkeling]]'dir." }
+    ]
+  },
+  "b2-formeel-register": {
+    "title": "Resmi ve gayriresmi dil düzeyi (register)",
+    "sum": "Hollandacanın **resmi** ve **gayriresmi** dil düzeyleri; zamirde ([[u]] karşısında [[je/jij]]), söz varlığında ([[derhalve]] karşısında [[daarom]]) ve mektup yazım kurallarında farklılık gösterir.",
+    "blocks": [
+      {
+        "h": "[[u]] karşısında [[je/jij]] zamiri",
+        "p": "[[u]] resmi ve nazik ikinci tekil şahıs zamiridir; yabancılar, yaşlılar, resmi durumlar ve müşteri hizmetleri için kullanılır. [[je/jij]] arkadaşlar, aile, akranlar ve çocuklar için gayriresmi zamirdir. [[u]] ile fiil çekimi [[hij/zij]] gibidir: [[u heeft/hebt]], [[u bent]], [[u kunt/kan]].",
+        "ex": [
+          "Bana yardımcı olabilir misiniz? (resmi)",
+          "Bana yardım edebilir misin? (gayriresmi)"
+        ]
+      },
+      {
+        "h": "Resmi söz varlığı ve bağlaçlar",
+        "p": "Resmi yazıda, belirli sözcükler ve bağlaçlar günlük karşılıklarının yerini alır.",
+        "table": {
+          "head": ["Resmi", "Gayriresmi", "Anlam"],
+          "rows": [
+            ["derhalve", "daarom", "bu nedenle/dolayısıyla"],
+            ["teneinde", "om... te", "amacıyla"],
+            ["hetgeen", "wat", "ki (önceki önermenin tümüne işaret eder)"],
+            ["desondanks", "toch", "buna rağmen"],
+            ["dientengevolge", "daardoor", "bunun sonucunda"]
+          ]
+        },
+        "ex": [
+          "O hastaydı, bu nedenle gelemedi. (resmi)",
+          "O hastaydı, o yüzden gelemedi. (gayriresmi)"
+        ]
+      },
+      {
+        "h": "Resmi mektup ve e-posta kuralları",
+        "p": "Resmi bir Hollandaca mektup genellikle [[Geachte heer/mevrouw,]] ile başlar ve [[Met vriendelijke groet,]] ile sona erer. Resmi istekler çoğunlukla nazik koşul yapısı [[zou u... kunnen]] ile ifade edilir, daha basit [[kun je]] yapısıyla değil.",
+        "ex": [
+          "Sayın Bay Janssen, 3 Mayıs tarihli mektubunuza istinaden...",
+          "Yarına kadar cevap verebilir misiniz?"
+        ],
+        "tip": "Sabit ifade [[naar aanleiding van]] (-e istinaden/ile ilgili olarak) ve mektubu [[Met vriendelijke groet]] ile sonlandırmak, resmi Hollandaca mektupların en yaygın kurallarındandır."
+      },
+      {
+        "h": "Resmi üslubun diğer işaretleri",
+        "p": "Resmi üslup kısaltmalardan ([['t]], [['n]], [[ie]]) kaçınır ve sözcüklerin tam biçimini ([[het]], [[een]], [[hij]]) kullanır. Ayrıca edilgen çatıyı ve ad cümlesi üslubunu (nominalisatie) daha çok tercih eder, [[toch]] ve [[gewoon]] gibi konuşma diline ait kip parçacıklarını daha az kullanır.",
+        "ex": [
+          "Bunu yapmak mümkün değil. (resmi)",
+          "Olmuyor işte. (gayriresmi)"
+        ]
+      }
+    ],
+    "ex": [
+      { "q": "Tanımadığınız birine yazılan resmi bir mektupta hangi cümle uygundur?", "options": ["Kunt u mij hierover informeren?", "Kun je me hierover vertellen?", "Vertel me er even over.", "Weet jij hier iets van?"], "exp": "Tanımadığınız birine yazılan resmi bir mektupta [[u]] zamiri ve resmi bir üslup kullanılmalıdır." },
+      { "q": "'daarom' sözcüğünün resmi karşılığı hangisidir?", "options": ["derhalve", "toch", "gewoon", "maar"], "exp": "[[derhalve]], \"daarom/bu nedenle\" sözcüğünün resmi karşılığıdır ve resmi yazıda kullanılır." },
+      { "exp": "Resmi sabit ifade [[naar aanleiding van]] (\"-e istinaden/ile ilgili olarak\") her zaman [[van]] edatıyla kullanılır." },
+      { "q": "Hangi cümle gayriresmidir?", "options": ["'t Kan gewoon niet, joh.", "Dit is helaas niet mogelijk.", "Wij kunnen hieraan niet voldoen.", "Dit verzoek kan niet worden ingewilligd."], "exp": "[['t]] kısaltmasının [[het]] yerine ve konuşma diline ait [[joh]] sözcüğünün kullanılması, tamamen gayriresmi bir üslubun işaretidir." },
+      { "q": "Resmi cümleyi diz: 'Yarına kadar cevap verebilir misiniz?'", "exp": "[[u]] ile birlikte kullanılan koşullu [[zou... kunnen]] yapısı, daha basit [[kun je]] yapısına kıyasla isteğe daha nazik ve resmi bir ton verir." },
+      { "exp": "Resmi mektubun sabit kapanış ifadesi [[Met vriendelijke groet]] (veya groeten) şeklindedir." },
+      { "q": "'hetgeen' hakkında hangi açıklama yanlıştır?", "options": ["hetgeen sadece kişilere işaret etmek için kullanılır", "hetgeen, 'wat' sözcüğünün resmi karşılığıdır ve önceki cümlenin tümüne işaret eder", "hetgeen resmi ve hukuki yazıda yaygındır", "hetgeen, gayriresmi üslupta 'wat' ile değiştirilebilir"], "exp": "[[hetgeen]] kişilere değil, nesnelere, kavramlara veya önceki önermenin bütününe işaret etmek için kullanılır; dolayısıyla birinci seçenek yanlıştır." },
+      { "q": "Bir arkadaşla yapılan gayriresmi bir sohbette hangi zamir daha doğaldır?", "options": ["je/jij", "u", "Uw", "U"], "exp": "Arkadaşça ve gayriresmi konuşmada her zaman [[je/jij]] kullanılır, resmi durumlar ve tanımadığınız veya yaşlı kişiler için kullanılan [[u]] değil." }
+    ]
+  },
+  "b2-modale-partikels": {
+    "title": "Kip parçacıkları (Modale partikels)",
+    "sum": "[[toch]], [[wel]], [[maar]], [[eens]], [[even]] ve [[gewoon]] gibi kip parçacıklarının kendi başına bağımsız bir sözlük anlamı yoktur, ancak konuşmacının tonunu ve tutumunu ince bir şekilde değiştirirler.",
+    "blocks": [
+      {
+        "h": "[[toch]]: Onay arama veya beklentiyle hafif çelişki",
+        "p": "[[toch]] genellikle beklediğimiz bir şey hakkında onay veya güvence aramak, ya da önceki bir varsayımla hafif bir çelişki ifade etmek için kullanılır. Örneğin [[Je komt toch?]] (geliyorsun, değil mi?) veya [[Het is toch niet zo moeilijk]] (sonuçta o kadar da zor değil).",
+        "ex": [
+          "Hâlâ hatırlıyorsun, değil mi?",
+          "Hadi sonunda yap işte."
+        ]
+      },
+      {
+        "h": "[[wel]]: Şüpheye karşı hafif güvence",
+        "p": "[[wel]] şüphe, kaygı veya olumsuz bir beklentiye karşı bir şeyi onaylar. Örneğin [[Het zal wel lukken]] (sonunda olur, merak etme).",
+        "ex": [
+          "Geç gelecek, ama sonunda gelecek.",
+          "Evet, bu doğru (önceki şüpheye rağmen)."
+        ]
+      },
+      {
+        "h": "[[maar]] ve [[eens]]: Emir ve isteği yumuşatma",
+        "p": "[[maar]] emir cümlelerinde tonu yumuşatır ve samimi kılar, sanki iş önemsiz ve kolaymış gibi: [[Kom maar binnen]] (gel içeri hadi, sorun yok). [[eens]] isteği \"bir kere/bir an dene\" şeklinde yumuşatır: [[Kijk eens hier]]. [[maar eens]] birleşimi de yaygındır: [[Probeer het maar eens]].",
+        "ex": [
+          "Otur hadi, sorun yok.",
+          "Bir an iyice dinle."
+        ]
+      },
+      {
+        "h": "[[even]] ve [[gewoon]]: İsteği küçültme ve gerçeği sadeleştirme",
+        "p": "[[even]], istenen işin kısa ve az zahmetli olduğunu gösterir, örneğin [[Kun je dat even checken?]]. [[gewoon]] \"sadece/yalnızca\" anlamında bir gerçeği sade ve yalın biçimde betimler veya bir emri sıradan gösterir: [[Doe het gewoon]] (sen sadece yap işte).",
+        "ex": [
+          "Bir an bekle.",
+          "O sadece yorgun, kızgın değil."
+        ],
+        "tip": "Birden fazla kip parçacığı birlikte kullanılabilir (örneğin [[toch wel]], [[maar eens]]) ve bu, tonu daha yumuşak veya daha doğal kılar; bu parçacıkların sıralaması genellikle oldukça sabittir."
+      }
+    ],
+    "ex": [
+      { "q": "Je komt ___ naar het feest? (hafif onay isteme)", "options": ["toch", "eens", "even", "gewoon"], "exp": "[[toch]] cümlenin sonunda veya ortasında, beklediğimiz bir şey hakkında onay veya güvence aramak için kullanılır." },
+      { "q": "Het zal ___ wel goed komen. (şüpheye karşı teselli/hafif güvence)", "options": ["toch", "wel", "maar", "eens"], "exp": "[[wel]] şüphe veya kaygıya karşı hafif bir güvence ifade eder: \"sonunda iyi olacak\"." },
+      { "exp": "[[maar]] emir cümlelerinde tonu yumuşatır ve samimi kılar, sanki iş önemsiz ve kolaymış gibi." },
+      { "q": "Kun je dat ___ checken voor me? (kısa ve hızlı bir istek)", "options": ["eens", "even", "gewoon", "toch"], "exp": "[[even]], istenen işin kısa ve basit olduğunu gösterir ve isteği daha kibar ve az zahmetli gösterir." },
+      { "exp": "[[gewoon]] burada \"sadece/yalnızca\" anlamında bir gerçeği sade ve yalın biçimde betimler." },
+      { "q": "Probeer het ___ eens. (teşvik ve deneme isteğinin birleşimi)", "options": ["maar", "toch", "wel", "even"], "exp": "[[maar eens]] birleşimi yaygındır: [[maar]] tonu yumuşatır, [[eens]] \"bir kere dene\" anlamına gelir." },
+      { "q": "Hangi cümle 'sonunda geliyorsun, değil mi?' ifadesinin en doğal karşılığına sahiptir?", "options": ["Je komt toch?", "Je komt even?", "Je komt gewoon?", "Je komt maar?"], "exp": "[[toch]] tam olarak bu tür beklenti onayı arama anlamını taşır." },
+      { "exp": "[[eens]] emir cümlelerinde \"bir an/bir kere\" anlamında isteği daha somut ve biraz daha yumuşak kılar." }
+    ]
+  },
+  "b2-samengestelde-voegwoorden": {
+    "title": "İleri düzey bağlaçlar",
+    "sum": "[[ondanks dat]], [[ook al]], [[zodat]], [[zodra]], [[terwijl]], [[mits]] ve [[tenzij]] gibi ileri düzey bağlaçlar, kendi dilbilgisel özellikleriyle karşıtlık, sonuç, zaman ve koşul ilişkilerini ifade eder.",
+    "blocks": [
+      {
+        "h": "[[ondanks dat]] ve [[ook al]]: rağmen olsa da",
+        "p": "Her ikisi de \"rağmen/her ne kadar olsa da\" anlamındaki karşıtlık (concessief) ilişkisini ifade eder ve fiil-sonda sıralamayla yan cümle kurar. [[ondanks dat]], bazı dilbilimcilere göre biraz daha gayriresmi kabul edilir (daha resmi karşılığı: [[ondanks het feit dat]]), [[ook al]] ise tamamen doğal ve yaygındır, genellikle ana cümlede [[toch]] ile birlikte kullanılır.",
+        "ex": [
+          "Yağmur yağmasına rağmen yürüyüşe çıktık.",
+          "Geç olsa da, yine de gideceğiz."
+        ]
+      },
+      {
+        "h": "[[zodat]] karşısında [[zodra]]",
+        "p": "Bu iki bağlaç görünüş benzerliği nedeniyle genellikle birbirine karıştırılır, ancak anlamları tamamen farklıdır. [[zodat]] **sonuç veya amaç** ilişkisini ifade eder (öyle ki/-sın diye). [[zodra]] **zaman** ilişkisini ifade eder (-ır -maz).",
+        "ex": [
+          "Fısıldadı, öyle ki kimse işitmedi.",
+          "Eve varır varmaz seni ararım."
+        ]
+      },
+      {
+        "h": "[[terwijl]]: eşzamanlılık veya karşıtlık",
+        "p": "[[terwijl]] bağlama göre hem iki eylemin **eşzamanlılığını** hem de **karşıtlığı** ifade etmek için kullanılır.",
+        "ex": [
+          "O kitap okuyordu, o (diğeri) ise yemek pişiriyordu. (eşzamanlılık)",
+          "Şikâyet ediyordu, oysa hatayı kendisi yapmıştı. (karşıtlık)"
+        ]
+      },
+      {
+        "h": "[[mits]] ve [[tenzij]]: olumlu ve olumsuz koşul",
+        "p": "[[mits]] \"şu şartla ki\" anlamında nispeten resmi, olumlu bir koşuldur. [[tenzij]] \"-madıkça/-medikçe\" anlamında olumsuz bir koşuldur.",
+        "ex": [
+          "Zamanında geri dönmen şartıyla gidebilirsin.",
+          "Şiddetli yağmur yağmadıkça devam ediyoruz."
+        ],
+        "tip": "Bu bağlaçlarla başlayan yan cümlede fiil cümlenin sonuna gider; bu yan cümle cümlenin başında yer alırsa, ana cümlenin fiili hemen ardından gelir (devrik yapı)."
+      }
+    ],
+    "ex": [
+      { "q": "___ ik moe was, ging ik toch naar de training. (rağmen olsa da)", "options": ["Ook al", "Zodat", "Mits", "Tenzij"], "exp": "[[ook al]] \"rağmen/her ne kadar olsa da\" anlamında karşıtlık ilişkisi ifade eder." },
+      { "q": "Hij fluisterde, ___ niemand het zou horen. (sonuç/amaç)", "options": ["zodra", "zodat", "terwijl", "mits"], "exp": "[[zodat]] eylemin sonucunu veya amacını ifade eder; [[zodra]] (-ır -maz) ile karıştırılmamalıdır." },
+      { "exp": "[[zodra]] \"-ır -maz\" anlamında zaman ilişkisini ifade eder, sonucu değil." },
+      { "q": "Je mag gaan, ___ je op tijd terug bent. (resmi olumlu koşul)", "options": ["tenzij", "mits", "terwijl", "ondanks dat"], "exp": "[[mits]] \"şu şartla ki\" anlamında nispeten resmi, olumlu bir koşuldur." },
+      { "q": "We gaan door met de wedstrijd, ___ het heel hard gaat regenen. (madıkça)", "options": ["mits", "tenzij", "zodat", "ook al"], "exp": "[[tenzij]] \"-madıkça/-medikçe\" anlamında olumsuz bir koşul ifade eder." },
+      { "exp": "[[terwijl]] iki eylemin eşzamanlılığını veya bazen karşıtlığını ifade etmek için kullanılır." },
+      { "q": "Cümleyi diz: 'Yağmur yağmasına rağmen yürüyüşe çıktık.'", "exp": "[[ondanks dat]] ile başlayan ve virgülle sona eren yan cümleden sonra, ana cümlenin fiili hemen gelir (devrik yapı): [[gingen we]]." },
+      { "q": "Cümleyi diz: 'O gelir gelmez başladık.'", "exp": "[[zodra]] yan cümlesinin fiili cümlenin sonuna gider ([[kwam]]) ve virgülden sonra ana cümlenin fiili gelir." }
+    ]
+  },
+  "b2-infinitiefconstructies": {
+    "title": "İleri düzey mastar yapıları",
+    "sum": "[[aan het + infinitief]] (süreklilik), [[laten + infinitief]] (ettirgen) ve [[zitten/staan/liggen + te + infinitief]] gibi ileri düzey mastar yapıları bir eylemin gerçekleştirilme biçiminin ayrıntılarını gösterir.",
+    "blocks": [
+      {
+        "h": "[[aan het + infinitief]]: süreklilik durumu",
+        "p": "[[zijn + aan het + infinitief]] yapısı, diğer dillerdeki şimdiki zaman sürekli kipine benzer şekilde devam eden bir eylemi ifade eder. Örneğin [[Ik ben aan het koken]] (şu anda yemek yapıyorum).",
+        "ex": [
+          "Şu anda ders çalışıyor.",
+          "Telefon çaldığında konuşuyorduk."
+        ]
+      },
+      {
+        "h": "[[laten + infinitief]]: ettirgen yapı",
+        "p": "[[laten]] + mastar, \"bir işi başka biri aracılığıyla yaptırmak\" veya \"bir şeyin gerçekleşmesine izin vermek/bırakmak\" anlamında ettirgen bir yapıdır. Örneğin [[Ik laat mijn auto repareren]] (arabamı tamir ettiriyorum; kendim tamir etmiyorum).",
+        "ex": [
+          "Saçını (kuaföre) kestiriyor.",
+          "Bırak gitsin artık."
+        ]
+      },
+      {
+        "h": "[[zitten/staan/liggen + te + infinitief]]: beden duruşu + süregelen eylem",
+        "p": "Konum fiilleri ([[zitten]], [[staan]], [[liggen]] ve bazen [[lopen]]), [[te + infinitief]] ile birlikte, o eylemin doğal beden duruşuyla birlikte gerçekleştiğini belirten süregelen bir eylemi anlatır. Hangi konum fiilinin seçileceği, etkinliğin mantıksal beden duruşuna bağlıdır: okuma/oturma için [[zitten]], uyuma için [[liggen]], ayakta durma ve bekleme için [[staan]].",
+        "ex": [
+          "Oturmuş okuyor.",
+          "Ayakta otobüsü bekliyor.",
+          "Çocuklar uzanmış uyuyor."
+        ]
+      },
+      {
+        "h": "[[aan het]] ile [[zitten/staan/liggen te]] karşılaştırması",
+        "p": "Her iki yapı da süreklilik ifade eder, ancak [[zitten/staan/liggen + te]] beden duruşunu da gösterir ve daha canlı, daha konuşma diline yakın bir tondadır; [[aan het]] daha tarafsız ve daha geneldir, beden duruşunun önemli veya belirli olmadığı durumlarda tercih edilir.",
+        "tip": "Kişinin beden duruşu belirli veya önemli değilse, [[aan het]] daha doğaldır; beden duruşu fiille doğal bir uyum içindeyse (örneğin okuma için oturma), [[zitten/staan/liggen te]] daha yaygın ve daha canlıdır."
+      }
+    ],
+    "ex": [
+      { "q": "Ik ben ___ koken. (şu anda bir şey yapma)", "options": ["aan het", "te", "laten", "zitten"], "exp": "Süreklilik yapısı [[aan het + mastar]], \"şu anda bir şey yapıyor olmak\" için kullanılır: [[aan het koken]]." },
+      { "q": "Zij ___ haar haar knippen bij de kapper. (ettirgen, başkası tarafından yapılan iş)", "options": ["is", "laat", "zit", "staat"], "exp": "[[laten]] + mastar, \"bir işi başka biri aracılığıyla yaptırmak\" anlamında ettirgendir: [[haar laten knippen]]." },
+      { "exp": "Okuma genellikle oturarak yapıldığından, en doğal konum fiili [[zitten]]'dir: [[zit te lezen]]." },
+      { "q": "De kinderen ___ te slapen. (uzanmış, uyuma eylemiyle meşgul)", "options": ["zitten", "staan", "liggen", "lopen"], "exp": "Uyumak için doğal konum fiili [[liggen]]'dir: [[liggen te slapen]]." },
+      { "q": "'We waren aan het praten toen de telefoon ging.' cümlesi hangi eylemi anlatır?", "options": ["Geçmişte süregelen bir eylem", "Henüz başlamamış bir eylem", "Kalıcı bir durum", "Bir istek"], "exp": "[[aan het + mastar]] geçmiş zamanda, geçmişte süregelen bir eylemi anlatır." },
+      { "exp": "[[laten]]'dan sonra, ikinci fiil basit mastar olarak ([[te]] olmadan) gelir: [[laten uitleggen]]." },
+      { "q": "Cümleyi diz: 'Pencerenin kenarında ayakta otobüsü bekliyordu.'", "exp": "Ayakta durma ve bekleme için doğal konum fiili [[staan]] + [[te]] + mastardır: [[staan te wachten]]." },
+      { "q": "Cümleyi diz: 'Bir mektup yazmakla meşgulüm.'", "exp": "[[aan het + mastar]] yapısında, nesne ([[een brief]]) [[aan het]]'ten önce gelir: [[ben een brief aan het schrijven]]." }
+    ]
+  },
+  "c1-beknopte-bijzinnen": {
+    "title": "Kısaltılmış yan cümleler",
+    "sum": "Yan cümlenin öznesi ana cümleninkiyle aynı olduğunda, cümle bir **mastar** veya **ortaç** ile kısaltılabilir; örneğin [[Gebouwd in de 17e eeuw, trekt het kasteel toeristen]].",
+    "blocks": [
+      {
+        "h": "Amaç/neden yan cümlesinin [[om... te + infinitief]] ile değiştirilmesi",
+        "p": "Amaç veya neden bildiren yan cümlenin öznesi ana cümleninkiyle aynı olduğunda, bu cümle [[om... te + infinitief]] yapısıyla kısaltılabilir. Örneğin [[Hij trainde hard om de wedstrijd te winnen]], [[zodat]] veya [[omdat]] ile kurulmuş daha uzun bir cümle yerine kullanılır.",
+        "ex": [
+          "Zamanında varmak için erkenden yola çıktı.",
+          "Daha çok bilgi edinmek için kitabı okudu."
+        ]
+      },
+      {
+        "h": "Geçmiş zaman ortacıyla değiştirme",
+        "p": "Yan cümlenin fiili edilgen olabildiğinde ve öznesi ana cümlenin öznesiyle aynı olduğunda, cümle cümlenin başındaki bir geçmiş zaman ortacıyla kısaltılabilir. Örneğin [[Omdat het boek goed geschreven was, werd het een bestseller]] → [[Goed geschreven, werd het boek een bestseller]].",
+        "ex": [
+          "17. yüzyılda inşa edilen bu kale, çok sayıda turist çekiyor.",
+          "Argümanlar tarafından ikna edilen komite olumlu oy verdi."
+        ]
+      },
+      {
+        "h": "Şimdiki zaman ortacıyla değiştirme",
+        "p": "Yan cümle ortak özneyle eşzamanlılık veya bir neden ifade ettiğinde, fiili şimdiki zaman ortacına dönüştürülebilir. Örneğin [[Terwijl hij liep, dacht hij aan haar]] → [[Lopend, dacht hij aan haar]].",
+        "ex": [
+          "Tehlikeli olduğunu bilmesine rağmen yine de gitti.",
+          "Geciktiğini fark ederek istasyona koştu."
+        ]
+      },
+      {
+        "h": "Temel sınırlama: ortak özne gerekliliği",
+        "p": "Bu kısaltma sadece yan cümlenin öznesi ana cümlenin (mantıksal) öznesiyle tam olarak aynı olduğunda mümkündür. Özneler farklıysa, yan cümle kendi voegwoord'u ile tam biçimde kalmalıdır.",
+        "tip": "Yan cümlenin öznesi ana cümlenin öznesiyle aynı değilse, kısaltma yapılamaz; bu durumda voegwoord'lu tam cümle korunmalıdır."
+      }
+    ],
+    "ex": [
+      { "q": "'Omdat hij moe was, ging hij slapen.' cümlesinin kısaltılmış biçimi hangisidir?", "options": ["Moe, ging hij slapen.", "Hij moe was, ging hij slapen.", "Omdat moe, ging hij slapen.", "Moe zijnd, ging hij slapen."], "exp": "Yan cümlenin ve ana cümlenin öznesi aynı olduğunda, sıfat/ortaç ([[moe]]) doğrudan cümlenin başına getirilerek voegwoord ve fiil çıkarılabilir." },
+      { "q": "Hangi cümle kolayca kısaltılmış bir yan cümleye dönüştürülemez?", "options": ["Omdat ik moe was, ging ik naar bed.", "Omdat hij het boek goed schreef, werd het succesvol.", "Omdat zij ziek was, bleef ze thuis.", "Omdat het laat was, gingen we naar huis."], "exp": "İkinci seçenekte, yan cümlenin öznesi ([[hij]]) ana cümlenin mantıksal öznesiyle ([[het boek]]) aynı değildir; dolayısıyla basit kısaltma mümkün değildir." },
+      { "exp": "Cümlenin başındaki geçmiş zaman ortacı [[Gebouwd]], \"17. yüzyılda inşa edildiği için\" yan cümlesini kısaltır." },
+      { "exp": "Şimdiki zaman ortacı [[Wetende]], özne aynı olduğu için \"Omdat hij wist\" ifadesinin yerini alır." },
+      { "q": "Cümleyi diz: 'Zamanında varmak için erkenden yola çıktı.'", "exp": "Ortak özneyle amaç ifade etmek için, cümlenin başında [[om... te + mastar]] yapısı kullanılır." },
+      { "q": "Cümleyi diz: 'Argümanlar tarafından ikna edilen komite olumlu oy verdi.'", "exp": "Geçmiş zaman ortacı [[Overtuigd]], \"Omdat de commissie overtuigd was\" tam cümlesinin yerini alır." },
+      { "q": "'Gebouwd in de 17e eeuw, trekt het kasteel veel toeristen.' cümlesi hangi tam yan cümleye karşılık gelir?", "options": ["Omdat het kasteel in de 17e eeuw gebouwd werd, trekt het veel toeristen.", "Terwijl het kasteel gebouwd wordt, trekt het toeristen.", "Het kasteel bouwt zichzelf in de 17e eeuw.", "Mits het kasteel gebouwd is, trekt het toeristen."], "exp": "Geçmiş zaman edilgen fiille ([[gebouwd]]) kurulmuş kısaltılmış ortaç cümleciği, [[omdat]] ve edilgen fiille kurulmuş tam neden cümlesinin yerini alır." },
+      { "exp": "[[Geschrokken]], [[schrikken]] fiilinin geçmiş zaman ortacıdır ve \"kedi ürktüğü için\" yan cümlesini kısaltır." }
+    ]
+  },
+  "c1-naamwoordstijl": {
+    "title": "Ad cümlesi üslubu ile fiil cümlesi üslubu",
+    "sum": "Resmi ve akademik Hollandaca genellikle **fiil** üslubuna ([[werkwoordstijl]]) kıyasla **ad cümlesi** üslubunu ([[naamwoordstijl]]) tercih eder; yani eylemleri fiil yerine [[de stijging van de prijzen]] gibi isim öbekleri hâlinde ifade eder.",
+    "blocks": [
+      {
+        "h": "Ad cümlesi üslubu ve fiil cümlesi üslubu tanımı",
+        "p": "**[[werkwoordstijl]]** (fiil üslubu) fiile ve yan cümlelere dayanır; doğal ve dinamiktir, daha çok konuşmada ve anlatıda kullanılır. **[[naamwoordstijl]]** (ad cümlesi üslubu) bilgiyi isim öbeklerinde yoğunlaştırır; akademik, idari ve haber Hollandacasında yaygındır ve daha nesnel, daha resmi bir ton oluşturur, ancak metni ağırlaştırabilir.",
+        "ex": [
+          "Hükümet vergiyi artırmaya karar verdi. (fiil üslubu)",
+          "Hükümet vergi artışı kararı aldı. (ad cümlesi üslubu)"
+        ]
+      },
+      {
+        "h": "Fiili isim öbeğine nasıl dönüştürülür",
+        "p": "Ad cümlesi üslubuna dönüştürmek için, ana fiil (genellikle [[-ing]] veya [[-tie]] ekiyle) türemiş bir isme dönüşür ve [[van]], [[tot]] veya [[over]] edatıyla cümlenin devamına bağlanır; bazen birkaç yan cümle tek bir ad cümlesinde yoğunlaştırılır.",
+        "table": {
+          "head": ["Fiil üslubu", "Ad cümlesi üslubu"],
+          "rows": [
+            ["doordat de prijzen stijgen", "door de stijging van de prijzen"],
+            ["nadat het onderzoek is afgerond", "na afronding van het onderzoek"],
+            ["omdat het probleem is opgelost", "door de oplossing van het probleem"]
+          ]
+        },
+        "ex": [
+          "Fiyatların artması nedeniyle enflasyon yükseldi.",
+          "Araştırmanın tamamlanmasından sonra rapor yayımlandı."
+        ]
+      },
+      {
+        "h": "Üslup kullanımı: nerede ve neden",
+        "p": "Ad cümlesi üslubu, yoğunluğu ve nesnel/tarafsız tonu nedeniyle resmi raporlarda, bilimsel makalelerde, hukuki metinlerde ve haber başlıklarında yaygındır. Ancak aşırı kullanımı \"resmi dairecilik Hollandacası\" (ambtelijk Nederlands) olarak eleştirilir, çünkü metni zor ve doğal olmayan hâle getirir.",
+        "list": ["Resmi ve idari raporlar", "Bilimsel ve akademik makaleler", "Hukuki ve kanuni metinler", "Yoğun haber başlıkları"]
+      },
+      {
+        "h": "Tam bir dönüştürme örneği",
+        "p": "Aynı cümlenin her iki üslupta karşılaştırılması, yan cümlenin öznesinin [[door + isim]] ifadesine ve ana fiilin türemiş bir isme nasıl dönüştüğünü gösterir.",
+        "ex": [
+          "Fiyatlar yükselince enflasyon da yükseldi. (fiil üslubu)",
+          "Fiyat artışı enflasyon artışına neden oldu. (ad cümlesi üslubu)"
+        ],
+        "tip": "İyi yazılmış Hollandacada, profesyonel yazarlar metnin hem kesin hem okunabilir olması için genellikle ad cümlesi ve fiil üslubunun bir birleşimini kullanır."
+      }
+    ],
+    "ex": [
+      { "q": "'De regering besloot dat ze de belasting zou verhogen.' cümlesinin ad cümlesi hâli hangisidir?", "options": ["De regering nam het besluit tot belastingverhoging.", "De regering besluit belasting verhogen.", "De regering, verhogend belasting, besloot.", "Verhoging belasting besloot de regering."], "exp": "Ad cümlesi üslubunda, ana fiil isme ([[besluit]]) ve yan cümlenin fiili bileşik isme ([[belastingverhoging]]) dönüşür." },
+      { "exp": "[[stijgen]] fiilinden türeyen resmi isim [[stijging]]'dir." },
+      { "q": "Hangi cümle daha doğal bir fiil üslubu örneğidir?", "options": ["Toen de prijzen stegen, steeg de inflatie.", "Door de stijging van de prijzen steeg de inflatie.", "Bij stijging van prijzen, inflatiestijging.", "De prijsstijging veroorzaakte inflatiestijging."], "exp": "Birinci seçenek, zaman yan cümlesiyle ([[toen... stegen]]) konuşmada daha dinamik ve doğal bir fiil üslubu örneğidir; diğer seçenekler ad cümlesi üslubundadır." },
+      { "exp": "[[afronden]] fiilinden türeyen resmi isim [[afronding]]'e eşittir, resmi ad cümlesi üslubunda yaygındır." },
+      { "q": "Ad cümlesi üslubunun (naamwoordstijl) temel özelliği nedir?", "options": ["Bilgi isim öbeklerinde yoğunlaşır ve ton daha nesnel ve resmi hâle gelir", "Cümle her zaman fiil üslubundan daha kısadır", "Sadece konuşma dilinde yaygındır", "Ana fiiller tamamen kaldırılır ve cümle fiilsiz kalır"], "exp": "Ad cümlesi üslubunda eylemler isim olarak ifade edilir ve van/door ile cümlenin devamına bağlanır; bu da daha nesnel ve resmi bir ton oluşturur; cümle her zaman daha kısa olmaz." },
+      { "q": "Ad cümlesini diz: 'Kanunun parlamento tarafından onaylanmasından sonra, yürürlüğe girdi.'", "exp": "Yan cümlenin öznesi ([[parlement]]), [[door het parlement]] ifadesine dönüşür ve ana fiil ([[goedkeuren]]) isme ([[goedkeuring]]) dönüşür." },
+      { "q": "Hangi metin aşırı ad cümlesi üslubuna sahip resmi dairecilik Hollandacası örneğidir?", "options": ["Met betrekking tot de uitvoering van de aanvraag tot verlening van de vergunning wordt verwezen naar bijlage 2.", "Je aanvraag staat in bijlage 2.", "We hebben je aanvraag ontvangen.", "Bijlage 2 bevat je aanvraag."], "exp": "van/tot ile art arda gelen uzun bir isim öbekleri zinciri, klasik olarak ağır ve okunması zor resmi dairecilik Hollandacası örneğidir." },
+      { "exp": "[[oplossen]] fiilinden türeyen resmi isim [[oplossing]]'e eşittir." }
+    ]
+  },
+  "c1-partikels-nuance": {
+    "title": "İleri düzey parçacıklar ve nüans sözcükleri",
+    "sum": "[[nu eenmaal]], [[immers]], [[overigens]] gibi ileri düzey nüans sözcükleri ve [[enerzijds...anderzijds]] yapısı, resmi Hollandaca yazıda önemli bir söylemsel ve argümantatif rol oynar.",
+    "blocks": [
+      {
+        "h": "[[nu eenmaal]]: değişmez gerçek",
+        "p": "[[nu eenmaal]], değişmez ve kabul edilmiş bir gerçeği, genellikle biraz teslimiyetçi veya gerçekçi bir tonla ifade eder; \"işte böyle/ne yapalım\" anlamına gelir.",
+        "ex": [
+          "Kurallar işte böyle, elden bir şey gelmez.",
+          "O işte biraz inatçı (bu onun değişmez bir özelliği)."
+        ]
+      },
+      {
+        "h": "[[immers]]: önceden kabul edilmiş neden",
+        "p": "[[immers]], konuşmacının dinleyicinin önceden bildiğini veya kabul ettiğini varsaydığı bir nedeni hatırlatır; \"bildiğiniz gibi/bilirsiniz ki\" ifadesine benzer. Genellikle özne ve fiilden sonra gelir, cümlenin başında değil.",
+        "ex": [
+          "Dikkatli olmalıyız, çünkü bu zaten tehlikeli bir iş (bildiğimiz gibi).",
+          "Gelemedi, çünkü zaten hastaydı (bildiğimiz gibi)."
+        ]
+      },
+      {
+        "h": "[[overigens]]: yan not",
+        "p": "[[overigens]], bir yan notu veya konunun hafif bir şekilde değişmesini tanıtır; \"bu arada/zaten/aslında\" ifadesine benzer.",
+        "ex": [
+          "Plan onaylandı. Bu arada, kimse benim fikrimi sormadı.",
+          "O, ki bu arada kız kardeşi gibidir, çok müzikaldir."
+        ]
+      },
+      {
+        "h": "[[enerzijds... anderzijds]]: iki yönlü yapı",
+        "p": "Bu yapı bir konunun iki tamamlayıcı veya zıt yönünü tanıtır; \"bir yandan... diğer yandan\" ifadesine benzer. Resmidir ve yazılı argümana uygundur. Her iki parça da kendi cümleciklerinin başında geldiği için, fiil hemen ardından gelir (devrik yapı).",
+        "ex": [
+          "Bir yandan daha fazla para biriktirmek istiyorum, diğer yandan hayattan da zevk almak istiyorum.",
+          "Bir yandan teknoloji fırsatlar sunar, diğer yandan riskler de barındırır."
+        ],
+        "tip": "Bu sözcükler daha çok yazılı ve resmi argümanlarda kullanılır ve metne mantıksal yapı ve tutarlılık kazandırır."
+      }
+    ],
+    "ex": [
+      { "q": "Zo zijn de regels ___. (değişmez gerçek)", "options": ["nu eenmaal", "immers", "overigens", "enerzijds"], "exp": "[[nu eenmaal]], biraz teslimiyetçi bir tonla, değişmez ve kabul edilmiş bir gerçeği ifade eder." },
+      { "q": "We moeten voorzichtig zijn, het is ___ gevaarlijk werk. (önceden kabul edilmiş neden)", "options": ["overigens", "immers", "nu eenmaal", "anderzijds"], "exp": "[[immers]], konuşmacının dinleyicinin önceden bildiğini veya kabul ettiğini varsaydığı bir nedeni hatırlatır." },
+      { "exp": "[[Overigens]], bir yan notu veya konunun hafif bir değişimini tanıtır, \"bu arada/zaten\" gibi." },
+      { "q": "Hangi cümle 'enerzijds...anderzijds' yapısını doğru kullanır?", "options": ["Enerzijds wil ik sparen, anderzijds wil ik genieten.", "Enerzijds wil ik sparen, maar ook genieten.", "Anderzijds wil ik sparen, enerzijds genieten.", "Enerzijds, anderzijds wil ik sparen en genieten."], "exp": "Doğru yapı: [[Enerzijds]] + birinci cümle, [[anderzijds]] + ikinci cümle, bir konunun iki tamamlayıcı veya zıt yönünü göstermek için." },
+      { "exp": "[[nu eenmaal]], bu özelliği kişi hakkında sabit ve değişmez bir gerçek olarak betimler." },
+      { "q": "'overigens' cümlede genellikle hangi rolü oynar?", "options": ["Bir yan not eklemek veya konuyu hafifçe değiştirmek", "Önceden kabul edilmiş bir nedeni ifade etmek", "Şiddetli bir karşıtlık ifade etmek", "Bir koşul ifade etmek"], "exp": "[[overigens]], beklenmedik bir yan not eklemek veya konuşmada/yazıda hafif bir yön değişikliği için kullanılır." },
+      { "q": "Cümleyi diz: 'Bir yandan teknoloji fırsat sunar, diğer yandan risk de taşır.'", "exp": "Her iki cümlecikte de [[enerzijds]]/[[anderzijds]]'den sonra fiil hemen gelir (devrik yapı, çünkü bu sözcükler kendi cümleciklerinin başındadır)." },
+      { "q": "Hangi cümle 'immers' kavramını doğru şekilde göstermektedir?", "options": ["Hij kon niet komen, hij was immers ziek.", "Hij was immers ziek, dus kwam hij niet weten.", "Immers, hij komt morgen misschien.", "Hij is immers ziek geweest, maar nu niet meer."], "exp": "Birinci seçenekte [[immers]], onun gelmemesini açıklamak için önceden varsayılan/kabul edilmiş bir nedeni (hastalığı) hatırlatır." }
+    ]
+  },
+  "c1-complexe-zinsbouw": {
+    "title": "Karmaşık cümle yapısı",
+    "sum": "Karmaşık Hollandaca cümleler birçok iç içe geçmiş yan cümle, öne alınan bir ögeden sonra devrik yapı ve üç veya daha fazla fiilden oluşan cümle-sonu fiil kümesi içerebilir (örneğin [[had moeten worden gedaan]]).",
+    "blocks": [
+      {
+        "h": "İç içe geçmiş yan cümleler",
+        "p": "Hollandaca, bir cümlede birçok yan cümlenin iç içe geçmesine izin verir. Hangi fiilin hangi cümleye ait olduğuna dikkat edilmelidir: ana cümlenin fiili ikinci konumda (V2) kalır ve her yan cümle kendi fiilini kendi cümlesinin (tüm cümlenin değil) sonuna taşır.",
+        "ex": [
+          "Sanıyorum, yağmur yağmazsa geleceğini söyledi."
+        ]
+      },
+      {
+        "h": "Öne alınan bir ögeden sonra devrik yapı",
+        "p": "Fiil-ikinci (V2) kuralına göre, cümle özne dışında bir ögeyle başladığında (zarf, yan cümle, zarf öbeği), çekimli fiil hemen ardından gelmeli ve özne fiilden sonra yer almalıdır.",
+        "ex": [
+          "Kötü hava koşulları nedeniyle maç ertelendi.",
+          "Bu kadar saçma bir şeyi hiç görmedim."
+        ]
+      },
+      {
+        "h": "Üç veya daha fazla fiilden oluşan cümle-sonu fiil kümesi",
+        "p": "Kip fiili, zaman yardımcı fiili ve ana fiil (veya edilgen) birleştiğinde, yan cümlenin sonunda üç veya daha fazla fiilden oluşan bir küme oluşur. \"Yeşil\" sıralama (resmi yazıda standart ve daha açık): zaman yardımcı fiili + kip fiili + ana fiil/edilgen. Örneğin [[dat hij het had moeten doen]] veya edilgenle: [[dat het had moeten worden gedaan]].",
+        "ex": [
+          "Kitabı daha önce geri vermesi gerektiğini bilmiyordum.",
+          "O kararın daha önce alınmış olması gerektiği düşünülüyor."
+        ]
+      },
+      {
+        "h": "Karmaşık cümlede açıklık için üslup notları",
+        "p": "Karmaşık cümlelerde okunabilirliği korumak için, iç içe geçmiş cümle sayısının makul bir düzeyde tutulması, doğru noktalamaya uyulması ve fiil kümelerinde yeşil sıralamanın tercih edilmesi daha iyidir.",
+        "tip": "Üç veya daha fazla fiilden oluşan fiil kümelerinde, \"yeşil\" sıralama (yardımcı fiil + kip fiili + ana fiil) özellikle resmi yazıda genellikle \"kırmızı\" sıralamadan daha iyi bir okunabilirliğe sahiptir."
+      }
+    ],
+    "ex": [
+      { "q": "'Omdat het regende, bleven we binnen.' cümlesinde ana cümlenin fiili (bleven) hangi konumdadır?", "options": ["Öne alınmış yan cümleden hemen sonra (devrik yapı)", "Cümlenin tamamının sonunda", "Yan cümleden önce", "Yan cümlenin ikinci konumunda"], "exp": "'Omdat het regende' yan cümlesi cümlenin ilk konumunda bir öge olarak işlev gördüğünden, ana cümlenin fiili hemen ardından gelmelidir (devrik yapı/fiil-ikinci kuralı)." },
+      { "q": "Cümleyi diz: 'Bu kadar saçma bir şeyi hiç görmedim.'", "exp": "Olumsuz zarf [[Nooit]] cümlenin başında geldiğinden, yardımcı fiil ([[heb]]) hemen ardından ve özneden ([[ik]]) önce gelir." },
+      { "exp": "Üç fiilli kümede, kip fiili [[moeten]] yardımcı fiil ([[had]]) ile ana edilgen fiil ([[worden genomen]]) arasına girer: [[had moeten worden genomen]]." },
+      { "q": "'dat hij het ... doen' (hebben/kunnen/doen) fiil kümesi için hangi sıralama daha standart ve daha yaygındır (yeşil sıralama)?", "options": ["had kunnen doen", "kunnen had doen", "doen had kunnen", "had doen kunnen"], "exp": "Standart yeşil sıralama: zaman yardımcı fiili ([[had]]) + kip fiili ([[kunnen]]) + ana fiil ([[doen]])." },
+      { "q": "Cümleyi diz: 'Sanıyorum, yağmur yağmazsa geleceğini söyledi.'", "exp": "Bu cümlede üç katmanlı iç içe geçmiş bir yan cümle vardır; her yan cümle kendi fiilini kendi cümlesinin sonuna taşır, tüm cümlenin sonuna değil." },
+      { "q": "'Door het slechte weer, werd de wedstrijd afgelast.' hangi dilbilgisi noktasını göstermektedir?", "options": ["Öne alınan özne dışı bir ögeden sonra devrik yapı", "Kişisiz edilgen", "Kısaltılmış ortaç cümleciği", "aan het yapısı"], "exp": "'Door het slechte weer' zarf öbeği ilk konumda geldiğinden, fiil ([[werd]]) hemen ardından ve özneden ([[de wedstrijd]]) önce gelir." },
+      { "exp": "Fiil kümesinin doğal sıralaması: [[had]] (yardımcı) + [[moeten]] (kip) + [[teruggeven]] (ana fiil)." },
+      { "q": "Resmi yazıda, üç fiilli fiil kümesinin hangi sıralaması genellikle daha iyi okunabilirlik sağlar?", "options": ["Yeşil sıralama (yardımcı fiil - kip fiili - ana fiil)", "Kırmızı sıralama (ana fiil - kip fiili - yardımcı fiil)", "Hiçbir fark yoktur", "Yardımcı fiil her zaman sonda gelmelidir"], "exp": "Resmi yazı üslubunda, yeşil sıralama (önce yardımcı fiil, sonra kip fiili, sonra ana fiil) genellikle daha açık ve daha standart kabul edilir." }
+    ]
+  },
+  "c1-idiomatische-uitdrukkingen-grammatica": {
+    "title": "Deyimsel sabit ifadeler ve dilbilgisi kuralları",
+    "sum": "Birçok Hollandaca sabit ifade ([[vaste verbindingen]]), sabit bir edat ([[rekening houden met]]), sabit bir sözcük sıralaması veya değişmez bir tanımlık içerir ve bunlar bütün bir birim olarak hatırlanmalıdır.",
+    "blocks": [
+      {
+        "h": "Deyimsel ifadelerde sabit edatlar",
+        "p": "Birçok sabit ifadenin, fiille birlikte ezberlenmesi gereken belirli ve değiştirilemez bir edatı vardır; bu edatın değiştirilmesi anlamı bozar veya cümleyi yanlış yapar.",
+        "table": {
+          "head": ["İfade", "Sabit edat", "Anlam"],
+          "rows": [
+            ["rekening houden", "met", "dikkate almak"],
+            ["afhankelijk zijn", "van", "-e bağlı olmak"],
+            ["zich concentreren", "op", "-e odaklanmak"],
+            ["de voorkeur geven", "aan", "-i tercih etmek"]
+          ]
+        },
+        "ex": [
+          "Maliyetleri dikkate almalı.",
+          "Çayı kahveye tercih etti."
+        ]
+      },
+      {
+        "h": "İfadelerde sabit sözcük sıralaması",
+        "p": "Bazı sabit ifadelerin, normal dilbilgisi değişikliğe izin verse bile bu ifadelerde değiştirilmemesi gereken değişmez bir sözcük sıralaması vardır. Örneğin [[voor de dag komen met]] (bir şeyle ortaya çıkmak/öneri sunmak) veya [[in de gaten houden]] (göz altında tutmak).",
+        "ex": [
+          "Durumu iyice göz altında tutuyordu.",
+          "Sonunda bir çözüm önerisiyle ortaya çıkabilir misin?"
+        ]
+      },
+      {
+        "h": "Tanımlığın değişmezliği",
+        "p": "Bazı sabit ifadelerde, tanımlık (veya onun yokluğu) ifadenin ayrılmaz bir parçasıdır ve değiştirilemez veya çoğullaştırılamaz. Örneğin [[de deur uit gaan]] ([[een deur]] değil) veya [[het heeft geen zin]] (burada [[zin]] çoğullaştırılmaz).",
+        "ex": [
+          "Erkenden evden çıktı.",
+          "Beklemenin bir anlamı yok."
+        ]
+      },
+      {
+        "h": "Sabit ifadeleri öğrenme notları",
+        "p": "En iyi yöntem, tüm ifadeyi (fiil + edat + yapı) bir birim olarak ezberlemektir, sadece fiili tek başına değil. Bir ifadenin deyimsel ve sabit olup olmadığını test etmek için, bir bileşen değiştirilebilir: anlam bozulursa veya anadil konuşanlara tuhaf gelirse, o ifade bir [[vaste verbinding]]'dir.",
+        "tip": "Sabit deyimsel fiilleri öğrenmenin en iyi yolu, tüm ifadeyi edatıyla birlikte ezberlemektir, sadece fiili tek başına ezberlemek değil."
+      }
+    ],
+    "ex": [
+      { "q": "Hij moet rekening houden ___ de kosten. (sabit edat)", "options": ["met", "van", "aan", "op"], "exp": "Sabit ifade [[rekening houden met]] her zaman [[met]] edatıyla gelir ve değiştirilemez." },
+      { "exp": "Sabit ifade [[afhankelijk zijn van]] her zaman [[van]] ile gelir." },
+      { "q": "Hij gaf de voorkeur ___ thee boven koffie. (sabit edat)", "options": ["aan", "voor", "op", "met"], "exp": "Sabit ifade [[de voorkeur geven aan]] her zaman [[aan]] ile gelir." },
+      { "exp": "Sabit ifade [[voor de dag komen met]], \"bir çözümle ortaya çıkmak\" anlamında her zaman [[met]] ile gelir." },
+      { "q": "Hangi cümle 'in de gaten houden' sabit ifadesini doğru kullanır?", "options": ["Hij hield de situatie goed in de gaten.", "Hij hield in de gaten de situatie goed.", "Hij hield de gaten goed in situatie.", "Hij hield goed de situatie gaten in."], "exp": "Sabit ifade [[in de gaten houden]]'de sözcük sıralaması değişmezdir; sadece nesne ([[de situatie]]) fiil ile bu ifade arasına girebilir." },
+      { "q": "'Het heeft geen zin om te wachten.' cümlesinde 'geen zin' neden çoğullaştırılamaz ve sabittir?", "options": ["Çünkü bu, değişmez bir biçime sahip deyimsel sabit bir ifadedir", "Çünkü zin her zaman ve her kullanımda çoğullaştırılamaz", "Çünkü zin sadece 'cümle' anlamına gelir", "Çünkü bu bir yazım kuralıdır"], "exp": "[[het heeft geen zin]], biçimi (bu anlamda [[zin]]'in çoğullaştırılmaması dâhil) sabit ve değişmez olan bir deyimsel sabit ifadedir." },
+      { "exp": "Sabit ifade [[zich concentreren op]] her zaman [[op]] ile gelir." },
+      { "q": "Cümleyi diz: 'Erkenden evden çıktı.'", "exp": "Sabit ifade [[de deur uit gaan]] her zaman belirli tanımlık [[de]] ile (een değil) ve sabit sözcük sıralamasıyla kullanılır." }
+    ]
+  },
+  "c1-stijlfiguren-formeel-schrijven": {
+    "title": "Resmi yazıda üslup teknikleri",
+    "sum": "Hollandacanın resmi ve argümantatif yazısı, nesnellik için **edilgen çatı**, **tedirginlik/ihtiyat** ([[zou kunnen]], [[lijkt erop dat]]) ve resmi argümantatif bağlaçlar ([[niettemin]], [[enerzijds...anderzijds]]) gibi tekniklerden yararlanır.",
+    "blocks": [
+      {
+        "h": "Nesnellik için edilgen çatı",
+        "p": "İnsan öznenin kaldırılması ve edilgen çatının (bazen kişisiz edilgen [[er wordt]] ile birlikte) kullanılması, bilimsel ve resmi yazıda yaygın olan nesnel ve kişisiz bir ton verir; eyleyen ([[door + özne]]) sadece önemli olduğunda belirtilir.",
+        "ex": [
+          "Bu politikanın etkileri üzerine bir araştırma yapılmıştır.",
+          "Bu araştırma 2020 ile 2022 yılları arasında gerçekleştirildi."
+        ]
+      },
+      {
+        "h": "İfadede ihtiyat (hedging)",
+        "p": "İhtiyat (hedging), iddiaları dikkatli ve daha az kesin bir şekilde ifade eder ve bilimsel argümanda yaygındır. Anahtar ifadeler: [[zou kunnen wijzen op]] (-e işaret edebilir), [[het lijkt erop dat]] (öyle görünüyor ki), [[mogelijk]] (muhtemelen), [[in zekere zin]] (bir bakıma).",
+        "ex": [
+          "Bu, iki faktör arasında bir bağlantıya işaret edebilir.",
+          "Öyle görünüyor ki bu önlem etkili olmuştur."
+        ]
+      },
+      {
+        "h": "Resmi argümantatif bağlaçlar",
+        "p": "Resmi bağlaçlar metne mantıksal bir yapı kazandırır ve argümanı düzenler.",
+        "table": {
+          "head": ["Bağlaç", "Kullanım"],
+          "rows": [
+            ["niettemin", "buna rağmen (beklenmedik bir sonuç)"],
+            ["desalniettemin", "buna rağmen (daha resmi ve daha güçlü bir vurgu)"],
+            ["daarentegen", "aksine, tam tersine"],
+            ["bovendien", "bunun yanı sıra, ayrıca"]
+          ]
+        },
+        "ex": [
+          "Sonuçlar olumlu; buna rağmen daha fazla araştırmaya ihtiyaç var.",
+          "Birinci grup hızla büyüdü, diğer grup ise tam tersine küçüldü."
+        ]
+      },
+      {
+        "h": "Bir argümantatif paragrafta tekniklerin birleştirilmesi",
+        "p": "Profesyonel resmi yazıda, edilgen çatı, ihtiyat ve argümantatif bağlaçlar genellikle hem nesnelliği hem mantıksal tutarlılığı korumak için bir paragrafta birlikte kullanılır.",
+        "ex": [
+          "Araştırma iki aşamada gerçekleştirildi. Sonuçlar, bu önlemin etkili olduğuna işaret ediyor gibi görünmekte; buna rağmen daha ayrıntılı bir inceleme istenir."
+        ],
+        "tip": "Bu tekniklerin dengeli kullanımı metni resmi ve ikna edici kılar, ancak ihtiyatta (hedging) aşırıya gitmek argümanı zayıf ve kararsız gösterebilir."
+      }
+    ],
+    "ex": [
+      { "q": "Hangi cümle resmi yazıda nesnellik yaratmak için edilgen çatı kullanımının bir örneğidir?", "options": ["Er is onderzoek gedaan naar de effecten van het beleid.", "Wij hebben onderzoek gedaan naar de effecten van het beleid.", "Ik denk dat het beleid goed werkt.", "Jullie moeten onderzoek doen naar het beleid."], "exp": "İnsan öznenin kaldırılması ve kişisiz edilgenin kullanılması ([[Er is onderzoek gedaan]]), resmi/bilimsel yazıda yaygın olan nesnel ve kişisiz bir ton verir." },
+      { "q": "'Dit zou kunnen wijzen op een verband.' hangi üslup tekniğinin bir örneğidir?", "options": ["İhtiyat/tedirginlikle ifade (hedging)", "Nesnellik için edilgen çatı", "Argümantatif bağlaç", "Kip parçacığı"], "exp": "[[zou kunnen wijzen op]] ifadesi, iddiayı dikkatli ve kesin olmayan bir şekilde ortaya koyar; bilimsel yazıda hedging'in klasik bir örneğidir." },
+      { "exp": "Sabit ifade [[het lijkt erop dat]], bir izlenimi veya sonucu dikkatli bir şekilde ifade etmek için kullanılır." },
+      { "q": "Hangi resmi bağlaç en resmi ve en vurgulu karşıtlık hissini verir?", "options": ["desalniettemin", "maar", "toch", "en"], "exp": "[[desalniettemin]], seçenekler arasında \"buna rağmen/bununla birlikte\" ifadesinin en resmi ve en vurgulu karşılığıdır." },
+      { "exp": "[[niettemin]] veya [[desalniettemin]], cümlenin iki bölümü arasındaki beklenmedik ilişkiyi resmi bir tonla ifade eder." },
+      { "q": "'daarentegen' cümlede hangi rolü oynar?", "options": ["Önceki noktayla karşıtlık/çatışma göstermek", "Çatışma olmadan tamamlayıcı bir not eklemek", "Bir neden ifade etmek", "Bir koşul ifade etmek"], "exp": "[[daarentegen]], \"aksine/tam tersine\" anlamında iki fikri veya iki veri kümesini karşılaştırmak için kullanılır." },
+      { "q": "Cümleyi diz: 'Bu araştırma 2020 ile 2022 yılları arasında gerçekleştirildi.' (resmi edilgen)", "exp": "Eyleyenin kaldırılması ve edilgen fiilin kullanılması ([[werd uitgevoerd]]), odağı \"kim yaptı\"dan olayın kendisine kaydırır; resmi nesnel üslubun bir örneğidir." },
+      { "q": "Argümantatif bir metinde ihtiyat (hedging) ifadelerinin aşırı kullanımının riski nedir?", "options": ["Argümanı zayıf ve kararsız gösterebilir", "Metni daha kısa yapar", "Metni gayriresmi yapar", "Cümlenin aşırı edilgenleşmesine neden olur"], "exp": "[[zou kunnen]], [[mogelijk]], [[lijkt erop dat]] gibi ihtiyatlı ifadelerin aşırı kullanımı, yazarın argümanının gücünü azaltabilir ve metni kararsız gösterebilir." }
+    ]
+  }
+}

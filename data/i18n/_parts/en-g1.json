@@ -1,0 +1,899 @@
+{
+  "a1-lidwoorden": {
+    "title": "Articles: de, het, and een",
+    "sum": "In Dutch, [[de]] or [[het]] is used for definite nouns, and [[een]] for indefinite nouns; the choice between [[de]] and [[het]] depends on the grammatical gender of the noun.",
+    "blocks": [
+      {
+        "h": "The definite article: [[de]] and [[het]]",
+        "p": "Persian has no definite article, but in Dutch every noun comes with either [[de]] or [[het]], both corresponding to **the**. Nouns that take [[de]] are called **de-woorden** and nouns that take [[het]] are called **het-woorden**. About three-quarters of Dutch nouns take [[de]].",
+        "ex": ["The table is brown.", "The book is interesting."],
+        "tip": "The best way to learn any new noun is to memorize it together with its own [[de]] or [[het]], not the noun alone."
+      },
+      {
+        "h": "When [[het]] is used",
+        "p": "A group of nouns always take [[het]]: **diminutives** (verkleinwoorden ending in [[-je]]), names of **languages**, **metals** and **geographic directions**, and nouns formed from a **verb in infinitive form**.",
+        "list": [
+          "Diminutives: [[het huisje]] (the little house), [[het boekje]] (the little book/booklet)",
+          "Languages: [[het Nederlands]], [[het Perzisch]]",
+          "Metals and directions: [[het goud]], [[het noorden]]",
+          "Infinitive as noun: [[het lezen]] (reading), [[het eten]] (food/eating)"
+        ],
+        "ex": ["Dutch isn't all that hard.", "The food tastes good."]
+      },
+      {
+        "h": "When [[de]] is used",
+        "p": "**Plural** nouns always take [[de]], even if their singular form takes [[het]]. Also, nouns referring to **people and occupations** and most **trees, flowers, fruits and vegetables** usually take [[de]].",
+        "table": { "head": ["Singular", "Plural"], "rows": [["het huis", "de huizen"], ["het boek", "de boeken"], ["de auto", "de auto's"]] },
+        "ex": ["The child is playing outside.", "The children are playing outside."],
+        "tip": "In the plural there's no difference between [[de]] and [[het]]; all plurals take [[de]]."
+      },
+      {
+        "h": "The indefinite article: [[een]]",
+        "p": "[[een]] corresponds to **a / an** and is used to introduce something unknown or unspecified. Unlike [[de]] and [[het]], [[een]] is the same for both groups of nouns — there is no difference.",
+        "ex": ["I see a dog.", "That is a beautiful house."],
+        "tip": "[[een]] never comes with a plural noun; for an indefinite plural we use no article at all: [[Ik zie honden.]] (I see dogs.)"
+      },
+      {
+        "h": "A practical way to learn",
+        "p": "In Dutch dictionaries, [[het]]-nouns are usually marked with **(het)** and the rest are [[de]]-nouns. The best approach is to memorize each new noun together with its article.",
+        "list": [
+          "[[de man]] - man",
+          "[[het meisje]] - girl (diminutive, always het)",
+          "[[de stad]] - city",
+          "[[het land]] - country"
+        ]
+      }
+    ],
+    "ex": [
+      { "exp": "[[boek]] is a het-woord, so its article is [[het]]." },
+      { "exp": "Since the dog hasn't been introduced yet and is unspecified, we use the indefinite article [[een]]." },
+      { "q": "What is the plural of [[het huis]]?", "options": ["de huizen", "het huizen", "de huisen"], "exp": "Plural nouns always take [[de]], even if their singular form takes [[het]]: [[de huizen]]." },
+      { "q": "Which group of nouns always comes with [[het]]?", "options": ["Language names", "Occupation names", "Fruit names"], "exp": "Language names like [[het Nederlands]] always take [[het]]." },
+      { "exp": "Language names always take [[het]]." },
+      { "q": "Put the sentence in the correct order: \"I see a dog.\"", "exp": "Simple sentence order: subject + verb + object: [[Ik zie een hond.]]" },
+      { "exp": "The plural noun [[kinderen]] always comes with [[de]]." },
+      { "q": "Which sentence is incorrect?", "options": ["Het huisje is klein.", "De tafel is bruin.", "Een boeken zijn duur."], "exp": "[[een]] never comes with a plural noun; the correct sentence is [[Boeken zijn duur.]]" },
+      { "q": "Put the sentence in the correct order: \"The children are playing outside.\"", "exp": "Since [[kinderen]] is plural, its article is [[de]]." }
+    ]
+  },
+  "a1-meervoud-verkleinwoord": {
+    "title": "Plurals and diminutives",
+    "sum": "In Dutch, the plural is usually formed with [[-en]] or [[-s]] (sometimes with a vowel or consonant spelling change), and diminutives are formed with the suffixes [[-je]], [[-tje]], [[-pje]] and [[-etje]].",
+    "blocks": [
+      {
+        "h": "Plural with the suffix [[-en]]",
+        "p": "The most common plural suffix in Dutch is [[-en]]. Sometimes, to preserve correct pronunciation, the spelling of the vowel or final consonant changes.",
+        "list": [
+          "[[fiets]] → [[fietsen]] (bicycle)",
+          "[[boot]] → [[boten]] (boat - the double vowel [[oo]] becomes a single [[o]] in an open syllable)",
+          "[[kat]] → [[katten]] (cat - the final consonant doubles to keep the vowel short)"
+        ],
+        "ex": ["I have two bicycles.", "The cats are sleeping."],
+        "tip": "These spelling changes are purely to preserve correct vowel pronunciation; the word itself and its meaning don't change."
+      },
+      {
+        "h": "Plural with the suffix [[-s]]",
+        "p": "Nouns ending in the unstressed syllables [[-el, -em, -en, -er]], as well as many loanwords ending in a vowel, form their plural with [[-s]].",
+        "list": [
+          "[[tafel]] → [[tafels]] (table)",
+          "[[deken]] → [[dekens]] (blanket)",
+          "[[auto]] → [[auto's]] (car)",
+          "[[foto]] → [[foto's]] (photo)"
+        ],
+        "ex": ["I have three cars."],
+        "tip": "When a noun ends in the vowel [[a, o, u, y]], an apostrophe comes before the [[s]] to preserve correct pronunciation: [[auto's]], not [[autos]]."
+      },
+      {
+        "h": "Irregular plurals",
+        "p": "A number of common nouns have irregular plurals that must be memorized separately.",
+        "list": [
+          "[[stad]] → [[steden]] (city)",
+          "[[kind]] → [[kinderen]] (child)",
+          "[[ei]] → [[eieren]] (egg)",
+          "[[schip]] → [[schepen]] (ship)"
+        ],
+        "tip": "These simply have to be memorized; there's no fixed rule for them."
+      },
+      {
+        "h": "Diminutives (verkleinwoorden)",
+        "p": "A diminutive is formed by adding one of the suffixes [[-je]], [[-pje]], [[-tje]] or [[-etje]] to a noun, giving it the meaning **small** or **endearing**.",
+        "list": [
+          "Ends in an ordinary consonant → [[+je]]: [[huis]] → [[huisje]], [[kop]] → [[kopje]]",
+          "Ends in [[m]] → [[+pje]]: [[boom]] → [[boompje]], [[raam]] → [[raampje]]",
+          "Ends in [[l, n, r]] after a long vowel → [[+tje]]: [[stoel]] → [[stoeltje]], [[deur]] → [[deurtje]]",
+          "Ends in [[l, n, r]] after a short vowel → [[+etje]] with the consonant doubled: [[man]] → [[mannetje]], [[bel]] → [[belletje]]"
+        ],
+        "ex": ["Look, a little house!", "Would you like a cup of coffee?"],
+        "tip": "Diminutives always take [[het]], even if the original noun takes [[de]]: [[de tafel]] → [[het tafeltje]]."
+      },
+      {
+        "h": "The meaning of diminutives isn't always just \"small\"",
+        "p": "Sometimes a diminutive carries an affectionate or informal tone, and sometimes it has even become an independent, common word in its own right, like [[kopje]] (cup), which no longer necessarily refers to something small.",
+        "ex": ["Nice weather, isn't it?"]
+      }
+    ],
+    "ex": [
+      { "exp": "Many nouns form their plural with [[-en]]: [[boek]] → [[boeken]]." },
+      { "exp": "Nouns ending in a vowel form their plural with an apostrophe and [[s]]: [[auto's]]." },
+      { "q": "Which is the correct plural of [[kat]]?", "options": ["katten", "kats", "katen"], "exp": "The final consonant doubles to preserve the short vowel [[a]]: [[katten]]." },
+      { "q": "What is the plural of [[kind]]?", "options": ["kinden", "kinderen", "kinds"], "exp": "[[kind]] has an irregular plural: [[kinderen]]." },
+      { "exp": "Since the word ends in an ordinary consonant, only [[+je]] is added: [[huisje]]." },
+      { "q": "What is the diminutive of [[boom]] (tree)?", "options": ["boomje", "boompje", "boomtje"], "exp": "After [[m]], the suffix [[+pje]] is added: [[boompje]]." },
+      { "q": "Put the sentence in the correct order: \"I have two bicycles.\"", "exp": "Simple sentence order: subject + verb + object." },
+      { "exp": "[[kopje]] is the diminutive of [[kop]] and is used here to mean \"cup\"." },
+      { "q": "What article do diminutives usually take?", "options": ["de", "het", "een only"], "exp": "All diminutives, without exception, take [[het]]." }
+    ]
+  },
+  "a1-voornaamwoorden": {
+    "title": "Subject and possessive pronouns",
+    "sum": "Subject pronouns ([[ik, jij, u, hij, zij, wij, jullie, zij]]) stand in for the subject noun, and possessive pronouns ([[mijn, jouw, zijn, haar, ons/onze, jullie, hun]]) indicate possession.",
+    "blocks": [
+      {
+        "h": "Subject pronouns",
+        "p": "Each Dutch subject pronoun corresponds to an English pronoun, with the difference that Dutch distinguishes between **jij (informal \"you\")** and **u (polite \"you\")**.",
+        "table": { "head": ["Pronoun", "Meaning"], "rows": [["ik", "I"], ["jij / je", "you (informal)"], ["u", "you (polite)"], ["hij", "he"], ["zij / ze", "she"], ["wij / we", "we"], ["jullie", "you (plural)"], ["zij / ze", "they"]] },
+        "ex": ["I live in Amsterdam.", "You are nice."],
+        "tip": "[[u]] is always used to show respect, regardless of whether you're speaking to one person or several."
+      },
+      {
+        "h": "The full form and the short form: [[je, we, ze]]",
+        "p": "[[jij, wij, zij]] are the full, stressed forms, while [[je, we, ze]] are the short, unstressed forms that are more common in everyday speech.",
+        "ex": ["You're late!", "We're going home."],
+        "tip": "The full form [[jij/wij/zij]] is used when we want to emphasize that pronoun, for example in answer to a question."
+      },
+      {
+        "h": "Possessive pronouns",
+        "p": "Unlike Persian, Dutch possessive pronouns come **before the noun** and correspond to possessive endings like \"my\", \"your\" and \"his/her\".",
+        "table": { "head": ["Possessive pronoun", "Meaning"], "rows": [["mijn", "my"], ["jouw / je", "your (informal)"], ["uw", "your (polite)"], ["zijn", "his"], ["haar", "her"], ["ons / onze", "our"], ["jullie", "your (plural)"], ["hun", "their"]] },
+        "ex": ["This is my house.", "Where is your bag?"]
+      },
+      {
+        "h": "[[ons]] or [[onze]]?",
+        "p": "The only possessive pronoun whose form changes is [[ons/onze]]: [[ons]] is used before a singular [[het]] noun, and [[onze]] before a singular [[de]] noun or any plural noun.",
+        "list": [
+          "[[ons huis]] (our house - singular het-woord)",
+          "[[onze auto]] (our car - singular de-woord)",
+          "[[onze kinderen]] (our children - plural)"
+        ],
+        "ex": ["Our house is big.", "Our car is new."],
+        "tip": "This change only applies to [[ons/onze]]; the other possessive pronouns never change."
+      },
+      {
+        "h": "Possession with [[van]]",
+        "p": "To show possession of a specific noun (a person's name), the [[van]] construction is usually used instead of an English-like possessive form: [[het boek van Jan]] means \"Jan's book,\" not with an apostrophe-s.",
+        "ex": ["That is Lisa's bag."],
+        "tip": "Only in colloquial speech is [[-s]] sometimes attached to a name without an apostrophe ([[Lisa's tas]]), but the [[van]] construction is more common and more formal."
+      }
+    ],
+    "ex": [
+      { "exp": "The subject pronoun for \"I\" in Dutch is [[ik]]." },
+      { "q": "Which pronoun is used for polite address?", "options": ["jij", "u", "jullie"], "exp": "[[u]] is the polite form of \"you,\" for both singular and plural." },
+      { "exp": "The possessive pronoun for \"I\" is [[mijn]]." },
+      { "q": "Which option is correct? (auto is a de-woord)", "options": ["ons auto", "onze auto", "on auto"], "exp": "Since [[auto]] is a de-woord, the possessive pronoun [[onze]] is used." },
+      { "exp": "Since [[huis]] is a singular het-woord, [[ons]] is used." },
+      { "q": "Which is the possessive pronoun for [[hij]]?", "options": ["haar", "zijn", "hun"], "exp": "The possessive pronoun corresponding to [[hij]] (he) is [[zijn]]." },
+      { "q": "Put the sentence in the correct order: \"You are nice.\"", "exp": "Simple sentence order: subject + verb + adjective." },
+      { "exp": "The possessive pronoun for \"you\" is [[jouw]], which in speech is usually shortened to [[je]]." },
+      { "q": "Which sentence is correct?", "options": ["Onze kinderen spelen buiten.", "Ons kinderen spelen buiten.", "Ons kind spelen buiten."], "exp": "Since [[kinderen]] is plural, [[onze]] must be used, not [[ons]]." }
+    ]
+  },
+  "a1-zijn-hebben-tegenwoordige-tijd": {
+    "title": "The verbs zijn and hebben, and the simple present tense",
+    "sum": "The verbs [[zijn]] (to be) and [[hebben]] (to have) are conjugated irregularly, and other regular verbs are conjugated in the present tense by adding [[-t]] to the stem (stam), or not, depending on the pronoun.",
+    "blocks": [
+      {
+        "h": "Conjugation of [[zijn]] (to be)",
+        "p": "The verb [[zijn]] is completely irregular and its conjugation must be memorized.",
+        "table": { "head": ["Pronoun", "Verb"], "rows": [["ik", "ben"], ["jij / je", "bent"], ["u", "bent"], ["hij / zij", "is"], ["wij / we", "zijn"], ["jullie", "zijn"], ["zij / ze (plural)", "zijn"]] },
+        "ex": ["I am Dutch.", "She is my sister."]
+      },
+      {
+        "h": "Conjugation of [[hebben]] (to have)",
+        "p": "The verb [[hebben]] is also irregular, but its pattern is easier to remember with a few examples.",
+        "table": { "head": ["Pronoun", "Verb"], "rows": [["ik", "heb"], ["jij / je", "hebt"], ["u", "hebt / heeft"], ["hij / zij", "heeft"], ["wij / we", "hebben"], ["jullie", "hebben"], ["zij / ze (plural)", "hebben"]] },
+        "ex": ["I have a dog.", "He has two brothers."],
+        "tip": "In a question, when the subject [[jij/je]] comes right after the verb, the final [[t]] of the verb is dropped: [[Heb je een hond?]] not [[Hebt je...]]"
+      },
+      {
+        "h": "The verb stem (stam) and the conjugation rule for regular verbs",
+        "p": "The verb stem is obtained by removing [[-en]] from the infinitive. In the present tense: for [[ik]] just the bare stem, for [[jij/u/hij/zij]] stem + [[-t]], and for the plural (wij, jullie, zij) the full infinitive itself is used.",
+        "table": { "head": ["Pronoun", "Verb werken (to work)"], "rows": [["ik", "werk"], ["jij / je", "werkt"], ["u", "werkt"], ["hij / zij", "werkt"], ["wij / we", "werken"], ["jullie", "werken"], ["zij / ze", "werken"]] },
+        "ex": ["I work in a shop.", "She works there too."]
+      },
+      {
+        "h": "The 't kofschip rule",
+        "p": "If the last letter of the stem is one of the **'t kofschip** letters (that is [[t, k, f, s, ch, p]]), the [[jij/u/hij/zij]] form still only adds [[-t]]; but if the stem itself already ends in [[t]], a second [[t]] is not added.",
+        "list": [
+          "[[fietsen]] → stem [[fiets]] (already ends in [[-s]]) → [[hij fietst]]",
+          "[[praten]] → stem [[praat]] (ends in [[t]]) → [[hij praat]] (not praatt)"
+        ],
+        "tip": "Two [[t]]'s never come one after another at the end of a verb."
+      },
+      {
+        "h": "Open-syllable vowel change in the stem",
+        "p": "When the infinitive has a double vowel and removing [[-en]] puts that vowel in an open syllable, the double vowel becomes a single vowel; and conversely, sometimes a consonant doubles to keep a vowel short.",
+        "list": [
+          "[[lopen]] → stem [[loop]] (the single vowel becomes double to preserve the long sound)",
+          "[[zitten]] → stem [[zit]] (one of the two [[t]]'s is dropped)"
+        ],
+        "ex": ["I walk to school.", "You are sitting on a chair."]
+      }
+    ],
+    "ex": [
+      { "exp": "The conjugation of [[zijn]] for [[ik]] is [[ben]]." },
+      { "exp": "The conjugation of [[hebben]] for [[jij]] is [[hebt]]." },
+      { "q": "What is the correct conjugation of [[hebben]] for [[hij]]?", "options": ["heb", "hebt", "heeft"], "exp": "The verb [[hebben]] is conjugated as [[heeft]] for [[hij/zij]]." },
+      { "exp": "The conjugation of [[zijn]] for the plural pronouns ([[wij, jullie, zij]]) is simply [[zijn]]." },
+      { "exp": "For [[ik]], only the bare stem of the verb is used, with no suffix at all: [[werk]]." },
+      { "q": "What is the correct conjugation of [[jij]] for [[werken]]?", "options": ["werk", "werkt", "werken"], "exp": "For [[jij/u/hij/zij]], [[-t]] is added to the stem: [[werkt]]." },
+      { "q": "What is the correct form of [[hij]] for [[praten]]?", "options": ["hij praat", "hij pratt", "hij praatt"], "exp": "The stem of [[praten]] is itself [[praat]] (already ends in [[t]]), so no extra [[t]] is added." },
+      { "q": "Put the sentence in the correct order: \"She works in a shop.\"", "exp": "Simple sentence order: subject + verb + adverbial of place." },
+      { "exp": "The stem of [[lopen]] is [[loop]] (double vowel to preserve the long sound), and for [[hij]] with [[-t]]: [[loopt]]." }
+    ]
+  },
+  "a1-woordvolgorde-vragen": {
+    "title": "Word order and questions",
+    "sum": "In simple Dutch sentences the verb always comes in second position (except in questions), and yes/no questions and wh-questions are formed by moving the verb or adding a question word.",
+    "blocks": [
+      {
+        "h": "The verb-second rule",
+        "p": "In a Dutch statement, the conjugated verb is always the **second element** of the sentence, not necessarily the second word. The subject can come either before or after the verb.",
+        "ex": ["I eat an apple.", "Today I eat an apple."],
+        "tip": "In the second example, because [[Vandaag]] has become the first element, the subject [[ik]] comes after the verb so the verb stays in second position."
+      },
+      {
+        "h": "Subject-verb-object structure",
+        "p": "The basic structure of a simple sentence, as in English, is subject-verb-object.",
+        "ex": ["I buy a book.", "She reads a newspaper."]
+      },
+      {
+        "h": "Yes/no questions",
+        "p": "To form a question that is answered with yes or no, the conjugated verb moves to the **beginning of the sentence** and the subject comes after it.",
+        "ex": ["Are you tired?", "Do you have a dog?", "Does she work here?"],
+        "tip": "When the subject [[jij/je]] comes after the verb, the final [[-t]] of the verb is dropped: [[Werk je hier?]] not [[Werkt je hier?]]"
+      },
+      {
+        "h": "Wh-questions (wh-vragen)",
+        "p": "Wh-questions start with a **question word**, immediately followed by the verb (the same verb-second rule).",
+        "table": { "head": ["Question word", "Meaning"], "rows": [["wat", "what"], ["wie", "who"], ["waar", "where"], ["wanneer", "when"], ["waarom", "why"], ["hoe", "how"], ["welke", "which"]] },
+        "ex": ["Where do you live?", "What are you doing?", "Why are you late?"]
+      },
+      {
+        "h": "Word order with time or place adverbials",
+        "p": "When a sentence starts with a time or place adverbial, the verb must still be the second element, so the subject comes after the verb. This rule is called **inversie** (inversion).",
+        "ex": ["Tomorrow I'm going to Amsterdam."],
+        "tip": "Whenever a sentence starts with something other than the subject (a time adverbial, a place adverbial, etc.), the verb and subject swap places."
+      }
+    ],
+    "ex": [
+      { "q": "Put the sentence in the correct order: \"I eat an apple.\"", "exp": "Simple order: subject + verb + object." },
+      { "q": "Put the sentence in the correct order: \"Tomorrow I'm going to school.\" (the sentence must start with Morgen)", "exp": "Because the sentence starts with the time adverbial [[Morgen]], the verb [[ga]] comes in second position and the subject [[ik]] comes after it." },
+      { "q": "Which yes/no question is correct?", "options": ["Je bent moe?", "Ben je moe?", "Jij ben moe?"], "exp": "In a yes/no question, the conjugated verb moves to the start of the sentence: [[Ben je moe?]]" },
+      { "exp": "The question word for \"where\" is [[waar]]." },
+      { "exp": "The question word for \"what\" is [[wat]]." },
+      { "q": "Put the sentence in the correct order: \"Does she work here?\"", "exp": "In a yes/no question the verb comes first: [[Werkt zij hier?]]" },
+      { "q": "In the sentence [[Vandaag eet ik een appel]], where is the subject placed?", "options": ["before the verb", "after the verb", "at the end of the sentence"], "exp": "Because [[Vandaag]] comes first in the sentence, the subject [[ik]] is placed after the verb [[eet]] so the verb stays in second position." },
+      { "exp": "The question word for \"why\" is [[waarom]]." },
+      { "q": "Put the sentence in the correct order: \"Do you have a dog?\"", "exp": "In a yes/no question the verb moves to the start of the sentence and the verb's [[t]] is dropped before [[je]]: [[Heb je...]]" }
+    ]
+  },
+  "a1-ontkenning": {
+    "title": "Negation with niet and geen",
+    "sum": "To negate a sentence in Dutch, [[niet]] is used, unless the noun in question appears with [[een]] or with no article at all, in which case [[geen]] is used.",
+    "blocks": [
+      {
+        "h": "General rule: when [[geen]]?",
+        "p": "[[geen]] replaces [[een]] — that is, it is used to say that **none** of that noun exists.",
+        "ex": ["I have a car.", "I don't have a car."]
+      },
+      {
+        "h": "[[geen]] with nouns that have no article",
+        "p": "[[geen]] is also used to negate plural nouns or nouns that have no article at all (like substances and foods).",
+        "ex": ["I drink coffee.", "I don't drink coffee.", "She has children.", "She doesn't have children."]
+      },
+      {
+        "h": "[[niet]] to negate a verb or sentence",
+        "p": "[[niet]] is used to negate a **verb, adjective, adverb, or a noun that has a definite article ([[de/het]]) or a possessive pronoun**.",
+        "ex": ["I'm not working today.", "This isn't my book."]
+      },
+      {
+        "h": "The position of [[niet]] in the sentence",
+        "p": "[[niet]] usually comes near the end of the sentence, but **before** an adjective, a place adverbial, a preposition, or a second verb (in sentences with an auxiliary verb).",
+        "list": [
+          "[[Ik ga niet naar school.]] (before the place adverbial)",
+          "[[Hij is niet aardig.]] (before the adjective)",
+          "[[Zij kan niet komen.]] (before the second verb)"
+        ],
+        "tip": "A simple trick: if you can mentally rephrase the sentence as \"it's not the case that...\", [[niet]] is usually correct, not [[geen]]."
+      },
+      {
+        "h": "Direct comparison of [[niet]] and [[geen]]",
+        "table": { "head": ["Affirmative sentence", "Negative sentence"], "rows": [["Ik heb een hond.", "Ik heb geen hond."], ["Ik zie de hond.", "Ik zie de hond niet."], ["Dit is mijn tas.", "Dit is niet mijn tas."]] },
+        "ex": ["I don't eat meat.", "I'm not eating that meat."]
+      }
+    ],
+    "ex": [
+      { "q": "Ik heb ___ broer. (I don't have a brother)", "options": ["niet", "geen", "geen een"], "exp": "Since [[broer]] is an indefinite noun with no article, [[geen]] is used." },
+      { "exp": "Since the noun appears with the possessive pronoun [[mijn]], [[niet]] must be used." },
+      { "q": "Zij drinkt ___ koffie.", "options": ["niet", "geen", "geen de"], "exp": "[[koffie]] has no article, so [[geen]] is correct." },
+      { "exp": "Since [[kat]] appears with the definite article [[de]], [[niet]] must be used." },
+      { "q": "Why is [[niet]] used in [[Ik zie de hond niet]] rather than [[geen]]?", "options": ["Because hond is a plural noun", "Because hond has the definite article de", "Because hond is a verb"], "exp": "When a noun has the definite article [[de/het]], [[niet]] is used for negation." },
+      { "q": "Put the sentence in the correct order: \"I'm not working today.\"", "exp": "[[niet]] comes before the time adverbial [[vandaag]]." },
+      { "exp": "To negate an adjective ([[aardig]]), [[niet]] is used." },
+      { "q": "Which sentence is correct?", "options": ["Ik heb geen tijd.", "Ik heb niet tijd.", "Ik heb niet een tijd."], "exp": "[[tijd]] is a noun with no article, so [[geen]] must be used." },
+      { "q": "Put the sentence in the correct order: \"She doesn't have children.\"", "exp": "Since [[kinderen]] has no article, [[geen]] is used." }
+    ]
+  },
+  "a1-voorzetsels": {
+    "title": "Prepositions of place and time",
+    "sum": "Prepositions like [[in, op, onder, naast, tussen, bij, achter]] indicate place, and [[om, in, op, over, voor]] express time; many of these words have different meanings depending on context.",
+    "blocks": [
+      {
+        "h": "Common prepositions of place",
+        "table": { "head": ["Preposition", "Meaning"], "rows": [["in", "in, inside"], ["op", "on, on top of"], ["onder", "under"], ["naast", "next to, beside"], ["tussen", "between"], ["bij", "near, at"], ["achter", "behind"], ["voor", "in front of"]] },
+        "ex": ["The cat is lying under the table.", "The book is lying on the table."]
+      },
+      {
+        "h": "The difference between [[in]] and [[op]]",
+        "p": "[[in]] is used for something that is **inside** a space or container, and [[op]] for something that is **on top of a surface**.",
+        "ex": ["The milk is in the fridge.", "The cups are on the table."],
+        "tip": "[[op]] is also used for streets, squares and islands: [[op straat]] (on the street), [[op het eiland]] (on the island)."
+      },
+      {
+        "h": "[[bij]] and [[naast]]",
+        "p": "[[bij]] means near something or by someone, and [[naast]] means right next to and beside something.",
+        "ex": ["I'm standing by the window.", "The chair is next to the table."]
+      },
+      {
+        "h": "Prepositions of time",
+        "table": { "head": ["Preposition", "Example"], "rows": [["om", "om acht uur (at eight o'clock)"], ["in", "in januari (in January)"], ["op", "op maandag (on Mondays)"], ["over", "over een week (in a week's time)"], ["voor", "voor het eten (before dinner)"]] },
+        "ex": ["The lesson starts at nine o'clock.", "I go to school on Mondays."]
+      },
+      {
+        "h": "Special notes on days and times of day",
+        "p": "For days of the week, [[op]] is used (e.g. [[op zaterdag]]), but for parts of the day like morning and evening, the [['s]] construction is used, like [['s avonds]] (in the evenings) and [['s ochtends]] (in the mornings).",
+        "list": [
+          "[['s morgens]] / [['s ochtends]] (in the mornings)",
+          "[['s middags]] (at noon / in the afternoons)",
+          "[['s avonds]] (in the evenings / at night)",
+          "[['s nachts]] (late at night)"
+        ],
+        "ex": ["In the evenings I watch TV."],
+        "tip": "[['s]] is always written with a lowercase letter, even at the start of a sentence; in that case the next word is capitalized: [['s Avonds]]."
+      }
+    ],
+    "ex": [
+      { "exp": "[[onder]] means under something." },
+      { "exp": "[[op]] is used for something resting on top of a surface." },
+      { "q": "Which preposition is correct for inside the fridge?", "options": ["op", "in", "achter"], "exp": "Since the milk is inside the space of the fridge, [[in]] is used: [[in de koelkast]]." },
+      { "exp": "[[om]] is used to express an exact time." },
+      { "exp": "[[op]] is used for days of the week." },
+      { "q": "Which option is correct for \"in the evenings\"?", "options": ["'s ochtends", "'s avonds", "'s middags"], "exp": "[['s avonds]] means \"in the evenings\"." },
+      { "q": "Put the sentence in the correct order: \"The chair is next to the table.\"", "exp": "Simple order: subject + verb + preposition + object." },
+      { "exp": "[[in]] is used for the names of months." },
+      { "q": "Which sentence is correct for \"in a week's time\"?", "options": ["over een week", "voor een week", "om een week"], "exp": "[[over]] is used to express the passing of time in the future: [[over een week]]." }
+    ]
+  },
+  "a1-modale-werkwoorden": {
+    "title": "Modal verbs",
+    "sum": "Modal verbs like [[kunnen]] (can/to be able to), [[mogen]] (to be allowed to), [[moeten]] (to have to), [[willen]] (to want) and [[hoeven]] (to not need to) are used together with another verb in infinitive form at the end of the sentence.",
+    "blocks": [
+      {
+        "h": "Conjugation of modal verbs",
+        "p": "Modal verbs are conjugated briefly, and somewhat irregularly, in the singular (ik, jij/u, hij/zij), and remain in the full infinitive form in the plural (wij, jullie, zij).",
+        "table": {
+          "head": ["Pronoun", "kunnen", "mogen", "moeten", "willen"],
+          "rows": [
+            ["ik", "kan", "mag", "moet", "wil"],
+            ["jij / je", "kan / kunt", "mag", "moet", "wil / wilt"],
+            ["u", "kunt / kan", "mag", "moet", "wilt"],
+            ["hij / zij", "kan", "mag", "moet", "wil"],
+            ["wij / we", "kunnen", "mogen", "moeten", "willen"],
+            ["jullie", "kunnen", "mogen", "moeten", "willen"],
+            ["zij / ze", "kunnen", "mogen", "moeten", "willen"]
+          ]
+        }
+      },
+      {
+        "h": "The meaning and use of each modal verb",
+        "list": [
+          "[[kunnen]]: to be able to / can",
+          "[[mogen]]: to be allowed to",
+          "[[moeten]]: to have to, must",
+          "[[willen]]: to want, to wish",
+          "[[hoeven]]: to not need to (usually used together with [[niet]])"
+        ],
+        "ex": ["I can swim well.", "You're allowed to smoke here."]
+      },
+      {
+        "h": "The position of the main verb at the end of the sentence",
+        "p": "When there is a modal verb in the sentence, the main verb comes in **infinitive** form at the **end of the sentence**; the modal verb itself occupies the second position.",
+        "ex": ["I have to go home now.", "Would you like to drink a cup of coffee?"],
+        "tip": "This structure is called **werkwoord op de laatste plaats** (verb in the last position): modal verb second, main verb last."
+      },
+      {
+        "h": "[[hoeven niet]] versus [[moeten]]",
+        "p": "[[hoeven]] is almost always used together with [[niet]] and means **it's not necessary**, which is exactly the opposite of [[moeten]] (must).",
+        "ex": ["You have to do this.", "You don't need to do this."],
+        "tip": "With [[hoeven]], the word [[te]] usually comes before the main verb: [[hoeven te + infinitive]], unlike other modal verbs, which don't need [[te]]."
+      },
+      {
+        "h": "Negating other modal verbs",
+        "p": "To negate [[mogen]] (not being allowed to), [[kunnen]] (not being able to) and [[willen]] (not wanting to), simply [[niet]] comes before the main verb at the end of the sentence, just like with any other verb.",
+        "ex": ["You're not allowed to smoke here.", "I can't do this."]
+      }
+    ],
+    "ex": [
+      { "exp": "The conjugation of [[kunnen]] for [[ik]] is [[kan]]." },
+      { "exp": "The conjugation of [[mogen]] for [[jij]] is [[mag]]." },
+      { "q": "What is the correct conjugation of [[wij]] for [[moeten]]?", "options": ["moet", "moeten", "moest"], "exp": "In the plural, modal verbs stay in the full infinitive form: [[wij moeten]]." },
+      { "q": "Put the sentence in the correct order: \"I have to go home now.\"", "exp": "The modal verb [[moet]] comes second and the main verb [[gaan]] comes in infinitive form at the end." },
+      { "exp": "The conjugation of [[hoeven]] for [[je]] is [[hoeft]]." },
+      { "q": "Which verb means \"it's not necessary\"?", "options": ["moeten", "hoeven niet", "mogen niet"], "exp": "[[hoeven]] together with [[niet]] means \"it's not necessary\"." },
+      { "q": "Put the sentence in the correct order: \"Would you like to drink a cup of coffee?\"", "exp": "In the question, the modal verb [[wil]] comes first and the main verb [[drinken]] comes in infinitive form at the end." },
+      { "exp": "The conjugation of [[kunnen]] for [[ik]] is the same [[kan]] in the negative form too, just with [[niet]] added." },
+      { "q": "In the sentence [[Ik moet nu naar huis gaan]], where is the main verb placed?", "options": ["at the start of the sentence", "right after the subject", "at the end of the sentence, in infinitive form"], "exp": "When there is a modal verb in the sentence, the main verb comes in infinitive form at the end of the sentence." }
+    ]
+  },
+  "a2-scheidbare-werkwoorden": {
+    "title": "Separable verbs",
+    "sum": "Separable verbs like [[opstaan]] and [[aankomen]] split apart in the main clause, stick together in a special way in the infinitive and the perfect tense, and join back together in a subordinate clause.",
+    "blocks": [
+      {
+        "h": "What is a separable verb?",
+        "p": "In Dutch, some verbs are made up of two parts: a prefix (like [[op]], [[aan]], [[mee]]) and the main verb. These are called **separable verbs** (scheidbare werkwoorden), such as [[opstaan]] (to get up), [[aankomen]] (to arrive) and [[meenemen]] (to take along). In the infinitive, these two parts are always joined together and the main stress falls on the prefix.",
+        "list": [
+          "[[opstaan]] = to get up / to wake up",
+          "[[aankomen]] = to arrive",
+          "[[meenemen]] = to take along",
+          "[[afspreken]] = to make an appointment / arrangement",
+          "[[uitnodigen]] = to invite",
+          "[[instappen]] = to get on / board",
+          "[[weggaan]] = to leave",
+          "[[terugkomen]] = to come back"
+        ],
+        "tip": "The prefix of a separable verb always carries the stress; this is one way to tell separable verbs apart from inseparable ones like [[bezoeken]]."
+      },
+      {
+        "h": "The position of the prefix in the main clause",
+        "p": "In a main clause with the present or simple past tense, the conjugated verb comes right after the subject, but the separable part (the prefix) moves to the **end of the sentence**.",
+        "ex": ["I get up at seven every morning.", "She arrives tomorrow at ten o'clock.", "Are you taking your umbrella with you?"]
+      },
+      {
+        "h": "With modal verbs and the infinitive",
+        "p": "When a separable verb appears in infinitive form together with a modal verb (like [[kunnen]], [[moeten]], [[willen]]) or after [[gaan]], its two parts join back together and appear as a single word at the end of the sentence.",
+        "ex": ["I have to get up early tomorrow.", "Do you want to take the book with you?"]
+      },
+      {
+        "h": "The perfect tense (voltooide tijd)",
+        "p": "In the past participle (deelwoord) of separable verbs, the prefix [[ge]] is placed not at the start of the word but **between the prefix and the main verb**.",
+        "table": { "head": ["Infinitive", "Past participle"], "rows": [["opstaan", "opgestaan"], ["aankomen", "aangekomen"], ["meenemen", "meegenomen"], ["afspreken", "afgesproken"]] },
+        "ex": ["He got up late this morning.", "We've arranged something nice."]
+      },
+      {
+        "h": "In a subordinate clause (bijzin)",
+        "p": "When a sentence begins with a subordinating conjunction like [[dat]], [[omdat]] or [[als]], the verb moves to the end of the clause, and in this case the two parts of a separable verb join back together into **one word**.",
+        "ex": ["I think he's arriving tomorrow.", "She's happy because she's coming home early."],
+        "tip": "This is one of the most common mistakes language learners make: don't forget that in a subordinate clause, the two parts of the verb must come back together to form one word."
+      }
+    ],
+    "ex": [
+      { "q": "Choose the correct sentence (verb [[opstaan]]).", "options": ["Ik sta elke dag om zeven uur op.", "Ik opsta elke dag om zeven uur.", "Ik sta op elke dag om zeven uur."], "exp": "In the main clause, the conjugated verb comes after the subject and the separable part ([[op]]) moves to the end of the sentence: [[Ik sta ... op]]." },
+      { "q": "In a subordinate clause, how is a separable verb written? Example: ...dat hij morgen ___ (aankomen)", "options": ["aan komt", "komt aan", "aankomt"], "exp": "In a subordinate clause, the two parts of a separable verb join back together into one word at the end of the clause: [[dat hij morgen aankomt]]." },
+      { "q": "What form does [[meenemen]] take in the perfect tense (voltooide tijd)?", "options": ["heeft meegenomen", "heeft genomenmee", "heeft meegeenomen"], "exp": "In the past participle of separable verbs, [[ge]] is placed between the prefix and the main verb: [[mee + ge + nomen]] = [[meegenomen]]." },
+      { "exp": "The separable verb [[meenemen]] splits apart in the main clause; the prefix [[mee]] moves to the end of the sentence." },
+      { "exp": "The verb [[afspreken]] splits apart in the main clause; the part [[af]] moves to the end of the sentence." },
+      { "exp": "The past participle of the separable verb [[thuiskomen]] is formed by adding [[ge]] between the prefix and the main verb: [[thuisgekomen]]." },
+      { "q": "Put the words in the correct order: \"He arrives tomorrow.\"", "exp": "In the main clause the verb [[komt]] comes after the subject and the prefix [[aan]] moves to the end of the sentence." },
+      { "q": "The correct word order for the sentence: \"I have to get up early.\"", "exp": "With the modal verb [[moet]], the infinitive of the separable verb [[opstaan]] comes as a single word at the end of the sentence." },
+      { "q": "Which subordinate clause is correct?", "options": ["Ik weet dat hij morgen aankomt.", "Ik weet dat hij morgen komt aan.", "Ik weet dat hij aankomt morgen."], "exp": "In a subordinate clause after [[dat]], the separable verb comes as a single word ([[aankomt]]) at the end of the clause." }
+    ]
+  },
+  "a2-onvoltooid-verleden-tijd": {
+    "title": "Simple past tense",
+    "sum": "To form the simple past tense of regular verbs, [[-te]] or [[-de]] is added to the stem; irregular verbs are conjugated with a vowel change and must be memorized.",
+    "blocks": [
+      {
+        "h": "Use of the simple past",
+        "p": "The [[onvoltooid verleden tijd]] (simple past) is used to express past events and habits, especially in narration and storytelling, or when a specific point in the past is clear.",
+        "ex": ["I used to live in Amsterdam.", "Yesterday he worked until late."]
+      },
+      {
+        "h": "Regular verbs (zwakke werkwoorden)",
+        "p": "For regular verbs, [[-te]] or [[-de]] is added to the stem. To decide which one to use, we apply the famous **'t kofschip** rule: if the verb stem ends in one of the letters [[t, k, f, s, ch, p]], [[-te]] is added; otherwise, [[-de]].",
+        "table": { "head": ["Infinitive", "Stem", "Simple past (singular)", "Simple past (plural)"], "rows": [["werken", "werk", "werkte", "werkten"], ["maken", "maak", "maakte", "maakten"], ["leven", "leef", "leefde", "leefden"], ["wonen", "woon", "woonde", "woonden"]] },
+        "tip": "To remember the letters of the 't kofschip rule, you can recall the phrase 't kofschip itself, or the English mnemonic \"x-factor shoes,\" both of which contain the same letters t, k, f, s, ch, p."
+      },
+      {
+        "h": "Irregular verbs (sterke werkwoorden)",
+        "p": "In irregular verbs, the stem vowel changes and no [[-te]] or [[-de]] is added. In the plural, [[-en]] is added to the end of the verb.",
+        "table": { "head": ["Infinitive", "Singular", "Plural"], "rows": [["lopen", "liep", "liepen"], ["eten", "at", "aten"], ["zien", "zag", "zagen"], ["komen", "kwam", "kwamen"], ["geven", "gaf", "gaven"], ["lezen", "las", "lazen"]] }
+      },
+      {
+        "h": "Important auxiliary and modal verbs",
+        "p": "The common verbs [[zijn]] and [[hebben]], as well as the modal verbs, also have irregular forms in the simple past, which must be memorized separately.",
+        "table": { "head": ["Infinitive", "Singular", "Plural"], "rows": [["zijn", "was", "waren"], ["hebben", "had", "hadden"], ["kunnen", "kon", "konden"], ["moeten", "moest", "moesten"], ["willen", "wilde / wou", "wilden"], ["mogen", "mocht", "mochten"]] },
+        "tip": "[[wou]] is the colloquial form of [[wilde]] and is very common in everyday speech."
+      },
+      {
+        "h": "Simple past versus perfect tense",
+        "p": "In written language and narration, the simple past is common, but in everyday Dutch speech people often use the **perfect tense** ([[voltooide tijd]]) to talk about the past. These two tenses are often combined within a single text.",
+        "ex": ["I worked yesterday and then went home."]
+      }
+    ],
+    "ex": [
+      { "q": "What is the simple past form of [[werken]] for [[hij]]?", "options": ["werkde", "werkte", "werkten"], "exp": "The stem [[werk]] ends in [[k]] (one of the 't kofschip letters), so it takes [[-te]]: [[werkte]]." },
+      { "q": "What is the simple past form of [[wonen]] for [[wij]]?", "options": ["woonden", "woonten", "woonde"], "exp": "The stem [[woon]] doesn't end in a 't kofschip letter, so it takes [[-de]]/[[-den]]; in the plural: [[woonden]]." },
+      { "q": "Which simple past form of [[gaan]] is correct for the singular?", "options": ["gaande", "ging", "gingde"], "exp": "[[gaan]] is an irregular verb: singular [[ging]], plural [[gingen]]." },
+      { "exp": "The stem [[woon]] doesn't end in a 't kofschip letter, so it takes [[-de]]: [[woonde]]." },
+      { "exp": "[[lopen]] is an irregular verb and becomes [[liep]] in the singular." },
+      { "exp": "The simple past of [[kunnen]] in the plural is [[konden]]." },
+      { "q": "Correct word order for: \"He worked late yesterday\"", "exp": "The conjugated verb [[werkte]] comes after the subject and the adverbials follow it." },
+      { "q": "Correct word order for: \"We used to live in Amsterdam\"", "exp": "The verb [[woonden]] (plural simple past) comes after the subject." }
+    ]
+  },
+  "a2-voltooide-tijd": {
+    "title": "The perfect tense",
+    "sum": "The Dutch perfect tense is formed with the auxiliary verb [[hebben]] or [[zijn]] together with the past participle (deelwoord) at the end of the sentence.",
+    "blocks": [
+      {
+        "h": "General structure",
+        "p": "The perfect tense is formed from the conjugated auxiliary verb ([[hebben]] or [[zijn]]) together with the **past participle** (voltooid deelwoord). The auxiliary verb comes after the subject and the past participle moves to the end of the sentence.",
+        "ex": ["I have read a book.", "She has gone to school."]
+      },
+      {
+        "h": "[[hebben]] or [[zijn]]?",
+        "p": "Most verbs are conjugated with [[hebben]]. But verbs that express **movement to another place** or a **change of state** (like [[gaan]], [[komen]], [[worden]], [[blijven]], [[sterven]]) are conjugated with [[zijn]].",
+        "list": [
+          "[[hebben]]: most verbs, like [[werken]], [[eten]], [[lezen]], [[zien]]",
+          "[[zijn]]: motion verbs with a change of place or state, like [[gaan]], [[komen]], [[worden]], [[blijven]], [[vertrekken]]"
+        ],
+        "tip": "Some verbs, like [[fietsen]], can take either [[hebben]] or [[zijn]]: if the emphasis is on the activity itself, [[hebben]] is used, and if the emphasis is on reaching a destination, [[zijn]] is used: [[Ik heb gefietst]] (I went cycling) versus [[Ik ben naar school gefietst]] (I cycled to school)."
+      },
+      {
+        "h": "Forming the past participle of regular verbs",
+        "p": "The past participle of regular verbs is formed by adding [[ge-]] to the start of the stem and [[-t]] or [[-d]] to the end; the same 't kofschip rule we saw in the simple past applies here too.",
+        "table": { "head": ["Infinitive", "Stem", "Past participle"], "rows": [["werken", "werk", "gewerkt"], ["maken", "maak", "gemaakt"], ["leven", "leef", "geleefd"], ["wonen", "woon", "gewoond"]] }
+      },
+      {
+        "h": "Irregular past participles",
+        "p": "Many common verbs have irregular past participles that must be memorized separately.",
+        "table": { "head": ["Infinitive", "Past participle"], "rows": [["doen", "gedaan"], ["geven", "gegeven"], ["zien", "gezien"], ["nemen", "genomen"], ["komen", "gekomen"], ["gaan", "gegaan"], ["zijn", "geweest"], ["hebben", "gehad"], ["kopen", "gekocht"], ["schrijven", "geschreven"]] },
+        "tip": "The past participle of [[zijn]] is itself [[geweest]]: [[Ik ben in Parijs geweest]] (I have been to Paris)."
+      },
+      {
+        "h": "Word order in the sentence",
+        "p": "The auxiliary verb comes directly after the subject, other sentence elements (time adverbials, objects, etc.) come in the middle, and the past participle is always the last word of the main clause.",
+        "ex": ["Yesterday we cleaned the whole house.", "Have you seen that film already?"]
+      }
+    ],
+    "ex": [
+      { "q": "Which auxiliary verb is used with [[gaan]]?", "options": ["hebben", "zijn", "worden"], "exp": "[[gaan]] is a motion verb involving a change of place, so it takes [[zijn]]: [[Hij is gegaan]]." },
+      { "q": "What is the correct past participle of [[kopen]]?", "options": ["gekoopt", "gekocht", "gekopen"], "exp": "[[kopen]] is an irregular verb and its past participle is [[gekocht]]." },
+      { "q": "Choose the correct sentence.", "options": ["Ik heb een appel gegeten.", "Ik ben een appel gegeten.", "Ik heb een appel eten."], "exp": "[[eten]] is conjugated with [[hebben]] and its past participle is [[gegeten]]." },
+      { "exp": "The verb [[gaan]] is conjugated with [[zijn]]; the third-person singular of [[zijn]] is [[is]]." },
+      { "exp": "The past participle of [[werken]] is formed with the 't kofschip rule as [[gewerkt]]." },
+      { "exp": "The irregular past participle of [[lezen]] is [[gelezen]]." },
+      { "q": "Correct order: \"I wrote a letter yesterday\"", "exp": "The auxiliary verb [[heb]] comes after the subject and the past participle [[geschreven]] moves to the end of the sentence." },
+      { "q": "Correct order: \"He has gone home\"", "exp": "Since [[gaan]] is a motion verb, the auxiliary verb [[is]] is used and the past participle [[gegaan]] comes at the end." }
+    ]
+  },
+  "a2-toekomende-tijd": {
+    "title": "The future tense",
+    "sum": "The future in Dutch is usually formed with [[gaan]] + infinitive (for plans and intentions) or [[zullen]] + infinitive (for predictions, promises and suggestions).",
+    "blocks": [
+      {
+        "h": "Two ways to form the future",
+        "p": "Dutch has two main structures for expressing the future: [[gaan]] + infinitive and [[zullen]] + infinitive. The choice between the two depends on the **intention and tone** of the sentence, not just the tense.",
+        "list": [
+          "[[gaan]] + infinitive: a plan, intention, or near future",
+          "[[zullen]] + infinitive: a prediction, promise, spontaneous decision, or suggestion"
+        ]
+      },
+      {
+        "h": "gaan + infinitive",
+        "p": "[[gaan]] is used when there is already a plan or intention to do something. The infinitive of the main verb comes at the end of the sentence.",
+        "ex": ["Tomorrow I'm going to buy a new car (I intend to).", "This weekend we're going to the beach."]
+      },
+      {
+        "h": "zullen + infinitive",
+        "p": "[[zullen]] is used for predictions, making promises, or a decision made on the spot. It is also used in suggestions with [[Zullen we...?]]",
+        "table": { "head": ["Pronoun", "zullen"], "rows": [["ik", "zal"], ["jij / je", "zal / zult"], ["hij / zij / het", "zal"], ["wij / we", "zullen"], ["jullie", "zullen"], ["zij / ze", "zullen"]] },
+        "ex": ["It will probably rain tomorrow.", "I'll call you tomorrow, I promise.", "Shall we have coffee together?"]
+      },
+      {
+        "h": "The subtle difference between gaan and zullen",
+        "p": "[[gaan]] indicates a predetermined plan or intention, while [[zullen]] is used more for a guess, a prediction, or a promise made on the spot. In many everyday situations, [[gaan]] is more natural and more common.",
+        "tip": "A friendly suggestion usually starts with [[Zullen we...?]], not [[Gaan we...?]]"
+      },
+      {
+        "h": "The present tense for the future",
+        "p": "When there is a specific future time adverbial in the sentence (like [[morgen]], [[volgende week]]), the simple present can also be used to express the future.",
+        "ex": ["Tomorrow I'm playing tennis."]
+      }
+    ],
+    "ex": [
+      { "q": "Which sentence shows a predetermined intention?", "options": ["Ik zal morgen naar de tandarts gaan.", "Ik ga morgen naar de tandarts.", "Ik ging morgen naar de tandarts."], "exp": "[[gaan]] + infinitive is used for a predetermined plan or intention." },
+      { "q": "Which structure is usually used to make a suggestion?", "options": ["Gaan we samen eten?", "Zullen we samen eten?", "Zijn we samen eten?"], "exp": "Friendly suggestions are usually made with [[Zullen we...?]]" },
+      { "q": "What is the correct form of [[zullen]] for [[wij]]?", "options": ["zal", "zult", "zullen"], "exp": "For [[wij]]/[[we]], the correct form of [[zullen]] is [[zullen]]." },
+      { "exp": "To make a promise, [[zullen]] is used; its first-person singular form is [[zal]]." },
+      { "exp": "To express a predetermined plan, [[gaan]] + infinitive is used." },
+      { "exp": "For a weather prediction, [[zullen]] is common; its third-person singular form is [[zal]]." },
+      { "q": "Correct order: \"Tomorrow I'm buying a new book (I intend to)\"", "exp": "The structure [[gaan]] + infinitive: [[ga]] after the subject and the infinitive [[kopen]] at the end of the sentence." },
+      { "q": "Correct order: \"Shall we have coffee together?\"", "exp": "A suggestion starts with [[Zullen we]] and the infinitive of the main verb ([[drinken]]) comes at the end." }
+    ]
+  },
+  "a2-bijvoeglijk-naamwoord": {
+    "title": "Adjectives and the -e ending",
+    "sum": "An adjective before a noun usually takes [[-e]], except before a singular het-woord with [[een]] or with no article.",
+    "blocks": [
+      {
+        "h": "The general rule",
+        "p": "In Dutch, when an adjective comes **before a noun**, in most cases [[-e]] must be added to it. This ending depends on the gender of the noun (de-woord or het-woord), whether it's singular or plural, and the type of article.",
+        "table": { "head": ["Case", "Example"], "rows": [["de-woord (singular, any article)", "de mooie auto / een mooie auto"], ["singular het-woord with het/dit/dat", "het mooie huis"], ["singular het-woord with een/geen/no article", "een mooi huis"], ["plural (either gender)", "mooie auto's / mooie huizen"]] }
+      },
+      {
+        "h": "de-woorden always take -e",
+        "p": "If the noun is a [[de-woord]], the adjective before it always takes [[-e]], whether or not it has an article.",
+        "ex": ["The big garden is gorgeous.", "She has a nice dog."]
+      },
+      {
+        "h": "het-woorden: it depends on the article",
+        "p": "For singular [[het-woorden]], if the article is **definite/demonstrative** ([[het]], [[dit]], [[dat]]), the adjective takes [[-e]]; but if the article is **indefinite** ([[een]]) or there is no article at all, the adjective stays without [[-e]].",
+        "ex": ["The beautiful house is by the water.", "I live in a beautiful house.", "This small child laughs a lot."],
+        "tip": "If there is no article at all and the noun is a singular het-woord, the adjective also doesn't take [[-e]]: [[mooi weer]] (nice weather)."
+      },
+      {
+        "h": "The plural always takes -e",
+        "p": "In the plural, it doesn't matter whether the noun is a de-woord or a het-woord; the adjective always takes [[-e]].",
+        "ex": ["The children have made beautiful drawings."]
+      },
+      {
+        "h": "Exceptions and the predicative position",
+        "p": "Adjectives ending in [[-en]] (usually adjectives of material or origin, like [[houten]], [[gouden]], [[open]], [[eigen]]) never add [[-e]]. Also, when an adjective comes after a verb (like [[zijn]] or [[worden]]) and not before a noun (the predicative position), it never gets [[-e]].",
+        "list": [
+          "[[een houten tafel]] (a wooden table) - without -e",
+          "[[de open deur]] (the open door) - without -e"
+        ],
+        "ex": ["The house is beautiful.", "The car is fast."],
+        "tip": "Remember the difference: [[een mooi huis]] (before a noun, indefinite het-woord, no e) versus [[Het huis is mooi]] (predicative position, always without e)."
+      }
+    ],
+    "ex": [
+      { "q": "Which option is correct? (de-woord: de auto)", "options": ["een groot auto", "een grote auto", "een groote auto"], "exp": "Since [[auto]] is a de-woord, the adjective always takes [[-e]]: [[grote]]." },
+      { "q": "Which option is correct? (het-woord: het huis, with the indefinite article)", "options": ["een groot huis", "een grote huis"], "exp": "Since [[huis]] is a het-woord and appears with [[een]] (indefinite article), the adjective doesn't take [[-e]]: [[groot]]." },
+      { "q": "Which option is correct?", "options": ["het grote huis", "het groot huis", "het grootehuis"], "exp": "Since [[huis]] appears with the definite article [[het]], the adjective takes [[-e]]: [[grote]]." },
+      { "exp": "Since [[fiets]] is a de-woord, the adjective always takes [[-e]]." },
+      { "exp": "Since [[probleem]] is a het-woord and appears with [[een]], the adjective doesn't take [[-e]]." },
+      { "exp": "In the plural, the adjective always takes [[-e]], even for a het-woord." },
+      { "q": "Correct order: \"The beautiful house is by the sea\" (het huis)", "exp": "Since [[huis]] appears with the definite article [[het]], the adjective takes [[-e]]: [[mooie]]." },
+      { "q": "Correct order: \"He has a fast car\" (de auto)", "exp": "Since [[auto]] is a de-woord, the adjective always takes [[-e]]: [[snelle]]." }
+    ]
+  },
+  "a2-vergelijking": {
+    "title": "Degrees of comparison",
+    "sum": "[[-er]] is added to an adjective for the comparative, and [[-st]] for the superlative; [[dan]] means \"than\" and [[net zo ... als]] is used for equality.",
+    "blocks": [
+      {
+        "h": "Three degrees of the adjective",
+        "p": "An adjective in Dutch has three degrees: the normal form (positief), the comparative (comparatief) and the superlative (superlatief).",
+        "table": { "head": ["Degree", "Example"], "rows": [["normal", "mooi"], ["comparative (-er)", "mooier"], ["superlative (-st)", "mooist"]] }
+      },
+      {
+        "h": "Forming the comparative",
+        "p": "To form the comparative, [[-er]] is added to the end of the adjective. After that, [[dan]] (meaning \"than\") is used to compare with something else. If the adjective itself ends in [[-r]], [[-der]] is added instead.",
+        "ex": ["Amsterdam is bigger than Utrecht.", "This car is more expensive than that car.", "My brother is older than me."]
+      },
+      {
+        "h": "Forming the superlative",
+        "p": "For the superlative, [[-st]] is added to the end of the adjective, and it always comes with the article [[de]] or [[het]]. Long adjectives, or those ending in [[-s]], are usually formed with [[meest]] instead.",
+        "ex": ["This is the most beautiful city in the Netherlands.", "He is the most interesting person I know."],
+        "tip": "After the superlative, [[van]] is used instead of [[dan]]: [[de mooiste van de klas]] (the most beautiful one in the class)."
+      },
+      {
+        "h": "Irregular adjectives",
+        "p": "A few common adjectives have irregular comparative forms that must be memorized separately.",
+        "table": { "head": ["Normal", "Comparative", "Superlative"], "rows": [["goed", "beter", "beste"], ["veel", "meer", "meest"], ["weinig", "minder", "minst"], ["graag", "liever", "liefst"]] }
+      },
+      {
+        "h": "Equality: net zo ... als",
+        "p": "To express equality between two things, the structure [[net zo + adjective + als]] or [[even + adjective + als]] is used, meaning \"just as ... as\".",
+        "ex": ["He is just as tall as his brother.", "This exercise is just as hard as the previous one."]
+      }
+    ],
+    "ex": [
+      { "q": "What is the comparative form of [[groot]]?", "options": ["grootter", "groter", "grootser"], "exp": "The comparative is formed by adding [[-er]]: [[groter]]." },
+      { "q": "Which sentence is correct?", "options": ["Zij is mooier dan haar zus.", "Zij is mooier als haar zus.", "Zij is mooier van haar zus."], "exp": "After the comparative, [[dan]] is used for comparison, not [[als]]." },
+      { "q": "What is the superlative form of [[goed]]?", "options": ["goedste", "beste", "meeste"], "exp": "[[goed]] is an irregular adjective: comparative [[beter]], superlative [[beste]]." },
+      { "exp": "The comparative of [[duur]] is formed by adding [[-der]] (because it already ends in -r): [[duurder]]." },
+      { "exp": "The superlative is formed by adding [[-st]]: [[mooiste]]." },
+      { "exp": "In the structure of equality [[net zo ... als]], [[als]] comes after the adjective." },
+      { "q": "Correct order: \"Amsterdam is bigger than Utrecht\"", "exp": "Comparison structure: the verb [[is]], the comparative adjective [[groter]], then [[dan]] + the thing being compared." },
+      { "q": "Correct order: \"This is the most beautiful house on the street\"", "exp": "The superlative always comes with an article, and afterward [[van]] is used to specify the group." }
+    ]
+  },
+  "a2-voegwoorden": {
+    "title": "Coordinating and subordinating conjunctions",
+    "sum": "Coordinating conjunctions like [[en]], [[maar]], [[want]] don't change the sentence order, but subordinating conjunctions like [[omdat]] and [[als]] move the verb to the end of the clause.",
+    "blocks": [
+      {
+        "h": "Two types of conjunctions",
+        "p": "In Dutch there are two main categories of conjunctions: **coordinating** (nevenschikkend), which joins two independent clauses together without changing word order, and **subordinating** (onderschikkend), which makes one clause dependent on the main clause and moves the verb to the end of that clause."
+      },
+      {
+        "h": "Coordinating conjunctions",
+        "p": "The most important coordinating conjunctions are [[en]] (and), [[maar]] (but), [[of]] (or), [[want]] (because) and [[dus]] (so). After these conjunctions, the normal sentence order (subject + verb) is kept.",
+        "ex": ["I'm staying home because I have a cold.", "He works a lot, so he's tired."],
+        "tip": "Although [[want]] and [[omdat]] both mean \"because,\" [[want]] doesn't change the sentence order, but [[omdat]] moves the verb to the end of the clause. This is one of the most common mistakes language learners make."
+      },
+      {
+        "h": "Subordinating conjunctions",
+        "p": "Subordinating conjunctions like [[omdat]] (because), [[als]] (if/when), [[terwijl]] (while), [[hoewel]] (although), [[voordat]] (before) and [[nadat]] (after) turn the clause that follows them into a **subordinate clause**, in which the conjugated verb moves to the end of the clause.",
+        "ex": ["I'm staying home because I have a cold.", "Although it's raining, we're going cycling."]
+      },
+      {
+        "h": "When the subordinate clause comes first",
+        "p": "If the subordinate clause comes at the beginning of the full sentence, the main clause that follows it starts with **inversion** (verb before subject).",
+        "ex": ["Because I have a cold, I'm staying home.", "If it rains, we'll stay inside."],
+        "tip": "Notice that in this case the verb of the main clause ([[blijf]]/[[blijven]]) comes right after the comma and before the subject."
+      },
+      {
+        "h": "List of common conjunctions",
+        "p": "Below is a list of the most common coordinating and subordinating conjunctions, which are very frequently used at the A2 level.",
+        "list": [
+          "Coordinating: [[en]] (and), [[maar]] (but), [[of]] (or), [[want]] (because), [[dus]] (so)",
+          "Subordinating: [[omdat]] (because), [[als]] (if/when), [[terwijl]] (while), [[hoewel]] (although)",
+          "Subordinating: [[voordat]] (before), [[nadat]] (after), [[totdat]] (until), [[zodat]] (so that)"
+        ]
+      }
+    ],
+    "ex": [
+      { "q": "Which conjunction moves the verb to the end of the clause?", "options": ["want", "en", "omdat"], "exp": "[[omdat]] is a subordinating conjunction and moves the verb to the end of the subordinate clause." },
+      { "q": "Choose the correct sentence.", "options": ["Ik blijf thuis want het regent.", "Ik blijf thuis omdat het regent, en ik niet uitga.", "Ik blijf thuis, omdat regent het."], "exp": "After [[want]] (coordinating), the normal sentence order is kept: the subject [[het]] before the verb [[regent]]." },
+      { "q": "Which sentence has the correct word order?", "options": ["Omdat ik ziek ben, ik blijf thuis.", "Omdat ik ziek ben, blijf ik thuis.", "Ik blijf omdat ziek ben ik thuis."], "exp": "When the subordinate clause comes first, the main clause starts with inversion (verb before subject): [[blijf ik]]." },
+      { "exp": "To give a reason without changing the sentence order, the coordinating conjunction [[want]] is used." },
+      { "exp": "[[als]] means \"if/when\" and creates a subordinate clause, after which the main verb of the sentence follows with inversion." },
+      { "exp": "[[dus]] (so) expresses a result and keeps the normal sentence order." },
+      { "q": "Correct order: \"I'm staying home because I have a cold\"", "exp": "After [[omdat]], the verb [[ben]] moves to the end of the subordinate clause." },
+      { "q": "Correct order: \"Although it's raining, we're going cycling\"", "exp": "The subordinate clause starts with [[hoewel]] and its verb ([[regent]]) moves to the end of it; the main clause follows with inversion ([[gaan we]])." }
+    ]
+  },
+  "a2-er": {
+    "title": "Uses of er",
+    "sum": "The word [[er]] in Dutch has several uses: the existence of something ([[er is/zijn]]), replacing a preposition ([[erover]], [[ermee]]), referring to a place, and accompanying numbers and quantities.",
+    "blocks": [
+      {
+        "h": "An overview of er",
+        "p": "[[er]] is one of the hardest and most frequently used words in Dutch for learners, since it plays several completely different roles. In this lesson we look at its four main uses.",
+        "list": [
+          "The existence of something: [[Er is een probleem.]]",
+          "Replacing preposition + thing: [[erover]], [[ermee]]",
+          "Referring to a place (unstressed): [[Ik kom er net vandaan.]]",
+          "Together with a number or quantity: [[Ik heb er twee.]]"
+        ]
+      },
+      {
+        "h": "er for expressing existence (existentieel er)",
+        "p": "When we want to say something **exists** and the subject of the sentence is indefinite (with [[een]] or no article), we use [[er is]] (for singular) or [[er zijn]] (for plural) at the start of the sentence.",
+        "ex": ["There's a problem with the car.", "There are a lot of people on the street."],
+        "tip": "If the subject is definite (with [[de]] or [[het]]), [[er]] is usually not used: [[De auto staat voor de deur.]]"
+      },
+      {
+        "h": "er + preposition",
+        "p": "When referring to a thing (not a person) with a preposition, instead of [[over het]], [[met het]] and similar forms, [[er]] combines with the preposition: [[erover]], [[ermee]], [[erin]], [[erop]], [[eraan]].",
+        "ex": ["I'm thinking about it.", "Have you already started with it?"],
+        "tip": "We don't use [[er]] to refer to people; instead, a pronoun + preposition is used: when referring to a person we say [[met hem]], not [[ermee]]."
+      },
+      {
+        "h": "er as a reference to place",
+        "p": "[[er]] can be used instead of [[daar]] (unstressed) to refer to a place that has already been mentioned.",
+        "ex": ["Do you still live in Utrecht? Yes, I've lived there for ten years now.", "I just came from there."]
+      },
+      {
+        "h": "er together with a number or quantity",
+        "p": "When referring to a quantity or amount of something without repeating the noun, we use [[er]] together with a number or quantity words (like [[veel]], [[weinig]]).",
+        "ex": ["Do you have brothers or sisters? Yes, I have two.", "I have enough."]
+      }
+    ],
+    "ex": [
+      { "q": "Which sentence is correct for expressing the existence of something?", "options": ["Er is een probleem.", "Het is een probleem.", "Er een probleem is."], "exp": "To express the existence of something with an indefinite subject, the sentence starts with [[Er is]] / [[Er zijn]]." },
+      { "q": "Which form is correct to replace [[over het boek]]?", "options": ["erboek", "overhet", "erover"], "exp": "When referring to a thing (not a person) with a preposition, [[er]] and the preposition combine: [[erover]]." },
+      { "q": "What is the correct answer to \"Heb je kinderen?\" referring to a number?", "options": ["Ja, ik heb twee er.", "Ja, ik heb er twee.", "Ja, ik er heb twee."], "exp": "In the use of er with a number, [[er]] comes after the verb and before the number: [[ik heb er twee]]." },
+      { "exp": "To express the existence of something with an indefinite plural subject, the sentence starts with [[Er zijn]]." },
+      { "exp": "The combination of [[er]] with the preposition [[over]] is [[erover]]." },
+      { "exp": "To refer to a quantity of something without repeating the noun, [[er]] is used: [[ik heb er niet genoeg]]." },
+      { "q": "Correct order: \"There is a big problem\"", "exp": "The sentence expressing existence starts with [[Er is]], followed by the indefinite subject." },
+      { "q": "Correct word order for the answer to \"How many books do you have?\": \"I have three\"", "exp": "In the answer about a quantity, [[er]] comes after the verb and before the number." }
+    ]
+  },
+  "a2-gebiedende-wijs": {
+    "title": "The imperative",
+    "sum": "The imperative is usually formed with the verb stem (the ik-form) without a subject; for the polite form, the verb is used together with [[u]].",
+    "blocks": [
+      {
+        "h": "Forming the simple imperative",
+        "p": "To give an order to someone (jij/je), only the **verb stem** (the same form used for [[ik]]) is used, and the subject is usually left out.",
+        "ex": ["Come here!", "Listen carefully!", "Give me the book."],
+        "tip": "For separable verbs, the prefix moves to the end of the imperative sentence: [[Sta op!]] (Get up!)."
+      },
+      {
+        "h": "The negative imperative",
+        "p": "For a negative command, [[niet]] comes before the verb or in the appropriate place in the sentence; for nouns, [[geen]] is used.",
+        "ex": ["Don't walk so fast!", "Don't worry.", "Don't be late!"]
+      },
+      {
+        "h": "The polite form with u",
+        "p": "For a polite order or request to someone addressed with [[u]], the verb takes the same third-person singular form (with [[-t]]) and [[u]] comes after it.",
+        "ex": ["Please come in.", "Please sit down.", "Please take a seat."]
+      },
+      {
+        "h": "Polite requests with wilt u / kunt u",
+        "p": "In everyday language, instead of a direct imperative, [[Wilt u...]] or [[Kunt u...]] together with the infinitive at the end of the sentence is often used for a polite request.",
+        "ex": ["Would you wait here for a moment?", "Could you close the door?"],
+        "tip": "This form of request is much more polite and much more common in everyday speech than a direct imperative with [[u]]."
+      },
+      {
+        "h": "Common imperative expressions",
+        "p": "There are a few fixed and very common imperative expressions that are often seen in daily life and on signs.",
+        "list": [
+          "[[Pas op!]] = Watch out!",
+          "[[Let op!]] = Pay attention!",
+          "[[Niet roken]] = No smoking (on a sign)",
+          "[[Wacht even.]] = Wait a moment."
+        ]
+      }
+    ],
+    "ex": [
+      { "q": "What is the correct imperative form of [[komen]] for jij?", "options": ["Jij komt!", "Kom!", "Komen!"], "exp": "The simple imperative is formed from the verb stem (the same form as ik), and the subject is left out: [[Kom!]]" },
+      { "q": "Which is the correct polite imperative?", "options": ["U komt binnen.", "Komt u binnen.", "Komen u binnen."], "exp": "In the polite imperative, the verb with [[-t]] comes before [[u]]: [[Komt u binnen]]." },
+      { "q": "Which is the correct negative imperative?", "options": ["Niet loop zo snel!", "Loop niet zo snel!", "Loop zo snel niet!"], "exp": "In a negative imperative, [[niet]] comes after the verb and adverb: [[Loop niet zo snel!]]" },
+      { "exp": "The simple imperative is formed from the verb stem: [[Kom]]." },
+      { "exp": "The fixed expression [[Maak je geen zorgen]] means \"don't worry\"." },
+      { "exp": "In a polite request with [[Wilt u...]], the infinitive of the main verb comes at the end of the sentence." },
+      { "q": "Correct order: \"Get up!\" (to jij)", "exp": "The separable verb [[opstaan]] also splits apart in the imperative: [[Sta op!]]" },
+      { "q": "Correct order: \"Please sit down\" (polite)", "exp": "The polite imperative: the verb with [[-t]] ([[Gaat]]), then [[u]], then the rest of the sentence." }
+    ]
+  },
+  "a2-aanwijzende-voornaamwoorden": {
+    "title": "Demonstrative pronouns",
+    "sum": "For something nearby, [[deze]] (de-woord/plural) and [[dit]] (het-woord) are used, and for something farther away, [[die]] (de-woord/plural) and [[dat]] (het-woord) are used.",
+    "blocks": [
+      {
+        "h": "Overview table of demonstrative pronouns",
+        "p": "Demonstrative pronouns in Dutch depend on two things: **distance** (near or far) and the **gender of the noun** (de-woord or het-woord), as well as whether it's singular or plural.",
+        "table": { "head": ["Distance", "Singular de-woord", "Singular het-woord", "Plural (either gender)"], "rows": [["near", "deze", "dit", "deze"], ["far", "die", "dat", "die"]] }
+      },
+      {
+        "h": "deze and dit (near)",
+        "p": "[[deze]] is used to refer to a nearby singular **de-woord**, and [[dit]] for a nearby singular **het-woord**.",
+        "ex": ["This car is new.", "This house is very old."]
+      },
+      {
+        "h": "die and dat (far)",
+        "p": "[[die]] is used to refer to a distant singular **de-woord** (or any plural noun), and [[dat]] for a distant singular **het-woord**.",
+        "ex": ["That car over there belongs to my neighbor.", "That house at the end of the street is for sale."]
+      },
+      {
+        "h": "The plural case",
+        "p": "In the plural, it doesn't matter whether the original noun is a de-woord or a het-woord: [[deze]] is always used for near, and [[die]] for far.",
+        "ex": ["These books are mine.", "Those houses are very expensive."]
+      },
+      {
+        "h": "Independent use as a pronoun",
+        "p": "Demonstrative pronouns can be used alone, without a noun, often together with the verb [[zijn]]; in this use, [[dit]] and [[dat]] are very common, and even when the following noun is plural, [[dat]] can still be used.",
+        "ex": ["This is my brother.", "That's beautiful!", "Those are my parents."],
+        "tip": "In the sentence [[Dat zijn mijn ouders]], even though [[ouders]] is plural, [[dat]] (not [[die]]) is used, because in this use it acts as a general introducer rather than a full demonstrative adjective agreeing with the noun."
+      }
+    ],
+    "ex": [
+      { "q": "Which pronoun is correct to refer to a nearby de-woord?", "options": ["dit", "deze", "dat"], "exp": "For a nearby singular de-woord, the correct pronoun is [[deze]]." },
+      { "q": "Which pronoun is correct to refer to a distant het-woord?", "options": ["die", "dat", "deze"], "exp": "For a distant singular het-woord, the correct pronoun is [[dat]]." },
+      { "q": "Which sentence is correct? (het boek)", "options": ["Deze boek is interessant.", "Dit boek is interessant.", "Die boek is interessant."], "exp": "Since [[boek]] is a singular het-woord and we're referring to something nearby, the correct pronoun is [[dit]]." },
+      { "exp": "For a nearby singular het-woord, the correct pronoun is [[dit]]." },
+      { "exp": "In the plural for something distant, [[die]] is always used, regardless of whether it's a de-woord or a het-woord." },
+      { "exp": "Both [[Dit]] (for something/someone nearby) and [[Dat]] (for something/someone slightly farther) are correct in an independent introduction." },
+      { "q": "Correct order: \"This car is new\" (de auto, near)", "exp": "Since [[auto]] is a de-woord and it's near, the correct pronoun is [[deze]]." },
+      { "q": "Correct order: \"That house is for sale\" (het huis, far)", "exp": "Since [[huis]] is a het-woord and it's far, the correct pronoun is [[dat]]." }
+    ]
+  }
+}

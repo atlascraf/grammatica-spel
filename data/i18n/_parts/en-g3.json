@@ -1,0 +1,674 @@
+{
+  "b2-lijdende-vorm-varianten": {
+    "title": "The Passive Voice: Advanced Forms",
+    "sum": "In addition to the [[worden]]-passive and the [[zijn]]-passive, the passive voice can also be formed with modal verbs ([[moeten worden gedaan]]), with [[te + infinitief]] ([[te lezen zijn]]), and impersonally ([[er wordt gedanst]]).",
+    "blocks": [
+      {
+        "h": "Review: the [[worden]]-passief versus the [[zijn]]-passief",
+        "p": "Dutch has two types of passive. The **[[worden]]-passief** expresses an **action in progress** (the dynamic passive), as in [[De deur wordt geopend]] (someone is opening the door right now). The **[[zijn]]-passief** expresses a **completed result/state** (the stative passive), as in [[De deur is geopend]] (the door is open now, the result of the action).",
+        "table": {
+          "head": ["Passive type", "Structure", "Use"],
+          "rows": [
+            ["worden-passief", "[[worden/werd + voltooid deelwoord]]", "An action in progress or an event"],
+            ["zijn-passief", "[[zijn/was + voltooid deelwoord]]", "A result or state following the action"]
+          ]
+        },
+        "ex": [
+          "The car is washed every week (a recurring action).",
+          "The car has been washed (it's clean now; the result).",
+          "The report was written yesterday (an action in the past).",
+          "The report had already been written before I arrived (a state/result in the past)."
+        ]
+      },
+      {
+        "h": "Modal passive: [[moeten/kunnen/mogen + worden + voltooid deelwoord]]",
+        "p": "When a modal verb (such as [[moeten]], [[kunnen]], [[mogen]]) is combined with a passive sentence, the structure is as follows: the conjugated modal verb in second position in the sentence, plus a verb cluster at the end consisting of the past participle and [[worden]]. For example [[Het werk moet gedaan worden]] (this work must be done). Both orders, [[gedaan worden]] and [[worden gedaan]], are common in the verb cluster.",
+        "ex": [
+          "This work must be completed tomorrow.",
+          "That mistake could easily have been prevented.",
+          "Decisions like this should not be made without reason."
+        ]
+      },
+      {
+        "h": "Passive with [[zijn + te + infinitief]]",
+        "p": "The construction [[zijn + te + infinitief]] expresses the **possibility or ease** of doing something, similar to '-able' in English. For example, [[Dit boek is goed te lezen]] means 'this book reads well / is easy to read.' With separable verbs, [[te]] goes between the prefix and the verb, as in [[op te lossen]].",
+        "ex": [
+          "This book is easy to read.",
+          "The text was not understandable.",
+          "This problem is not easily solvable."
+        ],
+        "tip": "In separable verbs like [[oplossen]], [[te]] always goes between the prefix and the main part of the verb: [[op-te-lossen]], not [[te oplossen]]."
+      },
+      {
+        "h": "Impersonal passive: [[er wordt gedanst]]",
+        "p": "When a verb is **intransitive** (it has no direct object) and we want to emphasize the action itself without mentioning a subject, the impersonal passive is used: [[er]] + [[worden]] + past participle. For example, [[Er wordt hier niet gerookt]] (no smoking here). If another element starts the sentence, [[er]] moves to after the verb: [[Hier wordt niet gerookt]] or [[Gisteravond werd er laat gewerkt]].",
+        "ex": [
+          "No smoking here.",
+          "There was dancing and singing all evening.",
+          "There was work done late into the night yesterday evening."
+        ],
+        "tip": "Because the impersonal passive has no logical subject (the verb is intransitive), this type of sentence cannot be converted into a personal passive."
+      }
+    ],
+    "ex": [
+      { "q": "Het boek ___ op dit moment vertaald (de vertaler is er nu mee bezig).", "options": ["is", "wordt", "werd", "zijn"], "exp": "Since the action is in progress (not a result), the [[worden]]-passief must be used: [[wordt vertaald]]." },
+      { "q": "Nadat het werk af was, ___ het al ingeleverd (a completed result in the past).", "options": ["werd", "wordt", "was", "zijn"], "exp": "Here a completed result in the past is being referred to (a state), so the past-tense form of the [[zijn]]-passief, namely [[was]], is used." },
+      { "exp": "In the modal passive, the modal verb (moet) is followed by the cluster [[afgemaakt worden]] or [[worden afgemaakt]]; both orders are acceptable." },
+      { "q": "Which sentence is the correct equivalent of 'The rules must be followed.'?", "options": ["De regels moeten gevolgd worden.", "De regels moeten volgen worden.", "De regels moeten worden gevolgen.", "De regels zijn gevolgd moeten worden."], "exp": "Correct structure: modal verb ([[moeten]]) + past participle ([[gevolgd]]) + [[worden]]." },
+      { "exp": "The construction [[zijn + te + infinitief]] expresses the possibility or ease of doing something: [[te begrijpen]] means 'understandable'." },
+      { "q": "Which sentence is an example of the impersonal passive?", "options": ["Er wordt hard gewerkt.", "Het werk wordt gedaan.", "Hij wordt geholpen.", "De brief werd gestuurd."], "exp": "In the impersonal passive there is no logical subject and the verb is intransitive ([[werken]]); the sentence begins with [[er]]." },
+      { "q": "Put the sentence in the correct order: 'There was work done late into the night yesterday evening.' (impersonal passive)", "exp": "When another element such as [[Gisteravond]] occupies the first position in the sentence, the dummy subject [[er]] comes after the verb, not at the start of the sentence." },
+      { "q": "Put the words in the correct order: 'This problem can easily be solved.'", "exp": "In the modal passive, the verb cluster can appear in two orders: [[opgelost worden]] or [[worden opgelost]]." },
+      { "exp": "When a sentence begins with the impersonal passive construction, it starts with the dummy subject [[er]] and the verb [[worden]]." }
+    ]
+  },
+  "b2-deelwoorden": {
+    "title": "Participles (Deelwoorden)",
+    "sum": "Present participles ([[-end]]) and past participles can be used like an **adjective**, an **adverb**, or as part of a **reduced participial clause**, as in [[een lachend kind]] and [[de gesloten deur]].",
+    "blocks": [
+      {
+        "h": "The present participle as an adjective ([[-end]])",
+        "p": "The present participle is formed by adding [[-end]] to the infinitive ([[lachen]] → [[lachend]]) and is placed before a noun like an adjective. The usual adjective rule about the ending -e also applies to it: before a plural noun or with a definite article, [[-e]] is always added; before an indefinite singular het-word, it appears without [[-e]].",
+        "ex": [
+          "A laughing child was playing in the garden.",
+          "The declining figures worried the analysts.",
+          "The scorching sun had made it very hot."
+        ]
+      },
+      {
+        "h": "The present participle as an adverb",
+        "p": "The present participle, unchanged (with no [[-e]] added), can describe, like an adverb, **the manner in which the main verb's action is performed** or a simultaneous action. For example, [[Lopend naar huis dacht hij aan het gesprek]] (walking home, he thought about the conversation).",
+        "ex": [
+          "Singing, she went up the stairs.",
+          "He left the stadium, waving."
+        ]
+      },
+      {
+        "h": "The past participle as an adjective",
+        "p": "The past participle (such as [[gesloten]], [[gebroken]], [[gemaakt]]) can also be placed before a noun like an adjective, to show a **resulting/passive** state. Important note: participles ending in [[-en]] (such as [[gesloten]], [[gebroken]], [[geschreven]]) **never** take an extra [[-e]]; but those ending in [[-d]] or [[-t]] (such as [[gemaakt]]) follow the regular adjective rule.",
+        "table": {
+          "head": ["Participle type", "Example", "Can take -e?"],
+          "rows": [
+            ["Ends in -en (like gesloten)", "de gesloten deur / een gesloten doos", "No, always unchanged"],
+            ["Ends in -d/-t (like gemaakt)", "een gemaakt plan / het gemaakte plan", "Yes, following the regular adjective rule"]
+          ]
+        },
+        "ex": [
+          "The closed door surprised everyone.",
+          "The drawn-up plan was approved."
+        ]
+      },
+      {
+        "h": "The reduced participial clause (participiale bijzin)",
+        "p": "A past participle at the start of a sentence can replace a full causal or temporal subordinate clause, especially in formal and literary style. For example, [[Vermoeid door de lange reis, viel hij meteen in slaap]] instead of [[Omdat hij vermoeid was door de lange reis, viel hij meteen in slaap]].",
+        "ex": [
+          "Startled by the loud noise, the cat ran away.",
+          "Seated by the window, she watched the rain."
+        ],
+        "tip": "This construction is seen mainly in formal and literary writing, and is equivalent to a full adverbial clause with [[omdat]] or [[terwijl]]."
+      }
+    ],
+    "ex": [
+      { "q": "Een ___ kind speelde in de tuin. (lachen, present participle)", "options": ["lachend", "lachende", "lacht", "gelachen"], "exp": "Since [[kind]] is a het-word and appears with the indefinite article [[een]], the present participle appears without an extra [[-e]]: [[lachend]]." },
+      { "q": "De ___ cijfers verontrustten de analisten. (dalen, plural)", "options": ["dalend", "dalende", "daalt", "gedaald"], "exp": "Before a plural noun, [[-e]] is always added: [[dalende]] cijfers." },
+      { "exp": "The present participle without an extra [[-e]], used adverbially, expresses a state simultaneous with the main verb." },
+      { "q": "Which option is correct: 'de ___ deur' (sluiten, past participle, adjective)", "options": ["gesloten", "geslotene", "sluitend", "gesloten e"], "exp": "A past participle ending in [[-en]] (such as [[gesloten]]) never takes [[-e]], whether with a de-word or a het-word." },
+      { "q": "Which option is correct: 'een ___ plan' (maken, past participle, het-word, indefinite)", "options": ["gemaakt", "gemaakte", "makend", "gemaken"], "exp": "Since [[plan]] is a het-word and appears with the indefinite [[een]], the past participle (which ends in -t) appears without [[-e]]: [[gemaakt]]." },
+      { "exp": "With the definite article [[het]], [[-e]] is always added, even for a het-word: [[het gemaakte plan]]." },
+      { "q": "Put the sentence in the correct order: 'Startled by the loud noise, the cat ran away.'", "exp": "The participial clause with the past participle comes at the start of the sentence and is separated from the main clause by a comma; it is equivalent to 'because it was startled'." },
+      { "q": "Which sentence is an example of the present participle used as an adverb?", "options": ["Zingend liep ze de trap op.", "De zingende vogels waren mooi.", "Zij heeft gezongen.", "Het gezang was prachtig."], "exp": "In the first option, [[Zingend]], without agreeing with any noun, describes adverbially the manner in which the main verb ([[liep]]) is performed." }
+    ]
+  },
+  "b2-nominalisatie": {
+    "title": "Nominalization of Verbs (Nominalisatie)",
+    "sum": "In **formal written** Dutch style, nominalization ([[nominalisatie]]) is often used instead of a verb, as in [[het onderzoeken]] or [[het onderzoek]] in place of a full verbal clause.",
+    "blocks": [
+      {
+        "h": "Nominalization with [[het + infinitief]]",
+        "p": "The infinitive of a verb is turned into a neuter (abstract) noun with the article [[het]]. This construction is used when there is no common derived noun for that verb, or when we want to name the action itself in general terms. For example, [[het roken]] (smoking) or [[het ontbreken]] (the absence/lack).",
+        "ex": [
+          "Smoking is forbidden here.",
+          "Due to the absence of evidence, the case was closed."
+        ]
+      },
+      {
+        "h": "Nominalization with nominal suffixes ([[-ing]], [[-tie]], etc.)",
+        "p": "Many verbs have their own derived noun, which in formal style is used instead of a verbal clause: [[ontwikkelen]] → [[ontwikkeling]], [[informeren]] → [[informatie]], [[vergaderen]] → [[vergadering]], [[afronden]] → [[afronding]]. These nouns are usually connected to the rest of the sentence with [[van]].",
+        "ex": [
+          "The development of the city proceeded quickly.",
+          "After the completion of the research, the report was published."
+        ]
+      },
+      {
+        "h": "Rewriting a sentence from verbal style to nominal style",
+        "p": "When rewriting, the subject of the subordinate clause is usually turned into a [[door + noun]] phrase, and the main verb becomes a derived noun. For example: [[Nadat de minister het voorstel had goedgekeurd, ging de wet in]] → [[Na de goedkeuring van het voorstel door de minister ging de wet in]].",
+        "ex": [
+          "After the proposal was approved by the minister, the law took effect.",
+          "Due to the rise in prices, inflation increased."
+        ]
+      },
+      {
+        "h": "Notes and limitations",
+        "p": "Excessive nominalization can make a text heavy, abstract, and difficult to read (known as 'bureaucratic Dutch'). In everyday speech, verbal style is usually more natural, and nominalization is mostly reserved for formal reports, academic papers, and legal texts.",
+        "list": ["Administrative and formal reports", "Scientific and academic papers", "Legal texts", "News headlines"],
+        "tip": "In formal written Dutch, excessive nominalization can make a text heavy and unnatural; in speech, the verb is usually used instead."
+      }
+    ],
+    "ex": [
+      { "q": "Which option is the nominal (formal) equivalent of 'Doordat de prijzen stijgen, ...'?", "options": ["Door de stijging van de prijzen, ...", "Door het stijgen prijzen, ...", "Door prijzen stijgend, ...", "Door de prijzen te stijgen, ..."], "exp": "The formal nominalized form of the verb [[stijgen]] is the noun [[de stijging]], which connects to the rest of the sentence with [[van]]." },
+      { "exp": "In formal style, the verb [[afronden]] is often replaced by the derived noun [[afronding]], rather than [[het + infinitive]]." },
+      { "q": "Which sentence is an example of [[het + infinitive]] used as a noun?", "options": ["Het roken is hier verboden.", "Het rook is hier verboden.", "Roken verboden hier is.", "Hij rookt hier niet."], "exp": "In [[het roken]], the infinitive [[roken]] has been turned into a neuter noun with the article [[het]]." },
+      { "exp": "When there is no common derived noun, the construction [[het + infinitive]] is used to nominalize the verb: [[het ontbreken]]." },
+      { "q": "Put the sentence in the correct order: 'After the proposal was approved by the minister, the law took effect.'", "exp": "The subject of the original verbal clause ([[minister]]) becomes a [[door + noun]] phrase in the nominal construction, and the main verb becomes the noun [[goedkeuring]]." },
+      { "q": "What is the formal derived noun of the verb 'ontwikkelen'?", "options": ["ontwikkeling", "ontwikkelen", "ontwikkelaar", "ontwikkelend"], "exp": "The suffix [[-ing]] turns the verb [[ontwikkelen]] into the formal noun [[ontwikkeling]]." },
+      { "q": "Which option is excessively and unnaturally nominal in style?", "options": ["Door de uitvoering van de betaling door de klant werd de levering van het product door het bedrijf gestart.", "Toen de klant betaalde, stuurde het bedrijf het product.", "De klant betaalde en het bedrijf leverde.", "Zodra de klant betaald had, leverde het bedrijf."], "exp": "A chain of successive nominal phrases with [[van]]/[[door]] makes a text heavy and unnatural; good writing should maintain a balance." },
+      { "exp": "The formal noun derived from [[ontwikkelen]] is [[ontwikkeling]]." }
+    ]
+  },
+  "b2-formeel-register": {
+    "title": "Formal and Informal Register",
+    "sum": "Dutch **formal** and **informal** register differ in pronoun use ([[u]] versus [[je/jij]]), vocabulary ([[derhalve]] versus [[daarom]]), and letter-writing conventions.",
+    "blocks": [
+      {
+        "h": "The pronoun [[u]] versus [[je/jij]]",
+        "p": "[[u]] is the formal, polite second-person pronoun, used for strangers, older people, formal situations, and customer service. [[je/jij]] is the informal pronoun for friends, family, peers, and children. The verb used with [[u]] is conjugated like [[hij/zij]]: [[u heeft/hebt]], [[u bent]], [[u kunt/kan]].",
+        "ex": [
+          "Could you help me? (formal)",
+          "Can you help me? (informal)"
+        ]
+      },
+      {
+        "h": "Formal vocabulary and connectives",
+        "p": "In formal writing, certain words and connectives replace their everyday equivalents.",
+        "table": {
+          "head": ["Formal", "Informal", "Meaning"],
+          "rows": [
+            ["derhalve", "daarom", "therefore"],
+            ["teneinde", "om... te", "in order to"],
+            ["hetgeen", "wat", "which (referring to the whole preceding clause)"],
+            ["desondanks", "toch", "nevertheless"],
+            ["dientengevolge", "daardoor", "as a result of that"]
+          ]
+        },
+        "ex": [
+          "He was ill, therefore he could not come. (formal)",
+          "He was ill, so he couldn't come. (informal)"
+        ]
+      },
+      {
+        "h": "Conventions of formal letters and emails",
+        "p": "A formal Dutch letter usually begins with [[Geachte heer/mevrouw,]] and ends with [[Met vriendelijke groet,]]. Formal requests are often phrased with the polite conditional construction [[zou u... kunnen]], rather than the simpler [[kun je]].",
+        "ex": [
+          "Dear Mr. Janssen, following your letter of May 3rd...",
+          "Could you reply by tomorrow?"
+        ],
+        "tip": "The fixed phrase [[naar aanleiding van]] (following/with regard to) and closing a letter with [[Met vriendelijke groet]] are among the most common conventions of formal Dutch letters."
+      },
+      {
+        "h": "Other markers of formal style",
+        "p": "Formal style avoids contractions ([['t]], [['n]], [[ie]]) and uses the full form of words ([[het]], [[een]], [[hij]]). It also tends to prefer the passive voice and nominal style (nominalisatie), and uses colloquial modal particles like [[toch]] and [[gewoon]] less often.",
+        "ex": [
+          "This cannot be done. (formal)",
+          "It just can't be done. (informal)"
+        ]
+      }
+    ],
+    "ex": [
+      { "q": "Which sentence is appropriate in a formal letter to an unfamiliar person?", "options": ["Kunt u mij hierover informeren?", "Kun je me hierover vertellen?", "Vertel me er even over.", "Weet jij hier iets van?"], "exp": "In a formal letter to an unfamiliar person, the pronoun [[u]] and a formal tone must be used." },
+      { "q": "What is the formal equivalent of 'daarom'?", "options": ["derhalve", "toch", "gewoon", "maar"], "exp": "[[derhalve]] is the formal equivalent of 'daarom/therefore' and is used in formal writing." },
+      { "exp": "The formal fixed phrase [[naar aanleiding van]], meaning 'following/with regard to', always takes the preposition [[van]]." },
+      { "q": "Which sentence is informal?", "options": ["'t Kan gewoon niet, joh.", "Dit is helaas niet mogelijk.", "Wij kunnen hieraan niet voldoen.", "Dit verzoek kan niet worden ingewilligd."], "exp": "The use of the contraction [['t]] instead of [[het]] and the colloquial word [[joh]] are signs of a fully informal style." },
+      { "q": "Put together the formal sentence: 'Could you reply by tomorrow?'", "exp": "Using the conditional [[zou... kunnen]] together with [[u]] gives the request a more polite and formal tone than the simpler [[kun je]]." },
+      { "exp": "The fixed closing phrase of a formal Dutch letter is [[Met vriendelijke groet]] (or groeten)." },
+      { "q": "Which description of 'hetgeen' is incorrect?", "options": ["[[hetgeen]] is only used to refer to people", "[[hetgeen]] is the formal equivalent of 'wat' and refers to the whole preceding clause", "[[hetgeen]] is common in formal and legal writing", "[[hetgeen]] can be replaced with 'wat' in informal style"], "exp": "[[hetgeen]] is used to refer to things, concepts, or the entire preceding clause, not to people; so the first option is incorrect." },
+      { "q": "In an informal conversation with a friend, which pronoun is more natural?", "options": ["je/jij", "u", "Uw", "U"], "exp": "In friendly, informal speech, [[je/jij]] is always used, not [[u]], which is for formal situations and unfamiliar or older people." }
+    ]
+  },
+  "b2-modale-partikels": {
+    "title": "Modal Particles",
+    "sum": "Modal particles such as [[toch]], [[wel]], [[maar]], [[eens]], [[even]], and [[gewoon]] have no independent lexical meaning of their own, but subtly change the speaker's tone and attitude.",
+    "blocks": [
+      {
+        "h": "[[toch]]: seeking confirmation or a mild contrast with expectation",
+        "p": "[[toch]] is often used to seek confirmation or reassurance about something we expect, or to express a mild contrast with a prior assumption. For example, [[Je komt toch?]] (you're coming, right?) or [[Het is toch niet zo moeilijk]] (it's really not that hard, after all).",
+        "ex": [
+          "You still remember, right?",
+          "Oh just go ahead and do it already."
+        ]
+      },
+      {
+        "h": "[[wel]]: mild reassurance against doubt",
+        "p": "[[wel]] confirms something in the face of doubt, worry, or a negative expectation. For example, [[Het zal wel lukken]] (it'll work out, don't worry).",
+        "ex": [
+          "He'll come late, but he will come.",
+          "Yes, that's true (despite earlier doubt)."
+        ]
+      },
+      {
+        "h": "[[maar]] and [[eens]]: softening commands and requests",
+        "p": "[[maar]] in imperative sentences softens the tone and makes it friendlier, as though the task were trivial and easy: [[Kom maar binnen]] (come on in, it's fine). [[eens]] softens a request into 'just try it once/for a moment': [[Kijk eens hier]]. The combination [[maar eens]] is also common: [[Probeer het maar eens]].",
+        "ex": [
+          "Go ahead and sit down, it's fine.",
+          "Just listen carefully for a moment."
+        ]
+      },
+      {
+        "h": "[[even]] and [[gewoon]]: minimizing a request and simplifying reality",
+        "p": "[[even]] indicates that the requested task is short and requires little effort, as in [[Kun je dat even checken?]]. [[gewoon]], meaning 'just/simply,' describes a fact plainly and without embellishment, or makes a command sound ordinary: [[Doe het gewoon]] (just do it).",
+        "ex": [
+          "Wait a moment.",
+          "He's just tired, not angry."
+        ],
+        "tip": "Several modal particles can be combined (such as [[toch wel]], [[maar eens]]), which makes the tone softer or more natural; the order of these particles is generally fairly fixed."
+      }
+    ],
+    "ex": [
+      { "q": "Je komt ___ naar het feest? (seeking mild confirmation)", "options": ["toch", "eens", "even", "gewoon"], "exp": "[[toch]], at the end or in the middle of a sentence, is used to seek confirmation or reassurance about something we expect." },
+      { "q": "Het zal ___ wel goed komen. (reassurance/mild confidence against doubt)", "options": ["toch", "wel", "maar", "eens"], "exp": "[[wel]] expresses mild reassurance against doubt or worry: 'it'll be fine in the end'." },
+      { "exp": "[[maar]] in imperative sentences softens the tone and makes it friendlier, as though the task were trivial and easy." },
+      { "q": "Kun je dat ___ checken voor me? (a small, quick request)", "options": ["eens", "even", "gewoon", "toch"], "exp": "[[even]] shows that the requested task is short and simple, making the request sound more polite and low-effort." },
+      { "exp": "[[gewoon]] here, meaning 'just/simply,' describes the fact plainly and without embellishment." },
+      { "q": "Probeer het ___ eens. (combining encouragement with a request to try)", "options": ["maar", "toch", "wel", "even"], "exp": "The combination [[maar eens]] is common: [[maar]] softens the tone and [[eens]] means 'try it once'." },
+      { "q": "Which sentence is the most natural equivalent of 'You're coming after all, right?'", "options": ["Je komt toch?", "Je komt even?", "Je komt gewoon?", "Je komt maar?"], "exp": "[[toch]] conveys exactly this kind of seeking confirmation of an expectation." },
+      { "exp": "[[eens]] in imperative sentences, meaning 'for a moment/once,' makes a request feel more concrete and slightly softer." }
+    ]
+  },
+  "b2-samengestelde-voegwoorden": {
+    "title": "Advanced Conjunctions",
+    "sum": "Advanced conjunctions such as [[ondanks dat]], [[ook al]], [[zodat]], [[zodra]], [[terwijl]], [[mits]], and [[tenzij]] express concessive, result, time, and conditional relationships, each with its own grammatical nuances.",
+    "blocks": [
+      {
+        "h": "[[ondanks dat]] and [[ook al]]: although/even though",
+        "p": "Both express a concessive relationship, meaning 'although/even if', and form a subordinate clause with verb-final order. [[ondanks dat]] is considered somewhat more informal by some linguists (the more formal equivalent being [[ondanks het feit dat]]), whereas [[ook al]] is entirely natural and common, and is often accompanied by [[toch]] in the main clause.",
+        "ex": [
+          "Although it was raining, we went for a walk.",
+          "Even if it's late, we'll still go."
+        ]
+      },
+      {
+        "h": "[[zodat]] versus [[zodra]]",
+        "p": "These two conjunctions are often confused for each other because of their similar appearance, but they have entirely different meanings. [[zodat]] expresses a relationship of **result or purpose** (so that). [[zodra]] expresses a **temporal** relationship (as soon as).",
+        "ex": [
+          "He whispered, so that no one heard.",
+          "As soon as I get home, I'll call you."
+        ]
+      },
+      {
+        "h": "[[terwijl]]: simultaneity or contrast",
+        "p": "[[terwijl]] is used both to express the **simultaneity** of two actions and to express **contrast**, depending on context.",
+        "ex": [
+          "She was reading a book, while he was cooking. (simultaneity)",
+          "He was complaining, even though he himself had made the mistake. (contrast)"
+        ]
+      },
+      {
+        "h": "[[mits]] and [[tenzij]]: positive and negative conditions",
+        "p": "[[mits]] is a relatively formal positive condition meaning 'provided that'. [[tenzij]] is a negative condition meaning 'unless'.",
+        "ex": [
+          "You may go, provided that you come back on time.",
+          "We'll continue, unless it starts raining heavily."
+        ],
+        "tip": "In a subordinate clause that begins with these conjunctions, the verb moves to the end of the clause; if this clause comes at the start of the sentence, the verb of the main clause comes immediately after it (inversion)."
+      }
+    ],
+    "ex": [
+      { "q": "___ ik moe was, ging ik toch naar de training. (although)", "options": ["Ook al", "Zodat", "Mits", "Tenzij"], "exp": "[[ook al]], meaning 'although/even if,' expresses a concessive relationship." },
+      { "q": "Hij fluisterde, ___ niemand het zou horen. (result/purpose)", "options": ["zodra", "zodat", "terwijl", "mits"], "exp": "[[zodat]] expresses the result or purpose of an action; it should not be confused with [[zodra]] (as soon as)." },
+      { "exp": "[[zodra]], meaning 'as soon as,' expresses a temporal relationship, not a result." },
+      { "q": "Je mag gaan, ___ je op tijd terug bent. (a formal positive condition)", "options": ["tenzij", "mits", "terwijl", "ondanks dat"], "exp": "[[mits]] is a relatively formal positive condition meaning 'provided that'." },
+      { "q": "We gaan door met de wedstrijd, ___ het heel hard gaat regenen. (unless)", "options": ["mits", "tenzij", "zodat", "ook al"], "exp": "[[tenzij]] expresses a negative condition meaning 'unless'." },
+      { "exp": "[[terwijl]] is used to express the simultaneity of two actions, or sometimes contrast." },
+      { "q": "Put the sentence together: 'Although it was raining, we went for a walk.'", "exp": "After a subordinate clause that begins with [[ondanks dat]] and ends with a comma, the verb of the main clause comes immediately (inversion): [[gingen we]]." },
+      { "q": "Put the sentence together: 'As soon as he arrived, we started.'", "exp": "The verb of the [[zodra]] subordinate clause moves to the end of the clause ([[kwam]]), and after the comma, the verb of the main clause comes." }
+    ]
+  },
+  "b2-infinitiefconstructies": {
+    "title": "Advanced Infinitive Constructions",
+    "sum": "Advanced infinitive constructions such as [[aan het + infinitief]] (progressive), [[laten + infinitief]] (causative), and [[zitten/staan/liggen + te + infinitief]] show details about how an action is performed.",
+    "blocks": [
+      {
+        "h": "[[aan het + infinitief]]: the progressive form",
+        "p": "The construction [[zijn + aan het + infinitief]] expresses an action in progress, similar to the progressive tense in other languages. For example, [[Ik ben aan het koken]] (I am cooking right now).",
+        "ex": [
+          "She is studying right now.",
+          "We were talking when the phone rang."
+        ]
+      },
+      {
+        "h": "[[laten + infinitief]]: the causative construction",
+        "p": "[[laten]] + infinitive has a causative meaning, 'having something done by someone else' or 'allowing/letting something happen'. For example, [[Ik laat mijn auto repareren]] (I'm having my car repaired; I'm not repairing it myself).",
+        "ex": [
+          "She gets her hair cut (by the hairdresser).",
+          "Just let him go."
+        ]
+      },
+      {
+        "h": "[[zitten/staan/liggen + te + infinitief]]: bodily posture + an action in progress",
+        "p": "Posture verbs ([[zitten]], [[staan]], [[liggen]], and sometimes [[lopen]]) together with [[te + infinitief]] describe an action in progress that is accompanied by the natural bodily posture for that action. The choice of posture verb depends on the logical bodily position of the activity: [[zitten]] for reading/sitting, [[liggen]] for sleeping, [[staan]] for standing and waiting.",
+        "ex": [
+          "He is sitting reading.",
+          "She is standing waiting for the bus.",
+          "The children are lying asleep."
+        ]
+      },
+      {
+        "h": "Comparing [[aan het]] with [[zitten/staan/liggen te]]",
+        "p": "Both constructions are progressive, but [[zitten/staan/liggen + te]] also indicates bodily posture and has a livelier, more colloquial tone; [[aan het]] is more neutral and general, and is preferred when bodily posture is unimportant or unspecified.",
+        "tip": "If a person's bodily posture is unspecified or unimportant, [[aan het]] is more natural; if the bodily posture naturally matches the verb (such as sitting for reading), [[zitten/staan/liggen te]] is more common and livelier."
+      }
+    ],
+    "ex": [
+      { "q": "Ik ben ___ koken. (doing something right now)", "options": ["aan het", "te", "laten", "zitten"], "exp": "The progressive construction [[aan het + infinitive]] is used for 'being in the middle of doing something': [[aan het koken]]." },
+      { "q": "Zij ___ haar haar knippen bij de kapper. (causative, something done by someone else)", "options": ["is", "laat", "zit", "staat"], "exp": "[[laten]] + infinitive has the causative meaning of 'having something done by someone else': [[haar laten knippen]]." },
+      { "exp": "Since reading is usually done while sitting, the posture verb [[zitten]] is the most natural choice: [[zit te lezen]]." },
+      { "q": "De kinderen ___ te slapen. (lying down, asleep)", "options": ["zitten", "staan", "liggen", "lopen"], "exp": "For sleeping, the natural posture verb is [[liggen]]: [[liggen te slapen]]." },
+      { "q": "'We waren aan het praten toen de telefoon ging.' What kind of action does this sentence describe?", "options": ["An action that was in progress in the past", "An action that had not yet begun", "A permanent state", "A request"], "exp": "[[aan het + infinitive]] in the past tense describes an action that was in progress in the past." },
+      { "exp": "After [[laten]], the second verb appears as a bare infinitive (without te): [[laten uitleggen]]." },
+      { "q": "Put the sentence together: 'She was standing by the window, waiting for the bus.'", "exp": "For standing and waiting, the natural posture verb is [[staan]] + [[te]] + infinitive: [[staan te wachten]]." },
+      { "q": "Put the sentence together: 'I am busy writing a letter.'", "exp": "In the construction [[aan het + infinitive]], the object ([[een brief]]) is placed before [[aan het]]: [[ben een brief aan het schrijven]]." }
+    ]
+  },
+  "c1-beknopte-bijzinnen": {
+    "title": "Reduced Subordinate Clauses",
+    "sum": "When the subject of the subordinate clause and the main clause are the same, the clause can be reduced using an **infinitive** or a **participle**, as in [[Gebouwd in de 17e eeuw, trekt het kasteel toeristen]].",
+    "blocks": [
+      {
+        "h": "Replacing a purpose/causal clause with [[om... te + infinitief]]",
+        "p": "When a purpose or causal subordinate clause shares its subject with the main clause, it can be reduced using the construction [[om... te + infinitief]]. For example, [[Hij trainde hard om de wedstrijd te winnen]] instead of a fuller clause with [[zodat]] or [[omdat]].",
+        "ex": [
+          "In order to arrive on time, she left early.",
+          "He read the book to know more."
+        ]
+      },
+      {
+        "h": "Replacing with the past participle",
+        "p": "When the verb of the subordinate clause can be passivized and its subject is the same as that of the main clause, the clause can be reduced using a past participle at the start of the sentence. For example, [[Omdat het boek goed geschreven was, werd het een bestseller]] → [[Goed geschreven, werd het boek een bestseller]].",
+        "ex": [
+          "Built in the 17th century, the castle attracts many tourists.",
+          "Convinced by the arguments, the committee voted in favor."
+        ]
+      },
+      {
+        "h": "Replacing with the present participle",
+        "p": "When a subordinate clause expresses simultaneity or a reason with a shared subject, its verb can be turned into a present participle. For example, [[Terwijl hij liep, dacht hij aan haar]] → [[Lopend, dacht hij aan haar]].",
+        "ex": [
+          "Knowing it was dangerous, he went anyway.",
+          "Realizing he was late, he ran to the station."
+        ]
+      },
+      {
+        "h": "The main limitation: a shared subject is required",
+        "p": "This reduction is only possible when the subject of the subordinate clause is exactly the same as the (logical) subject of the main clause. If the subjects differ, the subordinate clause must remain in full, with its own conjunction.",
+        "tip": "If the subject of the subordinate clause is not the same as the subject of the main clause, it cannot be reduced; in that case, the full clause with its conjunction must be kept."
+      }
+    ],
+    "ex": [
+      { "q": "Which option is the reduced version of 'Omdat hij moe was, ging hij slapen.'?", "options": ["Moe, ging hij slapen.", "Hij moe was, ging hij slapen.", "Omdat moe, ging hij slapen.", "Moe zijnd, ging hij slapen."], "exp": "When the subject of the subordinate clause and the main clause is the same, the adjective/participle ([[moe]]) can be placed directly at the start of the sentence, and the conjunction and verb can be dropped." },
+      { "q": "Which sentence cannot easily be converted into a reduced clause?", "options": ["Omdat ik moe was, ging ik naar bed.", "Omdat hij het boek goed schreef, werd het succesvol.", "Omdat zij ziek was, bleef ze thuis.", "Omdat het laat was, gingen we naar huis."], "exp": "In the second option, the subject of the subordinate clause ([[hij]]) is not the same as the logical subject of the main clause ([[het boek]]); so simple reduction is not possible." },
+      { "exp": "The past participle [[Gebouwd]] at the start of the sentence reduces the subordinate clause 'because it was built in the 17th century'." },
+      { "exp": "The present participle [[Wetende]] replaces 'Omdat hij wist' because the subject is the same." },
+      { "q": "Put the sentence together: 'In order to arrive on time, she left early.'", "exp": "To express purpose with a shared subject, the construction [[om... te + infinitive]] is used at the start of the sentence." },
+      { "q": "Put the sentence together: 'Convinced by the arguments, the committee voted in favor.'", "exp": "The past participle [[Overtuigd]] replaces the full clause 'Omdat de commissie overtuigd was'." },
+      { "q": "The sentence 'Gebouwd in de 17e eeuw, trekt het kasteel veel toeristen.' is equivalent to which full clause?", "options": ["Omdat het kasteel in de 17e eeuw gebouwd werd, trekt het veel toeristen.", "Terwijl het kasteel gebouwd wordt, trekt het toeristen.", "Het kasteel bouwt zichzelf in de 17e eeuw.", "Mits het kasteel gebouwd is, trekt het toeristen."], "exp": "The reduced participial clause with the past passive verb ([[gebouwd]]) replaces the full causal clause with [[omdat]] and the passive verb." },
+      { "exp": "[[Geschrokken]] is the past participle of the verb [[schrikken]] and reduces the clause 'because the cat was startled'." }
+    ]
+  },
+  "c1-naamwoordstijl": {
+    "title": "Nominal Style versus Verbal Style",
+    "sum": "Formal and academic Dutch often prefers **nominal** style ([[naamwoordstijl]]) over **verbal** style ([[werkwoordstijl]]), meaning actions are expressed as noun phrases like [[de stijging van de prijzen]] instead of as verbs.",
+    "blocks": [
+      {
+        "h": "Defining nominal style and verbal style",
+        "p": "**[[werkwoordstijl]]** (verbal style) relies on verbs and subordinate clauses; it is natural and dynamic and is used mostly in speech and narration. **[[naamwoordstijl]]** (nominal style) compresses information into noun phrases; it is common in academic, administrative, and journalistic Dutch and creates a more objective, formal tone, but it can make the text heavier.",
+        "ex": [
+          "The government decided that it would raise taxes. (verbal style)",
+          "The government made the decision to raise taxes. (nominal style)"
+        ]
+      },
+      {
+        "h": "How a verb is converted into a noun phrase",
+        "p": "To convert to nominal style, the main verb is turned into a derived noun (often with the suffix [[-ing]] or [[-tie]]) and is connected to the rest of the sentence with the preposition [[van]], [[tot]], or [[over]]; sometimes several clauses are compressed into one nominal sentence.",
+        "table": {
+          "head": ["Verbal style", "Nominal style"],
+          "rows": [
+            ["doordat de prijzen stijgen", "door de stijging van de prijzen"],
+            ["nadat het onderzoek is afgerond", "na afronding van het onderzoek"],
+            ["omdat het probleem is opgelost", "door de oplossing van het probleem"]
+          ]
+        },
+        "ex": [
+          "Due to the rise in prices, inflation increased.",
+          "After the completion of the research, the report was published."
+        ]
+      },
+      {
+        "h": "Stylistic usage: where and why",
+        "p": "Nominal style is common in formal reports, academic papers, legal texts, and news headlines because of its compactness and objective/neutral tone. However, excessive use of it is criticized as 'bureaucratic Dutch' (ambtelijk Nederlands), because it makes the text difficult and unnatural.",
+        "list": ["Formal and administrative reports", "Scientific and academic papers", "Legal texts", "Compact news headlines"]
+      },
+      {
+        "h": "A full rewriting example",
+        "p": "Comparing a sentence in both styles shows how the subject of the subordinate clause becomes a [[door + noun]] phrase and the main verb becomes a derived noun.",
+        "ex": [
+          "When prices rose, inflation rose too. (verbal style)",
+          "The rise in prices caused a rise in inflation. (nominal style)"
+        ],
+        "tip": "In well-written Dutch, professional writers usually use a mix of nominal and verbal style so that the text is both precise and readable."
+      }
+    ],
+    "ex": [
+      { "q": "Which option is the nominal version of 'De regering besloot dat ze de belasting zou verhogen.'?", "options": ["De regering nam het besluit tot belastingverhoging.", "De regering besluit belasting verhogen.", "De regering, verhogend belasting, besloot.", "Verhoging belasting besloot de regering."], "exp": "In nominal style, the main verb becomes a noun ([[besluit]]) and the subordinate clause's verb becomes a compound noun ([[belastingverhoging]])." },
+      { "exp": "The formal derived noun from [[stijgen]] is [[stijging]]." },
+      { "q": "Which sentence is an example of a more natural verbal style?", "options": ["Toen de prijzen stegen, steeg de inflatie.", "Door de stijging van de prijzen steeg de inflatie.", "Bij stijging van prijzen, inflatiestijging.", "De prijsstijging veroorzaakte inflatiestijging."], "exp": "The first option, with the verbal temporal clause ([[toen... stegen]]), is an example of a more dynamic and natural verbal style in speech; the remaining options are nominal." },
+      { "exp": "The formal noun derived from [[afronden]] is [[afronding]], common in formal nominal style." },
+      { "q": "What is the main characteristic of nominal style (naamwoordstijl)?", "options": ["Information is compressed into noun phrases and the tone becomes more objective and formal", "The sentence is always shorter than in verbal style", "It is only common in colloquial language", "Main verbs are dropped and the sentence remains without a verb"], "exp": "In nominal style, actions are expressed as nouns and connected to the rest of the sentence with van/door, which creates a more objective and formal tone; the sentence does not always become shorter." },
+      { "q": "Put together the nominal sentence: 'After the law was approved by parliament, it took effect.'", "exp": "The subject of the subordinate clause ([[parlement]]) becomes the phrase [[door het parlement]], and the main verb ([[goedkeuren]]) becomes the noun ([[goedkeuring]])." },
+      { "q": "Which text is an example of excessively nominal bureaucratic Dutch?", "options": ["Met betrekking tot de uitvoering van de aanvraag tot verlening van de vergunning wordt verwezen naar bijlage 2.", "Je aanvraag staat in bijlage 2.", "We hebben je aanvraag ontvangen.", "Bijlage 2 bevat je aanvraag."], "exp": "A long chain of successive nominal phrases with van/tot is a classic example of heavy, hard-to-read bureaucratic Dutch." },
+      { "exp": "The formal noun derived from the verb [[oplossen]] is [[oplossing]]." }
+    ]
+  },
+  "c1-partikels-nuance": {
+    "title": "Advanced Particles and Nuance Words",
+    "sum": "Advanced nuance words such as [[nu eenmaal]], [[immers]], [[overigens]], and the construction [[enerzijds...anderzijds]] play an important discourse and argumentative role in formal Dutch writing.",
+    "blocks": [
+      {
+        "h": "[[nu eenmaal]]: an unchangeable fact",
+        "p": "[[nu eenmaal]] expresses an unchangeable, accepted fact, often with a somewhat resigned or matter-of-fact tone, meaning 'that's just the way it is'.",
+        "ex": [
+          "That's just how the rules are, nothing can be done about it.",
+          "He's just a bit stubborn, that's all (it's a fixed trait of his)."
+        ]
+      },
+      {
+        "h": "[[immers]]: a reason already taken for granted",
+        "p": "[[immers]] recalls a reason that the speaker assumes the listener already knows or accepts, similar to 'because, as you know'. It usually comes after the subject and verb, not at the start of the sentence.",
+        "ex": [
+          "We must be careful, since this is dangerous work (as we already know).",
+          "He couldn't come, since he was ill (as we know)."
+        ]
+      },
+      {
+        "h": "[[overigens]]: an incidental remark",
+        "p": "[[overigens]] introduces an incidental remark or a mild shift in topic, similar to 'by the way/incidentally'.",
+        "ex": [
+          "The plan was approved. Incidentally, no one asked for my opinion.",
+          "She, who incidentally is just like her sister, is very musical."
+        ]
+      },
+      {
+        "h": "[[enerzijds... anderzijds]]: the two-sided construction",
+        "p": "This construction introduces two complementary or contrasting aspects of a topic, similar to 'on the one hand... on the other hand'. It is formal and suited to written argumentation. Because both parts come at the start of their own clause, the verb comes immediately after them (inversion).",
+        "ex": [
+          "On the one hand, I want to save more money; on the other hand, I also want to enjoy life.",
+          "On the one hand, technology provides opportunities; on the other hand, it also carries risks."
+        ],
+        "tip": "These words are mainly used in formal written argumentation and give the text logical structure and coherence."
+      }
+    ],
+    "ex": [
+      { "q": "Zo zijn de regels ___. (an unchangeable fact)", "options": ["nu eenmaal", "immers", "overigens", "enerzijds"], "exp": "[[nu eenmaal]] expresses an unchangeable, accepted fact, with a somewhat resigned tone." },
+      { "q": "We moeten voorzichtig zijn, het is ___ gevaarlijk werk. (a reason already taken for granted)", "options": ["overigens", "immers", "nu eenmaal", "anderzijds"], "exp": "[[immers]] recalls a reason that the speaker assumes the listener already knows or accepts." },
+      { "exp": "[[Overigens]] introduces an incidental remark or a mild shift in topic, similar to 'by the way/incidentally'." },
+      { "q": "Which sentence correctly uses the 'enerzijds...anderzijds' construction?", "options": ["Enerzijds wil ik sparen, anderzijds wil ik genieten.", "Enerzijds wil ik sparen, maar ook genieten.", "Anderzijds wil ik sparen, enerzijds genieten.", "Enerzijds, anderzijds wil ik sparen en genieten."], "exp": "Correct structure: [[Enerzijds]] + the first clause, [[anderzijds]] + the second clause, to show two complementary or contrasting aspects of a topic." },
+      { "exp": "[[nu eenmaal]] describes this trait as a fixed, unchangeable fact about the person." },
+      { "q": "What role does 'overigens' usually play in a sentence?", "options": ["Adding an incidental remark or a mild shift in topic", "Expressing a reason already taken for granted", "Expressing a strong contrast", "Expressing a condition"], "exp": "[[overigens]] is used to add an unexpected incidental remark or a slight change of direction in speech/writing." },
+      { "q": "Put the sentence together: 'On the one hand, technology provides opportunity; on the other hand, it also carries risk.'", "exp": "In both clauses, the verb comes immediately after [[enerzijds]]/[[anderzijds]] (inversion, because these words are at the start of their own clause)." },
+      { "q": "Which sentence correctly illustrates the meaning of 'immers'?", "options": ["Hij kon niet komen, hij was immers ziek.", "Hij was immers ziek, dus kwam hij niet weten.", "Immers, hij komt morgen misschien.", "Hij is immers ziek geweest, maar nu niet meer."], "exp": "In the first option, [[immers]] recalls a reason (illness) that is already assumed/accepted, to explain why he didn't come." }
+    ]
+  },
+  "c1-complexe-zinsbouw": {
+    "title": "Complex Sentence Structure",
+    "sum": "Complex Dutch sentences can contain several nested subordinate clauses, inversion after a fronted element, and a final verb cluster with three or more verbs (such as [[had moeten worden gedaan]]).",
+    "blocks": [
+      {
+        "h": "Nested subordinate clauses",
+        "p": "Dutch allows several subordinate clauses to be nested within one sentence. Care must be taken to see which verb belongs to which clause: the verb of the main clause stays in second position (V2), and each subordinate clause moves its own verb to the end of that same clause (not to the end of the whole sentence).",
+        "ex": [
+          "I think he said that he would come if it didn't rain."
+        ]
+      },
+      {
+        "h": "Inversion after a fronted element",
+        "p": "According to the verb-second (V2) rule, when a sentence begins with an element other than the subject (an adverb, a subordinate clause, an adverbial phrase), the conjugated verb must come immediately after it, and the subject is placed after the verb.",
+        "ex": [
+          "Due to the bad weather, the match was cancelled.",
+          "Never have I seen anything so ridiculous."
+        ]
+      },
+      {
+        "h": "The final verb cluster with three or more verbs",
+        "p": "When a modal verb, a tense auxiliary, and a main verb (or passive) combine, a cluster of three or more verbs forms at the end of the subordinate clause. The 'green' order (standard and clearer in formal writing) is: tense auxiliary + modal verb + main/passive verb. For example, [[dat hij het had moeten doen]], or with the passive: [[dat het had moeten worden gedaan]].",
+        "ex": [
+          "I didn't know that he should have returned the book already.",
+          "It is thought that the decision should have been made earlier."
+        ]
+      },
+      {
+        "h": "Stylistic tips for clarity in complex sentences",
+        "p": "To maintain readability in complex sentences, it is best to keep the number of nested clauses within a reasonable limit, use correct punctuation, and prefer the green order in verb clusters.",
+        "tip": "In verb clusters of three or more, the 'green' order (auxiliary + modal + main verb) is usually more readable than the 'red' order, especially in formal writing."
+      }
+    ],
+    "ex": [
+      { "q": "In the sentence 'Omdat het regende, bleven we binnen.', what position does the main clause's verb (bleven) occupy?", "options": ["Immediately after the fronted subordinate clause (inversion)", "At the end of the whole sentence", "Before the subordinate clause", "In the second position of the subordinate clause"], "exp": "Since the subordinate clause 'Omdat het regende' functions as an element in first position in the sentence, the main clause's verb must come immediately after it (the inversion/verb-second rule)." },
+      { "q": "Put the sentence together: 'Never have I seen anything so ridiculous.'", "exp": "Since the negative adverb [[Nooit]] is at the start of the sentence, the auxiliary verb ([[heb]]) comes immediately after it and before the subject ([[ik]])." },
+      { "exp": "In the three-verb cluster, the modal verb [[moeten]] is placed between the auxiliary verb ([[had]]) and the main passive verb ([[worden genomen]]): [[had moeten worden genomen]]." },
+      { "q": "Which order for the verb cluster 'dat hij het ... doen' (hebben/kunnen/doen) is more standard and common (the green order)?", "options": ["had kunnen doen", "kunnen had doen", "doen had kunnen", "had doen kunnen"], "exp": "Standard green order: tense auxiliary ([[had]]) + modal verb ([[kunnen]]) + main verb ([[doen]])." },
+      { "q": "Put the sentence together: 'I think he said that he would come if it didn't rain.'", "exp": "This sentence has three layers of nested clauses; each subordinate clause moves its own verb to the end of that same clause, not to the end of the whole sentence." },
+      { "q": "'Door het slechte weer, werd de wedstrijd afgelast.' Which grammatical point does this illustrate?", "options": ["Inversion after a non-subject fronted element", "The impersonal passive", "A reduced participial clause", "The [[aan het]] construction"], "exp": "Since the adverbial phrase 'Door het slechte weer' is in first position, the verb ([[werd]]) comes immediately after it and before the subject ([[de wedstrijd]])." },
+      { "exp": "The natural order of the verb cluster: [[had]] (auxiliary) + [[moeten]] (modal) + [[teruggeven]] (main verb)." },
+      { "q": "In formal writing, which order of a three-verb cluster usually has better readability?", "options": ["The green order (auxiliary - modal - main verb)", "The red order (main verb - modal - auxiliary)", "There is no difference", "The auxiliary verb must always come last"], "exp": "In formal written style, the green order (auxiliary, then modal, then main verb) is generally considered clearer and more standard." }
+    ]
+  },
+  "c1-idiomatische-uitdrukkingen-grammatica": {
+    "title": "Fixed Idiomatic Expressions and Their Grammar",
+    "sum": "Many fixed Dutch expressions ([[vaste verbindingen]]) have a fixed preposition ([[rekening houden met]]), a fixed word order, or an unchangeable article, which must be memorized as a complete unit.",
+    "blocks": [
+      {
+        "h": "Fixed prepositions in idiomatic expressions",
+        "p": "Many fixed expressions have a specific, unchangeable preposition that must be memorized along with the verb; changing that preposition ruins the meaning or makes the sentence incorrect.",
+        "table": {
+          "head": ["Expression", "Fixed preposition", "Meaning"],
+          "rows": [
+            ["rekening houden", "met", "to take into account"],
+            ["afhankelijk zijn", "van", "to be dependent on"],
+            ["zich concentreren", "op", "to concentrate on"],
+            ["de voorkeur geven", "aan", "to give preference to"]
+          ]
+        },
+        "ex": [
+          "He must take the costs into account.",
+          "He preferred tea over coffee."
+        ]
+      },
+      {
+        "h": "Fixed word order in expressions",
+        "p": "Some fixed expressions have an unchangeable word order that must not be altered in these expressions, even if ordinary grammar would allow reordering. For example, [[voor de dag komen met]] (to come up with something/propose) or [[in de gaten houden]] (to keep an eye on).",
+        "ex": [
+          "He kept a close eye on the situation.",
+          "Can you finally come up with a solution?"
+        ]
+      },
+      {
+        "h": "An unchangeable article",
+        "p": "In some fixed expressions, the article (or its absence) is an inseparable part of the expression and cannot be changed or pluralized. For example, [[de deur uit gaan]] (not [[een deur]]) or [[het heeft geen zin]] (where [[zin]] is not pluralized here).",
+        "ex": [
+          "He left the house early.",
+          "There's no point in waiting."
+        ]
+      },
+      {
+        "h": "Tips for learning fixed expressions",
+        "p": "The best method is to memorize the whole expression (verb + preposition + structure) as one unit, rather than memorizing the verb alone. To test whether an expression is idiomatic and fixed, you can substitute one component: if the meaning breaks down or it sounds odd to a native speaker, that expression is a [[vaste verbinding]].",
+        "tip": "The best way to learn fixed idiomatic verbs is to memorize the whole expression along with its preposition, not the verb alone."
+      }
+    ],
+    "ex": [
+      { "q": "Hij moet rekening houden ___ de kosten. (fixed preposition)", "options": ["met", "van", "aan", "op"], "exp": "The fixed expression [[rekening houden met]] always takes the preposition [[met]] and cannot be changed." },
+      { "exp": "The fixed expression [[afhankelijk zijn van]] always takes [[van]]." },
+      { "q": "Hij gaf de voorkeur ___ thee boven koffie. (fixed preposition)", "options": ["aan", "voor", "op", "met"], "exp": "The fixed expression [[de voorkeur geven aan]] always takes [[aan]]." },
+      { "exp": "The fixed expression [[voor de dag komen met]], meaning 'to come up with something', always takes [[met]] and has a fixed word order." },
+      { "q": "Which sentence correctly uses the fixed expression 'in de gaten houden'?", "options": ["Hij hield de situatie goed in de gaten.", "Hij hield in de gaten de situatie goed.", "Hij hield de gaten goed in situatie.", "Hij hield goed de situatie gaten in."], "exp": "In the fixed expression [[in de gaten houden]], the word order is fixed, and only the object ([[de situatie]]) can be placed between the verb and this expression." },
+      { "q": "'Het heeft geen zin om te wachten.' Why is 'geen zin' unpluralizable and fixed in this expression?", "options": ["Because this is a fixed idiomatic expression with an unchangeable form", "Because [[zin]] is always unpluralizable in all its uses", "Because [[zin]] only means 'sentence'", "Because this is a spelling rule"], "exp": "[[het heeft geen zin]] is a fixed idiomatic expression whose form (including not pluralizing [[zin]] in this sense) is fixed and unchangeable." },
+      { "exp": "The fixed expression [[zich concentreren op]] always takes [[op]]." },
+      { "q": "Put the sentence together: 'He left the house early.'", "exp": "The fixed expression [[de deur uit gaan]] is always used with the definite article [[de]] (not een) and a fixed word order." }
+    ]
+  },
+  "c1-stijlfiguren-formeel-schrijven": {
+    "title": "Stylistic Devices in Formal Writing",
+    "sum": "Formal and argumentative Dutch writing makes use of devices such as the **passive voice** for objectivity, **hedging** ([[zou kunnen]], [[lijkt erop dat]]), and formal argumentative connectives ([[niettemin]], [[enerzijds...anderzijds]]).",
+    "blocks": [
+      {
+        "h": "The passive for objectivity",
+        "p": "Omitting the human subject and using the passive (sometimes together with the impersonal passive [[er wordt]]) gives the text an objective, impersonal tone that is common in academic and formal writing; the agent of the action ([[door + subject]]) is mentioned only when it matters.",
+        "ex": [
+          "Research has been conducted into the effects of this policy.",
+          "This research was conducted between 2020 and 2022."
+        ]
+      },
+      {
+        "h": "Hedging and cautious phrasing",
+        "p": "Hedging phrases claims cautiously and less definitively, and is common in academic argumentation. Key phrases: [[zou kunnen wijzen op]] (could indicate...), [[het lijkt erop dat]] (it appears that), [[mogelijk]] (possibly), [[in zekere zin]] (in a sense).",
+        "ex": [
+          "This could indicate a connection between these two factors.",
+          "It appears that this measure has had an effect."
+        ]
+      },
+      {
+        "h": "Formal argumentative connectives",
+        "p": "Formal connectives give the text a logical structure and organize the argumentation.",
+        "table": {
+          "head": ["Connective", "Use"],
+          "rows": [
+            ["niettemin", "nevertheless (an unexpected result)"],
+            ["desalniettemin", "nevertheless (a more formal and emphatic version)"],
+            ["daarentegen", "in contrast, on the contrary"],
+            ["bovendien", "furthermore"]
+          ]
+        },
+        "ex": [
+          "The results are positive; nevertheless, more research is needed.",
+          "The first group grew quickly, while the other group, by contrast, shrank."
+        ]
+      },
+      {
+        "h": "Combining devices in an argumentative paragraph",
+        "p": "In professional formal writing, the passive voice, hedging, and argumentative connectives are often combined within a single paragraph to maintain both objectivity and logical coherence.",
+        "ex": [
+          "The research was conducted in two phases. The results appear to indicate the effectiveness of this measure; nevertheless, further study is desirable."
+        ],
+        "tip": "Balanced use of these devices makes a text formal and persuasive, but overusing hedging can make the argument seem weak and hesitant."
+      }
+    ],
+    "ex": [
+      { "q": "Which sentence is an example of the passive used to create objectivity in formal writing?", "options": ["Er is onderzoek gedaan naar de effecten van het beleid.", "Wij hebben onderzoek gedaan naar de effecten van het beleid.", "Ik denk dat het beleid goed werkt.", "Jullie moeten onderzoek doen naar het beleid."], "exp": "Omitting the human subject and using the impersonal passive ([[Er is onderzoek gedaan]]) gives the text an objective, impersonal tone that is common in formal/academic writing." },
+      { "q": "'Dit zou kunnen wijzen op een verband.' This is an example of which stylistic device?", "options": ["Hedging/cautious phrasing", "The passive for objectivity", "An argumentative connective", "A modal particle"], "exp": "The phrase [[zou kunnen wijzen op]] presents the claim cautiously and non-definitively, a classic example of hedging in academic writing." },
+      { "exp": "The fixed phrase [[het lijkt erop dat]] is used to cautiously express an impression or conclusion." },
+      { "q": "Which connective conveys the most formal and most emphatic sense of contrast?", "options": ["desalniettemin", "maar", "toch", "en"], "exp": "[[desalniettemin]] is the most formal and most emphatic equivalent of 'nevertheless/however' among the options." },
+      { "exp": "[[niettemin]] or [[desalniettemin]] expresses the unexpected relationship between two parts of a sentence in a formal tone." },
+      { "q": "What role does 'daarentegen' play in a sentence?", "options": ["Showing contrast/opposition to the preceding point", "Adding a complementary point without contrast", "Expressing a reason", "Expressing a condition"], "exp": "[[daarentegen]], meaning 'in contrast/conversely', is used to contrast two ideas or two sets of data." },
+      { "q": "Put the sentence together: 'This research was conducted between 2020 and 2022.' (formal passive)", "exp": "Omitting the agent and using the passive verb ([[werd uitgevoerd]]) shifts the focus from 'who did this' to the event itself; an example of objective formal style." },
+      { "q": "What risk does overusing hedging phrases pose in an argumentative text?", "options": ["It may make the argument seem weak and hesitant", "It shortens the text", "It makes the text informal", "It causes the sentence to become excessively passive"], "exp": "Overusing cautious phrases like [[zou kunnen]], [[mogelijk]], [[lijkt erop dat]] can weaken the writer's argument and make the text appear hesitant." }
+    ]
+  }
+}

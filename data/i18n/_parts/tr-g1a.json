@@ -1,0 +1,438 @@
+{
+  "a1-lidwoorden": {
+    "title": "Belirteçler: de, het ve een",
+    "sum": "Hollandacada belirli isimler için [[de]] veya [[het]], belirsiz isimler için [[een]] kullanılır; [[de]] ile [[het]] arasındaki seçim ismin dilbilgisel cinsiyetine bağlıdır.",
+    "blocks": [
+      {
+        "h": "Belirli tanımlık: [[de]] ve [[het]]",
+        "p": "Türkçede belirli tanımlık diye bir kavram yoktur, ama Hollandacada her isim ya [[de]] ya da [[het]] ile gelir ve bu ikisi de Türkçedeki **belirtme/-ki** anlamına yakındır. [[de]] ile gelen isimlere **de-woorden**, [[het]] ile gelenlere **het-woorden** denir. Hollandaca isimlerin yaklaşık dörtte üçü [[de]] alır.",
+        "ex": ["Masa kahverengidir.", "Kitap ilginçtir."],
+        "tip": "Yeni bir ismi öğrenmenin en iyi yolu, onu yalnız başına değil, kendi [[de]] veya [[het]]'i ile birlikte ezberlemektir."
+      },
+      {
+        "h": "[[het]] ne zaman kullanılır",
+        "p": "Bir grup isim her zaman [[het]] alır: **küçültme biçimleri** ([[-je]] ile biten verkleinwoorden), **dil** adları, **metal** ve **yön** adları, ve **mastar halindeki fiillerden** türetilmiş isimler.",
+        "list": [
+          "Küçültme biçimleri: [[het huisje]] (küçük ev), [[het boekje]] (küçük kitap/kitapçık)",
+          "Diller: [[het Nederlands]], [[het Perzisch]]",
+          "Metaller ve yönler: [[het goud]], [[het noorden]]",
+          "İsim olarak kullanılan mastar: [[het lezen]] (okumak), [[het eten]] (yemek/yemek yemek)"
+        ],
+        "ex": ["Hollandaca o kadar da zor değil.", "Yemek lezzetli."]
+      },
+      {
+        "h": "[[de]] ne zaman kullanılır",
+        "p": "**Çoğul** isimler, tekilleri [[het]] olsa bile her zaman [[de]] alır. Ayrıca **kişi ve meslek** adları ile çoğu **ağaç, çiçek, meyve ve sebze** adı da genellikle [[de]] alır.",
+        "table": { "head": ["Tekil", "Çoğul"], "rows": [["het huis", "de huizen"], ["het boek", "de boeken"], ["de auto", "de auto's"]] },
+        "ex": ["Çocuk dışarıda oynuyor.", "Çocuklar dışarıda oynuyor."],
+        "tip": "Çoğulda [[de]] ile [[het]] arasında fark yoktur; tüm çoğullar [[de]] alır."
+      },
+      {
+        "h": "Belirsiz tanımlık: [[een]]",
+        "p": "[[een]] Türkçedeki **bir** sözcüğüne karşılık gelir ve bilinmeyen veya belirsiz bir şeyi tanıtmak için kullanılır. [[de]] ve [[het]]'in aksine, [[een]] her iki isim grubu için aynıdır ve fark göstermez.",
+        "ex": ["Bir köpek görüyorum.", "O güzel bir ev."],
+        "tip": "[[een]] hiçbir zaman çoğul bir isimle kullanılmaz; belirsiz çoğul için hiç tanımlık kullanılmaz: [[Ik zie honden.]] (Köpekler görüyorum.)"
+      },
+      {
+        "h": "Öğrenmek için pratik bir yol",
+        "p": "Hollandaca sözlüklerde [[het]] isimleri genellikle **(het)** işaretiyle belirtilir, geri kalan isimler [[de]]'dir. En iyi yol, her yeni ismi tanımlığıyla birlikte ezberlemektir.",
+        "list": [
+          "[[de man]] - adam",
+          "[[het meisje]] - kız (küçültme biçimi, her zaman het)",
+          "[[de stad]] - şehir",
+          "[[het land]] - ülke"
+        ]
+      }
+    ],
+    "ex": [
+      { "exp": "[[boek]] bir het-woord'dur, bu yüzden tanımlığı [[het]]'tir." },
+      { "exp": "Köpek henüz tanıtılmadığı ve belirsiz olduğu için belirsiz tanımlık [[een]] kullanırız." },
+      { "q": "[[het huis]]'in çoğulu hangisidir?", "options": ["de huizen", "het huizen", "de huisen"], "exp": "Çoğul isimler, tekilleri [[het]] olsa bile her zaman [[de]] alır: [[de huizen]]." },
+      { "q": "Hangi isim grubu her zaman [[het]] ile gelir?", "options": ["Dil adları", "Meslek adları", "Meyve adları"], "exp": "[[het Nederlands]] gibi dil adları her zaman [[het]] alır." },
+      { "exp": "Dil adları her zaman [[het]] alır." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Bir köpek görüyorum.»", "exp": "Basit cümle sırası: özne + fiil + nesne: [[Ik zie een hond.]]" },
+      { "exp": "Çoğul isim [[kinderen]] her zaman [[de]] ile gelir." },
+      { "q": "Hangi cümle yanlıştır?", "options": ["Het huisje is klein.", "De tafel is bruin.", "Een boeken zijn duur."], "exp": "[[een]] hiçbir zaman çoğul bir isimle kullanılmaz; doğru cümle [[Boeken zijn duur.]]'dur." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Çocuklar dışarıda oynuyor.»", "exp": "[[kinderen]] çoğul olduğu için tanımlığı [[de]]'dir." }
+    ]
+  },
+  "a1-meervoud-verkleinwoord": {
+    "title": "Çoğul ve Küçültme Biçimleri",
+    "sum": "Hollandacada çoğul genellikle [[-en]] veya [[-s]] ile yapılır (bazen ünlü veya ünsüz yazımında değişiklikle), küçültme biçimleri ise [[-je]], [[-tje]], [[-pje]] ve [[-etje]] ekleriyle oluşturulur.",
+    "blocks": [
+      {
+        "h": "[[-en]] ekiyle çoğul",
+        "p": "Hollandacada en yaygın çoğul eki [[-en]]'dir. Bazen doğru telaffuzu korumak için gövdenin son ünlüsünün veya ünsüzünün yazımı değişir.",
+        "list": [
+          "[[fiets]] → [[fietsen]] (bisiklet)",
+          "[[boot]] → [[boten]] (tekne - açık hecede çift ünlü [[oo]], tek [[o]]'ya dönüşür)",
+          "[[kat]] → [[katten]] (kedi - kısa ünlünün korunması için son ünsüz ikizleşir)"
+        ],
+        "ex": ["İki bisikletim var.", "Kediler uyuyor."],
+        "tip": "Bu yazım değişiklikleri sadece ünlünün doğru telaffuzunu korumak içindir; kelimenin kendisi ve anlamı değişmez."
+      },
+      {
+        "h": "[[-s]] ekiyle çoğul",
+        "p": "Vurgusuz [[-el, -em, -en, -er]] heceleriyle biten isimler ve ünlüyle biten birçok alıntı kelime [[-s]] ile çoğul yapılır.",
+        "list": [
+          "[[tafel]] → [[tafels]] (masa)",
+          "[[deken]] → [[dekens]] (yorgan/battaniye)",
+          "[[auto]] → [[auto's]] (araba)",
+          "[[foto]] → [[foto's]] (fotoğraf)"
+        ],
+        "ex": ["Üç arabam var."],
+        "tip": "İsim [[a, o, u, y]] ünlüsüyle bittiğinde, doğru telaffuzu korumak için [[s]]'den önce apostrof gelir: [[auto's]], [[autos]] değil."
+      },
+      {
+        "h": "Kuralsız Çoğullar",
+        "p": "Sık kullanılan bazı isimlerin kuralsız çoğulları vardır ve bunlar ayrıca ezberlenmelidir.",
+        "list": [
+          "[[stad]] → [[steden]] (şehir)",
+          "[[kind]] → [[kinderen]] (çocuk)",
+          "[[ei]] → [[eieren]] (yumurta)",
+          "[[schip]] → [[schepen]] (gemi)"
+        ],
+        "tip": "Bunları sadece ezberlemeniz gerekir; sabit bir kuralları yoktur."
+      },
+      {
+        "h": "Küçültme Biçimleri (verkleinwoorden)",
+        "p": "Küçültme biçimi, isme [[-je]], [[-pje]], [[-tje]] veya [[-etje]] eklerinden birinin getirilmesiyle oluşturulur ve ona **küçük** veya **sevimli** anlamı katar.",
+        "list": [
+          "Normal harflerle bitiş → [[+je]]: [[huis]] → [[huisje]], [[kop]] → [[kopje]]",
+          "[[m]] ile bitiş → [[+pje]]: [[boom]] → [[boompje]], [[raam]] → [[raampje]]",
+          "Uzun ünlüden sonra [[l, n, r]] ile bitiş → [[+tje]]: [[stoel]] → [[stoeltje]], [[deur]] → [[deurtje]]",
+          "Kısa ünlüden sonra [[l, n, r]] ile bitiş → ünsüzün ikizleşmesiyle [[+etje]]: [[man]] → [[mannetje]], [[bel]] → [[belletje]]"
+        ],
+        "ex": ["Bak, küçük bir ev!", "Bir fincan kahve ister misin?"],
+        "tip": "Küçültme biçimleri, asıl isim [[de]] olsa bile her zaman [[het]] alır: [[de tafel]] → [[het tafeltje]]."
+      },
+      {
+        "h": "Küçültme Biçimlerinin Anlamı Sadece «Küçük» Değildir",
+        "p": "Bazen küçültme biçimi sevecen veya samimi bir anlam taşır, bazen de artık kendisi bağımsız ve yaygın bir kelimeye dönüşmüştür; örneğin [[kopje]] (fincan) artık mutlaka küçük bir şeye işaret etmez.",
+        "ex": ["Güzel hava, değil mi?"]
+      }
+    ],
+    "ex": [
+      { "exp": "Birçok isim [[-en]] ile çoğul yapılır: [[boek]] → [[boeken]]." },
+      { "exp": "Ünlüyle biten isimler apostrof ve [[s]] ile çoğul yapılır: [[auto's]]." },
+      { "q": "[[kat]] için doğru çoğul hangisidir?", "options": ["katten", "kats", "katen"], "exp": "Kısa [[a]] ünlüsünün korunması için son ünsüz ikizleşir: [[katten]]." },
+      { "q": "[[kind]]'in çoğulu hangisidir?", "options": ["kinden", "kinderen", "kinds"], "exp": "[[kind]] kuralsız bir çoğula sahiptir: [[kinderen]]." },
+      { "exp": "Kelime normal harflerle bittiği için sadece [[+je]] eklenir: [[huisje]]." },
+      { "q": "[[boom]] (ağaç) kelimesinin küçültme biçimi hangisidir?", "options": ["boomje", "boompje", "boomtje"], "exp": "[[m]]'den sonra [[+pje]] eki gelir: [[boompje]]." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «İki bisikletim var.»", "exp": "Basit cümle sırası: özne + fiil + nesne." },
+      { "exp": "[[kopje]], [[kop]]'un küçültme biçimidir ve bu cümlede «fincan» anlamında kullanılmıştır." },
+      { "q": "Küçültme biçimleri genellikle hangi tanımlığı alır?", "options": ["de", "het", "sadece een"], "exp": "Tüm küçültme biçimleri, istisnasız, [[het]] alır." }
+    ]
+  },
+  "a1-voornaamwoorden": {
+    "title": "Özne ve İyelik Zamirleri",
+    "sum": "Özne zamirleri ([[ik, jij, u, hij, zij, wij, jullie, zij]]) özne ismin yerini alır, iyelik zamirleri ([[mijn, jouw, zijn, haar, ons/onze, jullie, hun]]) ise sahiplik gösterir.",
+    "blocks": [
+      {
+        "h": "Özne Zamirleri",
+        "p": "Her Hollandaca özne zamiri bir Türkçe zamire karşılık gelir; farkı, Hollandacanın **sen (samimi)** ile **siz (saygı ifade eden)** arasında ayrım yapmasıdır.",
+        "table": { "head": ["Zamir", "Anlamı"], "rows": [["ik", "ben"], ["jij / je", "sen"], ["u", "siz (saygı ifadesi)"], ["hij", "o (erkek)"], ["zij / ze", "o (kadın)"], ["wij / we", "biz"], ["jullie", "siz (çoğul)"], ["zij / ze", "onlar"]] },
+        "ex": ["Amsterdam'da yaşıyorum.", "Siz naziksiniz."],
+        "tip": "[[u]] her zaman saygı ifade etmek için kullanılır; bir kişiyle veya birden fazla kişiyle konuşmanız fark etmez."
+      },
+      {
+        "h": "Tam ve Kısa Biçim: [[je, we, ze]]",
+        "p": "[[jij, wij, zij]] tam ve vurgulu biçimlerdir; [[je, we, ze]] ise günlük konuşmada daha yaygın olan kısa ve vurgusuz biçimlerdir.",
+        "ex": ["Geciktin!", "Eve gidiyoruz."],
+        "tip": "Tam biçim [[jij/wij/zij]], o zamiri vurgulamak istediğimizde, örneğin bir soruya cevap verirken kullanılır."
+      },
+      {
+        "h": "İyelik Zamirleri",
+        "p": "Hollandaca iyelik zamirleri, Türkçedeki iyelik eklerinin aksine **isimden önce** gelir ve benim, senin, onun gibi iyelik eklerine karşılık gelir.",
+        "table": { "head": ["İyelik Zamiri", "Anlamı"], "rows": [["mijn", "benim"], ["jouw / je", "senin (samimi)"], ["uw", "sizin (saygı ifadesi)"], ["zijn", "onun (erkek)"], ["haar", "onun (kadın)"], ["ons / onze", "bizim"], ["jullie", "sizin (çoğul)"], ["hun", "onların"]] },
+        "ex": ["Bu benim evim.", "Senin çantan nerede?"]
+      },
+      {
+        "h": "[[ons]] mu [[onze]] mi?",
+        "p": "Biçimi değişen tek iyelik zamiri [[ons/onze]]'dir: tekil [[het]] isminden önce [[ons]], tekil [[de]] isminden önce veya herhangi bir çoğul isimden önce [[onze]] kullanılır.",
+        "list": [
+          "[[ons huis]] (evimiz - tekil het-woord)",
+          "[[onze auto]] (arabamız - tekil de-woord)",
+          "[[onze kinderen]] (çocuklarımız - çoğul)"
+        ],
+        "ex": ["Evimiz büyük.", "Arabamız yeni."],
+        "tip": "Bu değişiklik sadece [[ons/onze]] için geçerlidir; diğer iyelik zamirleri hiçbir zaman değişmez."
+      },
+      {
+        "h": "[[van]] ile Sahiplik",
+        "p": "Özel bir ismin (kişi adının) sahipliğini göstermek için genellikle İngilizce'deki gibi iyelik yapısı yerine [[van]] yapısı kullanılır: [[het boek van Jan]] «Jan'ın kitabı» demektir, apostrof-s ile değil.",
+        "ex": ["O, Lisa'nın çantası."],
+        "tip": "Sadece günlük konuşmada bazen [[-s]] apostrofsuz olarak isme eklenir ([[Lisa's tas]]), ama [[van]] yapısı daha yaygın ve daha resmidir."
+      }
+    ],
+    "ex": [
+      { "exp": "Hollandacada «ben» için özne zamiri [[ik]]'tir." },
+      { "q": "Hangi zamir saygılı hitap için kullanılır?", "options": ["jij", "u", "jullie"], "exp": "[[u]], «sen/siz»'in saygılı biçimidir, hem tekil hem çoğul için." },
+      { "exp": "«Benim» için iyelik zamiri [[mijn]]'dir." },
+      { "q": "Hangi seçenek doğrudur? (auto bir de-woord'dur)", "options": ["ons auto", "onze auto", "on auto"], "exp": "[[auto]] bir de-woord olduğu için iyelik zamiri [[onze]] kullanılır." },
+      { "exp": "[[huis]] tekil bir het-woord olduğu için [[ons]] kullanılır." },
+      { "q": "[[hij]] için iyelik zamiri hangisidir?", "options": ["haar", "zijn", "hun"], "exp": "[[hij]] (o, erkek) ile ilişkili iyelik zamiri [[zijn]]'dir." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Siz naziksiniz.»", "exp": "Basit cümle sırası: özne + fiil + sıfat." },
+      { "exp": "«Senin» için iyelik zamiri [[jouw]]'dur, konuşmada genellikle kısa biçimi [[je]] de kullanılır." },
+      { "q": "Hangi cümle doğrudur?", "options": ["Onze kinderen spelen buiten.", "Ons kinderen spelen buiten.", "Ons kind spelen buiten."], "exp": "[[kinderen]] çoğul olduğu için [[onze]] kullanılmalıdır, [[ons]] değil." }
+    ]
+  },
+  "a1-zijn-hebben-tegenwoordige-tijd": {
+    "title": "zijn ve hebben Fiilleri ve Şimdiki Zaman",
+    "sum": "[[zijn]] (olmak) ve [[hebben]] (sahip olmak) fiilleri kuralsız çekimlenir; diğer kurallı fiiller ise şimdiki zamanda gövdeye (stam) [[-t]] eklenerek veya eklenmeden çekimlenir.",
+    "blocks": [
+      {
+        "h": "[[zijn]] (olmak) Fiilinin Çekimi",
+        "p": "[[zijn]] fiili tamamen kuralsızdır ve çekimini ezbere bilmeniz gerekir.",
+        "table": { "head": ["Zamir", "Fiil"], "rows": [["ik", "ben"], ["jij / je", "bent"], ["u", "bent"], ["hij / zij", "is"], ["wij / we", "zijn"], ["jullie", "zijn"], ["zij / ze (çoğul)", "zijn"]] },
+        "ex": ["Ben Hollandalıyım.", "O (kadın) benim kız kardeşim."]
+      },
+      {
+        "h": "[[hebben]] (sahip olmak) Fiilinin Çekimi",
+        "p": "[[hebben]] fiili de kuralsızdır, ama örneklerle kalıbını ezberlemek daha kolaydır.",
+        "table": { "head": ["Zamir", "Fiil"], "rows": [["ik", "heb"], ["jij / je", "hebt"], ["u", "hebt / heeft"], ["hij / zij", "heeft"], ["wij / we", "hebben"], ["jullie", "hebben"], ["zij / ze (çoğul)", "hebben"]] },
+        "ex": ["Bir köpeğim var.", "Onun iki erkek kardeşi var."],
+        "tip": "Soruda, özne [[jij/je]] fiilden sonra geldiğinde, fiilin sonundaki [[t]] düşer: [[Heb je een hond?]], [[Hebt je...]] değil."
+      },
+      {
+        "h": "Fiil Gövdesi (stam) ve Kurallı Fiillerin Çekim Kuralı",
+        "p": "Fiil gövdesi, mastardan [[-en]] çıkarılarak elde edilir. Şimdiki zamanda: [[ik]] için sadece gövde, [[jij/u/hij/zij]] için gövde + [[-t]], ve çoğul (wij, jullie, zij) için mastarın tam hali kullanılır.",
+        "table": { "head": ["Zamir", "werken fiili (çalışmak)"], "rows": [["ik", "werk"], ["jij / je", "werkt"], ["u", "werkt"], ["hij / zij", "werkt"], ["wij / we", "werken"], ["jullie", "werken"], ["zij / ze", "werken"]] },
+        "ex": ["Bir dükkanda çalışıyorum.", "O da orada çalışıyor."]
+      },
+      {
+        "h": "'t kofschip Kuralı",
+        "p": "Gövdenin son harfi **'t kofschip** harflerinden ([[t, k, f, s, ch, p]]) biriyse, [[jij/u/hij/zij]] biçiminde yine sadece [[-t]] eklenir; ama gövde zaten [[t]] ile bitiyorsa, ikinci bir [[t]] eklenmez.",
+        "list": [
+          "[[fietsen]] → gövde [[fiets]] (zaten [[-s]] ile bitiyor) → [[hij fietst]]",
+          "[[praten]] → gövde [[praat]] ([[t]] ile bitiyor) → [[hij praat]] (praatt değil)"
+        ],
+        "tip": "Fiilin sonunda hiçbir zaman arka arkaya iki [[t]] gelmez."
+      },
+      {
+        "h": "Gövdede Açık Hece Değişimi",
+        "p": "Mastarda çift ünlü varsa ve [[-en]] çıkarıldığında bu ünlü açık hecede kalıyorsa, çift ünlü tek ünlüye dönüşür; tersine, bazen de kısa ünlünün korunması için ünsüz ikizleşir.",
+        "list": [
+          "[[lopen]] → gövde [[loop]] (uzun sesin korunması için tek ünlü çifte dönüşür)",
+          "[[zitten]] → gövde [[zit]] (iki [[t]]'den biri düşer)"
+        ],
+        "ex": ["Okula yürüyerek gidiyorum.", "Sen bir sandalyede oturuyorsun."]
+      }
+    ],
+    "ex": [
+      { "exp": "[[zijn]]'in [[ik]] için çekimi [[ben]]'dir." },
+      { "exp": "[[hebben]]'in [[jij]] için çekimi [[hebt]]'tir." },
+      { "q": "[[hebben]]'in [[hij]] için doğru çekimi hangisidir?", "options": ["heb", "hebt", "heeft"], "exp": "[[hebben]] fiili [[hij/zij]] için [[heeft]] olarak çekimlenir." },
+      { "exp": "[[zijn]]'in çoğul zamirler ([[wij, jullie, zij]]) için çekimi yine [[zijn]]'dir." },
+      { "exp": "[[ik]] için sadece fiil gövdesi kullanılır, hiçbir ek almadan: [[werk]]." },
+      { "q": "[[werken]]'in [[jij]] için doğru çekimi hangisidir?", "options": ["werk", "werkt", "werken"], "exp": "[[jij/u/hij/zij]] için gövdeye [[-t]] eklenir: [[werkt]]." },
+      { "q": "[[praten]]'in [[hij]] için doğru biçimi hangisidir?", "options": ["hij praat", "hij pratt", "hij praatt"], "exp": "[[praten]]'in gövdesi zaten [[praat]]'tır ([[t]] ile biter), bu yüzden başka bir [[t]] eklenmez." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «O (kadın) bir dükkanda çalışıyor.»", "exp": "Basit cümle sırası: özne + fiil + yer zarfı." },
+      { "exp": "[[lopen]]'in gövdesi [[loop]]'tur (uzun sesin korunması için çift ünlü), ve [[hij]] için [[-t]] eklenir: [[loopt]]." }
+    ]
+  },
+  "a1-woordvolgorde-vragen": {
+    "title": "Kelime Sırası ve Soru Cümleleri",
+    "sum": "Basit Hollandaca cümlelerde fiil her zaman ikinci sırada gelir (sorularda hariç), evet/hayır soruları ve soru kelimesiyle kurulan sorular ise fiilin yer değiştirmesi veya bir soru kelimesi eklenmesiyle oluşturulur.",
+    "blocks": [
+      {
+        "h": "Fiilin İkinci Sırada Olması Kuralı",
+        "p": "Hollandaca bir bildirme cümlesinde, çekimli fiil her zaman cümlenin **ikinci öğesidir**, mutlaka ikinci kelime olması gerekmez. Özne fiilden önce veya sonra gelebilir.",
+        "ex": ["Bir elma yiyorum.", "Bugün bir elma yiyorum."],
+        "tip": "İkinci örnekte [[Vandaag]] birinci öğe olduğu için, fiilin yine ikinci sırada kalması için özne [[ik]] fiilden sonra gelir."
+      },
+      {
+        "h": "Özne-Fiil-Nesne Yapısı",
+        "p": "Basit cümlenin temel yapısı, İngilizcedeki gibi özne-fiil-nesne şeklindedir.",
+        "ex": ["Bir kitap satın alıyorum.", "O bir gazete okuyor."]
+      },
+      {
+        "h": "Evet/Hayır Soruları",
+        "p": "Evet veya hayırla cevaplanan bir soru oluşturmak için, çekimli fiil **cümlenin başına** taşınır ve özne ondan sonra gelir.",
+        "ex": ["Yorgun musun?", "Köpeğin var mı?", "O burada mı çalışıyor?"],
+        "tip": "Özne [[jij/je]] fiilden sonra geldiğinde, fiilin sonundaki [[-t]] düşer: [[Werk je hier?]], [[Werkt je hier?]] değil."
+      },
+      {
+        "h": "Soru Kelimesiyle Kurulan Sorular (wh-vragen)",
+        "p": "Bu tür sorular bir **soru kelimesiyle** başlar ve hemen ardından fiil gelir (yine fiilin ikinci sırada olması kuralı).",
+        "table": { "head": ["Soru Kelimesi", "Anlamı"], "rows": [["wat", "ne"], ["wie", "kim"], ["waar", "nerede"], ["wanneer", "ne zaman"], ["waarom", "neden"], ["hoe", "nasıl"], ["welke", "hangi"]] },
+        "ex": ["Nerede yaşıyorsun?", "Ne yapıyorsun?", "Neden geciktin?"]
+      },
+      {
+        "h": "Zaman veya Yer Zarfıyla Başlayan Cümlelerde Sıralama",
+        "p": "Cümle bir zaman veya yer zarfıyla başladığında, fiil yine ikinci öğe olmalıdır, bu nedenle özne fiilden sonra gelir. Bu kurala **inversie** denir.",
+        "ex": ["Yarın Amsterdam'a gidiyorum."],
+        "tip": "Cümle özne dışında bir şeyle başladığında (zaman zarfı, yer zarfı vb.), fiil ve özne yer değiştirir."
+      }
+    ],
+    "ex": [
+      { "q": "Cümleyi doğru sırayla oluşturun: «Bir elma yiyorum.»", "exp": "Basit sıralama: özne + fiil + nesne." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Yarın okula gidiyorum.» (Cümle Morgen ile başlamalı)", "exp": "Cümle zaman zarfı [[Morgen]] ile başladığı için fiil [[ga]] ikinci sırada gelir ve özne [[ik]] ondan sonra gelir." },
+      { "q": "Hangi evet/hayır sorusu doğrudur?", "options": ["Je bent moe?", "Ben je moe?", "Jij ben moe?"], "exp": "Evet/hayır sorusunda, çekimli fiil cümlenin başına gider: [[Ben je moe?]]" },
+      { "exp": "«Nerede» için soru kelimesi [[waar]]'dır." },
+      { "exp": "«Ne» için soru kelimesi [[wat]]'tır." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «O (kadın) burada mı çalışıyor?»", "exp": "Evet/hayır sorusunda fiil önce gelir: [[Werkt zij hier?]]" },
+      { "q": "[[Vandaag eet ik een appel]] cümlesinde özne nerede yer alıyor?", "options": ["Fiilden önce", "Fiilden sonra", "Cümlenin sonunda"], "exp": "[[Vandaag]] cümlenin başına geldiği için, fiilin yine ikinci sırada olması için özne [[ik]] fiil [[eet]]'ten sonra gelir." },
+      { "exp": "«Neden» için soru kelimesi [[waarom]]'dur." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Köpeğin var mı?»", "exp": "Evet/hayır sorusunda fiil cümlenin başına gider ve [[je]]'den önce fiildeki [[t]] düşer: [[Heb je...]]" }
+    ]
+  },
+  "a1-ontkenning": {
+    "title": "niet ve geen ile Olumsuzluk",
+    "sum": "Hollandacada bir cümleyi olumsuz yapmak için [[niet]] kullanılır; ancak ilgili isim [[een]] ile veya hiçbir tanımlık almadan geliyorsa, bu durumda [[geen]] kullanılır.",
+    "blocks": [
+      {
+        "h": "Genel Kural: [[geen]] Ne Zaman Kullanılır?",
+        "p": "[[geen]], [[een]]'in yerine geçer; yani o isimden **hiç** olmadığını söylemek istediğimizde kullanılır.",
+        "ex": ["Bir arabam var.", "Arabam yok."]
+      },
+      {
+        "h": "Tanımlıksız İsimlerle [[geen]]",
+        "p": "[[geen]], çoğul isimleri veya hiç tanımlık almayan isimleri (maddeler ve yiyecekler gibi) olumsuzlamak için de kullanılır.",
+        "ex": ["Kahve içiyorum.", "Kahve içmiyorum.", "Onun çocukları var.", "Onun çocuğu yok."]
+      },
+      {
+        "h": "Fiil veya Cümleyi Olumsuzlamak için [[niet]]",
+        "p": "[[niet]], **fiili, sıfatı, zarfı veya belirli tanımlık ([[de/het]]) ya da iyelik zamiri alan bir ismi** olumsuzlamak için kullanılır.",
+        "ex": ["Bugün çalışmıyorum.", "Bu benim kitabım değil."]
+      },
+      {
+        "h": "[[niet]]'in Cümledeki Yeri",
+        "p": "[[niet]] genellikle cümlenin sonuna yakın gelir, ama sıfattan, yer zarfından, edattan veya (yardımcı fiil içeren cümlelerde) ikinci fiilden **önce** yer alır.",
+        "list": [
+          "[[Ik ga niet naar school.]] (yer zarfından önce)",
+          "[[Hij is niet aardig.]] (sıfattan önce)",
+          "[[Zij kan niet komen.]] (ikinci fiilden önce)"
+        ],
+        "tip": "Basit bir yöntem: cümleyi zihninizde «... doğru değil» şeklinde yeniden kurabiliyorsanız, genellikle [[niet]] doğrudur, [[geen]] değil."
+      },
+      {
+        "h": "[[niet]] ve [[geen]]'in Doğrudan Karşılaştırması",
+        "table": { "head": ["Olumlu Cümle", "Olumsuz Cümle"], "rows": [["Ik heb een hond.", "Ik heb geen hond."], ["Ik zie de hond.", "Ik zie de hond niet."], ["Dit is mijn tas.", "Dit is niet mijn tas."]] },
+        "ex": ["Et yemiyorum.", "O eti yemiyorum."]
+      }
+    ],
+    "ex": [
+      { "q": "Ik heb ___ broer. (erkek kardeşim yok)", "options": ["niet", "geen", "geen een"], "exp": "[[broer]] tanımlıksız belirsiz bir isim olduğu için [[geen]] kullanılır." },
+      { "exp": "İsim iyelik zamiri [[mijn]] ile geldiği için [[niet]] kullanılmalıdır." },
+      { "q": "Zij drinkt ___ koffie.", "options": ["niet", "geen", "geen de"], "exp": "[[koffie]] tanımlıksızdır, bu yüzden [[geen]] doğrudur." },
+      { "exp": "[[kat]] belirli tanımlık [[de]] ile geldiği için [[niet]] kullanılmalıdır." },
+      { "q": "[[Ik zie de hond niet]] cümlesinde neden [[geen]] değil [[niet]] kullanılmış?", "options": ["çünkü hond çoğul bir isimdir", "çünkü hond belirli tanımlık de alır", "çünkü hond bir fiildir"], "exp": "İsim belirli tanımlık [[de/het]] aldığında, olumsuzlamak için [[niet]] kullanılır." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Bugün çalışmıyorum.»", "exp": "[[niet]], zaman zarfı [[vandaag]]'dan önce gelir." },
+      { "exp": "Sıfatı ([[aardig]]) olumsuzlamak için [[niet]] kullanılır." },
+      { "q": "Hangi cümle doğrudur?", "options": ["Ik heb geen tijd.", "Ik heb niet tijd.", "Ik heb niet een tijd."], "exp": "[[tijd]] tanımlıksız bir isimdir, bu yüzden [[geen]] kullanılmalıdır." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «O (kadın) çocuğu yok.»", "exp": "[[kinderen]] tanımlıksız olduğu için [[geen]] kullanılır." }
+    ]
+  },
+  "a1-voorzetsels": {
+    "title": "Yer ve Zaman Edatları",
+    "sum": "[[in, op, onder, naast, tussen, bij, achter]] gibi edatlar yeri gösterir, [[om, in, op, over, voor]] ise zamanı belirtir; bu kelimelerin çoğu bağlama göre farklı anlamlara gelebilir.",
+    "blocks": [
+      {
+        "h": "Sık Kullanılan Yer Edatları",
+        "table": { "head": ["Edat", "Anlamı"], "rows": [["in", "içinde, -de"], ["op", "üzerinde, üstünde"], ["onder", "altında"], ["naast", "yanında"], ["tussen", "arasında"], ["bij", "yakınında, yanında"], ["achter", "arkasında"], ["voor", "önünde"]] },
+        "ex": ["Kedi masanın altında.", "Kitap masanın üstünde."]
+      },
+      {
+        "h": "[[in]] ile [[op]] Arasındaki Fark",
+        "p": "[[in]], bir alanın veya kabın **içinde** olan şeyler için; [[op]] ise bir yüzeyin **üstünde** olan şeyler için kullanılır.",
+        "ex": ["Süt buzdolabının içinde.", "Fincanlar masanın üstünde."],
+        "tip": "[[op]], cadde, meydan ve ada için de kullanılır: [[op straat]] (caddede), [[op het eiland]] (adada)."
+      },
+      {
+        "h": "[[bij]] ve [[naast]]",
+        "p": "[[bij]], bir şeyin yakınında veya birinin yanında olmak anlamına gelir; [[naast]] ise bir şeyin tam yanı başında, bitişiğinde olmak anlamına gelir.",
+        "ex": ["Pencerenin yanında duruyorum.", "Sandalye masanın yanında."]
+      },
+      {
+        "h": "Zaman Edatları",
+        "table": { "head": ["Edat", "Örnek"], "rows": [["om", "om acht uur (saat sekizde)"], ["in", "in januari (ocak ayında)"], ["op", "op maandag (pazartesileri)"], ["over", "over een week (bir hafta sonra)"], ["voor", "voor het eten (yemekten önce)"]] },
+        "ex": ["Ders saat dokuzda başlıyor.", "Pazartesileri okula gidiyorum."]
+      },
+      {
+        "h": "Günler ve Günün Zamanlarıyla İlgili Özel Noktalar",
+        "p": "Haftanın günleri için [[op]] kullanılır (örneğin [[op zaterdag]]), ama sabah ve akşam gibi günün bölümleri için [['s]] yapısı kullanılır; örneğin [['s avonds]] (akşamları) ve [['s ochtends]] (sabahları).",
+        "list": [
+          "[['s morgens]] / [['s ochtends]] (sabahları)",
+          "[['s middags]] (öğleleri)",
+          "[['s avonds]] (akşamları)",
+          "[['s nachts]] (geceleri)"
+        ],
+        "ex": ["Akşamları televizyon izliyorum."],
+        "tip": "[['s]] her zaman küçük harfle yazılır, cümlenin başında olsa bile; bu durumda bir sonraki harf büyük yazılır: [['s Avonds]]."
+      }
+    ],
+    "ex": [
+      { "exp": "[[onder]] bir şeyin altı anlamına gelir." },
+      { "exp": "[[op]], bir yüzeyin üstünde olan bir şey için kullanılır." },
+      { "q": "Buzdolabının içi için hangi edat doğrudur?", "options": ["op", "in", "achter"], "exp": "Süt buzdolabının içindeki alanda olduğu için [[in]] kullanılır: [[in de koelkast]]." },
+      { "exp": "Tam saati belirtmek için [[om]] kullanılır." },
+      { "exp": "Haftanın günleri için [[op]] kullanılır." },
+      { "q": "«Akşamları» için hangi seçenek doğrudur?", "options": ["'s ochtends", "'s avonds", "'s middags"], "exp": "[['s avonds]] «akşamları» anlamına gelir." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Sandalye masanın yanında.»", "exp": "Basit sıralama: özne + fiil + edat + nesne." },
+      { "exp": "Ay adları için [[in]] kullanılır." },
+      { "q": "«Bir hafta sonra» için hangi cümle doğrudur?", "options": ["over een week", "voor een week", "om een week"], "exp": "[[over]], gelecekte bir sürenin geçmesini ifade etmek için kullanılır: [[over een week]]." }
+    ]
+  },
+  "a1-modale-werkwoorden": {
+    "title": "Kip Fiilleri (Modal Fiiller)",
+    "sum": "[[kunnen]] (yapabilmek), [[mogen]] (izni olmak), [[moeten]] (mecbur olmak), [[willen]] (istemek) ve [[hoeven]] (gerekmemek) gibi kip fiilleri, başka bir fiille birlikte, o fiil mastar halinde cümlenin sonuna gelecek şekilde kullanılır.",
+    "blocks": [
+      {
+        "h": "Kip Fiillerinin Çekimi",
+        "p": "Kip fiilleri tekilde (ik, jij/u, hij/zij) kısa ve bir ölçüde kuralsız çekimlenir, çoğulda (wij, jullie, zij) ise tam mastar hâlinde kalır.",
+        "table": {
+          "head": ["Zamir", "kunnen", "mogen", "moeten", "willen"],
+          "rows": [
+            ["ik", "kan", "mag", "moet", "wil"],
+            ["jij / je", "kan / kunt", "mag", "moet", "wil / wilt"],
+            ["u", "kunt / kan", "mag", "moet", "wilt"],
+            ["hij / zij", "kan", "mag", "moet", "wil"],
+            ["wij / we", "kunnen", "mogen", "moeten", "willen"],
+            ["jullie", "kunnen", "mogen", "moeten", "willen"],
+            ["zij / ze", "kunnen", "mogen", "moeten", "willen"]
+          ]
+        }
+      },
+      {
+        "h": "Her Kip Fiilinin Anlamı ve Kullanımı",
+        "list": [
+          "[[kunnen]]: yapabilmek / mümkün olmak",
+          "[[mogen]]: izni olmak",
+          "[[moeten]]: mecbur olmak, gerekmek",
+          "[[willen]]: istemek, arzu etmek",
+          "[[hoeven]]: gerekmemek (genellikle [[niet]] ile birlikte kullanılır)"
+        ],
+        "ex": ["İyi yüzebiliyorum.", "Burada sigara içmene izin var."]
+      },
+      {
+        "h": "Asıl Fiilin Cümle Sonundaki Yeri",
+        "p": "Cümlede bir kip fiili varsa, asıl fiil **mastar** halinde **cümlenin sonuna** gelir; kip fiilinin kendisi cümlenin ikinci sırasında yer alır.",
+        "ex": ["Şimdi eve gitmem gerekiyor.", "Bir fincan kahve içmek ister misin?"],
+        "tip": "Bu yapıya **werkwoord op de laatste plaats** denir: kip fiili ikinci, asıl fiil sonda."
+      },
+      {
+        "h": "[[moeten]]'e Karşı [[hoeven niet]]",
+        "p": "[[hoeven]] neredeyse her zaman [[niet]] ile kullanılır ve **gerekmiyor** anlamına gelir; bu da [[moeten]]'in (gerekiyor) tam tersidir.",
+        "ex": ["Bunu yapman gerekiyor.", "Bunu yapmana gerek yok."],
+        "tip": "[[hoeven]] ile genellikle asıl fiilden önce [[te]] gelir: [[hoeven te + mastar]]; diğer kip fiilleri ise [[te]] gerektirmez."
+      },
+      {
+        "h": "Diğer Kip Fiillerinin Olumsuzlanması",
+        "p": "[[mogen]] (izni olmamak), [[kunnen]] (yapamamak) ve [[willen]] (istememek) fiillerini olumsuzlamak için, diğer her fiilde olduğu gibi, sadece [[niet]] cümle sonundaki asıl fiilden önce gelir.",
+        "ex": ["Burada sigara içmene izin yok.", "Bunu yapamıyorum."]
+      }
+    ],
+    "ex": [
+      { "exp": "[[kunnen]]'in [[ik]] için çekimi [[kan]]'dır." },
+      { "exp": "[[mogen]]'in [[jij]] için çekimi [[mag]]'dır." },
+      { "q": "[[moeten]]'in [[wij]] için doğru çekimi hangisidir?", "options": ["moet", "moeten", "moest"], "exp": "Çoğulda kip fiilleri tam mastar hâlinde kalır: [[wij moeten]]." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Şimdi eve gitmem gerekiyor.»", "exp": "Kip fiili [[moet]] ikinci sırada gelir, asıl fiil [[gaan]] ise mastar halinde sonda." },
+      { "exp": "[[hoeven]]'in [[je]] için çekimi [[hoeft]]'tir." },
+      { "q": "Hangi fiil «gerekmiyor» anlamına gelir?", "options": ["moeten", "hoeven niet", "mogen niet"], "exp": "[[hoeven]], [[niet]] ile birlikte «gerekmiyor» anlamına gelir." },
+      { "q": "Cümleyi doğru sırayla oluşturun: «Bir fincan kahve içmek ister misin?»", "exp": "Soruda kip fiili [[wil]] önce gelir, asıl fiil [[drinken]] ise mastar halinde sonda." },
+      { "exp": "[[kunnen]]'in [[ik]] için çekimi olumsuz halde de aynı [[kan]]'dır, sadece [[niet]] eklenir." },
+      { "q": "[[Ik moet nu naar huis gaan]] cümlesinde asıl fiil nerede yer alır?", "options": ["Cümlenin başında", "Özneden sonra", "Cümlenin sonunda mastar halinde"], "exp": "Cümlede bir kip fiili olduğunda, asıl fiil mastar halinde cümlenin sonuna gelir." }
+    ]
+  }
+}
